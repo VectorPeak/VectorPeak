@@ -1,11 +1,5 @@
 # Hey, I'm VectorPeak
 
-![Profile views](https://komarev.com/ghpvc/?username=VectorPeak&color=0e75b6&style=flat)
-![GitHub followers](https://img.shields.io/github/followers/VectorPeak?label=Followers&style=flat)
-![GitHub stars](https://img.shields.io/github/stars/VectorPeak?affiliations=OWNER%2CCOLLABORATOR&style=flat)
-
----
-
 AI Programmer | BS Cybersecurity @ Xidian University | 2x CCF-C
 
 Former Intern @ Baidu, Maimai, Kuaishou | Building practical systems around LLMs, developer workflows, and personal knowledge infrastructure
@@ -29,20 +23,3 @@ Former Intern @ Baidu, Maimai, Kuaishou | Building practical systems around LLMs
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
-
-## GitHub Snapshot
-
-![VectorPeak's GitHub stats](https://github-readme-stats.vercel.app/api?username=VectorPeak&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=VectorPeak&layout=compact&theme=tokyonight&hide_border=true)
-
-## Principles
-
-- Ship small, but ship real
-- Make complexity visible before trying to simplify it
-- Prefer durable systems over temporary cleverness
-- Treat learning as a public artifact, not a private accident
-
-## Contact
-
-- GitHub: [@VectorPeak](https://github.com/VectorPeak)
