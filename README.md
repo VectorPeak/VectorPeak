@@ -1,4 +1,4 @@
-# Hey, I'm VectorPeak
+# Hey, I'm VectorPeak 👋
 
 AI Programmer | CS @ Xidian University | 2x CCF-C
 
