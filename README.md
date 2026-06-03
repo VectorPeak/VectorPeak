@@ -1,18 +1,18 @@
-# VectorPeak
-
-> Build sharp things. Learn in public. Keep climbing.
+# Hey, I'm VectorPeak
 
 ![Profile views](https://komarev.com/ghpvc/?username=VectorPeak&color=0e75b6&style=flat)
 ![GitHub followers](https://img.shields.io/github/followers/VectorPeak?label=Followers&style=flat)
 ![GitHub stars](https://img.shields.io/github/stars/VectorPeak?affiliations=OWNER%2CCOLLABORATOR&style=flat)
 
-## About
+---
 
-Hi, this is **VectorPeak**.
+AI Tools Builder | Knowledge Systems Explorer | Automation-first Developer
 
-This profile is a workshop for ideas around software engineering, AI, automation, and useful digital tools. The goal is simple: turn vague curiosity into working systems, then make the learning visible enough that other people can reuse it.
+Former Intern @ Baidu, Maimai, Kuaishou | Building practical systems around LLMs, developer workflows, and personal knowledge infrastructure
 
-中文读者可以把这里理解成一个持续更新的技术工作台：记录项目、沉淀方法、展示作品，也把正在攀登的路线留下来
+- Building **LLM Wiki**, a personal knowledge vault for organizing ideas, papers, tools, and long-term learning.
+- Shipping public projects around AI agents, automation, desktop tools, blogs, and developer workflows.
+- Learning in public through experiments, notes, and small products that turn vague curiosity into working systems.
 
 ## Current Focus
 
