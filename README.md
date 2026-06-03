@@ -2,12 +2,6 @@
 
 AI Programmer | BS Cybersecurity @ Xidian University | 2x CCF-C
 
-Former Intern @ Baidu, Maimai, Kuaishou | Building practical systems around LLMs, developer workflows, and personal knowledge infrastructure
-
-- Building **LLM Wiki**, a personal knowledge vault for organizing ideas, papers, tools, and long-term learning.
-- Shipping public projects around AI agents, automation, desktop tools, blogs, and developer workflows.
-- Learning in public through experiments, notes, and small products that turn vague curiosity into working systems.
-
 ## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
