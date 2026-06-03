@@ -9,7 +9,6 @@ AI Programmer | CS @ Xidian University | 2x CCF-C
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-0F172A?logo=googlegemini&logoColor=white)
-![AI Agents](https://img.shields.io/badge/AI%20Agents-7C3AED?logo=openai&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=111)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
