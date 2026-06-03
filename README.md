@@ -8,13 +8,6 @@ Former Intern @ Baidu, Maimai, Kuaishou | Building practical systems around LLMs
 - Shipping public projects around AI agents, automation, desktop tools, blogs, and developer workflows.
 - Learning in public through experiments, notes, and small products that turn vague curiosity into working systems.
 
-## Current Focus
-
-- AI-assisted knowledge systems and developer tools
-- Clean, practical full-stack applications
-- Automation workflows that remove repetitive work
-- Notes, experiments, and small products that compound over time
-
 ## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
