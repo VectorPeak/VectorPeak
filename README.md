@@ -6,7 +6,7 @@
 
 ---
 
-AI Tools Builder | Knowledge Systems Explorer | Automation-first Developer
+AI Programmer | BS Cybersecurity @ Xidian University | 2x CCF-C
 
 Former Intern @ Baidu, Maimai, Kuaishou | Building practical systems around LLMs, developer workflows, and personal knowledge infrastructure
 
@@ -46,4 +46,3 @@ Former Intern @ Baidu, Maimai, Kuaishou | Building practical systems around LLMs
 ## Contact
 
 - GitHub: [@VectorPeak](https://github.com/VectorPeak)
-
