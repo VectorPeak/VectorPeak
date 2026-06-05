@@ -1,6 +1,6 @@
 # Hey, I'm VectorPeak 👋
 
-AI Programmer | CS @ Xidian University | 2x CCF-C
+AI Programmer | BS CS @ Xidian University | 2x CCF-C
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
