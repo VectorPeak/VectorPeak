@@ -2,8 +2,6 @@
 
 AI Programmer | BS CS @ Xidian University | 2x CCF-C
 
-1 merged upstream PR, including a fix in 8-.
-
 13 public projects, led by LLM-Wiki, all-in-rag, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, nanoGPT, vectorpeak-agent-skills, vectorpeak-blogs, claude-code-source-code, equipment-repair-text-classification, FactoryFix-Intelligence, lingban-ai-chat.
 
 ## Projects
@@ -23,13 +21,5 @@ AI Programmer | BS CS @ Xidian University | 2x CCF-C
 | Research / quant | [FactoryFix-Intelligence](https://github.com/VectorPeak/FactoryFix-Intelligence) | 0+ | Industrial maintenance workorder analysis toolkit |
 | Applied agents | [lingban-ai-chat](https://github.com/VectorPeak/lingban-ai-chat) | 0+ | 灵伴-AI聊天 Android 客户端与后端 API 仓库 |
 | Coding agents / evals | [OpenSense](https://github.com/VectorPeak/OpenSense) | 0+ | Daily PR opportunity finder for known open-source repositories |
-
-## Open Source Contributions
-
-### Agent frameworks / protocols / evals
-
-| Project | PR | What I Fixed |
-| --- | ---: | --- |
-| [8- (1★)](https://github.com/2796541963-creator/8-) | [#1](https://github.com/2796541963-creator/8-/pull/1) | 新增设备报修文本分类项目 |
 
 LinkedIn: https://www.linkedin.com/in/yufenghe
