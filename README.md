@@ -1,4 +1,4 @@
-## 你好，我是 VectorPeak
+## Hey, I'm VectorPeak
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%E6%98%9F%E5%B2%B3-%E6%9C%B1-132b33412/) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-0F172A?logo=googlegemini&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=111) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 
@@ -10,7 +10,7 @@ AI Programmer | BS CS @ Xidian University | 2x CCF-C
 
 ### 项目
 
-| 方向&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 项目 | Stars | 说明 |
+| Area&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Project | Stars | Notes |
 | --- | --- | --- | --- |
 | LLM 工具 | [LLM-Wiki](https://github.com/VectorPeak/LLM-Wiki) | 2+ | 大语言模型知识库，覆盖 LLM、Agent、RAG、训练、评测方法和 AI 工程实践。 |
 | 研究 | [carbon-tower-predictor](https://github.com/VectorPeak/carbon-tower-predictor) | 1+ | 面向工业碳化塔取出液温度预测与预测性维护的时序建模方案。 |
