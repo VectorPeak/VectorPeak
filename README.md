@@ -23,7 +23,7 @@ AI Programmer | BS CS @ Xidian University | 2x CCF-C
 
 ---
 
-## English Version
+<a id="english-version"></a>
 
 ## Hey, I'm VectorPeak
 
