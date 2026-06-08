@@ -2,23 +2,20 @@
 
 AI Programmer | BS CS @ Xidian University | 2x CCF-C
 
-13 public projects, led by LLM-Wiki, all-in-rag, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, nanoGPT, vectorpeak-agent-skills, vectorpeak-blogs, claude-code-source-code, equipment-repair-text-classification, FactoryFix-Intelligence, lingban-ai-chat.
+10 public projects, led by LLM-Wiki, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, vectorpeak-agent-skills, vectorpeak-blogs, equipment-repair-text-classification, FactoryFix-Intelligence, lingban-ai-chat, OpenSense.
 
 ## Projects
 
 | Area | Project | Stars | Notes |
 | --- | --- | ---: | --- |
 | LLM tooling | [LLM-Wiki](https://github.com/VectorPeak/LLM-Wiki) | 2+ | A structured knowledge base for large language model technologies, covering LLMs, Agents, RAG, model training, evaluation methodologies, and AI engineering practices. |
-| LLM tooling | [all-in-rag](https://github.com/VectorPeak/all-in-rag) | 1+ | 🔍大模型应用开发实战一：RAG 技术全栈指南，在线阅读地址：https://datawhalechina.github.io/all-in-rag/ |
-| Research / quant | [carbon-tower-predictor](https://github.com/VectorPeak/carbon-tower-predictor) | 1+ | 面向工业碳化塔取出液温度预测与预测性维护的时序建模方案，基于多源传感器数据完成特征筛选、差分预测、Seq2Seq/LSTM 建模与滚动评估 |
+| Research | [carbon-tower-predictor](https://github.com/VectorPeak/carbon-tower-predictor) | 1+ | 面向工业碳化塔取出液温度预测与预测性维护的时序建模方案，基于多源传感器数据完成特征筛选、差分预测、Seq2Seq/LSTM 建模与滚动评估 |
 | Applied agents | [codex-pet-live](https://github.com/VectorPeak/codex-pet-live) | 1+ | 面向 Windows 桌面的 Codex 宠物运行时，用于承载、展示与驱动由 Codex 生成的桌面宠物交互体验。 |
-| Research / quant | [industrial-fault-text-classifier](https://github.com/VectorPeak/industrial-fault-text-classifier) | 1+ | 基于 BERT 的化工设备故障文本分类方案，用于设备报修工单分析、故障类别识别与停机风险预警。 |
-| Applied agents | [nanoGPT](https://github.com/VectorPeak/nanoGPT) | 1+ | The simplest, fastest repository for training/finetuning medium-sized GPTs. |
+| Research | [industrial-fault-text-classifier](https://github.com/VectorPeak/industrial-fault-text-classifier) | 1+ | 基于 BERT 的化工设备故障文本分类方案，用于设备报修工单分析、故障类别识别与停机风险预警。 |
 | Coding agents / evals | [vectorpeak-agent-skills](https://github.com/VectorPeak/vectorpeak-agent-skills) | 1+ | A structured collection of reusable Agent and Codex skills for software engineering, knowledge management, and professional workflow automation. |
 | Applied agents | [vectorpeak-blogs](https://github.com/VectorPeak/vectorpeak-blogs) | 1+ | VectorPeak 的个人博客与知识站点，用于记录技术学习、深度学习实践、算法题解与阶段性思考。 |
-| Applied agents | [claude-code-source-code](https://github.com/VectorPeak/claude-code-source-code) | 0+ | Claude Code v2.1.88 Source Code |
-| Research / quant | [equipment-repair-text-classification](https://github.com/VectorPeak/equipment-repair-text-classification) | 0+ | Equipment repair text classification project |
-| Research / quant | [FactoryFix-Intelligence](https://github.com/VectorPeak/FactoryFix-Intelligence) | 0+ | Industrial maintenance workorder analysis toolkit |
+| Research | [equipment-repair-text-classification](https://github.com/VectorPeak/equipment-repair-text-classification) | 0+ | Equipment repair text classification project |
+| Research | [FactoryFix-Intelligence](https://github.com/VectorPeak/FactoryFix-Intelligence) | 0+ | Industrial maintenance workorder analysis toolkit |
 | Applied agents | [lingban-ai-chat](https://github.com/VectorPeak/lingban-ai-chat) | 0+ | 灵伴-AI聊天 Android 客户端与后端 API 仓库 |
 | Coding agents / evals | [OpenSense](https://github.com/VectorPeak/OpenSense) | 0+ | Daily PR opportunity finder for known open-source repositories |
 
