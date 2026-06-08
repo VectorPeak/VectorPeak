@@ -1,10 +1,12 @@
+## Hey, I'm VectorPeak
+
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-0F172A?logo=googlegemini&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=111) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 
 AI Programmer | BS CS @ Xidian University | 2x CCF-C
 
-10 public projects, led by LLM-Wiki, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, vectorpeak-agent-skills, vectorpeak-blogs, equipment-repair-text-classification, FactoryFix-Intelligence, lingban-ai-chat, OpenSense.
+- 10 public projects, led by LLM-Wiki, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, vectorpeak-agent-skills, vectorpeak-blogs, equipment-repair-text-classification, FactoryFix-Intelligence, lingban-ai-chat, OpenSense.
 
-## Projects
+### Projects
 
 | Area | Project | Stars | Notes |
 | --- | --- | ---: | --- |
@@ -19,4 +21,4 @@ AI Programmer | BS CS @ Xidian University | 2x CCF-C
 | Applied agents | [lingban-ai-chat](https://github.com/VectorPeak/lingban-ai-chat) | 0+ | 灵伴-AI聊天 Android 客户端与后端 API 仓库 |
 | Coding agents / evals | [OpenSense](https://github.com/VectorPeak/OpenSense) | 0+ | Daily PR opportunity finder for known open-source repositories |
 
-LinkedIn: https://www.linkedin.com/in/yufenghe
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%E6%98%9F%E5%B2%B3-%E6%9C%B1-132b33412/)
