@@ -1,12 +1,12 @@
 ## 你好，我是 VectorPeak
 
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-0F172A?logo=googlegemini&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=111) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%E6%98%9F%E5%B2%B3-%E6%9C%B1-132b33412/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%E6%98%9F%E5%B2%B3-%E6%9C%B1-132b33412/) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-0F172A?logo=googlegemini&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=111) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 
 AI Programmer | BS CS @ Xidian University | 2x CCF-C
 
 [English](#english-version)
 
-- 10 个公开项目，代表项目包括 LLM-Wiki, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, vectorpeak-agent-skills, vectorpeak-blogs, equipment-repair-text-classification, FactoryFix-Intelligence, lingban-ai-chat, OpenSense。
+- 8 个公开项目，代表项目包括 LLM-Wiki, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, vectorpeak-agent-skills, vectorpeak-blogs, lingban-ai-chat, OpenSense。
 
 ### 项目
 
@@ -18,8 +18,6 @@ AI Programmer | BS CS @ Xidian University | 2x CCF-C
 | 研究 | [industrial-fault-text-classifier](https://github.com/VectorPeak/industrial-fault-text-classifier) | 1+ | 基于 BERT 的化工设备故障文本分类方案，用于报修工单分析、故障类别识别和风险预警。 |
 | 编码智能体 / 评测 | [vectorpeak-agent-skills](https://github.com/VectorPeak/vectorpeak-agent-skills) | 1+ | 可复用的 Agent / Codex 技能库，覆盖软件工程、知识工作和职业工作流自动化。 |
 | 应用智能体 | [vectorpeak-blogs](https://github.com/VectorPeak/vectorpeak-blogs) | 1+ | 个人博客与知识站点，用于记录技术学习、深度学习实践、算法题解与阶段性思考。 |
-| 研究 | [equipment-repair-text-classification](https://github.com/VectorPeak/equipment-repair-text-classification) | 0+ | 设备报修文本分类项目。 |
-| 研究 | [FactoryFix-Intelligence](https://github.com/VectorPeak/FactoryFix-Intelligence) | 0+ | 工业维修工单分析工具包。 |
 | 应用智能体 | [lingban-ai-chat](https://github.com/VectorPeak/lingban-ai-chat) | 0+ | 灵伴 AI 聊天 Android 客户端与后端 API 仓库。 |
 | 编码智能体 / 评测 | [OpenSense](https://github.com/VectorPeak/OpenSense) | 0+ | 面向已知开源项目的每日 PR 机会发现工具。 |
 
@@ -31,7 +29,7 @@ AI Programmer | BS CS @ Xidian University | 2x CCF-C
 
 AI Programmer | BS CS @ Xidian University | 2x CCF-C
 
-- 10 public projects, led by LLM-Wiki, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, vectorpeak-agent-skills, vectorpeak-blogs, equipment-repair-text-classification, FactoryFix-Intelligence, lingban-ai-chat, OpenSense.
+- 8 public projects, led by LLM-Wiki, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, vectorpeak-agent-skills, vectorpeak-blogs, lingban-ai-chat, OpenSense.
 
 ### Projects
 
@@ -43,7 +41,5 @@ AI Programmer | BS CS @ Xidian University | 2x CCF-C
 | Research | [industrial-fault-text-classifier](https://github.com/VectorPeak/industrial-fault-text-classifier) | 1+ | BERT-based industrial equipment fault text classification for repair-ticket analysis, fault recognition, and risk warning. |
 | Coding agents / evals | [vectorpeak-agent-skills](https://github.com/VectorPeak/vectorpeak-agent-skills) | 1+ | A reusable Agent and Codex skill library for software engineering, knowledge work, and professional workflow automation. |
 | Applied agents | [vectorpeak-blogs](https://github.com/VectorPeak/vectorpeak-blogs) | 1+ | Personal blog and knowledge site for technical learning, deep learning practice, algorithm notes, and staged reflections. |
-| Research | [equipment-repair-text-classification](https://github.com/VectorPeak/equipment-repair-text-classification) | 0+ | Equipment repair text classification project. |
-| Research | [FactoryFix-Intelligence](https://github.com/VectorPeak/FactoryFix-Intelligence) | 0+ | Industrial maintenance work-order analysis toolkit. |
 | Applied agents | [lingban-ai-chat](https://github.com/VectorPeak/lingban-ai-chat) | 0+ | Lingban AI chat Android client and backend API repository. |
 | Coding agents / evals | [OpenSense](https://github.com/VectorPeak/OpenSense) | 0+ | Daily PR opportunity finder for known open-source repositories. |
