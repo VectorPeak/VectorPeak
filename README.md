@@ -2,6 +2,8 @@
 
 AI Programmer | BS CS @ Xidian University | 2x CCF-C
 
+23 public projects, led by CoreCoder, Agent ToolFence, IssueBenchKit, PatchContext, ActionRepro, MCPReplay, RepoWiki, FindJobs-Agent, ContractGuard, AgentProbe, GitSense.
+
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
