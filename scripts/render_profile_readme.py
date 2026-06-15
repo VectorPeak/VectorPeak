@@ -113,6 +113,10 @@ def md_left_raw(markdown: Any) -> str:
     return f'<div align="left">{markdown}</div>'
 
 
+def md_center_raw(markdown: Any) -> str:
+    return f'<div align="center">{markdown}</div>'
+
+
 def html_text(text: Any) -> str:
     return html_escape(str(text).replace("\n", " ").strip(), quote=True)
 
@@ -383,7 +387,7 @@ def render_contributions(lines: list[str], contributions: list[dict[str, Any]], 
                 "| "
                 + " | ".join(
                     [
-                        md_left_raw(contribution_project_link(item)),
+                        md_center_raw(contribution_project_link(item)),
                         contribution_pr_link(item),
                         md_left(contribution_fix_text(item, lang)),
                     ]
