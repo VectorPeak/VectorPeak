@@ -6,7 +6,7 @@
 
 AI Programmer
 
-- 11 个公开项目，精选项目包括 LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, lingban-ai-chat。
+- 11 个公开项目，代表项目包括 LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, lingban-ai-chat。
 
 ### 项目
 
@@ -27,7 +27,7 @@ AI Programmer
 
 AI Programmer
 
-- 11 public projects, with featured projects including LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, lingban-ai-chat.
+- 11 public projects, led by LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, lingban-ai-chat.
 
 ### Projects
 

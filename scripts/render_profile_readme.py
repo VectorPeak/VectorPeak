@@ -135,8 +135,8 @@ def project_summary(projects: list[dict[str, Any]], data: dict[str, Any], lang: 
     count = number(data.get("public_project_count")) if data.get("public_project_count") is not None else len(projects)
     joined = ", ".join(names)
     if lang == "zh":
-        return f"{count} 个公开项目，精选项目包括 {joined}。"
-    return f"{count} public projects, with featured projects including {joined}."
+        return f"{count} 个公开项目，代表项目包括 {joined}。"
+    return f"{count} public projects, led by {joined}."
 
 
 def render_projects(lines: list[str], projects: list[dict[str, Any]], lang: str) -> None:
