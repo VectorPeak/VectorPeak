@@ -6,7 +6,7 @@
 
 AI Programmer
 
-- 10 个公开项目，代表项目包括 LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat, KnowFoundry-RAG-Console。
+- 10 个公开项目，代表项目包括 LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, KnowFoundry-RAG-Console, lingban-ai-chat。
 - 1+ merged upstream PRs，包括 HiveMind。
 
 ### 项目
@@ -35,15 +35,15 @@ AI Programmer
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/lingban-ai-chat">lingban-ai-chat</a></td>
+      <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
       <td>1+</td>
-      <td>灵伴 AI 聊天 Android 客户端与后端 API 仓库</td>
+      <td>面向知识库和 RAG 工作流的控制台项目，用于沉淀检索增强生成应用的工程实践</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
-      <td>0+</td>
-      <td>面向知识库和 RAG 工作流的控制台项目，用于沉淀检索增强生成应用的工程实践</td>
+      <td><a href="https://github.com/VectorPeak/lingban-ai-chat">lingban-ai-chat</a></td>
+      <td>1+</td>
+      <td>灵伴 AI 聊天 Android 客户端与后端 API 仓库</td>
     </tr>
     <tr>
       <td align="center">Coding&nbsp;agents</td>
@@ -111,7 +111,7 @@ AI Programmer
 
 AI Programmer
 
-- 10 public projects, led by LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat, KnowFoundry-RAG-Console.
+- 10 public projects, led by LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, KnowFoundry-RAG-Console, lingban-ai-chat.
 - 1+ merged upstream PRs, including HiveMind.
 
 ### Projects
@@ -140,15 +140,15 @@ AI Programmer
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/lingban-ai-chat">lingban-ai-chat</a></td>
+      <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
       <td>1+</td>
-      <td>Lingban AI chat Android client and backend API repository</td>
+      <td>A console project for knowledge-base and RAG workflows, used to capture engineering practice for retrieval-augmented generation apps</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
-      <td>0+</td>
-      <td>A console project for knowledge-base and RAG workflows, used to capture engineering practice for retrieval-augmented generation apps</td>
+      <td><a href="https://github.com/VectorPeak/lingban-ai-chat">lingban-ai-chat</a></td>
+      <td>1+</td>
+      <td>Lingban AI chat Android client and backend API repository</td>
     </tr>
     <tr>
       <td align="center">Coding&nbsp;agents</td>
