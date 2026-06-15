@@ -6,7 +6,7 @@
 
 AI Programmer
 
-- 11 个公开项目，代表项目包括 LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat, VectorPeak, KnowFoundry-RAG-Console。
+- 10 个公开项目，代表项目包括 LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat, KnowFoundry-RAG-Console。
 
 ### 项目
 
@@ -18,7 +18,6 @@ AI Programmer
 | Applied&nbsp;agents | [KnowFoundry-RAG-Console](https://github.com/VectorPeak/KnowFoundry-RAG-Console) | 0+ | 面向知识库和 RAG 工作流的控制台项目，用于沉淀检索增强生成应用的工程实践。 |
 | Coding&nbsp;agents | [OpenSense](https://github.com/VectorPeak/OpenSense) | 2+ | 面向已知开源项目的每日 PR 机会发现工具。 |
 | Coding&nbsp;agents | [vectorpeak-agent-skills](https://github.com/VectorPeak/vectorpeak-agent-skills) | 2+ | 可复用的 Agent / Codex 技能库，覆盖软件工程、知识工作和职业工作流自动化。 |
-| Coding&nbsp;agents | [VectorPeak](https://github.com/VectorPeak/VectorPeak) | 1+ | 个人 GitHub Profile README 仓库，包含自动收集公开项目事实并定时更新主页的工作流。 |
 | LLM&nbsp;tooling | [LLM-Wiki](https://github.com/VectorPeak/LLM-Wiki) | 12+ | 大语言模型知识库，覆盖 LLM、Agent、RAG、训练、评测方法和 AI 工程实践。 |
 | Research | [carbon-tower-predictor](https://github.com/VectorPeak/carbon-tower-predictor) | 2+ | 面向工业碳化塔取出液温度预测与预测性维护的时序建模方案。 |
 | Research | [industrial-fault-text-classifier](https://github.com/VectorPeak/industrial-fault-text-classifier) | 2+ | 基于 BERT 的化工设备故障文本分类方案，用于报修工单分析、故障类别识别和风险预警。 |
@@ -30,7 +29,7 @@ AI Programmer
 
 AI Programmer
 
-- 11 public projects, led by LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat, VectorPeak, KnowFoundry-RAG-Console.
+- 10 public projects, led by LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat, KnowFoundry-RAG-Console.
 
 ### Projects
 
@@ -42,7 +41,6 @@ AI Programmer
 | Applied&nbsp;agents | [KnowFoundry-RAG-Console](https://github.com/VectorPeak/KnowFoundry-RAG-Console) | 0+ | A console project for knowledge-base and RAG workflows, used to capture engineering practice for retrieval-augmented generation apps. |
 | Coding&nbsp;agents | [OpenSense](https://github.com/VectorPeak/OpenSense) | 2+ | Daily PR opportunity finder for known open-source repositories. |
 | Coding&nbsp;agents | [vectorpeak-agent-skills](https://github.com/VectorPeak/vectorpeak-agent-skills) | 2+ | A reusable Agent and Codex skill library for software engineering, knowledge work, and professional workflow automation. |
-| Coding&nbsp;agents | [VectorPeak](https://github.com/VectorPeak/VectorPeak) | 1+ | Personal GitHub Profile README repository with an automated workflow for collecting public project facts and refreshing the profile. |
 | LLM&nbsp;tooling | [LLM-Wiki](https://github.com/VectorPeak/LLM-Wiki) | 12+ | A structured knowledge base for large language model technologies, covering LLMs, Agents, RAG, model training, evaluation methods, and AI engineering practices. |
 | Research | [carbon-tower-predictor](https://github.com/VectorPeak/carbon-tower-predictor) | 2+ | Time-series modeling for industrial carbonization tower outlet temperature prediction and predictive maintenance. |
 | Research | [industrial-fault-text-classifier](https://github.com/VectorPeak/industrial-fault-text-classifier) | 2+ | BERT-based industrial equipment fault text classification for repair-ticket analysis, fault recognition, and risk warning. |

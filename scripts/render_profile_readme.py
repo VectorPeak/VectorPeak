@@ -138,9 +138,15 @@ def auto_project(repo: dict[str, Any]) -> dict[str, Any]:
 
 
 def enrich_projects(data: dict[str, Any]) -> list[dict[str, Any]]:
+    excluded = {str(name).lower() for name in data.get("excluded_projects", [])}
+    owner = str(data.get("owner", "")).lower()
+    if owner:
+        excluded.add(owner)
     facts_by_name = {str(repo["name"]).lower(): repo for repo in data.get("public_repos", [])}
     projects = []
     for item in data.get("projects", []):
+        if str(item.get("name", "")).lower() in excluded:
+            continue
         project = dict(item)
         facts = facts_by_name.get(str(project.get("name", "")).lower())
         if facts:
@@ -151,7 +157,7 @@ def enrich_projects(data: dict[str, Any]) -> list[dict[str, Any]]:
         configured = {str(project.get("name", "")).lower() for project in projects}
         for repo in data.get("public_repos", []):
             name = str(repo.get("name", "")).lower()
-            if name and name not in configured:
+            if name and name not in configured and name not in excluded:
                 projects.append(auto_project(repo))
                 configured.add(name)
     return projects

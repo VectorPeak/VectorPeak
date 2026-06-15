@@ -2,6 +2,9 @@
   "owner": "VectorPeak",
   "identity": "AI Programmer",
   "project_summary_limit": 12,
+  "excluded_projects": [
+    "VectorPeak"
+  ],
   "projects": [
     {
       "area": "Applied agents",
@@ -56,15 +59,6 @@
       "zh_notes": "面向已知开源项目的每日 PR 机会发现工具。",
       "en_notes": "Daily PR opportunity finder for known open-source repositories.",
       "notes": "Daily PR opportunity finder for known open-source repositories."
-    },
-    {
-      "area": "Coding agents",
-      "name": "VectorPeak",
-      "url": "https://github.com/VectorPeak/VectorPeak",
-      "stars": 0,
-      "zh_notes": "个人 GitHub Profile README 仓库，包含自动收集公开项目事实并定时更新主页的工作流。",
-      "en_notes": "Personal GitHub Profile README repository with an automated workflow for collecting public project facts and refreshing the profile.",
-      "notes": "Personal GitHub Profile README repository with an automated workflow for collecting public project facts and refreshing the profile."
     },
     {
       "area": "LLM tooling",

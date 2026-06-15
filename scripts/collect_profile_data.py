@@ -51,7 +51,7 @@ def github_json(path: str, token: str | None, params: dict[str, Any] | None = No
     raise RuntimeError(f"GitHub API request failed after retries: {url}")
 
 
-def public_repos(owner: str, token: str | None) -> list[dict[str, Any]]:
+def public_repos(owner: str, token: str | None, excluded_names: set[str]) -> list[dict[str, Any]]:
     repos: list[dict[str, Any]] = []
     page = 1
     while True:
@@ -63,7 +63,7 @@ def public_repos(owner: str, token: str | None) -> list[dict[str, Any]]:
         if not batch:
             break
         for repo in batch:
-            if repo.get("fork"):
+            if repo.get("fork") or repo["name"].lower() in excluded_names:
                 continue
             repos.append(
                 {
@@ -151,10 +151,12 @@ def main() -> int:
     parser.add_argument("--out", required=True, type=Path)
     parser.add_argument("--min-upstream-stars", type=int, default=500)
     parser.add_argument("--max-search-pages", type=int, default=10)
+    parser.add_argument("--exclude-repo", action="append", default=[], help="Repository name to exclude from profile project counts.")
     args = parser.parse_args()
 
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
-    repos = public_repos(args.owner, token)
+    excluded_names = {args.owner.lower(), *(name.lower() for name in args.exclude_repo)}
+    repos = public_repos(args.owner, token, excluded_names)
     merged_pr_count, upstream_repos = merged_upstream_pr_summary(args.owner, token, args.min_upstream_stars, args.max_search_pages)
     facts = {
         "owner": args.owner,
