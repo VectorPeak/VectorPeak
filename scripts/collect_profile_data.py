@@ -96,6 +96,7 @@ def compact_repo_display(full_name: str) -> str:
     special = {
         "vllm": "vLLM",
         "transformers": "Hugging Face Transformers",
+        "hivemind": "HiveMind",
         "qwen-code": "Qwen Code",
         "github-mcp-server": "GitHub MCP Server",
         "microsoft-agent-framework": "Microsoft Agent Framework",
@@ -133,6 +134,7 @@ def contribution_area(full_name: str) -> str:
         "inspect_ai",
         "inspect-ai",
         "cline",
+        "hivemind",
         "openhands",
     }:
         return "Agent frameworks / protocols / evals"

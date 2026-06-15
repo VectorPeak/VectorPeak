@@ -6,7 +6,7 @@
 
 AI Programmer
 
-- 1+ merged upstream PRs，包括 Hivemind。
+- 1+ merged upstream PRs，包括 HiveMind。
 - 10 个公开项目，代表项目包括 LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat, KnowFoundry-RAG-Console。
 
 ### 项目
@@ -26,11 +26,11 @@ AI Programmer
 
 ### 开源贡献
 
-#### Applied AI / RAG / observability
+#### Agent frameworks / protocols / evals
 
 | Project | PR | What I Fixed |
 | --- | --- | --- |
-| [Hivemind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind) | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | feat: improve event connection handling and reconnection logic |
+| [HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind) | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | 改进事件连接处理与重连逻辑 |
 
 ---
 
@@ -38,7 +38,7 @@ AI Programmer
 
 AI Programmer
 
-- 1+ merged upstream PRs, including Hivemind.
+- 1+ merged upstream PRs, including HiveMind.
 - 10 public projects, led by LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat, KnowFoundry-RAG-Console.
 
 ### Projects
@@ -58,8 +58,8 @@ AI Programmer
 
 ### Open Source Contributions
 
-#### Applied AI / RAG / observability
+#### Agent frameworks / protocols / evals
 
 | Project | PR | What I Fixed |
 | --- | --- | --- |
-| [Hivemind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind) | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | feat: improve event connection handling and reconnection logic |
+| [HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind) | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | Improve event connection handling and reconnection logic |

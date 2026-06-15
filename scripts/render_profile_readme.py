@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -154,6 +155,7 @@ def infer_contribution_area(item: dict[str, Any]) -> str:
         "inspect_ai",
         "inspect-ai",
         "cline",
+        "hivemind",
         "openhands",
     }:
         return "Agent frameworks / protocols / evals"
@@ -295,8 +297,21 @@ def contribution_pr_link(item: dict[str, Any]) -> str:
     return md_escape(item.get("title") or "")
 
 
+def normalize_contribution_title(title: Any) -> str:
+    text = strip_terminal_period(title or "")
+    text = re.sub(
+        r"^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\([^)]+\))?!?:\s*",
+        "",
+        text,
+        flags=re.IGNORECASE,
+    ).strip()
+    if not text:
+        return ""
+    return text[:1].upper() + text[1:]
+
+
 def contribution_fix_text(item: dict[str, Any], lang: str) -> str:
-    title = strip_terminal_period(item.get("title") or "")
+    title = normalize_contribution_title(item.get("title") or "")
     if lang == "zh":
         return item.get("zh_title") or ZH_CONTRIBUTION_FIXES.get(title, title)
     return title
