@@ -6,6 +6,7 @@
 
 AI Programmer
 
+- 1+ merged upstream PRs，包括 Hivemind。
 - 10 个公开项目，代表项目包括 LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat, KnowFoundry-RAG-Console。
 
 ### 项目
@@ -23,12 +24,21 @@ AI Programmer
 | Research | [industrial-fault-text-classifier](https://github.com/VectorPeak/industrial-fault-text-classifier) | 2+ | 基于 BERT 的化工设备故障文本分类方案，用于报修工单分析、故障类别识别和风险预警 |
 | Research | [kaggle-tabular-forge](https://github.com/VectorPeak/kaggle-tabular-forge) | 1+ | 面向 Kaggle 表格竞赛的实验工厂，覆盖特征挖掘、OOF 纪律、深度 stacking 和 AI 评审工作流 |
 
+### 开源贡献
+
+#### Applied AI / RAG / observability
+
+| Project | PR | What I Fixed |
+| --- | --- | --- |
+| [Hivemind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind) | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | feat: improve event connection handling and reconnection logic |
+
 ---
 
 ## Hey, I'm VectorPeak 👋
 
 AI Programmer
 
+- 1+ merged upstream PRs, including Hivemind.
 - 10 public projects, led by LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat, KnowFoundry-RAG-Console.
 
 ### Projects
@@ -45,3 +55,11 @@ AI Programmer
 | Research | [carbon-tower-predictor](https://github.com/VectorPeak/carbon-tower-predictor) | 2+ | Time-series modeling for industrial carbonization tower outlet temperature prediction and predictive maintenance |
 | Research | [industrial-fault-text-classifier](https://github.com/VectorPeak/industrial-fault-text-classifier) | 2+ | BERT-based industrial equipment fault text classification for repair-ticket analysis, fault recognition, and risk warning |
 | Research | [kaggle-tabular-forge](https://github.com/VectorPeak/kaggle-tabular-forge) | 1+ | A goal-driven Kaggle tabular experiment factory covering feature mining, OOF discipline, deep stacking, and AI review workflows |
+
+### Open Source Contributions
+
+#### Applied AI / RAG / observability
+
+| Project | PR | What I Fixed |
+| --- | --- | --- |
+| [Hivemind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind) | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | feat: improve event connection handling and reconnection logic |
