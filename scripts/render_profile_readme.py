@@ -274,7 +274,7 @@ def contribution_summary(contributions: list[dict[str, Any]], data: dict[str, An
             repos.append(repo)
     joined = ", ".join(repos[:5])
     if lang == "zh":
-        return f"{count}+ 个上游 PR 已 merged，包括 {joined}。"
+        return f"{count}+ merged upstream PRs，包括 {joined}。"
     return f"{count}+ merged upstream PRs, including {joined}."
 
 
