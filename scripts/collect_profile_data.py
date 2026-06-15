@@ -7,6 +7,7 @@ import argparse
 import json
 import os
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -16,21 +17,38 @@ from typing import Any
 API = "https://api.github.com"
 
 
-def github_json(path: str, token: str | None, params: dict[str, Any] | None = None) -> Any:
+def github_json(path: str, token: str | None, params: dict[str, Any] | None = None, retries: int = 3) -> Any:
     query = ""
     if params:
         query = "?" + urllib.parse.urlencode(params)
-    request = urllib.request.Request(
-        API + path + query,
-        headers={
-            "Accept": "application/vnd.github+json",
-            "X-GitHub-Api-Version": "2022-11-28",
-            "User-Agent": "VectorPeak-profile-readme-updater",
-            **({"Authorization": f"Bearer {token}"} if token else {}),
-        },
-    )
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return json.loads(response.read().decode("utf-8"))
+    url = API + path + query
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "User-Agent": "VectorPeak-profile-readme-updater",
+        **({"Authorization": f"Bearer {token}"} if token else {}),
+    }
+    for attempt in range(retries + 1):
+        request = urllib.request.Request(url, headers=headers)
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                data = json.loads(response.read().decode("utf-8"))
+                if isinstance(data, dict) and data.get("incomplete_results"):
+                    raise RuntimeError(f"GitHub search returned incomplete results for {path}")
+                return data
+        except urllib.error.HTTPError as exc:
+            retry_after = exc.headers.get("Retry-After")
+            should_retry = exc.code in {403, 429, 500, 502, 503, 504}
+            if attempt >= retries or not should_retry:
+                body = exc.read().decode("utf-8", errors="replace")
+                raise RuntimeError(f"GitHub API request failed: {exc.code} {url}: {body}") from exc
+            delay = int(retry_after) if retry_after and retry_after.isdigit() else min(2 ** attempt, 10)
+            time.sleep(delay)
+        except urllib.error.URLError as exc:
+            if attempt >= retries:
+                raise RuntimeError(f"GitHub API request failed: {url}: {exc}") from exc
+            time.sleep(min(2 ** attempt, 10))
+    raise RuntimeError(f"GitHub API request failed after retries: {url}")
 
 
 def public_repos(owner: str, token: str | None) -> list[dict[str, Any]]:
@@ -69,11 +87,8 @@ def repo_from_search_item(item: dict[str, Any]) -> str:
 
 
 def repo_stars(full_name: str, token: str | None) -> int:
-    try:
-        repo = github_json(f"/repos/{full_name}", token)
-        return int(repo.get("stargazers_count") or 0)
-    except Exception:
-        return 0
+    repo = github_json(f"/repos/{full_name}", token)
+    return int(repo.get("stargazers_count") or 0)
 
 
 def compact_repo_display(full_name: str) -> str:
@@ -89,10 +104,19 @@ def compact_repo_display(full_name: str) -> str:
     return special.get(name.lower(), name.replace("-", " ").replace("_", " ").title())
 
 
-def merged_upstream_pr_summary(owner: str, token: str | None, min_stars: int) -> tuple[int, list[dict[str, Any]]]:
+def merged_upstream_pr_summary(owner: str, token: str | None, min_stars: int, max_pages: int) -> tuple[int, list[dict[str, Any]]]:
     query = f"author:{owner} type:pr is:merged -user:{owner}"
-    data = github_json("/search/issues", token, {"q": query, "per_page": 100})
-    items = list(data.get("items", []))
+    items: list[dict[str, Any]] = []
+    total_count = 0
+    for page in range(1, max_pages + 1):
+        data = github_json("/search/issues", token, {"q": query, "per_page": 100, "page": page})
+        total_count = int(data.get("total_count") or 0)
+        batch = list(data.get("items", []))
+        items.extend(batch)
+        if len(items) >= total_count or not batch:
+            break
+    if total_count > len(items):
+        print(f"warning: merged PR search returned {len(items)} of {total_count} results; increase --max-search-pages if needed")
     repo_counts: dict[str, int] = {}
     repo_urls: dict[str, str] = {}
     repo_star_counts: dict[str, int] = {}
@@ -126,11 +150,12 @@ def main() -> int:
     parser.add_argument("--owner", default="VectorPeak")
     parser.add_argument("--out", required=True, type=Path)
     parser.add_argument("--min-upstream-stars", type=int, default=500)
+    parser.add_argument("--max-search-pages", type=int, default=10)
     args = parser.parse_args()
 
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     repos = public_repos(args.owner, token)
-    merged_pr_count, upstream_repos = merged_upstream_pr_summary(args.owner, token, args.min_upstream_stars)
+    merged_pr_count, upstream_repos = merged_upstream_pr_summary(args.owner, token, args.min_upstream_stars, args.max_search_pages)
     facts = {
         "owner": args.owner,
         "public_project_count": len(repos),
