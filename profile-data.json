@@ -1,0 +1,79 @@
+{
+  "owner": "VectorPeak",
+  "identity": "AI Programmer",
+  "project_summary_limit": 12,
+  "projects": [
+    {
+      "area": "Applied agents",
+      "name": "codex-pet-live",
+      "url": "https://github.com/VectorPeak/codex-pet-live",
+      "stars": 0,
+      "zh_notes": "面向 Windows 桌面的 Codex 宠物运行时，用于承载、展示和驱动交互式桌面宠物。",
+      "en_notes": "A Windows desktop Codex pet runtime for hosting, displaying, and driving interactive desktop companions.",
+      "notes": "A Windows desktop Codex pet runtime for hosting, displaying, and driving interactive desktop companions."
+    },
+    {
+      "area": "Applied agents",
+      "name": "vectorpeak-blogs",
+      "url": "https://github.com/VectorPeak/vectorpeak-blogs",
+      "stars": 0,
+      "zh_notes": "个人博客与知识站点，用于记录技术学习、深度学习实践、算法题解与阶段性思考。",
+      "en_notes": "Personal blog and knowledge site for technical learning, deep learning practice, algorithm notes, and staged reflections.",
+      "notes": "Personal blog and knowledge site for technical learning, deep learning practice, algorithm notes, and staged reflections."
+    },
+    {
+      "area": "Applied agents",
+      "name": "lingban-ai-chat",
+      "url": "https://github.com/VectorPeak/lingban-ai-chat",
+      "stars": 0,
+      "zh_notes": "灵伴 AI 聊天 Android 客户端与后端 API 仓库。",
+      "en_notes": "Lingban AI chat Android client and backend API repository.",
+      "notes": "Lingban AI chat Android client and backend API repository."
+    },
+    {
+      "area": "Coding agents",
+      "name": "vectorpeak-agent-skills",
+      "url": "https://github.com/VectorPeak/vectorpeak-agent-skills",
+      "stars": 0,
+      "zh_notes": "可复用的 Agent / Codex 技能库，覆盖软件工程、知识工作和职业工作流自动化。",
+      "en_notes": "A reusable Agent and Codex skill library for software engineering, knowledge work, and professional workflow automation.",
+      "notes": "A reusable Agent and Codex skill library for software engineering, knowledge work, and professional workflow automation."
+    },
+    {
+      "area": "Coding agents",
+      "name": "OpenSense",
+      "url": "https://github.com/VectorPeak/OpenSense",
+      "stars": 0,
+      "zh_notes": "面向已知开源项目的每日 PR 机会发现工具。",
+      "en_notes": "Daily PR opportunity finder for known open-source repositories.",
+      "notes": "Daily PR opportunity finder for known open-source repositories."
+    },
+    {
+      "area": "LLM tooling",
+      "name": "LLM-Wiki",
+      "url": "https://github.com/VectorPeak/LLM-Wiki",
+      "stars": 0,
+      "zh_notes": "大语言模型知识库，覆盖 LLM、Agent、RAG、训练、评测方法和 AI 工程实践。",
+      "en_notes": "A structured knowledge base for large language model technologies, covering LLMs, Agents, RAG, model training, evaluation methods, and AI engineering practices.",
+      "notes": "A structured knowledge base for large language model technologies, covering LLMs, Agents, RAG, model training, evaluation methods, and AI engineering practices."
+    },
+    {
+      "area": "Research",
+      "name": "carbon-tower-predictor",
+      "url": "https://github.com/VectorPeak/carbon-tower-predictor",
+      "stars": 0,
+      "zh_notes": "面向工业碳化塔取出液温度预测与预测性维护的时序建模方案。",
+      "en_notes": "Time-series modeling for industrial carbonization tower outlet temperature prediction and predictive maintenance.",
+      "notes": "Time-series modeling for industrial carbonization tower outlet temperature prediction and predictive maintenance."
+    },
+    {
+      "area": "Research",
+      "name": "industrial-fault-text-classifier",
+      "url": "https://github.com/VectorPeak/industrial-fault-text-classifier",
+      "stars": 0,
+      "zh_notes": "基于 BERT 的化工设备故障文本分类方案，用于报修工单分析、故障类别识别和风险预警。",
+      "en_notes": "BERT-based industrial equipment fault text classification for repair-ticket analysis, fault recognition, and risk warning.",
+      "notes": "BERT-based industrial equipment fault text classification for repair-ticket analysis, fault recognition, and risk warning."
+    }
+  ]
+}

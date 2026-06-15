@@ -1,0 +1,204 @@
+#!/usr/bin/env python3
+"""Render VectorPeak's bilingual GitHub profile README."""
+
+from __future__ import annotations
+
+import argparse
+import json
+from pathlib import Path
+from typing import Any
+
+
+DEFAULT_BADGES = [
+    ("Python", "3776AB", "python", "white"),
+    ("Go", "00ADD8", "go", "white"),
+    ("TypeScript", "3178C6", "typescript", "white"),
+    ("React", "20232A", "react", "61DAFB"),
+    ("Node.js", "339933", "node.js", "white"),
+    ("FastAPI", "009688", "fastapi", "white"),
+    ("RAG", "0F172A", "googlegemini", "white"),
+    ("Hugging Face", "FFD21E", "huggingface", "111"),
+    ("LangChain", "1C3C3C", "langchain", "white"),
+    ("GitHub", "181717", "github", "white"),
+]
+
+PROJECT_AREAS = {
+    "Coding agents",
+    "CI / PR tooling",
+    "MCP / protocol tooling",
+    "Codebase maps",
+    "Applied agents",
+    "LLM tooling",
+    "Research",
+}
+
+
+def load_json(path: Path) -> dict[str, Any]:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def deep_merge(base: dict[str, Any], override: dict[str, Any]) -> dict[str, Any]:
+    merged = dict(base)
+    for key, value in override.items():
+        if isinstance(value, dict) and isinstance(merged.get(key), dict):
+            merged[key] = deep_merge(merged[key], value)
+        else:
+            merged[key] = value
+    return merged
+
+
+def number(value: Any) -> int:
+    if value is None:
+        return 0
+    if isinstance(value, int):
+        return value
+    text = str(value).replace(",", "").replace("+", "").replace(" stars", "").strip()
+    if text.lower().endswith("k"):
+        return int(float(text[:-1]) * 1000)
+    return int(text or 0)
+
+
+def format_stars(value: Any) -> str:
+    return f"{number(value):,}+"
+
+
+def badge(label: str, color: str, logo: str, logo_color: str) -> str:
+    safe_label = label.replace("-", "--").replace(" ", "%20")
+    return f"![{label}](https://img.shields.io/badge/{safe_label}-{color}?logo={logo}&logoColor={logo_color})"
+
+
+def md_escape(text: Any) -> str:
+    return str(text).replace("|", "\\|").replace("\n", " ").strip()
+
+
+def md_nowrap(text: Any) -> str:
+    return md_escape(text).replace(" ", "&nbsp;")
+
+
+def project_link(project: dict[str, Any]) -> str:
+    if project.get("url"):
+        return f"[{project['name']}]({project['url']})"
+    return str(project["name"])
+
+
+def localized(project: dict[str, Any], key: str, lang: str) -> Any:
+    if key == "area":
+        return project.get("area", "")
+    return project.get(f"{lang}_{key}") or project.get(key) or ""
+
+
+def sorted_projects(projects: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return sorted(
+        projects,
+        key=lambda item: (
+            str(item.get("area", "")).lower(),
+            -number(item.get("stars")),
+            str(item.get("name", "")).lower(),
+        ),
+    )
+
+
+def sorted_summary_projects(projects: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return sorted(projects, key=lambda item: (-number(item.get("stars")), str(item.get("name", "")).lower()))
+
+
+def enrich_projects(data: dict[str, Any]) -> list[dict[str, Any]]:
+    facts_by_name = {str(repo["name"]).lower(): repo for repo in data.get("public_repos", [])}
+    projects = []
+    for item in data.get("projects", []):
+        project = dict(item)
+        facts = facts_by_name.get(str(project.get("name", "")).lower())
+        if facts:
+            project["stars"] = facts.get("stars", project.get("stars", 0))
+            project["url"] = facts.get("url") or project.get("url")
+        projects.append(project)
+    return projects
+
+
+def validate_projects(projects: list[dict[str, Any]]) -> None:
+    for project in projects:
+        missing = [key for key in ("area", "name", "notes") if key not in project]
+        if missing:
+            raise ValueError(f"Project {project!r} missing required fields: {', '.join(missing)}")
+        if str(project["area"]) not in PROJECT_AREAS:
+            raise ValueError(f"Unsupported project area {project['area']!r} for {project.get('name')!r}")
+
+
+def project_summary(projects: list[dict[str, Any]], data: dict[str, Any], lang: str) -> str:
+    ordered = sorted_summary_projects(projects)
+    limit = int(data.get("project_summary_limit", 12))
+    names = [str(project["name"]) for project in ordered[:limit]]
+    count = number(data.get("public_project_count")) if data.get("public_project_count") is not None else len(projects)
+    joined = ", ".join(names)
+    if lang == "zh":
+        return f"{count} 个公开项目，代表项目包括 {joined}。"
+    return f"{count} public projects, led by {joined}."
+
+
+def render_projects(lines: list[str], projects: list[dict[str, Any]], lang: str) -> None:
+    lines.extend([
+        "### 项目" if lang == "zh" else "### Projects",
+        "",
+        "| Area&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Project | Stars | Notes |",
+        "| :---: | --- | --- | --- |",
+    ])
+    for project in sorted_projects(projects):
+        lines.append(
+            "| "
+            + " | ".join(
+                [
+                    md_nowrap(localized(project, "area", lang)),
+                    project_link(project),
+                    format_stars(project.get("stars")),
+                    md_escape(localized(project, "notes", lang)),
+                ]
+            )
+            + " |"
+        )
+
+
+def render_section(lines: list[str], data: dict[str, Any], projects: list[dict[str, Any]], lang: str, include_badges: bool) -> None:
+    heading = data.get(f"{lang}_heading") or "## Hey, I'm VectorPeak 👋"
+    lines.extend([str(heading), ""])
+
+    if include_badges:
+        badges = data.get("badges") or DEFAULT_BADGES
+        parts = []
+        if data.get("linkedin"):
+            parts.append(f"[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)]({data['linkedin']})")
+        parts.extend(badge(*item) for item in badges)
+        lines.extend([" ".join(parts), ""])
+
+    lines.extend([str(data.get("identity", "AI Programmer")), ""])
+    if projects:
+        lines.extend([f"- {project_summary(projects, data, lang)}", ""])
+        render_projects(lines, projects, lang)
+
+
+def render(data: dict[str, Any]) -> str:
+    projects = enrich_projects(data)
+    validate_projects(projects)
+    lines: list[str] = []
+    render_section(lines, data, projects, "zh", include_badges=True)
+    lines.extend(["", "---", ""])
+    render_section(lines, data, projects, "en", include_badges=False)
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Render VectorPeak's bilingual GitHub profile README.")
+    parser.add_argument("--data", required=True, type=Path)
+    parser.add_argument("--facts", type=Path)
+    parser.add_argument("--out", required=True, type=Path)
+    args = parser.parse_args()
+
+    data = load_json(args.data)
+    if args.facts and args.facts.exists():
+        data = deep_merge(data, load_json(args.facts))
+    args.out.write_text(render(data), encoding="utf-8", newline="\n")
+    print(f"wrote: {args.out}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
