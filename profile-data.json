@@ -31,6 +31,15 @@
       "notes": "Lingban AI chat Android client and backend API repository."
     },
     {
+      "area": "Applied agents",
+      "name": "KnowFoundry-RAG-Console",
+      "url": "https://github.com/VectorPeak/KnowFoundry-RAG-Console",
+      "stars": 0,
+      "zh_notes": "面向知识库和 RAG 工作流的控制台项目，用于沉淀检索增强生成应用的工程实践。",
+      "en_notes": "A console project for knowledge-base and RAG workflows, used to capture engineering practice for retrieval-augmented generation apps.",
+      "notes": "A console project for knowledge-base and RAG workflows, used to capture engineering practice for retrieval-augmented generation apps."
+    },
+    {
       "area": "Coding agents",
       "name": "vectorpeak-agent-skills",
       "url": "https://github.com/VectorPeak/vectorpeak-agent-skills",
@@ -49,6 +58,15 @@
       "notes": "Daily PR opportunity finder for known open-source repositories."
     },
     {
+      "area": "Coding agents",
+      "name": "VectorPeak",
+      "url": "https://github.com/VectorPeak/VectorPeak",
+      "stars": 0,
+      "zh_notes": "个人 GitHub Profile README 仓库，包含自动收集公开项目事实并定时更新主页的工作流。",
+      "en_notes": "Personal GitHub Profile README repository with an automated workflow for collecting public project facts and refreshing the profile.",
+      "notes": "Personal GitHub Profile README repository with an automated workflow for collecting public project facts and refreshing the profile."
+    },
+    {
       "area": "LLM tooling",
       "name": "LLM-Wiki",
       "url": "https://github.com/VectorPeak/LLM-Wiki",
@@ -65,6 +83,15 @@
       "zh_notes": "面向工业碳化塔取出液温度预测与预测性维护的时序建模方案。",
       "en_notes": "Time-series modeling for industrial carbonization tower outlet temperature prediction and predictive maintenance.",
       "notes": "Time-series modeling for industrial carbonization tower outlet temperature prediction and predictive maintenance."
+    },
+    {
+      "area": "Research",
+      "name": "kaggle-tabular-forge",
+      "url": "https://github.com/VectorPeak/kaggle-tabular-forge",
+      "stars": 0,
+      "zh_notes": "面向 Kaggle 表格竞赛的实验工厂，覆盖特征挖掘、OOF 纪律、深度 stacking 和 AI 评审工作流。",
+      "en_notes": "A goal-driven Kaggle tabular experiment factory covering feature mining, OOF discipline, deep stacking, and AI review workflows.",
+      "notes": "A goal-driven Kaggle tabular experiment factory covering feature mining, OOF discipline, deep stacking, and AI review workflows."
     },
     {
       "area": "Research",
