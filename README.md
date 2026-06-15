@@ -6,31 +6,104 @@
 
 AI Programmer
 
-- 1+ merged upstream PRs，包括 HiveMind。
 - 10 个公开项目，代表项目包括 LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat, KnowFoundry-RAG-Console。
+- 1+ merged upstream PRs，包括 HiveMind。
 
 ### 项目
 
-| Area | Project | Stars | Notes |
-| :---: | --- | --- | --- |
-| Applied&nbsp;agents | [vectorpeak-blogs](https://github.com/VectorPeak/vectorpeak-blogs) | 3+ | 个人博客与知识站点，用于记录技术学习、深度学习实践、算法题解与阶段性思考 |
-| Applied&nbsp;agents | [codex-pet-live](https://github.com/VectorPeak/codex-pet-live) | 2+ | 面向 Windows 桌面的 Codex 宠物运行时，用于承载、展示和驱动交互式桌面宠物 |
-| Applied&nbsp;agents | [lingban-ai-chat](https://github.com/VectorPeak/lingban-ai-chat) | 1+ | 灵伴 AI 聊天 Android 客户端与后端 API 仓库 |
-| Applied&nbsp;agents | [KnowFoundry-RAG-Console](https://github.com/VectorPeak/KnowFoundry-RAG-Console) | 0+ | 面向知识库和 RAG 工作流的控制台项目，用于沉淀检索增强生成应用的工程实践 |
-| Coding&nbsp;agents | [OpenSense](https://github.com/VectorPeak/OpenSense) | 2+ | 面向已知开源项目的每日 PR 机会发现工具 |
-| Coding&nbsp;agents | [vectorpeak-agent-skills](https://github.com/VectorPeak/vectorpeak-agent-skills) | 2+ | 可复用的 Agent / Codex 技能库，覆盖软件工程、知识工作和职业工作流自动化 |
-| LLM&nbsp;tooling | [LLM-Wiki](https://github.com/VectorPeak/LLM-Wiki) | 12+ | 大语言模型知识库，覆盖 LLM、Agent、RAG、训练、评测方法和 AI 工程实践 |
-| Research | [carbon-tower-predictor](https://github.com/VectorPeak/carbon-tower-predictor) | 2+ | 面向工业碳化塔取出液温度预测与预测性维护的时序建模方案 |
-| Research | [industrial-fault-text-classifier](https://github.com/VectorPeak/industrial-fault-text-classifier) | 2+ | 基于 BERT 的化工设备故障文本分类方案，用于报修工单分析、故障类别识别和风险预警 |
-| Research | [kaggle-tabular-forge](https://github.com/VectorPeak/kaggle-tabular-forge) | 1+ | 面向 Kaggle 表格竞赛的实验工厂，覆盖特征挖掘、OOF 纪律、深度 stacking 和 AI 评审工作流 |
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="center" width="16%">Area</th>
+      <th align="left" width="24%">Project</th>
+      <th align="left" width="8%">Stars</th>
+      <th align="left" width="52%">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/vectorpeak-blogs">vectorpeak-blogs</a></td>
+      <td>3+</td>
+      <td>个人博客与知识站点，用于记录技术学习、深度学习实践、算法题解与阶段性思考</td>
+    </tr>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/codex-pet-live">codex-pet-live</a></td>
+      <td>2+</td>
+      <td>面向 Windows 桌面的 Codex 宠物运行时，用于承载、展示和驱动交互式桌面宠物</td>
+    </tr>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/lingban-ai-chat">lingban-ai-chat</a></td>
+      <td>1+</td>
+      <td>灵伴 AI 聊天 Android 客户端与后端 API 仓库</td>
+    </tr>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
+      <td>0+</td>
+      <td>面向知识库和 RAG 工作流的控制台项目，用于沉淀检索增强生成应用的工程实践</td>
+    </tr>
+    <tr>
+      <td align="center">Coding&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/OpenSense">OpenSense</a></td>
+      <td>2+</td>
+      <td>面向已知开源项目的每日 PR 机会发现工具</td>
+    </tr>
+    <tr>
+      <td align="center">Coding&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/vectorpeak-agent-skills">vectorpeak-agent-skills</a></td>
+      <td>2+</td>
+      <td>可复用的 Agent / Codex 技能库，覆盖软件工程、知识工作和职业工作流自动化</td>
+    </tr>
+    <tr>
+      <td align="center">LLM&nbsp;tooling</td>
+      <td><a href="https://github.com/VectorPeak/LLM-Wiki">LLM-Wiki</a></td>
+      <td>12+</td>
+      <td>大语言模型知识库，覆盖 LLM、Agent、RAG、训练、评测方法和 AI 工程实践</td>
+    </tr>
+    <tr>
+      <td align="center">Research</td>
+      <td><a href="https://github.com/VectorPeak/carbon-tower-predictor">carbon-tower-predictor</a></td>
+      <td>2+</td>
+      <td>面向工业碳化塔取出液温度预测与预测性维护的时序建模方案</td>
+    </tr>
+    <tr>
+      <td align="center">Research</td>
+      <td><a href="https://github.com/VectorPeak/industrial-fault-text-classifier">industrial-fault-text-classifier</a></td>
+      <td>2+</td>
+      <td>基于 BERT 的化工设备故障文本分类方案，用于报修工单分析、故障类别识别和风险预警</td>
+    </tr>
+    <tr>
+      <td align="center">Research</td>
+      <td><a href="https://github.com/VectorPeak/kaggle-tabular-forge">kaggle-tabular-forge</a></td>
+      <td>1+</td>
+      <td>面向 Kaggle 表格竞赛的实验工厂，覆盖特征挖掘、OOF 纪律、深度 stacking 和 AI 评审工作流</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 开源贡献
 
 #### Agent frameworks / protocols / evals
 
-| Project | PR | What I Fixed |
-| --- | --- | --- |
-| [HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind) | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | 改进事件连接处理与重连逻辑 |
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left" width="28%">Project</th>
+      <th align="left" width="10%">PR</th>
+      <th align="left" width="62%">What I Fixed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Emiyaaaaa/HiveMind">HiveMind (1.1k★)</a></td>
+      <td><a href="https://github.com/Emiyaaaaa/HiveMind/pull/28">#28</a></td>
+      <td>改进事件连接处理与重连逻辑</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -38,28 +111,101 @@ AI Programmer
 
 AI Programmer
 
-- 1+ merged upstream PRs, including HiveMind.
 - 10 public projects, led by LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat, KnowFoundry-RAG-Console.
+- 1+ merged upstream PRs, including HiveMind.
 
 ### Projects
 
-| Area | Project | Stars | Notes |
-| :---: | --- | --- | --- |
-| Applied&nbsp;agents | [vectorpeak-blogs](https://github.com/VectorPeak/vectorpeak-blogs) | 3+ | Personal blog and knowledge site for technical learning, deep learning practice, algorithm notes, and staged reflections |
-| Applied&nbsp;agents | [codex-pet-live](https://github.com/VectorPeak/codex-pet-live) | 2+ | A Windows desktop Codex pet runtime for hosting, displaying, and driving interactive desktop companions |
-| Applied&nbsp;agents | [lingban-ai-chat](https://github.com/VectorPeak/lingban-ai-chat) | 1+ | Lingban AI chat Android client and backend API repository |
-| Applied&nbsp;agents | [KnowFoundry-RAG-Console](https://github.com/VectorPeak/KnowFoundry-RAG-Console) | 0+ | A console project for knowledge-base and RAG workflows, used to capture engineering practice for retrieval-augmented generation apps |
-| Coding&nbsp;agents | [OpenSense](https://github.com/VectorPeak/OpenSense) | 2+ | Daily PR opportunity finder for known open-source repositories |
-| Coding&nbsp;agents | [vectorpeak-agent-skills](https://github.com/VectorPeak/vectorpeak-agent-skills) | 2+ | A reusable Agent and Codex skill library for software engineering, knowledge work, and professional workflow automation |
-| LLM&nbsp;tooling | [LLM-Wiki](https://github.com/VectorPeak/LLM-Wiki) | 12+ | A structured knowledge base for large language model technologies, covering LLMs, Agents, RAG, model training, evaluation methods, and AI engineering practices |
-| Research | [carbon-tower-predictor](https://github.com/VectorPeak/carbon-tower-predictor) | 2+ | Time-series modeling for industrial carbonization tower outlet temperature prediction and predictive maintenance |
-| Research | [industrial-fault-text-classifier](https://github.com/VectorPeak/industrial-fault-text-classifier) | 2+ | BERT-based industrial equipment fault text classification for repair-ticket analysis, fault recognition, and risk warning |
-| Research | [kaggle-tabular-forge](https://github.com/VectorPeak/kaggle-tabular-forge) | 1+ | A goal-driven Kaggle tabular experiment factory covering feature mining, OOF discipline, deep stacking, and AI review workflows |
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="center" width="16%">Area</th>
+      <th align="left" width="24%">Project</th>
+      <th align="left" width="8%">Stars</th>
+      <th align="left" width="52%">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/vectorpeak-blogs">vectorpeak-blogs</a></td>
+      <td>3+</td>
+      <td>Personal blog and knowledge site for technical learning, deep learning practice, algorithm notes, and staged reflections</td>
+    </tr>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/codex-pet-live">codex-pet-live</a></td>
+      <td>2+</td>
+      <td>A Windows desktop Codex pet runtime for hosting, displaying, and driving interactive desktop companions</td>
+    </tr>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/lingban-ai-chat">lingban-ai-chat</a></td>
+      <td>1+</td>
+      <td>Lingban AI chat Android client and backend API repository</td>
+    </tr>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
+      <td>0+</td>
+      <td>A console project for knowledge-base and RAG workflows, used to capture engineering practice for retrieval-augmented generation apps</td>
+    </tr>
+    <tr>
+      <td align="center">Coding&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/OpenSense">OpenSense</a></td>
+      <td>2+</td>
+      <td>Daily PR opportunity finder for known open-source repositories</td>
+    </tr>
+    <tr>
+      <td align="center">Coding&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/vectorpeak-agent-skills">vectorpeak-agent-skills</a></td>
+      <td>2+</td>
+      <td>A reusable Agent and Codex skill library for software engineering, knowledge work, and professional workflow automation</td>
+    </tr>
+    <tr>
+      <td align="center">LLM&nbsp;tooling</td>
+      <td><a href="https://github.com/VectorPeak/LLM-Wiki">LLM-Wiki</a></td>
+      <td>12+</td>
+      <td>A structured knowledge base for large language model technologies, covering LLMs, Agents, RAG, model training, evaluation methods, and AI engineering practices</td>
+    </tr>
+    <tr>
+      <td align="center">Research</td>
+      <td><a href="https://github.com/VectorPeak/carbon-tower-predictor">carbon-tower-predictor</a></td>
+      <td>2+</td>
+      <td>Time-series modeling for industrial carbonization tower outlet temperature prediction and predictive maintenance</td>
+    </tr>
+    <tr>
+      <td align="center">Research</td>
+      <td><a href="https://github.com/VectorPeak/industrial-fault-text-classifier">industrial-fault-text-classifier</a></td>
+      <td>2+</td>
+      <td>BERT-based industrial equipment fault text classification for repair-ticket analysis, fault recognition, and risk warning</td>
+    </tr>
+    <tr>
+      <td align="center">Research</td>
+      <td><a href="https://github.com/VectorPeak/kaggle-tabular-forge">kaggle-tabular-forge</a></td>
+      <td>1+</td>
+      <td>A goal-driven Kaggle tabular experiment factory covering feature mining, OOF discipline, deep stacking, and AI review workflows</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Open Source Contributions
 
 #### Agent frameworks / protocols / evals
 
-| Project | PR | What I Fixed |
-| --- | --- | --- |
-| [HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind) | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | Improve event connection handling and reconnection logic |
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left" width="28%">Project</th>
+      <th align="left" width="10%">PR</th>
+      <th align="left" width="62%">What I Fixed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Emiyaaaaa/HiveMind">HiveMind (1.1k★)</a></td>
+      <td><a href="https://github.com/Emiyaaaaa/HiveMind/pull/28">#28</a></td>
+      <td>Improve event connection handling and reconnection logic</td>
+    </tr>
+  </tbody>
+</table>

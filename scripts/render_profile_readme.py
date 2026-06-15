@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+from html import escape as html_escape
 from pathlib import Path
 from typing import Any
 
@@ -100,10 +101,28 @@ def md_nowrap(text: Any) -> str:
     return md_escape(text).replace(" ", "&nbsp;")
 
 
+def html_text(text: Any) -> str:
+    return html_escape(str(text).replace("\n", " ").strip(), quote=True)
+
+
+def html_nowrap(text: Any) -> str:
+    return html_text(text).replace(" ", "&nbsp;")
+
+
+def html_link(label: Any, url: Any) -> str:
+    return f'<a href="{html_text(url)}">{html_text(label)}</a>'
+
+
 def project_link(project: dict[str, Any]) -> str:
     if project.get("url"):
         return f"[{project['name']}]({project['url']})"
     return str(project["name"])
+
+
+def project_html_link(project: dict[str, Any]) -> str:
+    if project.get("url"):
+        return html_link(project["name"], project["url"])
+    return html_text(project["name"])
 
 
 def localized(project: dict[str, Any], key: str, lang: str) -> Any:
@@ -287,6 +306,13 @@ def contribution_project_link(item: dict[str, Any]) -> str:
     return label
 
 
+def contribution_project_html_link(item: dict[str, Any]) -> str:
+    label = f"{item.get('repo_display') or item.get('repo')} ({format_compact_stars(item.get('repo_stars'))})"
+    if item.get("repo_url"):
+        return html_link(label, item["repo_url"])
+    return html_text(label)
+
+
 def contribution_pr_link(item: dict[str, Any]) -> str:
     number_value = item.get("number")
     if number_value:
@@ -295,6 +321,16 @@ def contribution_pr_link(item: dict[str, Any]) -> str:
             return f"[{label}]({item['url']})"
         return label
     return md_escape(item.get("title") or "")
+
+
+def contribution_pr_html_link(item: dict[str, Any]) -> str:
+    number_value = item.get("number")
+    if number_value:
+        label = f"#{number_value}"
+        if item.get("url"):
+            return html_link(label, item["url"])
+        return html_text(label)
+    return html_text(item.get("title") or "")
 
 
 def normalize_contribution_title(title: Any) -> str:
@@ -336,8 +372,15 @@ def render_contributions(lines: list[str], contributions: list[dict[str, Any]], 
             "",
             f"#### {area}",
             "",
-            "| Project | PR | What I Fixed |",
-            "| --- | --- | --- |",
+            '<table width="100%">',
+            "  <thead>",
+            "    <tr>",
+            '      <th align="left" width="28%">Project</th>',
+            '      <th align="left" width="10%">PR</th>',
+            '      <th align="left" width="62%">What I Fixed</th>',
+            "    </tr>",
+            "  </thead>",
+            "  <tbody>",
         ])
         rows = sorted(
             grouped[area],
@@ -348,39 +391,41 @@ def render_contributions(lines: list[str], contributions: list[dict[str, Any]], 
             )
         )
         for item in rows:
-            lines.append(
-                "| "
-                + " | ".join(
-                    [
-                        contribution_project_link(item),
-                        contribution_pr_link(item),
-                        contribution_fix_text(item, lang),
-                    ]
-                )
-                + " |"
-            )
+            lines.extend([
+                "    <tr>",
+                f"      <td>{contribution_project_html_link(item)}</td>",
+                f"      <td>{contribution_pr_html_link(item)}</td>",
+                f"      <td>{html_text(contribution_fix_text(item, lang))}</td>",
+                "    </tr>",
+            ])
+        lines.extend(["  </tbody>", "</table>"])
 
 
 def render_projects(lines: list[str], projects: list[dict[str, Any]], lang: str) -> None:
     lines.extend([
         "### 项目" if lang == "zh" else "### Projects",
         "",
-        "| Area | Project | Stars | Notes |",
-        "| :---: | --- | --- | --- |",
+        '<table width="100%">',
+        "  <thead>",
+        "    <tr>",
+        '      <th align="center" width="16%">Area</th>',
+        '      <th align="left" width="24%">Project</th>',
+        '      <th align="left" width="8%">Stars</th>',
+        '      <th align="left" width="52%">Notes</th>',
+        "    </tr>",
+        "  </thead>",
+        "  <tbody>",
     ])
     for project in sorted_projects(projects):
-        lines.append(
-            "| "
-            + " | ".join(
-                [
-                    md_nowrap(localized(project, "area", lang)),
-                    project_link(project),
-                    format_stars(project.get("stars")),
-                    strip_terminal_period(localized(project, "notes", lang)),
-                ]
-            )
-            + " |"
-        )
+        lines.extend([
+            "    <tr>",
+            f'      <td align="center">{html_nowrap(localized(project, "area", lang))}</td>',
+            f"      <td>{project_html_link(project)}</td>",
+            f"      <td>{html_text(format_stars(project.get('stars')))}</td>",
+            f"      <td>{html_text(strip_terminal_period(localized(project, 'notes', lang)))}</td>",
+            "    </tr>",
+        ])
+    lines.extend(["  </tbody>", "</table>"])
 
 
 def render_section(lines: list[str], data: dict[str, Any], projects: list[dict[str, Any]], contributions: list[dict[str, Any]], lang: str, include_badges: bool) -> None:
@@ -396,10 +441,13 @@ def render_section(lines: list[str], data: dict[str, Any], projects: list[dict[s
         lines.extend([" ".join(parts), ""])
 
     lines.extend([str(data.get("identity", "AI Programmer")), ""])
+    if projects:
+        lines.extend([f"- {project_summary(projects, data, lang)}"])
     if contributions:
         lines.extend([f"- {contribution_summary(contributions, data, lang)}"])
+    if projects or contributions:
+        lines.append("")
     if projects:
-        lines.extend([f"- {project_summary(projects, data, lang)}", ""])
         render_projects(lines, projects, lang)
     render_contributions(lines, contributions, lang)
 
