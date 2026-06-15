@@ -15,7 +15,7 @@ AI Programmer
   <thead>
     <tr>
       <th align="center" width="16%">Area</th>
-      <th align="left" width="24%">Project</th>
+      <th align="center" width="24%">Project</th>
       <th align="left" width="8%">Stars</th>
       <th align="center" width="52%">Notes</th>
     </tr>
@@ -60,7 +60,7 @@ AI Programmer
     <tr>
       <td align="center">LLM&nbsp;tooling</td>
       <td><a href="https://github.com/VectorPeak/LLM-Wiki">LLM-Wiki</a></td>
-      <td>12+</td>
+      <td>13+</td>
       <td>大语言模型知识库，覆盖 LLM、Agent、RAG、训练、评测方法和 AI 工程实践</td>
     </tr>
     <tr>
@@ -90,7 +90,7 @@ AI Programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| [HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind) | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | 改进事件连接处理与重连逻辑，补充连接状态清理、监听器重建和异常分支处理，提升断线恢复的稳定性 |
+| <div align="left">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">改进事件连接处理与重连逻辑，补充连接状态清理、监听器重建和异常分支处理，提升断线恢复的稳定性</div> |
 
 ---
 
@@ -107,7 +107,7 @@ AI Programmer
   <thead>
     <tr>
       <th align="center" width="16%">Area</th>
-      <th align="left" width="24%">Project</th>
+      <th align="center" width="24%">Project</th>
       <th align="left" width="8%">Stars</th>
       <th align="center" width="52%">Notes</th>
     </tr>
@@ -152,7 +152,7 @@ AI Programmer
     <tr>
       <td align="center">LLM&nbsp;tooling</td>
       <td><a href="https://github.com/VectorPeak/LLM-Wiki">LLM-Wiki</a></td>
-      <td>12+</td>
+      <td>13+</td>
       <td>A structured knowledge base for large language model technologies, covering LLMs, Agents, RAG, model training, evaluation methods, and AI engineering practices</td>
     </tr>
     <tr>
@@ -182,4 +182,4 @@ AI Programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| [HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind) | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | Improved event connection handling and reconnection logic, strengthening disconnect recovery and long-running connection stability |
+| <div align="left">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">Improved event connection handling and reconnection logic, strengthening disconnect recovery and long-running connection stability</div> |

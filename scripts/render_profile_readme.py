@@ -105,6 +105,14 @@ def md_nowrap(text: Any) -> str:
     return md_escape(text).replace(" ", "&nbsp;")
 
 
+def md_left(text: Any) -> str:
+    return f'<div align="left">{md_escape(text)}</div>'
+
+
+def md_left_raw(markdown: Any) -> str:
+    return f'<div align="left">{markdown}</div>'
+
+
 def html_text(text: Any) -> str:
     return html_escape(str(text).replace("\n", " ").strip(), quote=True)
 
@@ -375,9 +383,9 @@ def render_contributions(lines: list[str], contributions: list[dict[str, Any]], 
                 "| "
                 + " | ".join(
                     [
-                        contribution_project_link(item),
+                        md_left_raw(contribution_project_link(item)),
                         contribution_pr_link(item),
-                        contribution_fix_text(item, lang),
+                        md_left(contribution_fix_text(item, lang)),
                     ]
                 )
                 + " |"
@@ -392,7 +400,7 @@ def render_projects(lines: list[str], projects: list[dict[str, Any]], lang: str)
         "  <thead>",
         "    <tr>",
         '      <th align="center" width="16%">Area</th>',
-        '      <th align="left" width="24%">Project</th>',
+        '      <th align="center" width="24%">Project</th>',
         '      <th align="left" width="8%">Stars</th>',
         '      <th align="center" width="52%">Notes</th>',
         "    </tr>",
