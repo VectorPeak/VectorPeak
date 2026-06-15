@@ -91,9 +91,9 @@ AI Programmer
 <table width="100%">
   <thead>
     <tr>
-      <th align="left" width="28%">Project</th>
-      <th align="left" width="10%">PR</th>
-      <th align="left" width="62%">What I Fixed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+      <th align="left" width="22%">Project</th>
+      <th align="left" width="8%">PR</th>
+      <th align="center" width="70%">What I Fixed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
     </tr>
   </thead>
   <tbody>
@@ -196,9 +196,9 @@ AI Programmer
 <table width="100%">
   <thead>
     <tr>
-      <th align="left" width="28%">Project</th>
-      <th align="left" width="10%">PR</th>
-      <th align="left" width="62%">What I Fixed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+      <th align="left" width="22%">Project</th>
+      <th align="left" width="8%">PR</th>
+      <th align="center" width="70%">What I Fixed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
     </tr>
   </thead>
   <tbody>
