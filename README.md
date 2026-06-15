@@ -88,22 +88,9 @@ AI Programmer
 
 #### Agent frameworks / protocols / evals
 
-<table width="100%">
-  <thead>
-    <tr>
-      <th align="left" width="22%">Project</th>
-      <th align="left" width="8%">PR</th>
-      <th align="center" width="70%">What I Fixed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/Emiyaaaaa/HiveMind">HiveMind (1.1k★)</a></td>
-      <td><a href="https://github.com/Emiyaaaaa/HiveMind/pull/28">#28</a></td>
-      <td>改进事件连接处理与重连逻辑，增强断线后的恢复能力并提升长连接稳定性</td>
-    </tr>
-  </tbody>
-</table>
+| Project | PR | What I Fixed |
+| :---: | :---: | :---: |
+| [HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind) | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | 改进事件连接处理与重连逻辑，增强断线后的恢复能力并提升长连接稳定性 |
 
 ---
 
@@ -193,19 +180,6 @@ AI Programmer
 
 #### Agent frameworks / protocols / evals
 
-<table width="100%">
-  <thead>
-    <tr>
-      <th align="left" width="22%">Project</th>
-      <th align="left" width="8%">PR</th>
-      <th align="center" width="70%">What I Fixed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/Emiyaaaaa/HiveMind">HiveMind (1.1k★)</a></td>
-      <td><a href="https://github.com/Emiyaaaaa/HiveMind/pull/28">#28</a></td>
-      <td>Improved event connection handling and reconnection logic, strengthening disconnect recovery and long-running connection stability</td>
-    </tr>
-  </tbody>
-</table>
+| Project | PR | What I Fixed |
+| :---: | :---: | :---: |
+| [HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind) | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | Improved event connection handling and reconnection logic, strengthening disconnect recovery and long-running connection stability |
