@@ -100,7 +100,7 @@ AI Programmer
     <tr>
       <td><a href="https://github.com/Emiyaaaaa/HiveMind">HiveMind (1.1k★)</a></td>
       <td><a href="https://github.com/Emiyaaaaa/HiveMind/pull/28">#28</a></td>
-      <td>改进事件连接处理与重连逻辑</td>
+      <td>改进事件连接生命周期管理与重连逻辑，提升断线后的恢复稳定性</td>
     </tr>
   </tbody>
 </table>
@@ -205,7 +205,7 @@ AI Programmer
     <tr>
       <td><a href="https://github.com/Emiyaaaaa/HiveMind">HiveMind (1.1k★)</a></td>
       <td><a href="https://github.com/Emiyaaaaa/HiveMind/pull/28">#28</a></td>
-      <td>Improve event connection handling and reconnection logic</td>
+      <td>Improved event connection lifecycle handling and reconnection logic to make recovery after disconnects more reliable</td>
     </tr>
   </tbody>
 </table>
