@@ -91,6 +91,10 @@ def strip_terminal_period(text: Any) -> str:
     return md_escape(text).rstrip(".。")
 
 
+def md_nowrap(text: Any) -> str:
+    return md_escape(text).replace(" ", "&nbsp;")
+
+
 def project_link(project: dict[str, Any]) -> str:
     if project.get("url"):
         return f"[{project['name']}]({project['url']})"
@@ -344,7 +348,7 @@ def render_projects(lines: list[str], projects: list[dict[str, Any]], lang: str)
             "| "
             + " | ".join(
                 [
-                    md_escape(localized(project, "area", lang)),
+                    md_nowrap(localized(project, "area", lang)),
                     project_link(project),
                     format_stars(project.get("stars")),
                     strip_terminal_period(localized(project, "notes", lang)),
