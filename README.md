@@ -17,7 +17,7 @@ AI Programmer
       <th align="center" width="16%">Area</th>
       <th align="left" width="24%">Project</th>
       <th align="left" width="8%">Stars</th>
-      <th align="left" width="52%">Notes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+      <th align="center" width="52%">Notes</th>
     </tr>
   </thead>
   <tbody>
@@ -90,7 +90,7 @@ AI Programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| [HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind) | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | 改进事件连接处理与重连逻辑，增强断线后的恢复能力并提升长连接稳定性 |
+| [HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind) | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | 改进事件连接处理与重连逻辑，补充连接状态清理、监听器重建和异常分支处理，提升断线恢复的稳定性 |
 
 ---
 
@@ -109,7 +109,7 @@ AI Programmer
       <th align="center" width="16%">Area</th>
       <th align="left" width="24%">Project</th>
       <th align="left" width="8%">Stars</th>
-      <th align="left" width="52%">Notes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+      <th align="center" width="52%">Notes</th>
     </tr>
   </thead>
   <tbody>
