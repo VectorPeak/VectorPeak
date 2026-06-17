@@ -6,7 +6,7 @@
 
 AI Programmer
 
-- 10 个公开项目，代表项目包括 LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, KnowFoundry-RAG-Console, lingban-ai-chat。
+- 10 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat。
 - 1+ merged upstream PRs，包括 HiveMind。
 
 ### 项目
@@ -23,6 +23,12 @@ AI Programmer
   <tbody>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
+      <td>9+</td>
+      <td>面向知识库和 RAG 工作流的控制台项目，用于沉淀检索增强生成应用的工程实践</td>
+    </tr>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/vectorpeak-blogs">vectorpeak-blogs</a></td>
       <td>3+</td>
       <td>个人博客与知识站点，用于记录技术学习、深度学习实践、算法题解与阶段性思考</td>
@@ -32,12 +38,6 @@ AI Programmer
       <td><a href="https://github.com/VectorPeak/codex-pet-live">codex-pet-live</a></td>
       <td>2+</td>
       <td>面向 Windows 桌面的 Codex 宠物运行时，用于承载、展示和驱动交互式桌面宠物</td>
-    </tr>
-    <tr>
-      <td align="center">Applied&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
-      <td>1+</td>
-      <td>面向知识库和 RAG 工作流的控制台项目，用于沉淀检索增强生成应用的工程实践</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
@@ -60,7 +60,7 @@ AI Programmer
     <tr>
       <td align="center">LLM&nbsp;tooling</td>
       <td><a href="https://github.com/VectorPeak/LLM-Wiki">LLM-Wiki</a></td>
-      <td>15+</td>
+      <td>19+</td>
       <td>大语言模型知识库，覆盖 LLM、Agent、RAG、训练、评测方法和 AI 工程实践</td>
     </tr>
     <tr>
@@ -98,7 +98,7 @@ AI Programmer
 
 AI Programmer
 
-- 10 public projects, led by LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, KnowFoundry-RAG-Console, lingban-ai-chat.
+- 10 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat.
 - 1+ merged upstream PRs, including HiveMind.
 
 ### Projects
@@ -115,6 +115,12 @@ AI Programmer
   <tbody>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
+      <td>9+</td>
+      <td>A console project for knowledge-base and RAG workflows, used to capture engineering practice for retrieval-augmented generation apps</td>
+    </tr>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/vectorpeak-blogs">vectorpeak-blogs</a></td>
       <td>3+</td>
       <td>Personal blog and knowledge site for technical learning, deep learning practice, algorithm notes, and staged reflections</td>
@@ -124,12 +130,6 @@ AI Programmer
       <td><a href="https://github.com/VectorPeak/codex-pet-live">codex-pet-live</a></td>
       <td>2+</td>
       <td>A Windows desktop Codex pet runtime for hosting, displaying, and driving interactive desktop companions</td>
-    </tr>
-    <tr>
-      <td align="center">Applied&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
-      <td>1+</td>
-      <td>A console project for knowledge-base and RAG workflows, used to capture engineering practice for retrieval-augmented generation apps</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
@@ -152,7 +152,7 @@ AI Programmer
     <tr>
       <td align="center">LLM&nbsp;tooling</td>
       <td><a href="https://github.com/VectorPeak/LLM-Wiki">LLM-Wiki</a></td>
-      <td>15+</td>
+      <td>19+</td>
       <td>A structured knowledge base for large language model technologies, covering LLMs, Agents, RAG, model training, evaluation methods, and AI engineering practices</td>
     </tr>
     <tr>
