@@ -24,7 +24,7 @@ AI Programmer
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
-      <td>9+</td>
+      <td>14+</td>
       <td>面向知识库和 RAG 工作流的控制台项目，用于沉淀检索增强生成应用的工程实践</td>
     </tr>
     <tr>
@@ -60,7 +60,7 @@ AI Programmer
     <tr>
       <td align="center">LLM&nbsp;tooling</td>
       <td><a href="https://github.com/VectorPeak/LLM-Wiki">LLM-Wiki</a></td>
-      <td>19+</td>
+      <td>29+</td>
       <td>大语言模型知识库，覆盖 LLM、Agent、RAG、训练、评测方法和 AI 工程实践</td>
     </tr>
     <tr>
@@ -116,7 +116,7 @@ AI Programmer
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
-      <td>9+</td>
+      <td>14+</td>
       <td>A console project for knowledge-base and RAG workflows, used to capture engineering practice for retrieval-augmented generation apps</td>
     </tr>
     <tr>
@@ -152,7 +152,7 @@ AI Programmer
     <tr>
       <td align="center">LLM&nbsp;tooling</td>
       <td><a href="https://github.com/VectorPeak/LLM-Wiki">LLM-Wiki</a></td>
-      <td>19+</td>
+      <td>29+</td>
       <td>A structured knowledge base for large language model technologies, covering LLMs, Agents, RAG, model training, evaluation methods, and AI engineering practices</td>
     </tr>
     <tr>
