@@ -24,7 +24,7 @@ AI Programmer
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
-      <td>18+</td>
+      <td>24+</td>
       <td>面向知识库和 RAG 工作流的控制台项目，用于沉淀检索增强生成应用的工程实践</td>
     </tr>
     <tr>
@@ -116,7 +116,7 @@ AI Programmer
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
-      <td>18+</td>
+      <td>24+</td>
       <td>A console project for knowledge-base and RAG workflows, used to capture engineering practice for retrieval-augmented generation apps</td>
     </tr>
     <tr>
