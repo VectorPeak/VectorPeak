@@ -61,7 +61,7 @@ AI Programmer
       <td align="center">Coding&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/fill-contributions-graph">fill-contributions-graph</a></td>
       <td>0+</td>
-      <td>Explicit-only Codex skill for Excel-reviewed GitHub contribution planning with push-and-withdraw workflow</td>
+      <td>GitHub Contribution Graph 荒漠绿化治理工程</td>
     </tr>
     <tr>
       <td align="center">LLM&nbsp;tooling</td>
@@ -159,7 +159,7 @@ AI Programmer
       <td align="center">Coding&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/fill-contributions-graph">fill-contributions-graph</a></td>
       <td>0+</td>
-      <td>Explicit-only Codex skill for Excel-reviewed GitHub contribution planning with push-and-withdraw workflow</td>
+      <td>GitHub Contribution Graph 荒漠绿化治理工程</td>
     </tr>
     <tr>
       <td align="center">LLM&nbsp;tooling</td>
