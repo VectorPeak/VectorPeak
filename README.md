@@ -6,7 +6,7 @@
 
 AI Programmer
 
-- 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat, fill-contributions-graph。
+- 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat。
 - 1+ merged upstream PRs，包括 HiveMind。
 
 ### 项目
@@ -41,6 +41,12 @@ AI Programmer
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/fill-contributions-graph">fill-contributions-graph</a></td>
+      <td>2+</td>
+      <td>GitHub Contribution Graph 荒漠绿化治理工程</td>
+    </tr>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/lingban-ai-chat">lingban-ai-chat</a></td>
       <td>1+</td>
       <td>灵伴 AI 聊天 Android 客户端与后端 API 仓库</td>
@@ -56,12 +62,6 @@ AI Programmer
       <td><a href="https://github.com/VectorPeak/vectorpeak-agent-skills">vectorpeak-agent-skills</a></td>
       <td>2+</td>
       <td>可复用的 Agent / Codex 技能库，覆盖软件工程、知识工作和职业工作流自动化</td>
-    </tr>
-    <tr>
-      <td align="center">Coding&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/fill-contributions-graph">fill-contributions-graph</a></td>
-      <td>0+</td>
-      <td>GitHub Contribution Graph 荒漠绿化治理工程</td>
     </tr>
     <tr>
       <td align="center">LLM&nbsp;tooling</td>
@@ -104,7 +104,7 @@ AI Programmer
 
 AI Programmer
 
-- 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat, fill-contributions-graph.
+- 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat.
 - 1+ merged upstream PRs, including HiveMind.
 
 ### Projects
@@ -139,6 +139,12 @@ AI Programmer
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/fill-contributions-graph">fill-contributions-graph</a></td>
+      <td>2+</td>
+      <td>GitHub Contribution Graph 荒漠绿化治理工程</td>
+    </tr>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/lingban-ai-chat">lingban-ai-chat</a></td>
       <td>1+</td>
       <td>Lingban AI chat Android client and backend API repository</td>
@@ -154,12 +160,6 @@ AI Programmer
       <td><a href="https://github.com/VectorPeak/vectorpeak-agent-skills">vectorpeak-agent-skills</a></td>
       <td>2+</td>
       <td>A reusable Agent and Codex skill library for software engineering, knowledge work, and professional workflow automation</td>
-    </tr>
-    <tr>
-      <td align="center">Coding&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/fill-contributions-graph">fill-contributions-graph</a></td>
-      <td>0+</td>
-      <td>GitHub Contribution Graph 荒漠绿化治理工程</td>
     </tr>
     <tr>
       <td align="center">LLM&nbsp;tooling</td>
