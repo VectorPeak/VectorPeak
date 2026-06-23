@@ -43,7 +43,7 @@ AI Programmer
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/fill-contributions-graph">fill-contributions-graph</a></td>
       <td>2+</td>
-      <td>GitHub Contribution Graph 荒漠绿化治理工程</td>
+      <td>A playful project for re-greening the GitHub contribution graph</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
@@ -141,7 +141,7 @@ AI Programmer
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/fill-contributions-graph">fill-contributions-graph</a></td>
       <td>2+</td>
-      <td>GitHub Contribution Graph 荒漠绿化治理工程</td>
+      <td>A playful project for re-greening the GitHub contribution graph</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
