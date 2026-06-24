@@ -94,15 +94,15 @@ AI Programmer
 
 #### Agent frameworks / protocols / evals
 
-| Project | PR | What I Fixed |
+| Project | PR | 修复内容 |
 | :---: | :---: | :---: |
 | <div align="center">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">改进事件连接处理与重连逻辑，补充连接状态清理、监听器重建和异常分支处理，提升断线恢复的稳定性</div> |
 
 #### Applied AI / RAG / observability
 
-| Project | PR | What I Fixed |
+| Project | PR | 修复内容 |
 | :---: | :---: | :---: |
-| <div align="center">[LightRAG (36.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">修复资源落盘过程中的路径穿越风险，避免生成文件越过目标目录边界</div> |
+| <div align="center">[LightRAG (36.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">Prevent path traversal in asset materialization</div> |
 
 ---
 

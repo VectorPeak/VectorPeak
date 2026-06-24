@@ -43,7 +43,6 @@ CONTRIBUTION_AREAS = [
 
 ZH_CONTRIBUTION_FIXES = {
     "Improve event connection handling and reconnection logic": "改进事件连接处理与重连逻辑，补充连接状态清理、监听器重建和异常分支处理，提升断线恢复的稳定性",
-    "Prevent path traversal in asset materialization": "修复资源落盘过程中的路径穿越风险，避免生成文件越过目标目录边界",
 }
 
 EN_CONTRIBUTION_FIXES = {
@@ -392,7 +391,7 @@ def render_contributions(lines: list[str], contributions: list[dict[str, Any]], 
             "",
             f"#### {area}",
             "",
-            "| Project | PR | What I Fixed |",
+            "| Project | PR | 修复内容 |" if lang == "zh" else "| Project | PR | What I Fixed |",
             "| :---: | :---: | :---: |",
         ])
         rows = sorted(
