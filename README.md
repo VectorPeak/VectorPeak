@@ -7,7 +7,7 @@
 AI Programmer
 
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat。
-- 1+ merged upstream PRs，包括 HiveMind。
+- 2+ merged upstream PRs，包括 Lightrag, HiveMind。
 
 ### 项目
 
@@ -24,7 +24,7 @@ AI Programmer
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
-      <td>31+</td>
+      <td>30+</td>
       <td>面向知识库和 RAG 工作流的控制台项目，用于沉淀检索增强生成应用的工程实践</td>
     </tr>
     <tr>
@@ -43,7 +43,7 @@ AI Programmer
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/fill-contributions-graph">fill-contributions-graph</a></td>
       <td>2+</td>
-      <td>A playful project for re-greening the GitHub contribution graph</td>
+      <td>GitHub Contribution Graph 荒漠绿化治理工程</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
@@ -66,7 +66,7 @@ AI Programmer
     <tr>
       <td align="center">LLM&nbsp;tooling</td>
       <td><a href="https://github.com/VectorPeak/LLM-Wiki">LLM-Wiki</a></td>
-      <td>32+</td>
+      <td>31+</td>
       <td>大语言模型知识库，覆盖 LLM、Agent、RAG、训练、评测方法和 AI 工程实践</td>
     </tr>
     <tr>
@@ -98,6 +98,12 @@ AI Programmer
 | :---: | :---: | :---: |
 | <div align="center">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">改进事件连接处理与重连逻辑，补充连接状态清理、监听器重建和异常分支处理，提升断线恢复的稳定性</div> |
 
+#### Applied AI / RAG / observability
+
+| Project | PR | What I Fixed |
+| :---: | :---: | :---: |
+| <div align="center">[Lightrag (36.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">Prevent path traversal in asset materialization</div> |
+
 ---
 
 ## Hey, I'm VectorPeak 👋
@@ -105,7 +111,7 @@ AI Programmer
 AI Programmer
 
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat.
-- 1+ merged upstream PRs, including HiveMind.
+- 2+ merged upstream PRs, including Lightrag, HiveMind.
 
 ### Projects
 
@@ -122,7 +128,7 @@ AI Programmer
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
-      <td>31+</td>
+      <td>30+</td>
       <td>A console project for knowledge-base and RAG workflows, used to capture engineering practice for retrieval-augmented generation apps</td>
     </tr>
     <tr>
@@ -141,7 +147,7 @@ AI Programmer
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/fill-contributions-graph">fill-contributions-graph</a></td>
       <td>2+</td>
-      <td>A playful project for re-greening the GitHub contribution graph</td>
+      <td>GitHub Contribution Graph 荒漠绿化治理工程</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
@@ -164,7 +170,7 @@ AI Programmer
     <tr>
       <td align="center">LLM&nbsp;tooling</td>
       <td><a href="https://github.com/VectorPeak/LLM-Wiki">LLM-Wiki</a></td>
-      <td>32+</td>
+      <td>31+</td>
       <td>A structured knowledge base for large language model technologies, covering LLMs, Agents, RAG, model training, evaluation methods, and AI engineering practices</td>
     </tr>
     <tr>
@@ -195,3 +201,9 @@ AI Programmer
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
 | <div align="center">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">Improved event connection handling and reconnection logic, strengthening disconnect recovery and long-running connection stability</div> |
+
+#### Applied AI / RAG / observability
+
+| Project | PR | What I Fixed |
+| :---: | :---: | :---: |
+| <div align="center">[Lightrag (36.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">Prevent path traversal in asset materialization</div> |
