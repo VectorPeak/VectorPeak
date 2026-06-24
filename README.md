@@ -7,7 +7,7 @@
 AI Programmer
 
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat。
-- 2+ merged upstream PRs，包括 LightRAG, HiveMind。
+- 4+ merged upstream PRs，包括 LightRAG, AstrBot, HiveMind。
 
 ### 项目
 
@@ -102,7 +102,9 @@ AI Programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| <div align="center">[LightRAG (36.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">修复资源文件生成过程中的路径穿越漏洞，校验目录边界，阻止越权写入或覆盖文件。</div> |
+| <div align="center">[LightRAG (36.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">Prevent path traversal in asset materialization</div> |
+| <div align="center">[AstrBot (35.2k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Prevent path traversal vulnerability in knowledge base upload filenames</div> |
+| <div align="center">[AstrBot (35.2k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Prevent path traversal vulnerability in plugin upload filenames</div> |
 
 ---
 
@@ -111,7 +113,7 @@ AI Programmer
 AI Programmer
 
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat.
-- 2+ merged upstream PRs, including LightRAG, HiveMind.
+- 4+ merged upstream PRs, including LightRAG, AstrBot, HiveMind.
 
 ### Projects
 
@@ -207,3 +209,5 @@ AI Programmer
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
 | <div align="center">[LightRAG (36.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">Prevent path traversal in asset materialization</div> |
+| <div align="center">[AstrBot (35.2k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Prevent path traversal vulnerability in knowledge base upload filenames</div> |
+| <div align="center">[AstrBot (35.2k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Prevent path traversal vulnerability in plugin upload filenames</div> |
