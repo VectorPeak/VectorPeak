@@ -102,7 +102,7 @@ AI Programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| <div align="center">[LightRAG (36.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">Prevent path traversal in asset materialization</div> |
+| <div align="center">[LightRAG (36.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">修复资产物料化过程中的路径遍历风险：对待写入资源路径进行规范化和目标目录边界校验，阻止通过 `../` 或绝对路径逃逸预期目录，避免非预期文件被覆盖或读取，提升资产生成链路的安全性。</div> |
 
 ---
 
