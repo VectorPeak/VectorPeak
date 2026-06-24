@@ -226,16 +226,31 @@ def generated_notes(repo: dict[str, Any]) -> str:
     return f"Public repository for {repo.get('name', 'this project')}"
 
 
-def auto_project(repo: dict[str, Any]) -> dict[str, Any]:
+def english_project_notes(repo: dict[str, Any]) -> str:
     notes = generated_notes(repo)
+    if contains_cjk(notes):
+        return f"Public repository for {repo.get('name', 'this project')}"
+    return notes
+
+
+def chinese_project_notes(repo: dict[str, Any]) -> str:
+    notes = generated_notes(repo)
+    if contains_cjk(notes):
+        return notes
+    return "待补充项目说明"
+
+
+def auto_project(repo: dict[str, Any]) -> dict[str, Any]:
+    en_notes = english_project_notes(repo)
+    zh_notes = chinese_project_notes(repo)
     return {
         "area": infer_area(repo),
         "name": repo["name"],
         "url": repo.get("url"),
         "stars": repo.get("stars", 0),
-        "notes": notes,
-        "zh_notes": notes,
-        "en_notes": notes,
+        "notes": en_notes,
+        "zh_notes": zh_notes,
+        "en_notes": en_notes,
     }
 
 
@@ -325,7 +340,7 @@ def contribution_summary(contributions: list[dict[str, Any]], data: dict[str, An
     seen: set[str] = set()
     repos: list[str] = []
     for item in contributions:
-        repo = str(item.get("repo_display") or item.get("repo") or "").strip()
+        repo = contribution_repo_display(item, lang).strip()
         if repo and repo.lower() not in seen:
             seen.add(repo.lower())
             repos.append(repo)
@@ -335,8 +350,17 @@ def contribution_summary(contributions: list[dict[str, Any]], data: dict[str, An
     return f"{count}+ merged upstream PRs, including {joined}."
 
 
-def contribution_project_link(item: dict[str, Any]) -> str:
-    label = f"{item.get('repo_display') or item.get('repo')} ({format_compact_stars(item.get('repo_stars'))})"
+def contribution_repo_display(item: dict[str, Any], lang: str) -> str:
+    if lang == "en":
+        display = str(item.get("repo_display_en") or item.get("repo_display") or item.get("repo") or "").strip()
+        if contains_cjk(display):
+            return "Upstream repository"
+        return display
+    return str(item.get("repo_display_zh") or item.get("repo_display") or item.get("repo") or "").strip()
+
+
+def contribution_project_link(item: dict[str, Any], lang: str) -> str:
+    label = f"{contribution_repo_display(item, lang)} ({format_compact_stars(item.get('repo_stars'))})"
     if item.get("repo_url"):
         return f"[{label}]({item['repo_url']})"
     return label
@@ -369,7 +393,10 @@ def contribution_fix_text(item: dict[str, Any], lang: str) -> str:
     title = normalize_contribution_title(item.get("title") or "")
     if lang == "zh":
         return item.get("zh_title") or ZH_CONTRIBUTION_FIXES.get(title, title)
-    return item.get("en_title") or EN_CONTRIBUTION_FIXES.get(title, title)
+    text = item.get("en_title") or EN_CONTRIBUTION_FIXES.get(title, title)
+    if contains_cjk(text):
+        return "Merged upstream fix"
+    return text
 
 
 def render_contributions(lines: list[str], contributions: list[dict[str, Any]], lang: str) -> None:
@@ -407,7 +434,7 @@ def render_contributions(lines: list[str], contributions: list[dict[str, Any]], 
                 "| "
                 + " | ".join(
                     [
-                        md_center_raw(contribution_project_link(item)),
+                        md_center_raw(contribution_project_link(item, lang)),
                         contribution_pr_link(item),
                         md_left(contribution_fix_text(item, lang)),
                     ]

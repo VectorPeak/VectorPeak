@@ -98,12 +98,27 @@ def compact_repo_display(full_name: str) -> str:
         "transformers": "Hugging Face Transformers",
         "hivemind": "HiveMind",
         "lightrag": "LightRAG",
+        "openhands": "OpenHands",
+        "langgraph": "LangGraph",
+        "llama.cpp": "llama.cpp",
+        "mcp-go": "mcp-go",
+        "mcp-go-sdk": "mcp-go-sdk",
+        "qwen-agent": "Qwen-Agent",
+        "agentscope": "AgentScope",
+        "inspect_ai": "Inspect AI",
+        "inspect-ai": "Inspect AI",
+        "google-genai": "Google GenAI",
+        "python-genai": "Python GenAI",
         "qwen-code": "Qwen Code",
         "github-mcp-server": "GitHub MCP Server",
         "microsoft-agent-framework": "Microsoft Agent Framework",
         "litellm": "LiteLLM",
     }
-    return special.get(name.lower(), name.replace("-", " ").replace("_", " ").title())
+    if name.lower() in special:
+        return special[name.lower()]
+    if any(char.isupper() for char in name) or "." in name:
+        return name.replace("-", " ").replace("_", " ")
+    return name.replace("-", " ").replace("_", " ").title()
 
 
 def contribution_area(full_name: str) -> str:
@@ -177,6 +192,8 @@ def merged_upstream_pr_summary(owner: str, token: str | None, min_stars: int, ma
             {
                 "repo": repo,
                 "repo_display": compact_repo_display(repo),
+                "repo_display_en": compact_repo_display(repo),
+                "repo_display_zh": compact_repo_display(repo),
                 "area": contribution_area(repo),
                 "repo_url": repo_urls[repo],
                 "repo_stars": repo_star_counts[repo],
@@ -191,6 +208,8 @@ def merged_upstream_pr_summary(owner: str, token: str | None, min_stars: int, ma
         {
             "name": repo,
             "display": compact_repo_display(repo),
+            "display_en": compact_repo_display(repo),
+            "display_zh": compact_repo_display(repo),
             "url": repo_urls[repo],
             "count": repo_counts[repo],
             "stars": repo_star_counts[repo],
