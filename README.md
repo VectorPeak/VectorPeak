@@ -6,118 +6,6 @@
 
 AI Programmer
 
-- 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat。
-- 5+ merged upstream PRs，包括 LightRAG, AstrBot, Mooncake, HiveMind。
-
-### 项目
-
-<table width="100%">
-  <thead>
-    <tr>
-      <th align="center" width="16%">Area</th>
-      <th align="center" width="24%">Project</th>
-      <th align="left" width="8%">Stars</th>
-      <th align="center" width="52%">Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">Applied&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
-      <td>30+</td>
-      <td>面向知识库和 RAG 工作流的控制台项目，用于沉淀检索增强生成应用的工程实践</td>
-    </tr>
-    <tr>
-      <td align="center">Applied&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/vectorpeak-blogs">vectorpeak-blogs</a></td>
-      <td>3+</td>
-      <td>个人博客与知识站点，用于记录技术学习、深度学习实践、算法题解与阶段性思考</td>
-    </tr>
-    <tr>
-      <td align="center">Applied&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/codex-pet-live">codex-pet-live</a></td>
-      <td>2+</td>
-      <td>面向 Windows 桌面的 Codex 宠物运行时，用于承载、展示和驱动交互式桌面宠物</td>
-    </tr>
-    <tr>
-      <td align="center">Applied&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/fill-contributions-graph">fill-contributions-graph</a></td>
-      <td>2+</td>
-      <td>GitHub Contribution Graph 荒漠绿化治理工程</td>
-    </tr>
-    <tr>
-      <td align="center">Applied&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/lingban-ai-chat">lingban-ai-chat</a></td>
-      <td>1+</td>
-      <td>灵伴 AI 聊天 Android 客户端与后端 API 仓库</td>
-    </tr>
-    <tr>
-      <td align="center">Coding&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/OpenSense">OpenSense</a></td>
-      <td>2+</td>
-      <td>面向已知开源项目的每日 PR 机会发现工具</td>
-    </tr>
-    <tr>
-      <td align="center">Coding&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/vectorpeak-agent-skills">vectorpeak-agent-skills</a></td>
-      <td>2+</td>
-      <td>可复用的 Agent / Codex 技能库，覆盖软件工程、知识工作和职业工作流自动化</td>
-    </tr>
-    <tr>
-      <td align="center">LLM&nbsp;tooling</td>
-      <td><a href="https://github.com/VectorPeak/LLM-Wiki">LLM-Wiki</a></td>
-      <td>31+</td>
-      <td>大语言模型知识库，覆盖 LLM、Agent、RAG、训练、评测方法和 AI 工程实践</td>
-    </tr>
-    <tr>
-      <td align="center">Research</td>
-      <td><a href="https://github.com/VectorPeak/carbon-tower-predictor">carbon-tower-predictor</a></td>
-      <td>2+</td>
-      <td>面向工业碳化塔取出液温度预测与预测性维护的时序建模方案</td>
-    </tr>
-    <tr>
-      <td align="center">Research</td>
-      <td><a href="https://github.com/VectorPeak/industrial-fault-text-classifier">industrial-fault-text-classifier</a></td>
-      <td>2+</td>
-      <td>基于 BERT 的化工设备故障文本分类方案，用于报修工单分析、故障类别识别和风险预警</td>
-    </tr>
-    <tr>
-      <td align="center">Research</td>
-      <td><a href="https://github.com/VectorPeak/kaggle-tabular-forge">kaggle-tabular-forge</a></td>
-      <td>1+</td>
-      <td>面向 Kaggle 表格竞赛的实验工厂，覆盖特征挖掘、OOF 纪律、深度 stacking 和 AI 评审工作流</td>
-    </tr>
-  </tbody>
-</table>
-
-### 开源贡献
-
-#### AI infrastructure / model systems
-
-| Project | PR | What I Fixed |
-| :---: | :---: | :---: |
-| <div align="center">[Mooncake (5.7k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">修复 Mooncake Store REST GET 接口丢失空值的问题，确保客户端完整读取缓存元数据与空字段。</div> |
-
-#### Agent frameworks / protocols / evals
-
-| Project | PR | What I Fixed |
-| :---: | :---: | :---: |
-| <div align="center">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">改进事件连接处理与重连逻辑，补充连接状态清理、监听器重建和异常分支处理，提升断线恢复的稳定性。</div> |
-
-#### Applied AI / RAG / observability
-
-| Project | PR | What I Fixed |
-| :---: | :---: | :---: |
-| <div align="center">[LightRAG (36.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">修复资源文件生成过程中的路径穿越漏洞，校验目录边界，阻止越权写入或覆盖文件，保障生成流程安全。</div> |
-| <div align="center">[AstrBot (35.2k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">修复知识库上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。</div> |
-| <div align="center">[AstrBot (35.2k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">修复插件上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。</div> |
-
----
-
-## Hey, I'm VectorPeak 👋
-
-AI Programmer
-
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat.
 - 5+ merged upstream PRs, including LightRAG, AstrBot, Mooncake, HiveMind.
 
@@ -223,3 +111,115 @@ AI Programmer
 | <div align="center">[LightRAG (36.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">Fixed a path traversal vulnerability in resource file generation by validating directory boundaries and preventing unauthorized writes or overwrites</div> |
 | <div align="center">[AstrBot (35.2k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
 | <div align="center">[AstrBot (35.2k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
+
+---
+
+## Hey, I'm VectorPeak 👋
+
+AI Programmer
+
+- 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat。
+- 5+ merged upstream PRs，包括 LightRAG, AstrBot, Mooncake, HiveMind。
+
+### 项目
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="center" width="16%">Area</th>
+      <th align="center" width="24%">Project</th>
+      <th align="left" width="8%">Stars</th>
+      <th align="center" width="52%">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
+      <td>30+</td>
+      <td>面向知识库和 RAG 工作流的控制台项目，用于沉淀检索增强生成应用的工程实践</td>
+    </tr>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/vectorpeak-blogs">vectorpeak-blogs</a></td>
+      <td>3+</td>
+      <td>个人博客与知识站点，用于记录技术学习、深度学习实践、算法题解与阶段性思考</td>
+    </tr>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/codex-pet-live">codex-pet-live</a></td>
+      <td>2+</td>
+      <td>面向 Windows 桌面的 Codex 宠物运行时，用于承载、展示和驱动交互式桌面宠物</td>
+    </tr>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/fill-contributions-graph">fill-contributions-graph</a></td>
+      <td>2+</td>
+      <td>GitHub Contribution Graph 荒漠绿化治理工程</td>
+    </tr>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/lingban-ai-chat">lingban-ai-chat</a></td>
+      <td>1+</td>
+      <td>灵伴 AI 聊天 Android 客户端与后端 API 仓库</td>
+    </tr>
+    <tr>
+      <td align="center">Coding&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/OpenSense">OpenSense</a></td>
+      <td>2+</td>
+      <td>面向已知开源项目的每日 PR 机会发现工具</td>
+    </tr>
+    <tr>
+      <td align="center">Coding&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/vectorpeak-agent-skills">vectorpeak-agent-skills</a></td>
+      <td>2+</td>
+      <td>可复用的 Agent / Codex 技能库，覆盖软件工程、知识工作和职业工作流自动化</td>
+    </tr>
+    <tr>
+      <td align="center">LLM&nbsp;tooling</td>
+      <td><a href="https://github.com/VectorPeak/LLM-Wiki">LLM-Wiki</a></td>
+      <td>31+</td>
+      <td>大语言模型知识库，覆盖 LLM、Agent、RAG、训练、评测方法和 AI 工程实践</td>
+    </tr>
+    <tr>
+      <td align="center">Research</td>
+      <td><a href="https://github.com/VectorPeak/carbon-tower-predictor">carbon-tower-predictor</a></td>
+      <td>2+</td>
+      <td>面向工业碳化塔取出液温度预测与预测性维护的时序建模方案</td>
+    </tr>
+    <tr>
+      <td align="center">Research</td>
+      <td><a href="https://github.com/VectorPeak/industrial-fault-text-classifier">industrial-fault-text-classifier</a></td>
+      <td>2+</td>
+      <td>基于 BERT 的化工设备故障文本分类方案，用于报修工单分析、故障类别识别和风险预警</td>
+    </tr>
+    <tr>
+      <td align="center">Research</td>
+      <td><a href="https://github.com/VectorPeak/kaggle-tabular-forge">kaggle-tabular-forge</a></td>
+      <td>1+</td>
+      <td>面向 Kaggle 表格竞赛的实验工厂，覆盖特征挖掘、OOF 纪律、深度 stacking 和 AI 评审工作流</td>
+    </tr>
+  </tbody>
+</table>
+
+### 开源贡献
+
+#### AI infrastructure / model systems
+
+| Project | PR | What I Fixed |
+| :---: | :---: | :---: |
+| <div align="center">[Mooncake (5.7k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">修复 Mooncake Store REST GET 接口丢失空值的问题，确保客户端完整读取缓存元数据与空字段。</div> |
+
+#### Agent frameworks / protocols / evals
+
+| Project | PR | What I Fixed |
+| :---: | :---: | :---: |
+| <div align="center">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">改进事件连接处理与重连逻辑，补充连接状态清理、监听器重建和异常分支处理，提升断线恢复的稳定性。</div> |
+
+#### Applied AI / RAG / observability
+
+| Project | PR | What I Fixed |
+| :---: | :---: | :---: |
+| <div align="center">[LightRAG (36.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">修复资源文件生成过程中的路径穿越漏洞，校验目录边界，阻止越权写入或覆盖文件，保障生成流程安全。</div> |
+| <div align="center">[AstrBot (35.2k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">修复知识库上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。</div> |
+| <div align="center">[AstrBot (35.2k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">修复插件上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。</div> |

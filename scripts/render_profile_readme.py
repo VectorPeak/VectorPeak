@@ -315,9 +315,15 @@ def validate_projects(projects: list[dict[str, Any]]) -> None:
 
 
 def validate_english_section(content: str) -> None:
-    _, separator, english_section = content.partition("\n---\n\n")
+    first_section, separator, second_section = content.partition("\n---\n\n")
     if not separator:
         raise ValueError("Rendered README is missing the bilingual section separator.")
+    if "### Projects" in first_section or "### Open Source Contributions" in first_section:
+        english_section = first_section
+    elif "### Projects" in second_section or "### Open Source Contributions" in second_section:
+        english_section = second_section
+    else:
+        raise ValueError("Rendered README is missing the English section.")
     if contains_cjk(english_section):
         first_match = CJK_RE.search(english_section)
         start = max((first_match.start() if first_match else 0) - 40, 0)
@@ -609,9 +615,9 @@ def render(data: dict[str, Any]) -> str:
     contributions = contribution_rows(data)
     validate_projects(projects)
     lines: list[str] = [GENERATED_NOTICE, ""]
-    render_section(lines, data, projects, contributions, "zh", include_badges=True)
+    render_section(lines, data, projects, contributions, "en", include_badges=True)
     lines.extend(["", "---", ""])
-    render_section(lines, data, projects, contributions, "en", include_badges=False)
+    render_section(lines, data, projects, contributions, "zh", include_badges=False)
     content = "\n".join(lines).rstrip() + "\n"
     validate_english_section(content)
     return content
