@@ -102,7 +102,7 @@ AI Programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| <div align="center">[LightRAG (36.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">修复资产物料化路径遍历风险，规范化资源路径并校验目录边界，阻止越权写入或覆盖文件。</div> |
+| <div align="center">[LightRAG (36.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">修复资源文件生成过程中的路径穿越漏洞，校验目录边界，阻止越权写入或覆盖文件。</div> |
 
 ---
 
