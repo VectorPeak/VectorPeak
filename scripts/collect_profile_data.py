@@ -97,6 +97,7 @@ def compact_repo_display(full_name: str) -> str:
         "vllm": "vLLM",
         "transformers": "Hugging Face Transformers",
         "hivemind": "HiveMind",
+        "lightrag": "LightRAG",
         "qwen-code": "Qwen Code",
         "github-mcp-server": "GitHub MCP Server",
         "microsoft-agent-framework": "Microsoft Agent Framework",

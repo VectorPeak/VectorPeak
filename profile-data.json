@@ -17,6 +17,15 @@
     },
     {
       "area": "Applied agents",
+      "name": "fill-contributions-graph",
+      "url": "https://github.com/VectorPeak/fill-contributions-graph",
+      "stars": 0,
+      "zh_notes": "GitHub Contribution Graph 荒漠绿化治理工程。",
+      "en_notes": "A utility for backfilling and maintaining GitHub contribution graph activity.",
+      "notes": "A utility for backfilling and maintaining GitHub contribution graph activity."
+    },
+    {
+      "area": "Applied agents",
       "name": "vectorpeak-blogs",
       "url": "https://github.com/VectorPeak/vectorpeak-blogs",
       "stars": 0,

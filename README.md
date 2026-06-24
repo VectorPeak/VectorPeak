@@ -7,7 +7,7 @@
 AI Programmer
 
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat。
-- 2+ merged upstream PRs，包括 Lightrag, HiveMind。
+- 2+ merged upstream PRs，包括 LightRAG, HiveMind。
 
 ### 项目
 
@@ -102,7 +102,7 @@ AI Programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| <div align="center">[Lightrag (36.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">Prevent path traversal in asset materialization</div> |
+| <div align="center">[LightRAG (36.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">修复资源落盘过程中的路径穿越风险，避免生成文件越过目标目录边界</div> |
 
 ---
 
@@ -111,7 +111,7 @@ AI Programmer
 AI Programmer
 
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat.
-- 2+ merged upstream PRs, including Lightrag, HiveMind.
+- 2+ merged upstream PRs, including LightRAG, HiveMind.
 
 ### Projects
 
@@ -147,7 +147,7 @@ AI Programmer
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/fill-contributions-graph">fill-contributions-graph</a></td>
       <td>2+</td>
-      <td>GitHub Contribution Graph 荒漠绿化治理工程</td>
+      <td>A utility for backfilling and maintaining GitHub contribution graph activity</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
@@ -206,4 +206,4 @@ AI Programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| <div align="center">[Lightrag (36.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">Prevent path traversal in asset materialization</div> |
+| <div align="center">[LightRAG (36.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">Prevent path traversal in asset materialization</div> |
