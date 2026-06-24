@@ -7,7 +7,7 @@
 AI Programmer
 
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat。
-- 4+ merged upstream PRs，包括 LightRAG, AstrBot, HiveMind。
+- 5+ merged upstream PRs，包括 LightRAG, AstrBot, Mooncake, HiveMind。
 
 ### 项目
 
@@ -92,6 +92,12 @@ AI Programmer
 
 ### 开源贡献
 
+#### AI infrastructure / model systems
+
+| Project | PR | What I Fixed |
+| :---: | :---: | :---: |
+| <div align="center">[Mooncake (5.7k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">修复 Mooncake Store REST GET 接口丢失空值的问题。</div> |
+
 #### Agent frameworks / protocols / evals
 
 | Project | PR | What I Fixed |
@@ -113,7 +119,7 @@ AI Programmer
 AI Programmer
 
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat.
-- 4+ merged upstream PRs, including LightRAG, AstrBot, HiveMind.
+- 5+ merged upstream PRs, including LightRAG, AstrBot, Mooncake, HiveMind.
 
 ### Projects
 
@@ -197,6 +203,12 @@ AI Programmer
 </table>
 
 ### Open Source Contributions
+
+#### AI infrastructure / model systems
+
+| Project | PR | What I Fixed |
+| :---: | :---: | :---: |
+| <div align="center">[Mooncake (5.7k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">[Bugfix] Preserve empty values in Mooncake Store REST GET</div> |
 
 #### Agent frameworks / protocols / evals
 
