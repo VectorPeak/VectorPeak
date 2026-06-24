@@ -34,6 +34,9 @@ jobs:
         run: python scripts/collect_profile_data.py --owner VectorPeak --out github-facts.json
 
       - name: Render README
+        env:
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+          PROFILE_TRANSLATION_MODEL: qwen-plus
         run: python scripts/render_profile_readme.py --data profile-data.json --facts github-facts.json --out README.md
 
       - name: Commit changes
