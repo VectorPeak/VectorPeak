@@ -418,7 +418,7 @@ def render_contributions(lines: list[str], contributions: list[dict[str, Any]], 
             "",
             f"#### {area}",
             "",
-            "| Project | PR | 修复内容 |" if lang == "zh" else "| Project | PR | What I Fixed |",
+            "| Project | PR | What I Fixed |",
             "| :---: | :---: | :---: |",
         ])
         rows = sorted(
