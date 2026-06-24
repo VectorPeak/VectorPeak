@@ -46,7 +46,7 @@ CONTRIBUTION_AREAS = [
 
 ZH_CONTRIBUTION_FIXES = {
     "Improve event connection handling and reconnection logic": "改进事件连接处理与重连逻辑，补充连接状态清理、监听器重建和异常分支处理，提升断线恢复的稳定性",
-    "Prevent path traversal in asset materialization": "修复资源文件生成过程中的路径穿越漏洞，校验目录边界，阻止越权写入或覆盖文件。",
+    "Prevent path traversal in asset materialization": "修复资源文件生成过程中的路径穿越漏洞，校验目录边界，阻止越权写入或覆盖文件，保障生成流程安全。",
     "Prevent path traversal vulnerability in knowledge base upload filenames": "修复知识库上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。",
     "Prevent path traversal vulnerability in plugin upload filenames": "修复插件上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。",
 }
