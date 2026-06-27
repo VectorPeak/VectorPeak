@@ -102,7 +102,7 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| <div align="center">[Qwen Code (25.5k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">Reject userinfo URLs in WebFetch validation</div> |
+| <div align="center">[Qwen Code (25.6k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">Reject userinfo URLs in WebFetch validation</div> |
 | <div align="center">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">Improved event connection handling and reconnection logic, strengthening disconnect recovery and long-running connection stability</div> |
 
 #### Applied AI / RAG / observability
@@ -111,8 +111,8 @@ AI-native programmer
 | :---: | :---: | :---: |
 | <div align="center">[LightRAG (37.0k★)](https://github.com/HKUDS/LightRAG)</div> | [#3324](https://github.com/HKUDS/LightRAG/pull/3324) | <div align="left">Prevent task ID URL path injection</div> |
 | <div align="center">[LightRAG (37.0k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">Fixed a path traversal vulnerability in resource file generation by validating directory boundaries and preventing unauthorized writes or overwrites</div> |
-| <div align="center">[AstrBot (35.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
-| <div align="center">[AstrBot (35.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
+| <div align="center">[AstrBot (35.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
+| <div align="center">[AstrBot (35.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
 
 ---
 
@@ -216,7 +216,7 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| <div align="center">[Qwen Code (25.5k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">修复 WebFetch 验证中 userinfo URL 导致的潜在安全漏洞。</div> |
+| <div align="center">[Qwen Code (25.6k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">修复 WebFetch 验证中 userinfo URL 导致的潜在安全漏洞。</div> |
 | <div align="center">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">改进事件连接处理与重连逻辑，补充连接状态清理、监听器重建和异常分支处理，提升断线恢复的稳定性。</div> |
 
 #### Applied AI / RAG / observability
@@ -225,5 +225,5 @@ AI-native programmer
 | :---: | :---: | :---: |
 | <div align="center">[LightRAG (37.0k★)](https://github.com/HKUDS/LightRAG)</div> | [#3324](https://github.com/HKUDS/LightRAG/pull/3324) | <div align="left">修复任务 ID URL 路径注入问题。</div> |
 | <div align="center">[LightRAG (37.0k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">修复资源文件生成过程中的路径穿越漏洞，校验目录边界，阻止越权写入或覆盖文件，保障生成流程安全。</div> |
-| <div align="center">[AstrBot (35.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">修复知识库上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。</div> |
-| <div align="center">[AstrBot (35.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">修复插件上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。</div> |
+| <div align="center">[AstrBot (35.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">修复知识库上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。</div> |
+| <div align="center">[AstrBot (35.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">修复插件上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。</div> |
