@@ -7,7 +7,7 @@
 AI-native programmer
 
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat.
-- 7+ merged upstream PRs, including LightRAG, AstrBot, Qwen Code, Mooncake, HiveMind.
+- 8+ merged upstream PRs, including LightRAG, AstrBot, Qwen Code, Mooncake, HiveMind.
 
 ### Projects
 
@@ -102,6 +102,7 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
+| <div align="center">[Qwen Code (25.6k★)](https://github.com/QwenLM/qwen-code)</div> | [#5829](https://github.com/QwenLM/qwen-code/pull/5829) | <div align="left">Reject unsafe source slugs before deletion</div> |
 | <div align="center">[Qwen Code (25.6k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">Reject userinfo URLs in WebFetch validation</div> |
 | <div align="center">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">Improved event connection handling and reconnection logic, strengthening disconnect recovery and long-running connection stability</div> |
 
@@ -121,7 +122,7 @@ AI-native programmer
 AI-native programmer
 
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat。
-- 7+ merged upstream PRs，包括 LightRAG, AstrBot, Qwen Code, Mooncake, HiveMind。
+- 8+ merged upstream PRs，包括 LightRAG, AstrBot, Qwen Code, Mooncake, HiveMind。
 
 ### 项目
 
@@ -216,6 +217,7 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
+| <div align="center">[Qwen Code (25.6k★)](https://github.com/QwenLM/qwen-code)</div> | [#5829](https://github.com/QwenLM/qwen-code/pull/5829) | <div align="left">删除前拒绝不安全的源 slug，防止路径穿越漏洞。</div> |
 | <div align="center">[Qwen Code (25.6k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">修复 WebFetch 验证中 userinfo URL 导致的潜在安全漏洞。</div> |
 | <div align="center">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">改进事件连接处理与重连逻辑，补充连接状态清理、监听器重建和异常分支处理，提升断线恢复的稳定性。</div> |
 
