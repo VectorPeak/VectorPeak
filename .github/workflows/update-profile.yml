@@ -40,9 +40,11 @@ jobs:
         run: python scripts/render_profile_readme.py --data profile-data.json --facts github-facts.json --out README.md
 
       - name: Commit changes
+        env:
+          PUSH_PAT: ${{ secrets.WORKFLOW_PUSH_PAT }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
           git diff --cached --quiet || git commit -m "chore: update profile README"
-          git push origin HEAD:main
+          git push "https://x-access-token:${PUSH_PAT}@github.com/VectorPeak/VectorPeak.git" HEAD:main
