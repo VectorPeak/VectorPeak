@@ -84,9 +84,9 @@
       "name": "carbon-tower-predictor",
       "url": "https://github.com/VectorPeak/carbon-tower-predictor",
       "stars": 0,
-      "zh_notes": "基于 Kaggle 数据集的工业碳化塔取出液温度预测项目，用历史 DCS 传感器数据进行趋势预测、异常预警与预测性维护。",
-      "en_notes": "A Kaggle-dataset-based industrial carbonization tower outlet temperature prediction project using historical DCS sensor data for trend forecasting, anomaly warning, and predictive maintenance.",
-      "notes": "A Kaggle-dataset-based industrial carbonization tower outlet temperature prediction project using historical DCS sensor data for trend forecasting, anomaly warning, and predictive maintenance."
+      "zh_notes": "工业碳化塔取出液温度预测项目，用历史 DCS 传感器数据进行趋势预测、异常预警与预测性维护。",
+      "en_notes": "An industrial carbonization tower outlet temperature prediction project using historical DCS sensor data for trend forecasting, anomaly warning, and predictive maintenance.",
+      "notes": "An industrial carbonization tower outlet temperature prediction project using historical DCS sensor data for trend forecasting, anomaly warning, and predictive maintenance."
     },
     {
       "area": "Research",

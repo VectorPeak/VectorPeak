@@ -73,7 +73,7 @@ AI-native programmer
       <td align="center">Research</td>
       <td><a href="https://github.com/VectorPeak/carbon-tower-predictor">carbon-tower-predictor</a></td>
       <td>2+</td>
-      <td>A Kaggle-dataset-based industrial carbonization tower outlet temperature prediction project using historical DCS sensor data for trend forecasting, anomaly warning, and predictive maintenance</td>
+      <td>An industrial carbonization tower outlet temperature prediction project using historical DCS sensor data for trend forecasting, anomaly warning, and predictive maintenance</td>
     </tr>
     <tr>
       <td align="center">Research</td>
@@ -200,7 +200,7 @@ AI-native programmer
       <td align="center">Research</td>
       <td><a href="https://github.com/VectorPeak/carbon-tower-predictor">carbon-tower-predictor</a></td>
       <td>2+</td>
-      <td>基于 Kaggle 数据集的工业碳化塔取出液温度预测项目，用历史 DCS 传感器数据进行趋势预测、异常预警与预测性维护</td>
+      <td>工业碳化塔取出液温度预测项目，用历史 DCS 传感器数据进行趋势预测、异常预警与预测性维护</td>
     </tr>
     <tr>
       <td align="center">Research</td>
