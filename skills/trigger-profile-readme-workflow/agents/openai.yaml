@@ -1,0 +1,4 @@
+﻿name: trigger-profile-readme-workflow
+display_name: Trigger Profile README Workflow
+short_description: Trigger and verify the VectorPeak profile README workflow.
+default_prompt: Trigger the VectorPeak profile README workflow and verify whether it succeeded, created a PR, or exited with no README diff.
