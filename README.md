@@ -6,8 +6,8 @@
 
 AI-native programmer
 
-- 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat.
-- 14+ merged upstream PRs, including LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor.
+- 11 public projects, led by KnowFoundry-RAG-Console, LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat.
+- 18+ merged upstream PRs, including vLLM, LightRAG, AstrBot, AgentScope, Qwen Code.
 
 ### Projects
 
@@ -24,7 +24,7 @@ AI-native programmer
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
-      <td>30+</td>
+      <td>29+</td>
       <td>A console project for knowledge-base and RAG workflows, used to capture engineering practice for retrieval-augmented generation apps</td>
     </tr>
     <tr>
@@ -66,7 +66,7 @@ AI-native programmer
     <tr>
       <td align="center">LLM&nbsp;tooling</td>
       <td><a href="https://github.com/VectorPeak/LLM-Wiki">LLM-Wiki</a></td>
-      <td>31+</td>
+      <td>29+</td>
       <td>A structured knowledge base for large language model technologies, covering LLMs, Agents, RAG, model training, evaluation methods, and AI engineering practices</td>
     </tr>
     <tr>
@@ -96,6 +96,7 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
+| <div align="center">[vLLM (84.9k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">[Bugfix] Align OpenCV video metadata timeline</div> |
 | <div align="center">[Mooncake (5.7k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">Preserved empty values in the Mooncake Store REST GET API so clients can reliably read cache metadata and blank fields</div> |
 
 #### Agent frameworks / protocols / evals
@@ -103,6 +104,7 @@ AI-native programmer
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
 | <div align="center">[AgentScope (27.3k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">Reject negative grep pagination values</div> |
+| <div align="center">[Qwen Code (25.7k★)](https://github.com/QwenLM/qwen-code)</div> | [#6033](https://github.com/QwenLM/qwen-code/pull/6033) | <div align="left">Parse tagged thinking for GLM responses</div> |
 | <div align="center">[Qwen Code (25.7k★)](https://github.com/QwenLM/qwen-code)</div> | [#6029](https://github.com/QwenLM/qwen-code/pull/6029) | <div align="left">Support Windows-style tilde paths</div> |
 | <div align="center">[Qwen Code (25.7k★)](https://github.com/QwenLM/qwen-code)</div> | [#5914](https://github.com/QwenLM/qwen-code/pull/5914) | <div align="left">Harden remaining source path validation</div> |
 | <div align="center">[Qwen Code (25.7k★)](https://github.com/QwenLM/qwen-code)</div> | [#5911](https://github.com/QwenLM/qwen-code/pull/5911) | <div align="left">Normalize source slug validation errors</div> |
@@ -119,6 +121,8 @@ AI-native programmer
 | <div align="center">[AstrBot (35.6k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
 | <div align="center">[AstrBot (35.6k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
 | <div align="center">[DeepTutor (25.1k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
+| <div align="center">[Pydantic Ai (18.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">Fix absolute `schema_path` handling in `Dataset.to_file`</div> |
+| <div align="center">[Pydantic Ai (18.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">Avoid duplicating `/v1` in `base_url`</div> |
 | <div align="center">[Pydantic Ai (18.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">Clarify `end_strategy` values in agent spec</div> |
 
 ---
@@ -127,8 +131,8 @@ AI-native programmer
 
 AI-native programmer
 
-- 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat。
-- 14+ merged upstream PRs，包括 LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor。
+- 11 个公开项目，代表项目包括 KnowFoundry-RAG-Console, LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat。
+- 18+ merged upstream PRs，包括 vLLM, LightRAG, AstrBot, AgentScope, Qwen Code。
 
 ### 项目
 
@@ -145,7 +149,7 @@ AI-native programmer
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/KnowFoundry-RAG-Console">KnowFoundry-RAG-Console</a></td>
-      <td>30+</td>
+      <td>29+</td>
       <td>面向知识库和 RAG 工作流的控制台项目，用于沉淀检索增强生成应用的工程实践</td>
     </tr>
     <tr>
@@ -187,7 +191,7 @@ AI-native programmer
     <tr>
       <td align="center">LLM&nbsp;tooling</td>
       <td><a href="https://github.com/VectorPeak/LLM-Wiki">LLM-Wiki</a></td>
-      <td>31+</td>
+      <td>29+</td>
       <td>大语言模型知识库，覆盖 LLM、Agent、RAG、训练、评测方法和 AI 工程实践</td>
     </tr>
     <tr>
@@ -217,6 +221,7 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
+| <div align="center">[vLLM (84.9k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">修复 OpenCV 视频元数据时间线对齐问题。</div> |
 | <div align="center">[Mooncake (5.7k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">修复 Mooncake Store REST GET 接口丢失空值的问题，确保客户端完整读取缓存元数据与空字段。</div> |
 
 #### Agent frameworks / protocols / evals
@@ -224,6 +229,7 @@ AI-native programmer
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
 | <div align="center">[AgentScope (27.3k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数的 grep 分页参数值，修复潜在的逻辑漏洞。</div> |
+| <div align="center">[Qwen Code (25.7k★)](https://github.com/QwenLM/qwen-code)</div> | [#6033](https://github.com/QwenLM/qwen-code/pull/6033) | <div align="left">解析 GLM 响应中的标记化思维内容。</div> |
 | <div align="center">[Qwen Code (25.7k★)](https://github.com/QwenLM/qwen-code)</div> | [#6029](https://github.com/QwenLM/qwen-code/pull/6029) | <div align="left">支持 Windows 风格的波浪号路径，修复路径解析漏洞。</div> |
 | <div align="center">[Qwen Code (25.7k★)](https://github.com/QwenLM/qwen-code)</div> | [#5914](https://github.com/QwenLM/qwen-code/pull/5914) | <div align="left">强化剩余源路径验证，修复潜在路径穿越漏洞。</div> |
 | <div align="center">[Qwen Code (25.7k★)](https://github.com/QwenLM/qwen-code)</div> | [#5911](https://github.com/QwenLM/qwen-code/pull/5911) | <div align="left">统一源代码标识符校验错误提示。</div> |
@@ -240,4 +246,6 @@ AI-native programmer
 | <div align="center">[AstrBot (35.6k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">修复知识库上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。</div> |
 | <div align="center">[AstrBot (35.6k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">修复插件上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。</div> |
 | <div align="center">[DeepTutor (25.1k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">修复 LlamaIndex 分块重叠为零时未被正确保留的问题。</div> |
+| <div align="center">[Pydantic Ai (18.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">修复 Dataset.to_file 中绝对 schema_path 处理导致的路径穿越漏洞。</div> |
+| <div align="center">[Pydantic Ai (18.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">修复 base_url 中重复拼接 /v1 导致的 API 请求路径错误问题。</div> |
 | <div align="center">[Pydantic Ai (18.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">明确智能体规范中 `end_strategy` 参数的可选值。</div> |
