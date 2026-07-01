@@ -7,7 +7,7 @@
 AI-native programmer
 
 - 11 public projects, led by KnowFoundry-RAG-Console, LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat.
-- 20+ merged upstream PRs, including Openclaw, vLLM, LightRAG, AstrBot, AgentScope.
+- 21+ merged upstream PRs, including Openclaw, vLLM, LightRAG, AstrBot, AgentScope.
 
 ### Projects
 
@@ -122,10 +122,11 @@ AI-native programmer
 | <div align="center">[LightRAG (37.2k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">Fixed a path traversal vulnerability in resource file generation by validating directory boundaries and preventing unauthorized writes or overwrites</div> |
 | <div align="center">[AstrBot (35.7k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
 | <div align="center">[AstrBot (35.7k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
-| <div align="center">[DeepTutor (25.1k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
+| <div align="center">[DeepTutor (25.2k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
 | <div align="center">[Pydantic Ai (18.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">Fix absolute `schema_path` handling in `Dataset.to_file`</div> |
 | <div align="center">[Pydantic Ai (18.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">Avoid duplicating `/v1` in `base_url`</div> |
 | <div align="center">[Pydantic Ai (18.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">Clarify `end_strategy` values in agent spec</div> |
+| <div align="center">[Agent Framework (11.8k★)](https://github.com/microsoft/agent-framework)</div> | [#6818](https://github.com/microsoft/agent-framework/pull/6818) | <div align="left">Python: accept A2A data URI media parameters</div> |
 
 ---
 
@@ -134,7 +135,7 @@ AI-native programmer
 AI-native programmer
 
 - 11 个公开项目，代表项目包括 KnowFoundry-RAG-Console, LLM-Wiki, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live, fill-contributions-graph, industrial-fault-text-classifier, OpenSense, vectorpeak-agent-skills, kaggle-tabular-forge, lingban-ai-chat。
-- 20+ merged upstream PRs，包括 Openclaw, vLLM, LightRAG, AstrBot, AgentScope。
+- 21+ merged upstream PRs，包括 Openclaw, vLLM, LightRAG, AstrBot, AgentScope。
 
 ### 项目
 
@@ -249,7 +250,8 @@ AI-native programmer
 | <div align="center">[LightRAG (37.2k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">修复资源文件生成过程中的路径穿越漏洞，校验目录边界，阻止越权写入或覆盖文件，保障生成流程安全。</div> |
 | <div align="center">[AstrBot (35.7k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">修复知识库上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。</div> |
 | <div align="center">[AstrBot (35.7k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">修复插件上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。</div> |
-| <div align="center">[DeepTutor (25.1k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">修复 LlamaIndex 分块重叠为零时未被正确保留的问题。</div> |
+| <div align="center">[DeepTutor (25.2k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">修复 LlamaIndex 分块重叠为零时未被正确保留的问题。</div> |
 | <div align="center">[Pydantic Ai (18.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">修复 Dataset.to_file 中绝对 schema_path 处理导致的路径穿越漏洞。</div> |
 | <div align="center">[Pydantic Ai (18.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">修复 base_url 中重复拼接 /v1 导致的 API 请求路径错误问题。</div> |
 | <div align="center">[Pydantic Ai (18.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">明确智能体规范中 `end_strategy` 参数的可选值。</div> |
+| <div align="center">[Agent Framework (11.8k★)](https://github.com/microsoft/agent-framework)</div> | [#6818](https://github.com/microsoft/agent-framework/pull/6818) | <div align="left">Python：支持 A2A 数据 URI 的媒体参数解析。</div> |
