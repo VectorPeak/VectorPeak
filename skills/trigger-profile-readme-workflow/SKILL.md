@@ -1,4 +1,4 @@
-﻿---
+---
 name: trigger-profile-readme-workflow
 description: Trigger and verify the VectorPeak/VectorPeak GitHub Actions workflow that regenerates the profile README. Use when the user asks to manually run, rerun, test, validate, or check the scheduled/dispatch profile README workflow, especially update-profile.yml, Update profile README, workflow_dispatch, schedule runs, or whether README regeneration creates and merges an automated PR.
 ---
