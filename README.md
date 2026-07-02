@@ -96,7 +96,7 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| <div align="center">[vLLM (85.0k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">[Bugfix] Align OpenCV video metadata timeline</div> |
+| <div align="center">[vLLM (85.1k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">[Bugfix] Align OpenCV video metadata timeline</div> |
 | <div align="center">[Mooncake (5.7k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">Preserved empty values in the Mooncake Store REST GET API so clients can reliably read cache metadata and blank fields</div> |
 
 #### Agent frameworks / protocols / evals
@@ -224,7 +224,7 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| <div align="center">[vLLM (85.0k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">修复 OpenCV 视频元数据时间线对齐问题。</div> |
+| <div align="center">[vLLM (85.1k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">修复 OpenCV 视频元数据时间线对齐问题。</div> |
 | <div align="center">[Mooncake (5.7k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">修复 Mooncake Store REST GET 接口丢失空值的问题，确保客户端完整读取缓存元数据与空字段。</div> |
 
 #### Agent frameworks / protocols / evals
