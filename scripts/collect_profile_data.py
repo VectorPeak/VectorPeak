@@ -16,6 +16,19 @@ from typing import Any
 
 API = "https://api.github.com"
 
+LANDED_MERGED_PR_OVERRIDES: list[dict[str, Any]] = [
+    {
+        "author": "VectorPeak",
+        "repository_url": f"{API}/repos/pytorch/pytorch",
+        "html_url": "https://github.com/pytorch/pytorch/pull/188830",
+        "number": 188830,
+        "title": "Fix test name detection for Git-style paths",
+        "state": "closed",
+        "landed_status": "closed_but_landed",
+        "repo_stars": 93400,
+    },
+]
+
 
 def github_json(path: str, token: str | None, params: dict[str, Any] | None = None, retries: int = 3) -> Any:
     query = ""
@@ -113,6 +126,7 @@ def compact_repo_display(full_name: str) -> str:
         "github-mcp-server": "GitHub MCP Server",
         "microsoft-agent-framework": "Microsoft Agent Framework",
         "litellm": "LiteLLM",
+        "pytorch": "PyTorch",
     }
     if name.lower() in special:
         return special[name.lower()]
@@ -133,6 +147,7 @@ def contribution_area(full_name: str) -> str:
         "flashinfer",
         "lmcache",
         "litellm",
+        "pytorch",
     }:
         return "AI infrastructure / model systems"
     if name in {
@@ -161,6 +176,34 @@ def contribution_area(full_name: str) -> str:
     return "Applied AI / RAG / observability"
 
 
+def pr_key(item: dict[str, Any]) -> tuple[str, int]:
+    return repo_from_search_item(item).lower(), int(item.get("number") or 0)
+
+
+def merge_landed_overrides(owner: str, items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    merged = list(items)
+    seen = {pr_key(item) for item in merged}
+    for override in LANDED_MERGED_PR_OVERRIDES:
+        if str(override.get("author", "")).lower() != owner.lower():
+            continue
+        item = {key: value for key, value in override.items() if key not in {"author", "repo_stars"}}
+        key = pr_key(item)
+        if key in seen:
+            continue
+        merged.append(item)
+        seen.add(key)
+    return merged
+
+
+def override_repo_stars(item: dict[str, Any]) -> int | None:
+    key = pr_key(item)
+    for override in LANDED_MERGED_PR_OVERRIDES:
+        if key == pr_key(override):
+            stars = override.get("repo_stars")
+            return int(stars) if stars is not None else None
+    return None
+
+
 def merged_upstream_pr_summary(owner: str, token: str | None, min_stars: int, max_pages: int) -> tuple[int, list[dict[str, Any]], list[dict[str, Any]]]:
     query = f"author:{owner} type:pr is:merged -user:{owner}"
     items: list[dict[str, Any]] = []
@@ -174,6 +217,7 @@ def merged_upstream_pr_summary(owner: str, token: str | None, min_stars: int, ma
             break
     if total_count > len(items):
         print(f"warning: merged PR search returned {len(items)} of {total_count} results; increase --max-search-pages if needed")
+    items = merge_landed_overrides(owner, items)
     repo_counts: dict[str, int] = {}
     repo_urls: dict[str, str] = {}
     repo_star_counts: dict[str, int] = {}
@@ -182,8 +226,12 @@ def merged_upstream_pr_summary(owner: str, token: str | None, min_stars: int, ma
     for item in items:
         repo = repo_from_search_item(item)
         if repo not in repo_star_counts:
-            time.sleep(0.05)
-            repo_star_counts[repo] = repo_stars(repo, token)
+            override_stars = override_repo_stars(item)
+            if override_stars is None:
+                time.sleep(0.05)
+                repo_star_counts[repo] = repo_stars(repo, token)
+            else:
+                repo_star_counts[repo] = override_stars
         if repo_star_counts[repo] < min_stars:
             continue
         repo_counts[repo] = repo_counts.get(repo, 0) + 1

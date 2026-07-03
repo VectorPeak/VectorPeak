@@ -49,6 +49,7 @@ CONTRIBUTION_AREAS = [
 ZH_CONTRIBUTION_FIXES = {
     "Prevent task ID URL path injection": "修复任务 ID URL 路径注入问题。",
     "[Bugfix] Preserve empty values in Mooncake Store REST GET": "修复 Mooncake Store REST GET 接口丢失空值的问题，确保客户端完整读取缓存元数据与空字段。",
+    "Fix test name detection for Git-style paths": "修复 PyTorch CI 测试目标识别中的跨平台路径归一化问题，让 Git 风格路径在 Windows 场景下也能被正确识别。",
     "Improve event connection handling and reconnection logic": "改进事件连接处理与重连逻辑，补充连接状态清理、监听器重建和异常分支处理，提升断线恢复的稳定性",
     "Prevent path traversal in asset materialization": "修复资源文件生成过程中的路径穿越漏洞，校验目录边界，阻止越权写入或覆盖文件，保障生成流程安全。",
     "Prevent path traversal vulnerability in knowledge base upload filenames": "修复知识库上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。",
@@ -57,6 +58,7 @@ ZH_CONTRIBUTION_FIXES = {
 
 EN_CONTRIBUTION_FIXES = {
     "[Bugfix] Preserve empty values in Mooncake Store REST GET": "Preserved empty values in the Mooncake Store REST GET API so clients can reliably read cache metadata and blank fields",
+    "Fix test name detection for Git-style paths": "Fixed cross-platform CI test target detection by normalizing Git-style and Windows-style test paths",
     "Improve event connection handling and reconnection logic": "Improved event connection handling and reconnection logic, strengthening disconnect recovery and long-running connection stability",
     "Prevent path traversal in asset materialization": "Fixed a path traversal vulnerability in resource file generation by validating directory boundaries and preventing unauthorized writes or overwrites",
     "Prevent path traversal vulnerability in knowledge base upload filenames": "Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape",
@@ -440,7 +442,7 @@ def contribution_summary(contributions: list[dict[str, Any]], data: dict[str, An
         if repo and repo.lower() not in seen:
             seen.add(repo.lower())
             repos.append(repo)
-    joined = ", ".join(repos[:5])
+    joined = ", ".join(repos)
     if lang == "zh":
         return f"{count}+ merged upstream PRs，包括 {joined}。"
     return f"{count}+ merged upstream PRs, including {joined}."
