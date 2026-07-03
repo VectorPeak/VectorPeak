@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Collect public GitHub facts used to render the profile README."""
 
 from __future__ import annotations
@@ -25,7 +25,7 @@ LANDED_MERGED_PR_OVERRIDES: list[dict[str, Any]] = [
         "title": "Fix test name detection for Git-style paths",
         "state": "closed",
         "landed_status": "closed_but_landed",
-        "repo_stars": 93400,
+        "repo_stars": 101294,
     },
 ]
 
