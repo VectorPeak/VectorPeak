@@ -674,10 +674,10 @@ def render_section(lines: list[str], data: dict[str, Any], projects: list[dict[s
         lines.extend([" ".join(parts), ""])
 
     lines.extend([str(data.get("identity", "AI Programmer")), ""])
-    if projects:
-        lines.extend([f"- {project_summary(projects, data, lang)}"])
     if contributions:
         lines.extend([f"- {contribution_summary(contributions, data, lang)}"])
+    if projects:
+        lines.extend([f"- {project_summary(projects, data, lang)}"])
     if projects or contributions:
         lines.append("")
     if projects:
