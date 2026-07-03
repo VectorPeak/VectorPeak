@@ -1,7 +1,7 @@
 {
   "owner": "VectorPeak",
   "identity": "AI-native programmer",
-  "project_summary_limit": 12,
+  "project_summary_limit": 5,
   "auto_include_public_repos": true,
   "excluded_projects": [
     "VectorPeak"
