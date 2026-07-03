@@ -6,7 +6,7 @@
 
 AI-native programmer
 
-- 27+ merged upstream PRs, including Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, Pydantic Ai, microsoft agent-framework, livekit-agents, Mooncake, HiveMind.
+- 27+ merged upstream PRs, including Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, Pydantic Ai, Microsoft Agent Framework, LiveKit Agents, Mooncake, HiveMind.
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live.
 
 ### Projects
@@ -130,9 +130,9 @@ AI-native programmer
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">Fix absolute `schema_path` handling in `Dataset.to_file`</div> |
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">Avoid duplicating `/v1` in `base_url`</div> |
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">Clarify `end_strategy` values in agent spec</div> |
-| <div align="center">[microsoft agent-framework (11.8k★)](https://github.com/microsoft/agent-framework)</div> | [#6818](https://github.com/microsoft/agent-framework/pull/6818) | <div align="left">Python: accept A2A data URI media parameters</div> |
-| <div align="center">[livekit-agents (11.2k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">Preserve provider status errors</div> |
-| <div align="center">[livekit-agents (11.2k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">Avoid mutating raw tool schemas for Responses</div> |
+| <div align="center">[Microsoft Agent Framework (11.8k★)](https://github.com/microsoft/agent-framework)</div> | [#6818](https://github.com/microsoft/agent-framework/pull/6818) | <div align="left">Python: accept A2A data URI media parameters</div> |
+| <div align="center">[LiveKit Agents (11.2k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">Preserve provider status errors</div> |
+| <div align="center">[LiveKit Agents (11.2k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">Avoid mutating raw tool schemas for Responses</div> |
 
 ---
 
@@ -140,7 +140,7 @@ AI-native programmer
 
 AI-native programmer
 
-- 27+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, Pydantic Ai, microsoft agent-framework, livekit-agents, Mooncake, HiveMind。
+- 27+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, Pydantic Ai, Microsoft Agent Framework, LiveKit Agents, Mooncake, HiveMind。
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live。
 
 ### 项目
@@ -264,6 +264,6 @@ AI-native programmer
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">修复 Dataset.to_file 中绝对 schema_path 处理导致的路径穿越漏洞。</div> |
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">修复 base_url 中重复拼接 /v1 导致的 API 请求路径错误问题。</div> |
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">明确智能体规范中 `end_strategy` 参数的可选值。</div> |
-| <div align="center">[microsoft agent-framework (11.8k★)](https://github.com/microsoft/agent-framework)</div> | [#6818](https://github.com/microsoft/agent-framework/pull/6818) | <div align="left">Python：支持 A2A 数据 URI 的媒体参数解析。</div> |
-| <div align="center">[livekit-agents (11.2k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">修复代理提供者状态错误未被保留的问题。</div> |
-| <div align="center">[livekit-agents (11.2k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">修复响应处理中直接修改原始工具 schema 导致的潜在数据竞争与不可预测行为。</div> |
+| <div align="center">[Microsoft Agent Framework (11.8k★)](https://github.com/microsoft/agent-framework)</div> | [#6818](https://github.com/microsoft/agent-framework/pull/6818) | <div align="left">Python：支持 A2A 数据 URI 的媒体参数解析。</div> |
+| <div align="center">[LiveKit Agents (11.2k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">修复代理提供者状态错误未被保留的问题。</div> |
+| <div align="center">[LiveKit Agents (11.2k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">修复响应处理中直接修改原始工具 schema 导致的潜在数据竞争与不可预测行为。</div> |
