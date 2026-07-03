@@ -124,7 +124,9 @@ def compact_repo_display(full_name: str) -> str:
         "python-genai": "Python GenAI",
         "qwen-code": "Qwen Code",
         "github-mcp-server": "GitHub MCP Server",
-        "microsoft-agent-framework": "Microsoft Agent Framework",
+        "agent-framework": "microsof-agent-framework",
+        "agents": "livekit-agents",
+        "microsoft-agent-framework": "microsof-agent-framework",
         "litellm": "LiteLLM",
         "pytorch": "PyTorch",
     }
