@@ -9,8 +9,8 @@
   "projects": [
     {
       "area": "Applied agents",
-      "name": "codex-pet-live",
-      "url": "https://github.com/VectorPeak/codex-pet-live",
+      "name": "Codex-Pet-Live",
+      "url": "https://github.com/VectorPeak/Codex-Pet-Live",
       "stars": 0,
       "zh_notes": "面向 Windows 桌面的 Codex 宠物运行时，用于承载、展示和驱动交互式桌面宠物。",
       "en_notes": "A Windows desktop Codex pet runtime for hosting, displaying, and driving interactive desktop companions.",
@@ -18,8 +18,8 @@
     },
     {
       "area": "Applied agents",
-      "name": "fill-contributions-graph",
-      "url": "https://github.com/VectorPeak/fill-contributions-graph",
+      "name": "Fill-Contributions-Graph",
+      "url": "https://github.com/VectorPeak/Fill-Contributions-Graph",
       "stars": 0,
       "zh_notes": "GitHub Contribution Graph 荒漠绿化治理工程。",
       "en_notes": "A utility for backfilling and maintaining GitHub contribution graph activity.",

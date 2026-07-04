@@ -7,7 +7,7 @@
 AI-native programmer
 
 - 27+ merged upstream PRs, including Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, Pydantic Ai, Microsoft Agent Framework, LiveKit Agents, Mooncake, HiveMind.
-- 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live.
+- 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live.
 
 ### Projects
 
@@ -35,13 +35,13 @@ AI-native programmer
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/codex-pet-live">codex-pet-live</a></td>
+      <td><a href="https://github.com/VectorPeak/Codex-Pet-Live">Codex-Pet-Live</a></td>
       <td>2+</td>
       <td>A Windows desktop Codex pet runtime for hosting, displaying, and driving interactive desktop companions</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/fill-contributions-graph">fill-contributions-graph</a></td>
+      <td><a href="https://github.com/VectorPeak/Fill-Contributions-Graph">Fill-Contributions-Graph</a></td>
       <td>2+</td>
       <td>A utility for backfilling and maintaining GitHub contribution graph activity</td>
     </tr>
@@ -104,9 +104,9 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| <div align="center">[Openclaw (381.6k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP auth fails with percent-encoded credentials</div> |
-| <div align="center">[Openclaw (381.6k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">Normalize Windows inbound paths case-insensitively</div> |
-| <div align="center">[AgentScope (27.4k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">Reject negative grep pagination values</div> |
+| <div align="center">[Openclaw (381.7k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP auth fails with percent-encoded credentials</div> |
+| <div align="center">[Openclaw (381.7k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">Normalize Windows inbound paths case-insensitively</div> |
+| <div align="center">[AgentScope (27.5k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">Reject negative grep pagination values</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6033](https://github.com/QwenLM/qwen-code/pull/6033) | <div align="left">Parse tagged thinking for GLM responses</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6029](https://github.com/QwenLM/qwen-code/pull/6029) | <div align="left">Support Windows-style tilde paths</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#5914](https://github.com/QwenLM/qwen-code/pull/5914) | <div align="left">Harden remaining source path validation</div> |
@@ -141,7 +141,7 @@ AI-native programmer
 AI-native programmer
 
 - 27+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, Pydantic Ai, Microsoft Agent Framework, LiveKit Agents, Mooncake, HiveMind。
-- 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, codex-pet-live。
+- 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live。
 
 ### 项目
 
@@ -169,13 +169,13 @@ AI-native programmer
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/codex-pet-live">codex-pet-live</a></td>
+      <td><a href="https://github.com/VectorPeak/Codex-Pet-Live">Codex-Pet-Live</a></td>
       <td>2+</td>
       <td>面向 Windows 桌面的 Codex 宠物运行时，用于承载、展示和驱动交互式桌面宠物</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/fill-contributions-graph">fill-contributions-graph</a></td>
+      <td><a href="https://github.com/VectorPeak/Fill-Contributions-Graph">Fill-Contributions-Graph</a></td>
       <td>2+</td>
       <td>GitHub Contribution Graph 荒漠绿化治理工程</td>
     </tr>
@@ -238,9 +238,9 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| <div align="center">[Openclaw (381.6k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">修复 CDP 认证因百分号编码凭据导致失败的漏洞。</div> |
-| <div align="center">[Openclaw (381.6k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">修复 Windows 入站路径处理未忽略大小写导致的路径穿越漏洞。</div> |
-| <div align="center">[AgentScope (27.4k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数的 grep 分页参数值，修复潜在的逻辑漏洞。</div> |
+| <div align="center">[Openclaw (381.7k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">修复 CDP 认证因百分号编码凭据导致失败的漏洞。</div> |
+| <div align="center">[Openclaw (381.7k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">修复 Windows 入站路径处理未忽略大小写导致的路径穿越漏洞。</div> |
+| <div align="center">[AgentScope (27.5k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数的 grep 分页参数值，修复潜在的逻辑漏洞。</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6033](https://github.com/QwenLM/qwen-code/pull/6033) | <div align="left">解析 GLM 响应中的标记化思维内容。</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6029](https://github.com/QwenLM/qwen-code/pull/6029) | <div align="left">支持 Windows 风格的波浪号路径，修复路径解析漏洞。</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#5914](https://github.com/QwenLM/qwen-code/pull/5914) | <div align="left">强化剩余源路径验证，修复潜在路径穿越漏洞。</div> |
