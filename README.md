@@ -6,7 +6,7 @@
 
 AI-native programmer
 
-- 27+ merged upstream PRs, including Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, Pydantic Ai, Microsoft Agent Framework, LiveKit Agents, Mooncake, HiveMind.
+- 29+ merged upstream PRs, including Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, Pydantic Ai, Microsoft Agent Framework, LiveKit Agents, Mooncake, HiveMind.
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live.
 
 ### Projects
@@ -97,7 +97,7 @@ AI-native programmer
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188830](https://github.com/pytorch/pytorch/pull/188830) | <div align="left">Fixed cross-platform CI test target detection by normalizing Git-style and Windows-style test paths</div> |
-| <div align="center">[vLLM (85.3k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">[Bugfix] Align OpenCV video metadata timeline</div> |
+| <div align="center">[vLLM (85.4k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">[Bugfix] Align OpenCV video metadata timeline</div> |
 | <div align="center">[Mooncake (5.7k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">Preserved empty values in the Mooncake Store REST GET API so clients can reliably read cache metadata and blank fields</div> |
 
 #### Agent frameworks / protocols / evals
@@ -107,6 +107,8 @@ AI-native programmer
 | <div align="center">[Openclaw (381.7k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP auth fails with percent-encoded credentials</div> |
 | <div align="center">[Openclaw (381.7k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">Normalize Windows inbound paths case-insensitively</div> |
 | <div align="center">[AgentScope (27.5k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">Reject negative grep pagination values</div> |
+| <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6317](https://github.com/QwenLM/qwen-code/pull/6317) | <div align="left">Preserve partial remote input JSONL records</div> |
+| <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6243](https://github.com/QwenLM/qwen-code/pull/6243) | <div align="left">Preserve descriptionless tools</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6033](https://github.com/QwenLM/qwen-code/pull/6033) | <div align="left">Parse tagged thinking for GLM responses</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6029](https://github.com/QwenLM/qwen-code/pull/6029) | <div align="left">Support Windows-style tilde paths</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#5914](https://github.com/QwenLM/qwen-code/pull/5914) | <div align="left">Harden remaining source path validation</div> |
@@ -140,7 +142,7 @@ AI-native programmer
 
 AI-native programmer
 
-- 27+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, Pydantic Ai, Microsoft Agent Framework, LiveKit Agents, Mooncake, HiveMind。
+- 29+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, Pydantic Ai, Microsoft Agent Framework, LiveKit Agents, Mooncake, HiveMind。
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live。
 
 ### 项目
@@ -231,7 +233,7 @@ AI-native programmer
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188830](https://github.com/pytorch/pytorch/pull/188830) | <div align="left">修复 PyTorch CI 测试目标识别中的跨平台路径归一化问题，让 Git 风格路径在 Windows 场景下也能被正确识别。</div> |
-| <div align="center">[vLLM (85.3k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">修复 OpenCV 视频元数据时间线对齐问题。</div> |
+| <div align="center">[vLLM (85.4k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">修复 OpenCV 视频元数据时间线对齐问题。</div> |
 | <div align="center">[Mooncake (5.7k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">修复 Mooncake Store REST GET 接口丢失空值的问题，确保客户端完整读取缓存元数据与空字段。</div> |
 
 #### Agent frameworks / protocols / evals
@@ -241,6 +243,8 @@ AI-native programmer
 | <div align="center">[Openclaw (381.7k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">修复 CDP 认证因百分号编码凭据导致失败的漏洞。</div> |
 | <div align="center">[Openclaw (381.7k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">修复 Windows 入站路径处理未忽略大小写导致的路径穿越漏洞。</div> |
 | <div align="center">[AgentScope (27.5k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数的 grep 分页参数值，修复潜在的逻辑漏洞。</div> |
+| <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6317](https://github.com/QwenLM/qwen-code/pull/6317) | <div align="left">修复远程输入 JSONL 记录部分失败时的数据丢失问题。</div> |
+| <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6243](https://github.com/QwenLM/qwen-code/pull/6243) | <div align="left">修复工具描述为空时丢失的问题，确保无描述工具仍能正常保留和调用。</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6033](https://github.com/QwenLM/qwen-code/pull/6033) | <div align="left">解析 GLM 响应中的标记化思维内容。</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6029](https://github.com/QwenLM/qwen-code/pull/6029) | <div align="left">支持 Windows 风格的波浪号路径，修复路径解析漏洞。</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#5914](https://github.com/QwenLM/qwen-code/pull/5914) | <div align="left">强化剩余源路径验证，修复潜在路径穿越漏洞。</div> |
