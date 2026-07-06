@@ -156,6 +156,8 @@ def contribution_area(full_name: str) -> str:
     if name in {
         "qwen-code",
         "openclaw",
+        "astrbot",
+        "pydantic-ai",
         "mem0",
         "microsoft-agent-framework",
         "github-mcp-server",
@@ -172,7 +174,7 @@ def contribution_area(full_name: str) -> str:
         "openhands",
     }:
         return "Agent frameworks / protocols / evals"
-    if name in {"astrbot", "dify", "ragflow", "langchain", "llamaindex", "google-genai", "python-genai"}:
+    if name in {"dify", "ragflow", "langchain", "llamaindex", "google-genai", "python-genai"}:
         return "Applied AI / RAG / observability"
     if "recommender" in name or "recbole" in name:
         return "Recommender systems"

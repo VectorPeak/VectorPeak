@@ -287,6 +287,8 @@ def infer_contribution_area(item: dict[str, Any]) -> str:
     if repo in {
         "qwen-code",
         "openclaw",
+        "astrbot",
+        "pydantic-ai",
         "mem0",
         "microsoft-agent-framework",
         "github-mcp-server",
