@@ -6,7 +6,7 @@
 
 AI-native programmer
 
-- 38+ merged upstream PRs, including Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, QwenPaw, Pydantic Ai, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
+- 39+ merged upstream PRs, including Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, QwenPaw, Pydantic Ai, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live.
 
 ### Projects
@@ -108,6 +108,7 @@ AI-native programmer
 | <div align="center">[Openclaw (381.9k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP auth fails with percent-encoded credentials</div> |
 | <div align="center">[Openclaw (381.9k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">Normalize Windows inbound paths case-insensitively</div> |
 | <div align="center">[AgentScope (27.5k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">Reject negative grep pagination values</div> |
+| <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6381](https://github.com/QwenLM/qwen-code/pull/6381) | <div align="left">Require integer ReadFile pagination params</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6344](https://github.com/QwenLM/qwen-code/pull/6344) | <div align="left">Preserve glued automation history records</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6323](https://github.com/QwenLM/qwen-code/pull/6323) | <div align="left">Avoid null OpenAPI schema types</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6317](https://github.com/QwenLM/qwen-code/pull/6317) | <div align="left">Preserve partial remote input JSONL records</div> |
@@ -132,8 +133,8 @@ AI-native programmer
 | <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
 | <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
 | <div align="center">[DeepTutor (25.2k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
-| <div align="center">[QwenPaw (20.8k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">Recover JSON objects after leading whitespace</div> |
-| <div align="center">[QwenPaw (20.8k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">Route plugin market details through link guard</div> |
+| <div align="center">[QwenPaw (20.9k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">Recover JSON objects after leading whitespace</div> |
+| <div align="center">[QwenPaw (20.9k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">Route plugin market details through link guard</div> |
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6267](https://github.com/pydantic/pydantic-ai/pull/6267) | <div align="left">Reject non-positive `OnlineEvaluator.max_concurrency`</div> |
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6251](https://github.com/pydantic/pydantic-ai/pull/6251) | <div align="left">Write relative schema refs for AgentSpec files</div> |
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6228](https://github.com/pydantic/pydantic-ai/pull/6228) | <div align="left">Reject non-positive `max_concurrency`</div> |
@@ -151,7 +152,7 @@ AI-native programmer
 
 AI-native programmer
 
-- 38+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, QwenPaw, Pydantic Ai, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
+- 39+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, QwenPaw, Pydantic Ai, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live。
 
 ### 项目
@@ -253,6 +254,7 @@ AI-native programmer
 | <div align="center">[Openclaw (381.9k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">修复 CDP 认证因百分号编码凭据导致失败的漏洞。</div> |
 | <div align="center">[Openclaw (381.9k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">修复 Windows 入站路径处理未忽略大小写导致的路径穿越漏洞。</div> |
 | <div align="center">[AgentScope (27.5k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数的 grep 分页参数值，修复潜在的逻辑漏洞。</div> |
+| <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6381](https://github.com/QwenLM/qwen-code/pull/6381) | <div align="left">强制 ReadFile 分页参数为整数，修复因非整数参数导致的路径穿越漏洞。</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6344](https://github.com/QwenLM/qwen-code/pull/6344) | <div align="left">保留粘合自动化历史记录。</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6323](https://github.com/QwenLM/qwen-code/pull/6323) | <div align="left">修复 OpenAPI Schema 类型为空导致的空指针异常漏洞。</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6317](https://github.com/QwenLM/qwen-code/pull/6317) | <div align="left">修复远程输入 JSONL 记录部分失败时的数据丢失问题。</div> |
@@ -277,8 +279,8 @@ AI-native programmer
 | <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">修复知识库上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。</div> |
 | <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">修复插件上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。</div> |
 | <div align="center">[DeepTutor (25.2k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">修复 LlamaIndex 分块重叠为零时未被正确保留的问题。</div> |
-| <div align="center">[QwenPaw (20.8k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">修复 JSON 解析器在处理前导空白字符时无法恢复对象的问题。</div> |
-| <div align="center">[QwenPaw (20.8k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">通过链接防护机制路由插件市场详情页，防止路径穿越漏洞。</div> |
+| <div align="center">[QwenPaw (20.9k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">修复 JSON 解析器在处理前导空白字符时无法恢复对象的问题。</div> |
+| <div align="center">[QwenPaw (20.9k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">通过链接防护机制路由插件市场详情页，防止路径穿越漏洞。</div> |
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6267](https://github.com/pydantic/pydantic-ai/pull/6267) | <div align="left">拒绝 OnlineEvaluator.max_concurrency 的非正数值，修复并发配置漏洞。</div> |
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6251](https://github.com/pydantic/pydantic-ai/pull/6251) | <div align="left">为 AgentSpec 文件生成相对路径的 schema 引用。</div> |
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6228](https://github.com/pydantic/pydantic-ai/pull/6228) | <div align="left">拒绝非正数的 max_concurrency 参数，修复并发控制逻辑漏洞。</div> |
