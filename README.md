@@ -244,7 +244,7 @@ AI-native programmer
 | :---: | :---: | :---: |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188830](https://github.com/pytorch/pytorch/pull/188830) | <div align="left">修复 PyTorch CI 测试目标识别中的跨平台路径归一化问题，让 Git 风格路径在 Windows 场景下也能被正确识别。</div> |
 | <div align="center">[vLLM (85.5k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">修复 OpenCV 视频元数据时间线对齐问题。</div> |
-| <div align="center">[Ktransformers (17.4k★)](https://github.com/kvcache-ai/ktransformers)</div> | [#2071](https://github.com/kvcache-ai/ktransformers/pull/2071) | <div align="left">完善上游实现，修复相关问题。</div> |
+| <div align="center">[Ktransformers (17.4k★)](https://github.com/kvcache-ai/ktransformers)</div> | [#2071](https://github.com/kvcache-ai/ktransformers/pull/2071) | <div align="left">修复 CLI 启动前未检测端口占用的问题。</div> |
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">修复 Mooncake Store REST GET 接口丢失空值的问题，确保客户端完整读取缓存元数据与空字段。</div> |
 
 #### Agent frameworks / protocols / evals
