@@ -27,6 +27,16 @@ LANDED_MERGED_PR_OVERRIDES: list[dict[str, Any]] = [
         "landed_status": "closed_but_landed",
         "repo_stars": 101294,
     },
+    {
+        "author": "VectorPeak",
+        "repository_url": f"{API}/repos/pytorch/pytorch",
+        "html_url": "https://github.com/pytorch/pytorch/pull/188961",
+        "number": 188961,
+        "title": "Fix Windows target determination for POSIX changed-file paths",
+        "state": "closed",
+        "landed_status": "closed_but_landed",
+        "repo_stars": 101294,
+    },
 ]
 
 

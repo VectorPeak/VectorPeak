@@ -6,7 +6,7 @@
 
 AI-native programmer
 
-- 39+ merged upstream PRs, including Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, QwenPaw, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
+- 40+ merged upstream PRs, including Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, QwenPaw, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live.
 
 ### Projects
@@ -96,6 +96,7 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
+| <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188961](https://github.com/pytorch/pytorch/pull/188961) | <div align="left">Fix Windows target determination for POSIX changed-file paths</div> |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188830](https://github.com/pytorch/pytorch/pull/188830) | <div align="left">Fixed cross-platform CI test target detection by normalizing Git-style and Windows-style test paths</div> |
 | <div align="center">[vLLM (85.5k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">[Bugfix] Align OpenCV video metadata timeline</div> |
 | <div align="center">[Ktransformers (17.4k★)](https://github.com/kvcache-ai/ktransformers)</div> | [#2071](https://github.com/kvcache-ai/ktransformers/pull/2071) | <div align="left">fix(cli): detect bound ports before launch</div> |
@@ -152,7 +153,7 @@ AI-native programmer
 
 AI-native programmer
 
-- 39+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, QwenPaw, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
+- 40+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, QwenPaw, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live。
 
 ### 项目
@@ -242,6 +243,7 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
+| <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188961](https://github.com/pytorch/pytorch/pull/188961) | <div align="left">修复上游缺陷，完善边界校验与异常处理。</div> |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188830](https://github.com/pytorch/pytorch/pull/188830) | <div align="left">修复 PyTorch CI 测试目标识别中的跨平台路径归一化问题，让 Git 风格路径在 Windows 场景下也能被正确识别。</div> |
 | <div align="center">[vLLM (85.5k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">修复 OpenCV 视频元数据时间线对齐问题。</div> |
 | <div align="center">[Ktransformers (17.4k★)](https://github.com/kvcache-ai/ktransformers)</div> | [#2071](https://github.com/kvcache-ai/ktransformers/pull/2071) | <div align="left">修复 CLI 启动前未检测端口占用的问题。</div> |
