@@ -6,7 +6,7 @@
 
 AI-native programmer
 
-- 39+ merged upstream PRs, including Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, QwenPaw, Pydantic Ai, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
+- 39+ merged upstream PRs, including Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, QwenPaw, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live.
 
 ### Projects
@@ -126,12 +126,12 @@ AI-native programmer
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">Reject userinfo URLs in WebFetch validation</div> |
 | <div align="center">[QwenPaw (20.9k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">Recover JSON objects after leading whitespace</div> |
 | <div align="center">[QwenPaw (20.9k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">Route plugin market details through link guard</div> |
-| <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6267](https://github.com/pydantic/pydantic-ai/pull/6267) | <div align="left">Reject non-positive `OnlineEvaluator.max_concurrency`</div> |
-| <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6251](https://github.com/pydantic/pydantic-ai/pull/6251) | <div align="left">Write relative schema refs for AgentSpec files</div> |
-| <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6228](https://github.com/pydantic/pydantic-ai/pull/6228) | <div align="left">Reject non-positive `max_concurrency`</div> |
-| <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">Fix absolute `schema_path` handling in `Dataset.to_file`</div> |
-| <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">Avoid duplicating `/v1` in `base_url`</div> |
-| <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">Clarify `end_strategy` values in agent spec</div> |
+| <div align="center">[Pydantic AI (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6267](https://github.com/pydantic/pydantic-ai/pull/6267) | <div align="left">Reject non-positive `OnlineEvaluator.max_concurrency`</div> |
+| <div align="center">[Pydantic AI (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6251](https://github.com/pydantic/pydantic-ai/pull/6251) | <div align="left">Write relative schema refs for AgentSpec files</div> |
+| <div align="center">[Pydantic AI (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6228](https://github.com/pydantic/pydantic-ai/pull/6228) | <div align="left">Reject non-positive `max_concurrency`</div> |
+| <div align="center">[Pydantic AI (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">Fix absolute `schema_path` handling in `Dataset.to_file`</div> |
+| <div align="center">[Pydantic AI (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">Avoid duplicating `/v1` in `base_url`</div> |
+| <div align="center">[Pydantic AI (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">Clarify `end_strategy` values in agent spec</div> |
 | <div align="center">[Microsoft Agent Framework (11.9k★)](https://github.com/microsoft/agent-framework)</div> | [#6818](https://github.com/microsoft/agent-framework/pull/6818) | <div align="left">Python: accept A2A data URI media parameters</div> |
 | <div align="center">[LiveKit Agents (11.2k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">Preserve provider status errors</div> |
 | <div align="center">[LiveKit Agents (11.2k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">Avoid mutating raw tool schemas for Responses</div> |
@@ -152,7 +152,7 @@ AI-native programmer
 
 AI-native programmer
 
-- 39+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, QwenPaw, Pydantic Ai, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
+- 39+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, QwenPaw, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live。
 
 ### 项目
@@ -244,7 +244,7 @@ AI-native programmer
 | :---: | :---: | :---: |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188830](https://github.com/pytorch/pytorch/pull/188830) | <div align="left">修复 PyTorch CI 测试目标识别中的跨平台路径归一化问题，让 Git 风格路径在 Windows 场景下也能被正确识别。</div> |
 | <div align="center">[vLLM (85.5k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">修复 OpenCV 视频元数据时间线对齐问题。</div> |
-| <div align="center">[Ktransformers (17.4k★)](https://github.com/kvcache-ai/ktransformers)</div> | [#2071](https://github.com/kvcache-ai/ktransformers/pull/2071) | <div align="left">修复 CLI 启动前未检测端口占用的问题。</div> |
+| <div align="center">[Ktransformers (17.4k★)](https://github.com/kvcache-ai/ktransformers)</div> | [#2071](https://github.com/kvcache-ai/ktransformers/pull/2071) | <div align="left">完善上游实现，修复相关问题。</div> |
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">修复 Mooncake Store REST GET 接口丢失空值的问题，确保客户端完整读取缓存元数据与空字段。</div> |
 
 #### Agent frameworks / protocols / evals
@@ -272,12 +272,12 @@ AI-native programmer
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">修复 WebFetch 验证中 userinfo URL 导致的潜在安全漏洞。</div> |
 | <div align="center">[QwenPaw (20.9k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">修复 JSON 解析器在处理前导空白字符时无法恢复对象的问题。</div> |
 | <div align="center">[QwenPaw (20.9k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">通过链接防护机制路由插件市场详情页，防止路径穿越漏洞。</div> |
-| <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6267](https://github.com/pydantic/pydantic-ai/pull/6267) | <div align="left">拒绝 OnlineEvaluator.max_concurrency 的非正数值，修复并发配置漏洞。</div> |
-| <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6251](https://github.com/pydantic/pydantic-ai/pull/6251) | <div align="left">为 AgentSpec 文件生成相对路径的 schema 引用。</div> |
-| <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6228](https://github.com/pydantic/pydantic-ai/pull/6228) | <div align="left">拒绝非正数的 max_concurrency 参数，修复并发控制逻辑漏洞。</div> |
-| <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">修复 Dataset.to_file 中绝对 schema_path 处理导致的路径穿越漏洞。</div> |
-| <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">修复 base_url 中重复拼接 /v1 导致的 API 请求路径错误问题。</div> |
-| <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">明确智能体规范中 `end_strategy` 参数的可选值。</div> |
+| <div align="center">[Pydantic AI (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6267](https://github.com/pydantic/pydantic-ai/pull/6267) | <div align="left">拒绝 OnlineEvaluator.max_concurrency 的非正数值，修复并发配置漏洞。</div> |
+| <div align="center">[Pydantic AI (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6251](https://github.com/pydantic/pydantic-ai/pull/6251) | <div align="left">为 AgentSpec 文件生成相对路径的 schema 引用。</div> |
+| <div align="center">[Pydantic AI (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6228](https://github.com/pydantic/pydantic-ai/pull/6228) | <div align="left">拒绝非正数的 max_concurrency 参数，修复并发控制逻辑漏洞。</div> |
+| <div align="center">[Pydantic AI (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">修复 Dataset.to_file 中绝对 schema_path 处理导致的路径穿越漏洞。</div> |
+| <div align="center">[Pydantic AI (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">修复 base_url 中重复拼接 /v1 导致的 API 请求路径错误问题。</div> |
+| <div align="center">[Pydantic AI (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">明确智能体规范中 `end_strategy` 参数的可选值。</div> |
 | <div align="center">[Microsoft Agent Framework (11.9k★)](https://github.com/microsoft/agent-framework)</div> | [#6818](https://github.com/microsoft/agent-framework/pull/6818) | <div align="left">Python：支持 A2A 数据 URI 的媒体参数解析。</div> |
 | <div align="center">[LiveKit Agents (11.2k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">修复代理提供者状态错误未被保留的问题。</div> |
 | <div align="center">[LiveKit Agents (11.2k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">修复响应处理中直接修改原始工具 schema 导致的潜在数据竞争与不可预测行为。</div> |

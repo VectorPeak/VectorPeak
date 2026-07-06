@@ -122,6 +122,7 @@ def compact_repo_display(full_name: str) -> str:
         "inspect-ai": "Inspect AI",
         "google-genai": "Google GenAI",
         "python-genai": "Python GenAI",
+        "pydantic-ai": "Pydantic AI",
         "qwen-code": "Qwen Code",
         "github-mcp-server": "GitHub MCP Server",
         "agent-framework": "Microsoft Agent Framework",
