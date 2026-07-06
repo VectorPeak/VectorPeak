@@ -6,7 +6,7 @@
 
 AI-native programmer
 
-- 31+ merged upstream PRs, including Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, Pydantic Ai, Microsoft Agent Framework, LiveKit Agents, Mooncake, HiveMind.
+- 32+ merged upstream PRs, including Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, Pydantic Ai, Microsoft Agent Framework, LiveKit Agents, Mooncake, HiveMind.
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live.
 
 ### Projects
@@ -98,7 +98,7 @@ AI-native programmer
 | :---: | :---: | :---: |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188830](https://github.com/pytorch/pytorch/pull/188830) | <div align="left">Fixed cross-platform CI test target detection by normalizing Git-style and Windows-style test paths</div> |
 | <div align="center">[vLLM (85.4k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">[Bugfix] Align OpenCV video metadata timeline</div> |
-| <div align="center">[Mooncake (5.7k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">Preserved empty values in the Mooncake Store REST GET API so clients can reliably read cache metadata and blank fields</div> |
+| <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">Preserved empty values in the Mooncake Store REST GET API so clients can reliably read cache metadata and blank fields</div> |
 
 #### Agent frameworks / protocols / evals
 
@@ -107,6 +107,7 @@ AI-native programmer
 | <div align="center">[Openclaw (381.8k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP auth fails with percent-encoded credentials</div> |
 | <div align="center">[Openclaw (381.8k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">Normalize Windows inbound paths case-insensitively</div> |
 | <div align="center">[AgentScope (27.5k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">Reject negative grep pagination values</div> |
+| <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6344](https://github.com/QwenLM/qwen-code/pull/6344) | <div align="left">Preserve glued automation history records</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6323](https://github.com/QwenLM/qwen-code/pull/6323) | <div align="left">Avoid null OpenAPI schema types</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6317](https://github.com/QwenLM/qwen-code/pull/6317) | <div align="left">Preserve partial remote input JSONL records</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6243](https://github.com/QwenLM/qwen-code/pull/6243) | <div align="left">Preserve descriptionless tools</div> |
@@ -124,11 +125,11 @@ AI-native programmer
 | :---: | :---: | :---: |
 | <div align="center">[LightRAG (37.3k★)](https://github.com/HKUDS/LightRAG)</div> | [#3324](https://github.com/HKUDS/LightRAG/pull/3324) | <div align="left">Prevent task ID URL path injection</div> |
 | <div align="center">[LightRAG (37.3k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">Fixed a path traversal vulnerability in resource file generation by validating directory boundaries and preventing unauthorized writes or overwrites</div> |
-| <div align="center">[AstrBot (35.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">Enforce ownership when reading ChatUI sessions</div> |
-| <div align="center">[AstrBot (35.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">Reject non-200 download responses</div> |
-| <div align="center">[AstrBot (35.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">Enable only synced ModelScope MCP servers</div> |
-| <div align="center">[AstrBot (35.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
-| <div align="center">[AstrBot (35.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
+| <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">Enforce ownership when reading ChatUI sessions</div> |
+| <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">Reject non-200 download responses</div> |
+| <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">Enable only synced ModelScope MCP servers</div> |
+| <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
+| <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
 | <div align="center">[DeepTutor (25.2k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6228](https://github.com/pydantic/pydantic-ai/pull/6228) | <div align="left">Reject non-positive `max_concurrency`</div> |
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">Fix absolute `schema_path` handling in `Dataset.to_file`</div> |
@@ -144,7 +145,7 @@ AI-native programmer
 
 AI-native programmer
 
-- 31+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, Pydantic Ai, Microsoft Agent Framework, LiveKit Agents, Mooncake, HiveMind。
+- 32+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, Pydantic Ai, Microsoft Agent Framework, LiveKit Agents, Mooncake, HiveMind。
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live。
 
 ### 项目
@@ -236,7 +237,7 @@ AI-native programmer
 | :---: | :---: | :---: |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188830](https://github.com/pytorch/pytorch/pull/188830) | <div align="left">修复 PyTorch CI 测试目标识别中的跨平台路径归一化问题，让 Git 风格路径在 Windows 场景下也能被正确识别。</div> |
 | <div align="center">[vLLM (85.4k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">修复 OpenCV 视频元数据时间线对齐问题。</div> |
-| <div align="center">[Mooncake (5.7k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">修复 Mooncake Store REST GET 接口丢失空值的问题，确保客户端完整读取缓存元数据与空字段。</div> |
+| <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">修复 Mooncake Store REST GET 接口丢失空值的问题，确保客户端完整读取缓存元数据与空字段。</div> |
 
 #### Agent frameworks / protocols / evals
 
@@ -245,6 +246,7 @@ AI-native programmer
 | <div align="center">[Openclaw (381.8k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">修复 CDP 认证因百分号编码凭据导致失败的漏洞。</div> |
 | <div align="center">[Openclaw (381.8k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">修复 Windows 入站路径处理未忽略大小写导致的路径穿越漏洞。</div> |
 | <div align="center">[AgentScope (27.5k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数的 grep 分页参数值，修复潜在的逻辑漏洞。</div> |
+| <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6344](https://github.com/QwenLM/qwen-code/pull/6344) | <div align="left">保留粘合自动化历史记录。</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6323](https://github.com/QwenLM/qwen-code/pull/6323) | <div align="left">修复 OpenAPI Schema 类型为空导致的空指针异常漏洞。</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6317](https://github.com/QwenLM/qwen-code/pull/6317) | <div align="left">修复远程输入 JSONL 记录部分失败时的数据丢失问题。</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#6243](https://github.com/QwenLM/qwen-code/pull/6243) | <div align="left">修复工具描述为空时丢失的问题，确保无描述工具仍能正常保留和调用。</div> |
@@ -262,11 +264,11 @@ AI-native programmer
 | :---: | :---: | :---: |
 | <div align="center">[LightRAG (37.3k★)](https://github.com/HKUDS/LightRAG)</div> | [#3324](https://github.com/HKUDS/LightRAG/pull/3324) | <div align="left">修复任务 ID URL 路径注入问题。</div> |
 | <div align="center">[LightRAG (37.3k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">修复资源文件生成过程中的路径穿越漏洞，校验目录边界，阻止越权写入或覆盖文件，保障生成流程安全。</div> |
-| <div align="center">[AstrBot (35.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">强制校验 ChatUI 会话读取权限，修复路径穿越漏洞。</div> |
-| <div align="center">[AstrBot (35.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">拒绝非200状态码的下载响应，防止因服务端错误导致的资源加载失败。</div> |
-| <div align="center">[AstrBot (35.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">仅启用已同步的 ModelScope MCP 服务，防止未授权模型访问。</div> |
-| <div align="center">[AstrBot (35.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">修复知识库上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。</div> |
-| <div align="center">[AstrBot (35.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">修复插件上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。</div> |
+| <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">强制校验 ChatUI 会话读取权限，修复路径穿越漏洞。</div> |
+| <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">拒绝非200状态码的下载响应，防止因服务端错误导致的资源加载失败。</div> |
+| <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">仅启用已同步的 ModelScope MCP 服务，防止未授权模型访问。</div> |
+| <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">修复知识库上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。</div> |
+| <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">修复插件上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。</div> |
 | <div align="center">[DeepTutor (25.2k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">修复 LlamaIndex 分块重叠为零时未被正确保留的问题。</div> |
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6228](https://github.com/pydantic/pydantic-ai/pull/6228) | <div align="left">拒绝非正数的 max_concurrency 参数，修复并发控制逻辑漏洞。</div> |
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">修复 Dataset.to_file 中绝对 schema_path 处理导致的路径穿越漏洞。</div> |
