@@ -150,6 +150,7 @@ def contribution_area(full_name: str) -> str:
         "lmcache",
         "litellm",
         "pytorch",
+        "ktransformers",
     }:
         return "AI infrastructure / model systems"
     if name in {

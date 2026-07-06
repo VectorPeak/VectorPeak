@@ -120,6 +120,17 @@ def md_escape(text: Any) -> str:
     return str(text).replace("|", "\\|").replace("\n", " ").strip()
 
 
+def strip_markdown_links(text: Any) -> str:
+    def replace(match: re.Match[str]) -> str:
+        label = match.group(1)
+        target = match.group(2)
+        if "://" not in target and not target.startswith("#"):
+            return f"{label}({target})"
+        return label
+
+    return re.sub(r"\[([^\]]+)\]\(([^)]+)\)", replace, str(text))
+
+
 def strip_terminal_period(text: Any) -> str:
     return md_escape(text).rstrip(".。")
 
@@ -475,7 +486,10 @@ def contribution_pr_link(item: dict[str, Any]) -> str:
 
 
 def normalize_contribution_title(title: Any) -> str:
-    text = strip_terminal_period(title or "")
+    raw_title = str(title or "")
+    text = strip_terminal_period(strip_markdown_links(raw_title))
+    if re.search(r"\[[^\]]+\]\([^)]+\)", raw_title):
+        return text
     text = re.sub(
         r"^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\([^)]+\))?!?:\s*",
         "",
@@ -572,9 +586,11 @@ def fallback_zh_contribution_fix(title: str) -> str:
 
 def contribution_fix_text(item: dict[str, Any], lang: str, context: RenderContext) -> str:
     cache_key = contribution_cache_key(item.get("url"), lang)
-    if cache_key and cache_key in context.previous_fixes:
+    raw_title = str(item.get("title") or "")
+    has_markdown_link = bool(re.search(r"\[[^\]]+\]\([^)]+\)", raw_title))
+    if cache_key and cache_key in context.previous_fixes and not has_markdown_link:
         return context.previous_fixes[cache_key]
-    title = normalize_contribution_title(item.get("title") or "")
+    title = normalize_contribution_title(raw_title)
     if lang == "zh":
         text = item.get("zh_title") or ZH_CONTRIBUTION_FIXES.get(title)
         if text:

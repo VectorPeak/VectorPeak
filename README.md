@@ -6,7 +6,7 @@
 
 AI-native programmer
 
-- 37+ merged upstream PRs, including Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, QwenPaw, Pydantic Ai, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, HiveMind.
+- 38+ merged upstream PRs, including Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, QwenPaw, Pydantic Ai, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live.
 
 ### Projects
@@ -98,6 +98,7 @@ AI-native programmer
 | :---: | :---: | :---: |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188830](https://github.com/pytorch/pytorch/pull/188830) | <div align="left">Fixed cross-platform CI test target detection by normalizing Git-style and Windows-style test paths</div> |
 | <div align="center">[vLLM (85.5k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">[Bugfix] Align OpenCV video metadata timeline</div> |
+| <div align="center">[Ktransformers (17.4k★)](https://github.com/kvcache-ai/ktransformers)</div> | [#2071](https://github.com/kvcache-ai/ktransformers/pull/2071) | <div align="left">fix(cli): detect bound ports before launch</div> |
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">Preserved empty values in the Mooncake Store REST GET API so clients can reliably read cache metadata and blank fields</div> |
 
 #### Agent frameworks / protocols / evals
@@ -139,10 +140,10 @@ AI-native programmer
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">Fix absolute `schema_path` handling in `Dataset.to_file`</div> |
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">Avoid duplicating `/v1` in `base_url`</div> |
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">Clarify `end_strategy` values in agent spec</div> |
-| <div align="center">[Ktransformers (17.4k★)](https://github.com/kvcache-ai/ktransformers)</div> | [#2071](https://github.com/kvcache-ai/ktransformers/pull/2071) | <div align="left">[fix](cli): detect bound ports before launch</div> |
 | <div align="center">[Microsoft Agent Framework (11.9k★)](https://github.com/microsoft/agent-framework)</div> | [#6818](https://github.com/microsoft/agent-framework/pull/6818) | <div align="left">Python: accept A2A data URI media parameters</div> |
 | <div align="center">[LiveKit Agents (11.2k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">Preserve provider status errors</div> |
 | <div align="center">[LiveKit Agents (11.2k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">Avoid mutating raw tool schemas for Responses</div> |
+| <div align="center">[Pymilvus (1.4k★)](https://github.com/milvus-io/pymilvus)</div> | [#3658](https://github.com/milvus-io/pymilvus/pull/3658) | <div align="left">Preserve remote upload prefixes on Windows</div> |
 
 ---
 
@@ -150,7 +151,7 @@ AI-native programmer
 
 AI-native programmer
 
-- 37+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, QwenPaw, Pydantic Ai, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, HiveMind。
+- 38+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, LightRAG, AstrBot, AgentScope, Qwen Code, DeepTutor, QwenPaw, Pydantic Ai, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live。
 
 ### 项目
@@ -242,6 +243,7 @@ AI-native programmer
 | :---: | :---: | :---: |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188830](https://github.com/pytorch/pytorch/pull/188830) | <div align="left">修复 PyTorch CI 测试目标识别中的跨平台路径归一化问题，让 Git 风格路径在 Windows 场景下也能被正确识别。</div> |
 | <div align="center">[vLLM (85.5k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">修复 OpenCV 视频元数据时间线对齐问题。</div> |
+| <div align="center">[Ktransformers (17.4k★)](https://github.com/kvcache-ai/ktransformers)</div> | [#2071](https://github.com/kvcache-ai/ktransformers/pull/2071) | <div align="left">完善上游实现，修复相关问题。</div> |
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">修复 Mooncake Store REST GET 接口丢失空值的问题，确保客户端完整读取缓存元数据与空字段。</div> |
 
 #### Agent frameworks / protocols / evals
@@ -283,7 +285,7 @@ AI-native programmer
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">修复 Dataset.to_file 中绝对 schema_path 处理导致的路径穿越漏洞。</div> |
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">修复 base_url 中重复拼接 /v1 导致的 API 请求路径错误问题。</div> |
 | <div align="center">[Pydantic Ai (18.2k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">明确智能体规范中 `end_strategy` 参数的可选值。</div> |
-| <div align="center">[Ktransformers (17.4k★)](https://github.com/kvcache-ai/ktransformers)</div> | [#2071](https://github.com/kvcache-ai/ktransformers/pull/2071) | <div align="left">修复 CLI 启动前未检测端口占用问题。</div> |
 | <div align="center">[Microsoft Agent Framework (11.9k★)](https://github.com/microsoft/agent-framework)</div> | [#6818](https://github.com/microsoft/agent-framework/pull/6818) | <div align="left">Python：支持 A2A 数据 URI 的媒体参数解析。</div> |
 | <div align="center">[LiveKit Agents (11.2k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">修复代理提供者状态错误未被保留的问题。</div> |
 | <div align="center">[LiveKit Agents (11.2k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">修复响应处理中直接修改原始工具 schema 导致的潜在数据竞争与不可预测行为。</div> |
+| <div align="center">[Pymilvus (1.4k★)](https://github.com/milvus-io/pymilvus)</div> | [#3658](https://github.com/milvus-io/pymilvus/pull/3658) | <div align="left">完善上游实现，修复相关问题。</div> |
