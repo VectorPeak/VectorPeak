@@ -6,7 +6,7 @@
 
 AI-native programmer
 
-- 44+ merged upstream PRs, including Openclaw, PyTorch, vLLM, LightRAG, AstrBot, Qdrant, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
+- 45+ merged upstream PRs, including Openclaw, PyTorch, vLLM, LightRAG, AstrBot, Qdrant, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live.
 
 ### Projects
@@ -126,9 +126,10 @@ AI-native programmer
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#5911](https://github.com/QwenLM/qwen-code/pull/5911) | <div align="left">Normalize source slug validation errors</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#5829](https://github.com/QwenLM/qwen-code/pull/5829) | <div align="left">Reject unsafe source slugs before deletion</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">Reject userinfo URLs in WebFetch validation</div> |
-| <div align="center">[QwenPaw (21.1k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">Recover JSON objects after leading whitespace</div> |
-| <div align="center">[QwenPaw (21.1k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">Route plugin market details through link guard</div> |
+| <div align="center">[QwenPaw (21.2k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">Recover JSON objects after leading whitespace</div> |
+| <div align="center">[QwenPaw (21.2k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">Route plugin market details through link guard</div> |
 | <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6314](https://github.com/google/adk-python/pull/6314) | <div align="left">Avoid mutating event validation input</div> |
+| <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6282](https://github.com/pydantic/pydantic-ai/pull/6282) | <div align="left">Give a clear error for non-positive concurrency `max_running`</div> |
 | <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6267](https://github.com/pydantic/pydantic-ai/pull/6267) | <div align="left">Reject non-positive `OnlineEvaluator.max_concurrency`</div> |
 | <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6251](https://github.com/pydantic/pydantic-ai/pull/6251) | <div align="left">Write relative schema refs for AgentSpec files</div> |
 | <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6228](https://github.com/pydantic/pydantic-ai/pull/6228) | <div align="left">Reject non-positive `max_concurrency`</div> |
@@ -157,7 +158,7 @@ AI-native programmer
 
 AI-native programmer
 
-- 44+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, LightRAG, AstrBot, Qdrant, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
+- 45+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, LightRAG, AstrBot, Qdrant, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live。
 
 ### 项目
@@ -277,9 +278,10 @@ AI-native programmer
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#5911](https://github.com/QwenLM/qwen-code/pull/5911) | <div align="left">统一源代码标识符校验错误提示。</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#5829](https://github.com/QwenLM/qwen-code/pull/5829) | <div align="left">删除前拒绝不安全的源 slug，防止路径穿越漏洞。</div> |
 | <div align="center">[Qwen Code (25.8k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">修复 WebFetch 验证中 userinfo URL 导致的潜在安全漏洞。</div> |
-| <div align="center">[QwenPaw (21.1k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">修复 JSON 解析器在处理前导空白字符时无法恢复对象的问题。</div> |
-| <div align="center">[QwenPaw (21.1k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">通过链接防护机制路由插件市场详情页，防止路径穿越漏洞。</div> |
+| <div align="center">[QwenPaw (21.2k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">修复 JSON 解析器在处理前导空白字符时无法恢复对象的问题。</div> |
+| <div align="center">[QwenPaw (21.2k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">通过链接防护机制路由插件市场详情页，防止路径穿越漏洞。</div> |
 | <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6314](https://github.com/google/adk-python/pull/6314) | <div align="left">修复上游缺陷，完善边界校验与异常处理。</div> |
+| <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6282](https://github.com/pydantic/pydantic-ai/pull/6282) | <div align="left">完善上游实现，修复相关问题。</div> |
 | <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6267](https://github.com/pydantic/pydantic-ai/pull/6267) | <div align="left">拒绝 OnlineEvaluator.max_concurrency 的非正数值，修复并发配置漏洞。</div> |
 | <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6251](https://github.com/pydantic/pydantic-ai/pull/6251) | <div align="left">为 AgentSpec 文件生成相对路径的 schema 引用。</div> |
 | <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6228](https://github.com/pydantic/pydantic-ai/pull/6228) | <div align="left">拒绝非正数的 max_concurrency 参数，修复并发控制逻辑漏洞。</div> |
