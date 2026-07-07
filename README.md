@@ -6,7 +6,7 @@
 
 AI-native programmer
 
-- 45+ merged upstream PRs, including Openclaw, PyTorch, vLLM, LightRAG, AstrBot, Qdrant, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
+- 47+ merged upstream PRs, including Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live.
 
 ### Projects
@@ -106,8 +106,10 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
+| <div align="center">[Openclaw (382.0k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">Reject tools/call requests with non-object arguments</div> |
 | <div align="center">[Openclaw (382.0k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP auth fails with percent-encoded credentials</div> |
 | <div align="center">[Openclaw (382.0k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">Normalize Windows inbound paths case-insensitively</div> |
+| <div align="center">[Mem0 (60.3k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">Encode dynamic URL path segments</div> |
 | <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">Enforce ownership when reading ChatUI sessions</div> |
 | <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">Reject non-200 download responses</div> |
 | <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">Enable only synced ModelScope MCP servers</div> |
@@ -158,7 +160,7 @@ AI-native programmer
 
 AI-native programmer
 
-- 45+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, LightRAG, AstrBot, Qdrant, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
+- 47+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live。
 
 ### 项目
@@ -258,8 +260,10 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
+| <div align="center">[Openclaw (382.0k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">完善上游实现，修复相关问题。</div> |
 | <div align="center">[Openclaw (382.0k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">修复 CDP 认证因百分号编码凭据导致失败的漏洞。</div> |
 | <div align="center">[Openclaw (382.0k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">修复 Windows 入站路径处理未忽略大小写导致的路径穿越漏洞。</div> |
+| <div align="center">[Mem0 (60.3k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">完善上游实现，修复相关问题。</div> |
 | <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">强制校验 ChatUI 会话读取权限，修复路径穿越漏洞。</div> |
 | <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">拒绝非200状态码的下载响应，防止因服务端错误导致的资源加载失败。</div> |
 | <div align="center">[AstrBot (35.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">仅启用已同步的 ModelScope MCP 服务，防止未授权模型访问。</div> |
