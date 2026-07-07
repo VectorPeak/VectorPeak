@@ -37,6 +37,16 @@ LANDED_MERGED_PR_OVERRIDES: list[dict[str, Any]] = [
         "landed_status": "closed_but_landed",
         "repo_stars": 101294,
     },
+    {
+        "author": "VectorPeak",
+        "repository_url": f"{API}/repos/google/adk-python",
+        "html_url": "https://github.com/google/adk-python/pull/6314",
+        "number": 6314,
+        "title": "fix(events): avoid mutating event validation input",
+        "state": "closed",
+        "landed_status": "closed_but_landed",
+        "repo_stars": 20501,
+    },
 ]
 
 
@@ -132,6 +142,7 @@ def compact_repo_display(full_name: str) -> str:
         "inspect-ai": "Inspect AI",
         "google-genai": "Google GenAI",
         "python-genai": "Python GenAI",
+        "adk-python": "Google ADK",
         "pydantic-ai": "Pydantic AI",
         "qwen-code": "Qwen Code",
         "github-mcp-server": "GitHub MCP Server",
@@ -169,6 +180,7 @@ def contribution_area(full_name: str) -> str:
         "openclaw",
         "astrbot",
         "pydantic-ai",
+        "adk-python",
         "qwenpaw",
         "mem0",
         "agent-framework",

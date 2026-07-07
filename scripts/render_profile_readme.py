@@ -289,6 +289,7 @@ def infer_contribution_area(item: dict[str, Any]) -> str:
         "openclaw",
         "astrbot",
         "pydantic-ai",
+        "adk-python",
         "qwenpaw",
         "mem0",
         "agent-framework",
