@@ -46,23 +46,67 @@ CONTRIBUTION_AREAS = [
     "Recommender systems",
 ]
 
-ZH_CONTRIBUTION_FIXES = {
-    "Prevent task ID URL path injection": "修复任务 ID URL 路径注入问题。",
-    "[Bugfix] Preserve empty values in Mooncake Store REST GET": "修复 Mooncake Store REST GET 接口丢失空值的问题，确保客户端完整读取缓存元数据与空字段。",
-    "Fix test name detection for Git-style paths": "修复 PyTorch CI 测试目标识别中的跨平台路径归一化问题，让 Git 风格路径在 Windows 场景下也能被正确识别。",
-    "Improve event connection handling and reconnection logic": "改进事件连接处理与重连逻辑，补充连接状态清理、监听器重建和异常分支处理，提升断线恢复的稳定性",
-    "Prevent path traversal in asset materialization": "修复资源文件生成过程中的路径穿越漏洞，校验目录边界，阻止越权写入或覆盖文件，保障生成流程安全。",
-    "Prevent path traversal vulnerability in knowledge base upload filenames": "修复知识库上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。",
-    "Prevent path traversal vulnerability in plugin upload filenames": "修复插件上传文件名的路径穿越漏洞，校验文件名边界，阻止目录逃逸。",
-}
-
 EN_CONTRIBUTION_FIXES = {
     "[Bugfix] Preserve empty values in Mooncake Store REST GET": "Preserved empty values in the Mooncake Store REST GET API so clients can reliably read cache metadata and blank fields",
-    "Fix test name detection for Git-style paths": "Fixed cross-platform CI test target detection by normalizing Git-style and Windows-style test paths",
     "Improve event connection handling and reconnection logic": "Improved event connection handling and reconnection logic, strengthening disconnect recovery and long-running connection stability",
     "Prevent path traversal in asset materialization": "Fixed a path traversal vulnerability in resource file generation by validating directory boundaries and preventing unauthorized writes or overwrites",
     "Prevent path traversal vulnerability in knowledge base upload filenames": "Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape",
     "Prevent path traversal vulnerability in plugin upload filenames": "Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape",
+}
+
+ZH_CONTRIBUTION_FIXES = {
+    "[Bugfix] Align OpenCV video metadata timeline": "对齐 OpenCV 视频元数据时间线",
+    "[Bugfix] Reject empty keys in HTTP metadata server": "在 HTTP metadata server 中拒绝空 key",
+    "Reject tools/call requests with non-object arguments": "拒绝参数不是对象的 tools/call 请求",
+    "Prevent task ID URL path injection": "阻止任务 ID URL 路径注入",
+    "CDP auth fails with percent-encoded credentials": "CDP 认证会因百分号编码的凭据而失败",
+    "Normalize Windows inbound paths case-insensitively": "以不区分大小写的方式规范化 Windows 入站路径",
+    "Encode dynamic URL path segments": "对动态 URL 路径片段进行编码",
+    "Validate dashboard account username updates": "校验仪表盘账号用户名更新",
+    "Enforce ownership when reading ChatUI sessions": "读取 ChatUI 会话时强制校验所有权",
+    "Reject negative grep pagination values": "拒绝负数 grep 分页值",
+    "Parse Windows snapshot mappings": "解析 Windows snapshot mappings",
+    "Preserve empty result shape for zero-limit batches": "保留 zero-limit batches 的空结果形状",
+    "Reject Windows-style workspace artifact paths": "拒绝 Windows 风格的 workspace artifact 路径",
+    "Reject fractional LSP limit inputs": "拒绝小数形式的 LSP limit 输入",
+    "Align monitor limit parameter schemas": "对齐 monitor limit 参数 schema",
+    "Require integer ReadFile pagination params": "要求 ReadFile 分页参数为整数",
+    "Preserve glued automation history records": "保留粘连的 automation 历史记录",
+    "Avoid null OpenAPI schema types": "避免空的 OpenAPI schema 类型",
+    "Preserve partial remote input JSONL records": "保留不完整的远程输入 JSONL 记录",
+    "Preserve descriptionless tools": "保留没有 description 的工具",
+    "Parse tagged thinking for GLM responses": "解析 GLM 响应中的标记化 thinking",
+    "Support Windows-style tilde paths": "支持 Windows 风格的波浪号路径",
+    "Harden remaining source path validation": "强化其余 source path 校验",
+    "Normalize source slug validation errors": "统一 source slug 校验错误",
+    "Reject unsafe source slugs before deletion": "删除前拒绝不安全的 source slug",
+    "Reject userinfo URLs in WebFetch validation": "在 WebFetch 校验中拒绝 userinfo URL",
+    "Reject non-200 download responses": "拒绝非 200 的下载响应",
+    "Enable only synced ModelScope MCP servers": "仅启用已同步的 ModelScope MCP 服务",
+    "Preserve zero LlamaIndex chunk overlap": "保留为零的 LlamaIndex chunk overlap",
+    "Recover JSON objects after leading whitespace": "在前导空白后恢复 JSON 对象",
+    "Route plugin market details through link guard": "让插件市场详情经过 link guard 路由",
+    "Preserve HTTPX event hooks": "保留 HTTPX event hooks",
+    "Give a clear error for non-positive concurrency `max_running`": "为非正数 concurrency `max_running` 给出清晰错误",
+    "Reject non-positive `OnlineEvaluator.max_concurrency`": "拒绝非正数的 `OnlineEvaluator.max_concurrency`",
+    "Write relative schema refs for AgentSpec files": "为 AgentSpec 文件写入相对 schema refs",
+    "Reject non-positive `max_concurrency`": "拒绝非正数的 `max_concurrency`",
+    "Fix absolute `schema_path` handling in `Dataset.to_file`": "修复 `Dataset.to_file` 中绝对 `schema_path` 的处理",
+    "Avoid duplicating `/v1` in `base_url`": "避免在 `base_url` 中重复拼接 `/v1`",
+    "Clarify `end_strategy` values in agent spec": "明确 agent spec 中的 `end_strategy` 取值",
+    "cli: detect bound ports before launch": "cli：启动前检测已绑定端口",
+    "Cli: detect bound ports before launch": "cli：启动前检测已绑定端口",
+    "Detect bound ports before launch": "启动前检测已绑定端口",
+    "Python: accept A2A data URI media parameters": "Python：接受 A2A data URI 媒体参数",
+    "Preserve image format for Bedrock images": "保留 Bedrock images 的图像格式",
+    "Preserve provider status errors": "保留 provider status errors",
+    "Avoid mutating raw tool schemas for Responses": "避免为 Responses 修改原始 tool schemas",
+    "Preserve remote upload prefixes on Windows": "在 Windows 上保留远程上传 prefixes",
+    EN_CONTRIBUTION_FIXES["[Bugfix] Preserve empty values in Mooncake Store REST GET"]: "保留 Mooncake Store REST GET API 中的空值，使客户端能够可靠读取缓存元数据和空字段",
+    EN_CONTRIBUTION_FIXES["Improve event connection handling and reconnection logic"]: "改进事件连接处理和重连逻辑，增强断线恢复和长连接稳定性",
+    EN_CONTRIBUTION_FIXES["Prevent path traversal in asset materialization"]: "通过验证目录边界并防止未授权写入或覆盖，修复资源文件生成中的路径穿越漏洞",
+    EN_CONTRIBUTION_FIXES["Prevent path traversal vulnerability in knowledge base upload filenames"]: "通过验证文件名边界并阻止目录逃逸，修复知识库上传文件名中的路径穿越漏洞",
+    EN_CONTRIBUTION_FIXES["Prevent path traversal vulnerability in plugin upload filenames"]: "通过验证文件名边界并阻止目录逃逸，修复插件上传文件名中的路径穿越漏洞",
 }
 
 GENERATED_NOTICE = "<!-- AUTO-GENERATED by scripts/render_profile_readme.py. Edit profile-data.json for curated project notes. -->"
@@ -118,17 +162,6 @@ def badge(label: str, color: str, logo: str, logo_color: str) -> str:
 
 def md_escape(text: Any) -> str:
     return str(text).replace("|", "\\|").replace("\n", " ").strip()
-
-
-def strip_markdown_links(text: Any) -> str:
-    def replace(match: re.Match[str]) -> str:
-        label = match.group(1)
-        target = match.group(2)
-        if "://" not in target and not target.startswith("#"):
-            return f"{label}({target})"
-        return label
-
-    return re.sub(r"\[([^\]]+)\]\(([^)]+)\)", replace, str(text))
 
 
 def strip_terminal_period(text: Any) -> str:
@@ -287,13 +320,7 @@ def infer_contribution_area(item: dict[str, Any]) -> str:
     if repo in {
         "qwen-code",
         "openclaw",
-        "astrbot",
-        "pydantic-ai",
-        "adk-python",
-        "qwenpaw",
         "mem0",
-        "agent-framework",
-        "agents",
         "microsoft-agent-framework",
         "github-mcp-server",
         "mcp-go",
@@ -459,7 +486,7 @@ def contribution_summary(contributions: list[dict[str, Any]], data: dict[str, An
         if repo and repo.lower() not in seen:
             seen.add(repo.lower())
             repos.append(repo)
-    joined = ", ".join(repos)
+    joined = ", ".join(repos[:5])
     if lang == "zh":
         return f"{count}+ merged upstream PRs，包括 {joined}。"
     return f"{count}+ merged upstream PRs, including {joined}."
@@ -492,10 +519,7 @@ def contribution_pr_link(item: dict[str, Any]) -> str:
 
 
 def normalize_contribution_title(title: Any) -> str:
-    raw_title = str(title or "")
-    text = strip_terminal_period(strip_markdown_links(raw_title))
-    if re.search(r"\[[^\]]+\]\([^)]+\)", raw_title):
-        return text
+    text = strip_terminal_period(title or "")
     text = re.sub(
         r"^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\([^)]+\))?!?:\s*",
         "",
@@ -507,7 +531,7 @@ def normalize_contribution_title(title: Any) -> str:
     return text[:1].upper() + text[1:]
 
 
-def sanitize_zh_fix_text(text: Any, limit: int = 50) -> str:
+def sanitize_zh_fix_text(text: Any, limit: int = 80) -> str:
     value = md_escape(text).strip().strip("\"'“”‘’")
     value = re.sub(r"\s+", " ", value)
     if not value:
@@ -519,11 +543,11 @@ def sanitize_zh_fix_text(text: Any, limit: int = 50) -> str:
     return value
 
 
-def llm_translate_contribution_title(title: str, repo: str) -> str:
+def llm_translate_contribution_fix(english_text: str, repo: str) -> str:
     api_key = env_value("DASHSCOPE_API_KEY", "BAILIAN_API_KEY", "ALIYUN_BAILIAN_API_KEY")
     if not api_key:
         return ""
-    cache_key = (repo, title)
+    cache_key = (repo, english_text)
     if cache_key in LLM_TRANSLATION_CACHE:
         return LLM_TRANSLATION_CACHE[cache_key]
 
@@ -536,14 +560,14 @@ def llm_translate_contribution_title(title: str, repo: str) -> str:
             {
                 "role": "system",
                 "content": (
-                    "你是技术简历和开源贡献文案编辑。把英文 PR 标题翻译并润色成中文，"
-                    "用于 GitHub Profile 表格的 What I Fixed。只输出一句中文，50 字以内，"
-                    "不要引号，不要解释，安全问题优先使用“漏洞”“路径穿越”等准确表述。"
+                    "你是技术翻译。把英文 What I Fixed 逐义翻译成中文，"
+                    "用于 GitHub Profile 表格。只输出一句中文，不要添加英文原文没有的信息，"
+                    "不要扩写影响、原因、收益或风险；保留 API、URL、slug、schema_path、base_url 等技术名词。"
                 ),
             },
             {
                 "role": "user",
-                "content": f"仓库：{repo or 'upstream'}\nPR 标题：{title}",
+                "content": f"仓库：{repo or 'upstream'}\n英文说明：{english_text}",
             },
         ],
     }
@@ -573,43 +597,40 @@ def llm_translate_contribution_title(title: str, repo: str) -> str:
     return text
 
 
-def fallback_zh_contribution_fix(title: str) -> str:
-    lower = title.lower()
-    if "path traversal" in lower:
-        if "knowledge base" in lower and "upload" in lower:
-            return "修复知识库上传文件名的路径穿越漏洞，阻止目录逃逸。"
-        if "plugin" in lower and "upload" in lower:
-            return "修复插件上传文件名的路径穿越漏洞，阻止目录逃逸。"
-        return "修复路径穿越漏洞，校验目录边界，阻止越权文件访问。"
-    if lower.startswith(("fix ", "fixed ", "prevent ", "avoid ")):
-        return "修复上游缺陷，完善边界校验与异常处理。"
-    if lower.startswith(("feat ", "add ", "support ")):
-        return "补充上游功能能力，完善相关实现。"
-    if lower.startswith(("docs ", "document ", "update docs")):
-        return "完善上游文档说明，提升使用指引清晰度。"
-    return "完善上游实现，修复相关问题。"
+def fallback_zh_contribution_fix(english_text: str) -> str:
+    # Prefer an untranslated English source line over inventing a broad Chinese summary.
+    return md_escape(english_text)
 
 
-def contribution_fix_text(item: dict[str, Any], lang: str, context: RenderContext) -> str:
-    cache_key = contribution_cache_key(item.get("url"), lang)
-    raw_title = str(item.get("title") or "")
-    has_markdown_link = bool(re.search(r"\[[^\]]+\]\([^)]+\)", raw_title))
-    if cache_key and cache_key in context.previous_fixes and not has_markdown_link:
-        return context.previous_fixes[cache_key]
-    title = normalize_contribution_title(raw_title)
-    if lang == "zh":
-        text = item.get("zh_title") or ZH_CONTRIBUTION_FIXES.get(title)
-        if text:
-            return sanitize_zh_fix_text(text, limit=80)
-        repo = contribution_repo_display(item, lang)
-        text = llm_translate_contribution_title(title, repo)
-        if text:
+def english_contribution_fix_text(item: dict[str, Any], context: RenderContext) -> str:
+    cache_key = contribution_cache_key(item.get("url"), "en")
+    if cache_key and cache_key in context.previous_fixes:
+        text = context.previous_fixes[cache_key]
+        if text and not contains_cjk(text):
             return text
-        return fallback_zh_contribution_fix(title)
+    title = normalize_contribution_title(item.get("title") or "")
     text = item.get("en_title") or EN_CONTRIBUTION_FIXES.get(title, title)
     if contains_cjk(text):
         return "Merged upstream fix"
     return text
+
+
+def contribution_fix_text(item: dict[str, Any], lang: str, context: RenderContext) -> str:
+    if lang == "en":
+        return english_contribution_fix_text(item, context)
+
+    title = normalize_contribution_title(item.get("title") or "")
+    english_text = english_contribution_fix_text(item, context)
+    if lang == "zh":
+        text = ZH_CONTRIBUTION_FIXES.get(english_text) or ZH_CONTRIBUTION_FIXES.get(title)
+        if text:
+            return sanitize_zh_fix_text(text, limit=80)
+        repo = contribution_repo_display(item, lang)
+        text = llm_translate_contribution_fix(english_text, repo)
+        if text:
+            return text
+        return fallback_zh_contribution_fix(english_text)
+    return english_text
 
 
 def render_contributions(lines: list[str], contributions: list[dict[str, Any]], lang: str, context: RenderContext) -> None:
@@ -696,10 +717,10 @@ def render_section(lines: list[str], data: dict[str, Any], projects: list[dict[s
         lines.extend([" ".join(parts), ""])
 
     lines.extend([str(data.get("identity", "AI Programmer")), ""])
-    if contributions:
-        lines.extend([f"- {contribution_summary(contributions, data, lang)}"])
     if projects:
         lines.extend([f"- {project_summary(projects, data, lang)}"])
+    if contributions:
+        lines.extend([f"- {contribution_summary(contributions, data, lang)}"])
     if projects or contributions:
         lines.append("")
     if projects:
