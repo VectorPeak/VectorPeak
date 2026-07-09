@@ -486,7 +486,7 @@ def contribution_summary(contributions: list[dict[str, Any]], data: dict[str, An
         if repo and repo.lower() not in seen:
             seen.add(repo.lower())
             repos.append(repo)
-    joined = ", ".join(repos[:5])
+    joined = ", ".join(repos)
     if lang == "zh":
         return f"{count}+ merged upstream PRs，包括 {joined}。"
     return f"{count}+ merged upstream PRs, including {joined}."
@@ -717,10 +717,10 @@ def render_section(lines: list[str], data: dict[str, Any], projects: list[dict[s
         lines.extend([" ".join(parts), ""])
 
     lines.extend([str(data.get("identity", "AI Programmer")), ""])
-    if projects:
-        lines.extend([f"- {project_summary(projects, data, lang)}"])
     if contributions:
         lines.extend([f"- {contribution_summary(contributions, data, lang)}"])
+    if projects:
+        lines.extend([f"- {project_summary(projects, data, lang)}"])
     if projects or contributions:
         lines.append("")
     if projects:
