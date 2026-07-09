@@ -30,37 +30,37 @@ AI-native programmer
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/vectorpeak-blogs">vectorpeak-blogs</a></td>
-      <td>3+</td>
+      <td>new</td>
       <td>Personal blog and knowledge site for technical learning, deep learning practice, algorithm notes, and staged reflections</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/Codex-Pet-Live">Codex-Pet-Live</a></td>
-      <td>2+</td>
+      <td>new</td>
       <td>A Windows desktop Codex pet runtime for hosting, displaying, and driving interactive desktop companions</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/Fill-Contributions-Graph">Fill-Contributions-Graph</a></td>
-      <td>2+</td>
+      <td>new</td>
       <td>A utility for backfilling and maintaining GitHub contribution graph activity</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/lingban-ai-chat">lingban-ai-chat</a></td>
-      <td>1+</td>
+      <td>new</td>
       <td>Lingban AI chat Android client and backend API repository</td>
     </tr>
     <tr>
       <td align="center">Coding&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/OpenSense">OpenSense</a></td>
-      <td>2+</td>
+      <td>new</td>
       <td>Daily PR opportunity finder for known open-source repositories</td>
     </tr>
     <tr>
       <td align="center">Coding&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/vectorpeak-agent-skills">vectorpeak-agent-skills</a></td>
-      <td>2+</td>
+      <td>new</td>
       <td>A reusable Agent and Codex skill library for software engineering, knowledge work, and professional workflow automation</td>
     </tr>
     <tr>
@@ -72,19 +72,19 @@ AI-native programmer
     <tr>
       <td align="center">Research</td>
       <td><a href="https://github.com/VectorPeak/carbon-tower-predictor">carbon-tower-predictor</a></td>
-      <td>2+</td>
+      <td>new</td>
       <td>An industrial carbonization tower outlet temperature prediction project using historical DCS sensor data for trend forecasting, anomaly warning, and predictive maintenance</td>
     </tr>
     <tr>
       <td align="center">Research</td>
       <td><a href="https://github.com/VectorPeak/industrial-fault-text-classifier">industrial-fault-text-classifier</a></td>
-      <td>2+</td>
+      <td>new</td>
       <td>BERT-based industrial equipment fault text classification for repair-ticket analysis, fault recognition, and risk warning</td>
     </tr>
     <tr>
       <td align="center">Research</td>
       <td><a href="https://github.com/VectorPeak/kaggle-tabular-forge">kaggle-tabular-forge</a></td>
-      <td>1+</td>
+      <td>new</td>
       <td>A goal-driven Kaggle tabular experiment factory covering feature mining, OOF discipline, deep stacking, and AI review workflows</td>
     </tr>
   </tbody>
@@ -103,6 +103,12 @@ AI-native programmer
 | <div align="center">[Ktransformers (17.4k★)](https://github.com/kvcache-ai/ktransformers)</div> | [#2071](https://github.com/kvcache-ai/ktransformers/pull/2071) | <div align="left">fix(cli): detect bound ports before launch</div> |
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2770](https://github.com/kvcache-ai/Mooncake/pull/2770) | <div align="left">[Bugfix] Reject empty keys in HTTP metadata server</div> |
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">Preserved empty values in the Mooncake Store REST GET API so clients can reliably read cache metadata and blank fields</div> |
+
+#### AI agent applications / coding agents
+
+| Project | PR | What I Fixed |
+| :---: | :---: | :---: |
+| <div align="center">[DeepTutor (25.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
 
 #### Agent frameworks / protocols / evals
 
@@ -151,12 +157,6 @@ AI-native programmer
 | <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">Avoid mutating raw tool schemas for Responses</div> |
 | <div align="center">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">Improved event connection handling and reconnection logic, strengthening disconnect recovery and long-running connection stability</div> |
 
-#### Applied AI
-
-| Project | PR | What I Fixed |
-| :---: | :---: | :---: |
-| <div align="center">[DeepTutor (25.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
-
 #### RAG / vector databases / observability
 
 | Project | PR | What I Fixed |
@@ -197,37 +197,37 @@ AI-native programmer
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/vectorpeak-blogs">vectorpeak-blogs</a></td>
-      <td>3+</td>
+      <td>new</td>
       <td>个人博客与知识站点，用于记录技术学习、深度学习实践、算法题解与阶段性思考</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/Codex-Pet-Live">Codex-Pet-Live</a></td>
-      <td>2+</td>
+      <td>new</td>
       <td>面向 Windows 桌面的 Codex 宠物运行时，用于承载、展示和驱动交互式桌面宠物</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/Fill-Contributions-Graph">Fill-Contributions-Graph</a></td>
-      <td>2+</td>
+      <td>new</td>
       <td>GitHub Contribution Graph 荒漠绿化治理工程</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/lingban-ai-chat">lingban-ai-chat</a></td>
-      <td>1+</td>
+      <td>new</td>
       <td>灵伴 AI 聊天 Android 客户端与后端 API 仓库</td>
     </tr>
     <tr>
       <td align="center">Coding&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/OpenSense">OpenSense</a></td>
-      <td>2+</td>
+      <td>new</td>
       <td>面向已知开源项目的每日 PR 机会发现工具</td>
     </tr>
     <tr>
       <td align="center">Coding&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/vectorpeak-agent-skills">vectorpeak-agent-skills</a></td>
-      <td>2+</td>
+      <td>new</td>
       <td>可复用的 Agent / Codex 技能库，覆盖软件工程、知识工作和职业工作流自动化</td>
     </tr>
     <tr>
@@ -239,19 +239,19 @@ AI-native programmer
     <tr>
       <td align="center">Research</td>
       <td><a href="https://github.com/VectorPeak/carbon-tower-predictor">carbon-tower-predictor</a></td>
-      <td>2+</td>
+      <td>new</td>
       <td>工业碳化塔取出液温度预测项目，用历史 DCS 传感器数据进行趋势预测、异常预警与预测性维护</td>
     </tr>
     <tr>
       <td align="center">Research</td>
       <td><a href="https://github.com/VectorPeak/industrial-fault-text-classifier">industrial-fault-text-classifier</a></td>
-      <td>2+</td>
+      <td>new</td>
       <td>基于 BERT 的化工设备故障文本分类方案，用于报修工单分析、故障类别识别和风险预警</td>
     </tr>
     <tr>
       <td align="center">Research</td>
       <td><a href="https://github.com/VectorPeak/kaggle-tabular-forge">kaggle-tabular-forge</a></td>
-      <td>1+</td>
+      <td>new</td>
       <td>面向 Kaggle 表格竞赛的实验工厂，覆盖特征挖掘、OOF 纪律、深度 stacking 和 AI 评审工作流</td>
     </tr>
   </tbody>
@@ -270,6 +270,12 @@ AI-native programmer
 | <div align="center">[Ktransformers (17.4k★)](https://github.com/kvcache-ai/ktransformers)</div> | [#2071](https://github.com/kvcache-ai/ktransformers/pull/2071) | <div align="left">fix(cli): detect bound ports before launch</div> |
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2770](https://github.com/kvcache-ai/Mooncake/pull/2770) | <div align="left">在 HTTP metadata server 中拒绝空 key。</div> |
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">保留 Mooncake Store REST GET API 中的空值，使客户端能够可靠读取缓存元数据和空字段。</div> |
+
+#### AI agent applications / coding agents
+
+| Project | PR | What I Fixed |
+| :---: | :---: | :---: |
+| <div align="center">[DeepTutor (25.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
 
 #### Agent frameworks / protocols / evals
 
@@ -317,12 +323,6 @@ AI-native programmer
 | <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">保留 provider status errors。</div> |
 | <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">避免为 Responses 修改原始 tool schemas。</div> |
 | <div align="center">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">改进事件连接处理和重连逻辑，增强断线恢复和长连接稳定性。</div> |
-
-#### Applied AI
-
-| Project | PR | What I Fixed |
-| :---: | :---: | :---: |
-| <div align="center">[DeepTutor (25.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
 
 #### RAG / vector databases / observability
 

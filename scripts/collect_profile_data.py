@@ -222,12 +222,12 @@ def contribution_area(full_name: str) -> str:
     }:
         return "Agent frameworks / protocols / evals"
     if name in {"deeptutor", "dify", "google-genai", "python-genai"}:
-        return "Applied AI"
+        return "AI agent applications / coding agents"
     if name in {"lightrag", "qdrant", "pymilvus", "milvus", "ragflow", "langchain", "llamaindex"}:
         return "RAG / vector databases / observability"
     if "recommender" in name or "recbole" in name:
         return "Recommender systems"
-    return "Applied AI"
+    return "AI agent applications / coding agents"
 
 
 def pr_key(item: dict[str, Any]) -> tuple[str, int]:
