@@ -6,8 +6,8 @@
 
 AI-native programmer
 
-- 53+ merged upstream PRs, including Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live.
+- 55+ merged upstream PRs, including Openclaw, PyTorch, vLLM, Mem0, LightRAG.
 
 ### Projects
 
@@ -107,6 +107,7 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
+| <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#101815](https://github.com/openclaw/openclaw/pull/101815) | <div align="left">Split encoded video URLs from captions</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">Reject tools/call requests with non-object arguments</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP auth fails with percent-encoded credentials</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">Normalize Windows inbound paths case-insensitively</div> |
@@ -157,6 +158,7 @@ AI-native programmer
 | <div align="center">[LightRAG (37.5k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">Fixed a path traversal vulnerability in resource file generation by validating directory boundaries and preventing unauthorized writes or overwrites</div> |
 | <div align="center">[Qdrant (33.1k★)](https://github.com/qdrant/qdrant)</div> | [#9723](https://github.com/qdrant/qdrant/pull/9723) | <div align="left">Parse Windows snapshot mappings</div> |
 | <div align="center">[Qdrant (33.1k★)](https://github.com/qdrant/qdrant)</div> | [#9677](https://github.com/qdrant/qdrant/pull/9677) | <div align="left">Preserve empty result shape for zero-limit batches</div> |
+| <div align="center">[Numpy (32.3k★)](https://github.com/numpy/numpy)</div> | [#31906](https://github.com/numpy/numpy/pull/31906) | <div align="left">BUG: support PathLike paths in DataSource methods</div> |
 | <div align="center">[DeepTutor (25.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
 | <div align="center">[Pymilvus (1.4k★)](https://github.com/milvus-io/pymilvus)</div> | [#3658](https://github.com/milvus-io/pymilvus/pull/3658) | <div align="left">Preserve remote upload prefixes on Windows</div> |
 
@@ -166,8 +168,8 @@ AI-native programmer
 
 AI-native programmer
 
-- 53+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live。
+- 55+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, Mem0, LightRAG。
 
 ### 项目
 
@@ -267,6 +269,7 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
+| <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#101815](https://github.com/openclaw/openclaw/pull/101815) | <div align="left">Split encoded video URLs from captions</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">拒绝参数不是对象的 tools/call 请求。</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP 认证会因百分号编码的凭据而失败。</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">以不区分大小写的方式规范化 Windows 入站路径。</div> |
@@ -317,5 +320,6 @@ AI-native programmer
 | <div align="center">[LightRAG (37.5k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">通过验证目录边界并防止未授权写入或覆盖，修复资源文件生成中的路径穿越漏洞。</div> |
 | <div align="center">[Qdrant (33.1k★)](https://github.com/qdrant/qdrant)</div> | [#9723](https://github.com/qdrant/qdrant/pull/9723) | <div align="left">解析 Windows snapshot mappings。</div> |
 | <div align="center">[Qdrant (33.1k★)](https://github.com/qdrant/qdrant)</div> | [#9677](https://github.com/qdrant/qdrant/pull/9677) | <div align="left">保留 zero-limit batches 的空结果形状。</div> |
+| <div align="center">[Numpy (32.3k★)](https://github.com/numpy/numpy)</div> | [#31906](https://github.com/numpy/numpy/pull/31906) | <div align="left">BUG: support PathLike paths in DataSource methods</div> |
 | <div align="center">[DeepTutor (25.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
 | <div align="center">[Pymilvus (1.4k★)](https://github.com/milvus-io/pymilvus)</div> | [#3658](https://github.com/milvus-io/pymilvus/pull/3658) | <div align="left">在 Windows 上保留远程上传 prefixes。</div> |
