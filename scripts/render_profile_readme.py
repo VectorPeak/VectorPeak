@@ -9,6 +9,7 @@ import os
 import re
 import urllib.error
 import urllib.request
+from collections import Counter
 from dataclasses import dataclass
 from html import escape as html_escape
 from html import unescape as html_unescape
@@ -303,6 +304,11 @@ def sorted_summary_projects(projects: list[dict[str, Any]]) -> list[dict[str, An
     return sorted(projects, key=lambda item: (-number(item.get("stars")), str(item.get("name", "")).lower()))
 
 
+def displayed_projects(projects: list[dict[str, Any]], data: dict[str, Any]) -> list[dict[str, Any]]:
+    limit = int(data.get("project_display_limit", data.get("project_summary_limit", 5)))
+    return sorted_summary_projects(projects)[:limit]
+
+
 def infer_contribution_area(item: dict[str, Any]) -> str:
     repo = str(item.get("repo") or item.get("name") or "").rsplit("/", 1)[-1].lower()
     if repo in {
@@ -450,7 +456,7 @@ def validate_english_section(content: str) -> None:
 
 def project_summary(projects: list[dict[str, Any]], data: dict[str, Any], lang: str) -> str:
     ordered = sorted_summary_projects(projects)
-    limit = int(data.get("project_summary_limit", 12))
+    limit = int(data.get("project_summary_limit", 5))
     names = [str(project["name"]) for project in ordered[:limit]]
     count = number(data.get("public_project_count")) if data.get("public_project_count") is not None else len(projects)
     joined = ", ".join(names)
@@ -467,14 +473,27 @@ def contribution_rows(data: dict[str, Any]) -> list[dict[str, Any]]:
             continue
         row["area"] = row.get("area") or infer_contribution_area(row)
         rows.append(row)
-    return sorted(
-        rows,
-        key=lambda item: (
-            -number(item.get("repo_stars")),
-            str(item.get("repo") or item.get("name") or "").lower(),
-            -number(item.get("number")),
-        ),
+    counts = Counter(contribution_repo_key(row) for row in rows)
+    for row in rows:
+        row["repo_pr_count"] = counts[contribution_repo_key(row)]
+    return sorted(rows, key=contribution_sort_key)
+
+
+def contribution_repo_key(item: dict[str, Any]) -> str:
+    return str(item.get("repo") or item.get("name") or contribution_repo_display(item, "en") or "").lower()
+
+
+def contribution_sort_key(item: dict[str, Any]) -> tuple[int, int, str, int]:
+    return (
+        -number(item.get("repo_pr_count")),
+        -number(item.get("repo_stars")),
+        contribution_repo_key(item),
+        -number(item.get("number")),
     )
+
+
+def contribution_area_sort_key(items: list[dict[str, Any]]) -> tuple[int, int, str, int]:
+    return min(contribution_sort_key(item) for item in items)
 
 
 def contribution_summary(contributions: list[dict[str, Any]], data: dict[str, Any], lang: str) -> str:
@@ -645,8 +664,7 @@ def render_contributions(lines: list[str], contributions: list[dict[str, Any]], 
         area = str(item.get("area") or infer_contribution_area(item))
         grouped.setdefault(area, []).append(item)
 
-    ordered_areas = [area for area in CONTRIBUTION_AREAS if area in grouped]
-    ordered_areas.extend(sorted(area for area in grouped if area not in CONTRIBUTION_AREAS))
+    ordered_areas = sorted(grouped, key=lambda area: contribution_area_sort_key(grouped[area]))
     for area in ordered_areas:
         lines.extend([
             "",
@@ -655,14 +673,7 @@ def render_contributions(lines: list[str], contributions: list[dict[str, Any]], 
             "| Project | PR | What I Fixed |",
             "| :---: | :---: | :---: |",
         ])
-        rows = sorted(
-            grouped[area],
-            key=lambda item: (
-                -number(item.get("repo_stars")),
-                str(item.get("repo") or item.get("name") or "").lower(),
-                -number(item.get("number")),
-            )
-        )
+        rows = sorted(grouped[area], key=contribution_sort_key)
         for item in rows:
             lines.append(
                 "| "
@@ -723,9 +734,10 @@ def render_section(lines: list[str], data: dict[str, Any], projects: list[dict[s
         lines.extend([f"- {contribution_summary(contributions, data, lang)}"])
     if projects or contributions:
         lines.append("")
-    if projects:
-        render_projects(lines, projects, lang)
     render_contributions(lines, contributions, lang, context)
+    if projects:
+        lines.append("")
+        render_projects(lines, displayed_projects(projects, data), lang)
 
 
 def render(data: dict[str, Any], context: RenderContext | None = None) -> str:
