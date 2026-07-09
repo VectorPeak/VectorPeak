@@ -47,6 +47,26 @@ LANDED_MERGED_PR_OVERRIDES: list[dict[str, Any]] = [
         "landed_status": "closed_but_landed",
         "repo_stars": 20501,
     },
+    {
+        "author": "VectorPeak",
+        "repository_url": f"{API}/repos/openclaw/openclaw",
+        "html_url": "https://github.com/openclaw/openclaw/pull/101815",
+        "number": 101815,
+        "title": "Split encoded video URLs from captions",
+        "state": "closed",
+        "landed_status": "closed_but_landed",
+        "repo_stars": 382200,
+    },
+    {
+        "author": "VectorPeak",
+        "repository_url": f"{API}/repos/numpy/numpy",
+        "html_url": "https://github.com/numpy/numpy/pull/31906",
+        "number": 31906,
+        "title": "BUG: support PathLike paths in DataSource methods",
+        "state": "closed",
+        "landed_status": "closed_but_landed",
+        "repo_stars": 32300,
+    },
 ]
 
 
@@ -173,6 +193,7 @@ def contribution_area(full_name: str) -> str:
         "litellm",
         "pytorch",
         "ktransformers",
+        "numpy",
     }:
         return "AI infrastructure / model systems"
     if name in {
@@ -200,11 +221,13 @@ def contribution_area(full_name: str) -> str:
         "openhands",
     }:
         return "Agent frameworks / protocols / evals"
-    if name in {"dify", "ragflow", "langchain", "llamaindex", "google-genai", "python-genai"}:
-        return "Applied AI / RAG / observability"
+    if name in {"deeptutor", "dify", "google-genai", "python-genai"}:
+        return "Applied AI"
+    if name in {"lightrag", "qdrant", "pymilvus", "milvus", "ragflow", "langchain", "llamaindex"}:
+        return "RAG / vector databases / observability"
     if "recommender" in name or "recbole" in name:
         return "Recommender systems"
-    return "Applied AI / RAG / observability"
+    return "Applied AI"
 
 
 def pr_key(item: dict[str, Any]) -> tuple[str, int]:

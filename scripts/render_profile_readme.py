@@ -42,7 +42,8 @@ PROJECT_AREAS = {
 CONTRIBUTION_AREAS = [
     "AI infrastructure / model systems",
     "Agent frameworks / protocols / evals",
-    "Applied AI / RAG / observability",
+    "Applied AI",
+    "RAG / vector databases / observability",
     "Recommender systems",
 ]
 
@@ -83,6 +84,8 @@ ZH_CONTRIBUTION_FIXES = {
     "Reject userinfo URLs in WebFetch validation": "在 WebFetch 校验中拒绝 userinfo URL",
     "Reject non-200 download responses": "拒绝非 200 的下载响应",
     "Enable only synced ModelScope MCP servers": "仅启用已同步的 ModelScope MCP 服务",
+    "Split encoded video URLs from captions": "将编码后的视频 URL 与 captions 分离",
+    "BUG: support PathLike paths in DataSource methods": "支持 DataSource 方法中的 PathLike 路径",
     "Preserve zero LlamaIndex chunk overlap": "保留为零的 LlamaIndex chunk overlap",
     "Recover JSON objects after leading whitespace": "在前导空白后恢复 JSON 对象",
     "Route plugin market details through link guard": "让插件市场详情经过 link guard 路由",
@@ -315,12 +318,21 @@ def infer_contribution_area(item: dict[str, Any]) -> str:
         "flashinfer",
         "lmcache",
         "litellm",
+        "pytorch",
+        "ktransformers",
+        "numpy",
     }:
         return "AI infrastructure / model systems"
     if repo in {
         "qwen-code",
         "openclaw",
+        "astrbot",
+        "pydantic-ai",
+        "adk-python",
+        "qwenpaw",
         "mem0",
+        "agent-framework",
+        "agents",
         "microsoft-agent-framework",
         "github-mcp-server",
         "mcp-go",
@@ -335,11 +347,13 @@ def infer_contribution_area(item: dict[str, Any]) -> str:
         "openhands",
     }:
         return "Agent frameworks / protocols / evals"
-    if repo in {"astrbot", "dify", "ragflow", "langchain", "llamaindex", "google-genai", "python-genai"}:
-        return "Applied AI / RAG / observability"
+    if repo in {"deeptutor", "dify", "google-genai", "python-genai"}:
+        return "Applied AI"
+    if repo in {"lightrag", "qdrant", "pymilvus", "milvus", "ragflow", "langchain", "llamaindex"}:
+        return "RAG / vector databases / observability"
     if "recommender" in repo or "recbole" in repo:
         return "Recommender systems"
-    return "Applied AI / RAG / observability"
+    return "Applied AI"
 
 
 def infer_area(repo: dict[str, Any]) -> str:
