@@ -3,8 +3,8 @@ name: Update profile README
 on:
   workflow_dispatch:
   schedule:
-    # Runs at 07:00 Asia/Shanghai (23:00 UTC).
-    - cron: "0 23 * * *"
+    # Runs at 07:17 Asia/Shanghai (23:17 UTC), away from the top-of-hour queue.
+    - cron: "17 23 * * *"
 
 permissions:
   contents: write
@@ -12,7 +12,7 @@ permissions:
 
 concurrency:
   group: update-profile-readme
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update:
@@ -23,6 +23,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           ref: main
+          token: ${{ secrets.WORKFLOW_PUSH_PAT }}
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -31,7 +32,7 @@ jobs:
 
       - name: Collect GitHub facts
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ secrets.WORKFLOW_PUSH_PAT }}
         run: python scripts/collect_profile_data.py --owner VectorPeak --out github-facts.json
 
       - name: Render README
@@ -48,8 +49,13 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
           git diff --cached --quiet && exit 0
-          BRANCH="update-profile-$(date +%Y%m%d-%H%M%S)"
-          git checkout -b "$BRANCH"
+          BRANCH="automation/update-profile-readme"
+          git checkout -B "$BRANCH"
           git commit -m "chore: update profile README"
-          git push origin "$BRANCH"
-          gh pr create --base main --head "$BRANCH" --title "chore: update profile README" --body "Automated profile README update."
+          git push --force-with-lease origin "$BRANCH"
+          EXISTING_PR="$(gh pr list --base main --head "VectorPeak:$BRANCH" --state open --json number --jq '.[0].number')"
+          if [ -z "$EXISTING_PR" ]; then
+            gh pr create --base main --head "$BRANCH" --title "chore: update profile README" --body "Automated profile README update."
+          else
+            gh pr comment "$EXISTING_PR" --body "Updated automated README refresh branch."
+          fi
