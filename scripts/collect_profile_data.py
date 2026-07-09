@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Collect public GitHub facts used to render the profile README."""
 
 from __future__ import annotations
@@ -197,15 +197,10 @@ def contribution_area(full_name: str) -> str:
     }:
         return "AI infrastructure / model systems"
     if name in {
-        "qwen-code",
-        "openclaw",
-        "astrbot",
         "pydantic-ai",
         "adk-python",
-        "qwenpaw",
         "mem0",
         "agent-framework",
-        "agents",
         "microsoft-agent-framework",
         "github-mcp-server",
         "model-context-protocol",
@@ -221,13 +216,13 @@ def contribution_area(full_name: str) -> str:
         "openhands",
     }:
         return "Agent frameworks / protocols / evals"
-    if name in {"deeptutor", "dify", "google-genai", "python-genai"}:
-        return "AI agent applications / coding agents"
+    if name in {"openclaw", "astrbot", "qwen-code", "qwenpaw", "agents", "deeptutor", "dify", "google-genai", "python-genai"}:
+        return "Agent applications"
     if name in {"lightrag", "qdrant", "pymilvus", "milvus", "ragflow", "langchain", "llamaindex"}:
         return "RAG / vector databases / observability"
     if "recommender" in name or "recbole" in name:
         return "Recommender systems"
-    return "AI agent applications / coding agents"
+    return "Agent applications"
 
 
 def pr_key(item: dict[str, Any]) -> tuple[str, int]:
