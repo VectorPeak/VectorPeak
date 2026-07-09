@@ -6,8 +6,8 @@
 
 AI-native programmer
 
+- 53+ merged upstream PRs, including Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live.
-- 53+ merged upstream PRs, including Openclaw, PyTorch, vLLM, Mem0, LightRAG.
 
 ### Projects
 
@@ -166,8 +166,8 @@ AI-native programmer
 
 AI-native programmer
 
+- 53+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, vectorpeak-blogs, carbon-tower-predictor, Codex-Pet-Live。
-- 53+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, Mem0, LightRAG。
 
 ### 项目
 
