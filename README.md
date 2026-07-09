@@ -104,28 +104,21 @@ AI-native programmer
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2770](https://github.com/kvcache-ai/Mooncake/pull/2770) | <div align="left">[Bugfix] Reject empty keys in HTTP metadata server</div> |
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">Preserved empty values in the Mooncake Store REST GET API so clients can reliably read cache metadata and blank fields</div> |
 
-#### AI agent applications / coding agents
+#### Agent applications
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
 | <div align="center">[DeepTutor (25.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
-
-#### Agent frameworks / protocols / evals
-
-| Project | PR | What I Fixed |
-| :---: | :---: | :---: |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#101815](https://github.com/openclaw/openclaw/pull/101815) | <div align="left">Split encoded video URLs from captions</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">Reject tools/call requests with non-object arguments</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP auth fails with percent-encoded credentials</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">Normalize Windows inbound paths case-insensitively</div> |
-| <div align="center">[Mem0 (60.4k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">Encode dynamic URL path segments</div> |
 | <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">Validate dashboard account username updates</div> |
 | <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">Enforce ownership when reading ChatUI sessions</div> |
 | <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">Reject non-200 download responses</div> |
 | <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">Enable only synced ModelScope MCP servers</div> |
 | <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
 | <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
-| <div align="center">[AgentScope (27.6k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">Reject negative grep pagination values</div> |
 | <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6483](https://github.com/QwenLM/qwen-code/pull/6483) | <div align="left">Reject Windows-style workspace artifact paths</div> |
 | <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6455](https://github.com/QwenLM/qwen-code/pull/6455) | <div align="left">Reject fractional LSP limit inputs</div> |
 | <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6413](https://github.com/QwenLM/qwen-code/pull/6413) | <div align="left">Align monitor limit parameter schemas</div> |
@@ -142,6 +135,16 @@ AI-native programmer
 | <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">Reject userinfo URLs in WebFetch validation</div> |
 | <div align="center">[QwenPaw (21.5k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">Recover JSON objects after leading whitespace</div> |
 | <div align="center">[QwenPaw (21.5k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">Route plugin market details through link guard</div> |
+| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6328](https://github.com/livekit/agents/pull/6328) | <div align="left">Preserve image format for Bedrock images</div> |
+| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">Preserve provider status errors</div> |
+| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">Avoid mutating raw tool schemas for Responses</div> |
+
+#### Agent frameworks / protocols / evals
+
+| Project | PR | What I Fixed |
+| :---: | :---: | :---: |
+| <div align="center">[Mem0 (60.4k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">Encode dynamic URL path segments</div> |
+| <div align="center">[AgentScope (27.6k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">Reject negative grep pagination values</div> |
 | <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6314](https://github.com/google/adk-python/pull/6314) | <div align="left">Avoid mutating event validation input</div> |
 | <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6327](https://github.com/pydantic/pydantic-ai/pull/6327) | <div align="left">Preserve HTTPX event hooks</div> |
 | <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6282](https://github.com/pydantic/pydantic-ai/pull/6282) | <div align="left">Give a clear error for non-positive concurrency `max_running`</div> |
@@ -152,9 +155,6 @@ AI-native programmer
 | <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">Avoid duplicating `/v1` in `base_url`</div> |
 | <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">Clarify `end_strategy` values in agent spec</div> |
 | <div align="center">[Microsoft Agent Framework (12.0k★)](https://github.com/microsoft/agent-framework)</div> | [#6818](https://github.com/microsoft/agent-framework/pull/6818) | <div align="left">Python: accept A2A data URI media parameters</div> |
-| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6328](https://github.com/livekit/agents/pull/6328) | <div align="left">Preserve image format for Bedrock images</div> |
-| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">Preserve provider status errors</div> |
-| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">Avoid mutating raw tool schemas for Responses</div> |
 | <div align="center">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">Improved event connection handling and reconnection logic, strengthening disconnect recovery and long-running connection stability</div> |
 
 #### RAG / vector databases / observability
@@ -271,28 +271,21 @@ AI-native programmer
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2770](https://github.com/kvcache-ai/Mooncake/pull/2770) | <div align="left">在 HTTP metadata server 中拒绝空 key。</div> |
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">保留 Mooncake Store REST GET API 中的空值，使客户端能够可靠读取缓存元数据和空字段。</div> |
 
-#### AI agent applications / coding agents
+#### Agent applications
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
 | <div align="center">[DeepTutor (25.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
-
-#### Agent frameworks / protocols / evals
-
-| Project | PR | What I Fixed |
-| :---: | :---: | :---: |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#101815](https://github.com/openclaw/openclaw/pull/101815) | <div align="left">将编码后的视频 URL 与 captions 分离。</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">拒绝参数不是对象的 tools/call 请求。</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP 认证会因百分号编码的凭据而失败。</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">以不区分大小写的方式规范化 Windows 入站路径。</div> |
-| <div align="center">[Mem0 (60.4k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">对动态 URL 路径片段进行编码。</div> |
 | <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">校验仪表盘账号用户名更新。</div> |
 | <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">读取 ChatUI 会话时强制校验所有权。</div> |
 | <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">拒绝非 200 的下载响应。</div> |
 | <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">仅启用已同步的 ModelScope MCP 服务。</div> |
 | <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复知识库上传文件名中的路径穿越漏洞。</div> |
 | <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复插件上传文件名中的路径穿越漏洞。</div> |
-| <div align="center">[AgentScope (27.6k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数 grep 分页值。</div> |
 | <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6483](https://github.com/QwenLM/qwen-code/pull/6483) | <div align="left">拒绝 Windows 风格的 workspace artifact 路径。</div> |
 | <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6455](https://github.com/QwenLM/qwen-code/pull/6455) | <div align="left">拒绝小数形式的 LSP limit 输入。</div> |
 | <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6413](https://github.com/QwenLM/qwen-code/pull/6413) | <div align="left">对齐 monitor limit 参数 schema。</div> |
@@ -309,6 +302,16 @@ AI-native programmer
 | <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">在 WebFetch 校验中拒绝 userinfo URL。</div> |
 | <div align="center">[QwenPaw (21.5k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">在前导空白后恢复 JSON 对象。</div> |
 | <div align="center">[QwenPaw (21.5k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">让插件市场详情经过 link guard 路由。</div> |
+| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6328](https://github.com/livekit/agents/pull/6328) | <div align="left">保留 Bedrock images 的图像格式。</div> |
+| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">保留 provider status errors。</div> |
+| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">避免为 Responses 修改原始 tool schemas。</div> |
+
+#### Agent frameworks / protocols / evals
+
+| Project | PR | What I Fixed |
+| :---: | :---: | :---: |
+| <div align="center">[Mem0 (60.4k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">对动态 URL 路径片段进行编码。</div> |
+| <div align="center">[AgentScope (27.6k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数 grep 分页值。</div> |
 | <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6314](https://github.com/google/adk-python/pull/6314) | <div align="left">Avoid mutating event validation input</div> |
 | <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6327](https://github.com/pydantic/pydantic-ai/pull/6327) | <div align="left">保留 HTTPX event hooks。</div> |
 | <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6282](https://github.com/pydantic/pydantic-ai/pull/6282) | <div align="left">为非正数 concurrency `max_running` 给出清晰错误。</div> |
@@ -319,9 +322,6 @@ AI-native programmer
 | <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">避免在 `base_url` 中重复拼接 `/v1`。</div> |
 | <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">明确 agent spec 中的 `end_strategy` 取值。</div> |
 | <div align="center">[Microsoft Agent Framework (12.0k★)](https://github.com/microsoft/agent-framework)</div> | [#6818](https://github.com/microsoft/agent-framework/pull/6818) | <div align="left">Python：接受 A2A data URI 媒体参数。</div> |
-| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6328](https://github.com/livekit/agents/pull/6328) | <div align="left">保留 Bedrock images 的图像格式。</div> |
-| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">保留 provider status errors。</div> |
-| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">避免为 Responses 修改原始 tool schemas。</div> |
 | <div align="center">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">改进事件连接处理和重连逻辑，增强断线恢复和长连接稳定性。</div> |
 
 #### RAG / vector databases / observability

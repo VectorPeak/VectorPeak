@@ -41,7 +41,7 @@ PROJECT_AREAS = {
 
 CONTRIBUTION_AREAS = [
     "AI infrastructure / model systems",
-    "AI agent applications / coding agents",
+    "Agent applications",
     "Agent frameworks / protocols / evals",
     "RAG / vector databases / observability",
     "Recommender systems",
@@ -327,15 +327,10 @@ def infer_contribution_area(item: dict[str, Any]) -> str:
     }:
         return "AI infrastructure / model systems"
     if repo in {
-        "qwen-code",
-        "openclaw",
-        "astrbot",
         "pydantic-ai",
         "adk-python",
-        "qwenpaw",
         "mem0",
         "agent-framework",
-        "agents",
         "microsoft-agent-framework",
         "github-mcp-server",
         "mcp-go",
@@ -350,13 +345,13 @@ def infer_contribution_area(item: dict[str, Any]) -> str:
         "openhands",
     }:
         return "Agent frameworks / protocols / evals"
-    if repo in {"deeptutor", "dify", "google-genai", "python-genai"}:
-        return "AI agent applications / coding agents"
+    if repo in {"openclaw", "astrbot", "qwen-code", "qwenpaw", "agents", "deeptutor", "dify", "google-genai", "python-genai"}:
+        return "Agent applications"
     if repo in {"lightrag", "qdrant", "pymilvus", "milvus", "ragflow", "langchain", "llamaindex"}:
         return "RAG / vector databases / observability"
     if "recommender" in repo or "recbole" in repo:
         return "Recommender systems"
-    return "AI agent applications / coding agents"
+    return "Agent applications"
 
 
 def infer_area(repo: dict[str, Any]) -> str:
