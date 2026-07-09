@@ -55,7 +55,10 @@ jobs:
           git push --force-with-lease origin "$BRANCH"
           EXISTING_PR="$(gh pr list --base main --head "VectorPeak:$BRANCH" --state open --json number --jq '.[0].number')"
           if [ -z "$EXISTING_PR" ]; then
-            gh pr create --base main --head "$BRANCH" --title "chore: update profile README" --body "Automated profile README update."
+            PR_URL="$(gh pr create --base main --head "$BRANCH" --title "chore: update profile README" --body "Automated profile README update.")"
+            PR_NUMBER="$(gh pr view "$PR_URL" --json number --jq '.number')"
           else
+            PR_NUMBER="$EXISTING_PR"
             gh pr comment "$EXISTING_PR" --body "Updated automated README refresh branch."
           fi
+          gh pr merge "$PR_NUMBER" --squash --delete-branch --subject "chore: update profile README" --body "Automated profile README update."
