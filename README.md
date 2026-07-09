@@ -155,8 +155,8 @@ AI-native programmer
 | :---: | :---: | :---: |
 | <div align="center">[LightRAG (37.5k★)](https://github.com/HKUDS/LightRAG)</div> | [#3324](https://github.com/HKUDS/LightRAG/pull/3324) | <div align="left">Prevent task ID URL path injection</div> |
 | <div align="center">[LightRAG (37.5k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">Fixed a path traversal vulnerability in resource file generation by validating directory boundaries and preventing unauthorized writes or overwrites</div> |
-| <div align="center">[Qdrant (33.0k★)](https://github.com/qdrant/qdrant)</div> | [#9723](https://github.com/qdrant/qdrant/pull/9723) | <div align="left">Parse Windows snapshot mappings</div> |
-| <div align="center">[Qdrant (33.0k★)](https://github.com/qdrant/qdrant)</div> | [#9677](https://github.com/qdrant/qdrant/pull/9677) | <div align="left">Preserve empty result shape for zero-limit batches</div> |
+| <div align="center">[Qdrant (33.1k★)](https://github.com/qdrant/qdrant)</div> | [#9723](https://github.com/qdrant/qdrant/pull/9723) | <div align="left">Parse Windows snapshot mappings</div> |
+| <div align="center">[Qdrant (33.1k★)](https://github.com/qdrant/qdrant)</div> | [#9677](https://github.com/qdrant/qdrant/pull/9677) | <div align="left">Preserve empty result shape for zero-limit batches</div> |
 | <div align="center">[DeepTutor (25.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
 | <div align="center">[Pymilvus (1.4k★)](https://github.com/milvus-io/pymilvus)</div> | [#3658](https://github.com/milvus-io/pymilvus/pull/3658) | <div align="left">Preserve remote upload prefixes on Windows</div> |
 
@@ -315,7 +315,7 @@ AI-native programmer
 | :---: | :---: | :---: |
 | <div align="center">[LightRAG (37.5k★)](https://github.com/HKUDS/LightRAG)</div> | [#3324](https://github.com/HKUDS/LightRAG/pull/3324) | <div align="left">阻止任务 ID URL 路径注入。</div> |
 | <div align="center">[LightRAG (37.5k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">通过验证目录边界并防止未授权写入或覆盖，修复资源文件生成中的路径穿越漏洞。</div> |
-| <div align="center">[Qdrant (33.0k★)](https://github.com/qdrant/qdrant)</div> | [#9723](https://github.com/qdrant/qdrant/pull/9723) | <div align="left">解析 Windows snapshot mappings。</div> |
-| <div align="center">[Qdrant (33.0k★)](https://github.com/qdrant/qdrant)</div> | [#9677](https://github.com/qdrant/qdrant/pull/9677) | <div align="left">保留 zero-limit batches 的空结果形状。</div> |
+| <div align="center">[Qdrant (33.1k★)](https://github.com/qdrant/qdrant)</div> | [#9723](https://github.com/qdrant/qdrant/pull/9723) | <div align="left">解析 Windows snapshot mappings。</div> |
+| <div align="center">[Qdrant (33.1k★)](https://github.com/qdrant/qdrant)</div> | [#9677](https://github.com/qdrant/qdrant/pull/9677) | <div align="left">保留 zero-limit batches 的空结果形状。</div> |
 | <div align="center">[DeepTutor (25.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
 | <div align="center">[Pymilvus (1.4k★)](https://github.com/milvus-io/pymilvus)</div> | [#3658](https://github.com/milvus-io/pymilvus/pull/3658) | <div align="left">在 Windows 上保留远程上传 prefixes。</div> |
