@@ -41,7 +41,7 @@ PROJECT_AREAS = {
 
 CONTRIBUTION_AREAS = [
     "AI infrastructure / model systems",
-    "Agent applications",
+    "Agent applications / coding agents",
     "Agent frameworks / protocols / evals",
     "RAG / vector databases / observability",
     "Recommender systems",
@@ -150,7 +150,7 @@ def number(value: Any) -> int:
 def format_stars(value: Any) -> str:
     count = number(value)
     if count < 20:
-        return "new"
+        return "new+"
     return f"{count:,}+"
 
 
@@ -346,12 +346,12 @@ def infer_contribution_area(item: dict[str, Any]) -> str:
     }:
         return "Agent frameworks / protocols / evals"
     if repo in {"openclaw", "astrbot", "qwen-code", "qwenpaw", "agents", "deeptutor", "dify", "google-genai", "python-genai"}:
-        return "Agent applications"
+        return "Agent applications / coding agents"
     if repo in {"lightrag", "qdrant", "pymilvus", "milvus", "ragflow", "langchain", "llamaindex"}:
         return "RAG / vector databases / observability"
     if "recommender" in repo or "recbole" in repo:
         return "Recommender systems"
-    return "Agent applications"
+    return "Agent applications / coding agents"
 
 
 def infer_area(repo: dict[str, Any]) -> str:

@@ -30,37 +30,37 @@ AI-native programmer
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/vectorpeak-blogs">vectorpeak-blogs</a></td>
-      <td>new</td>
+      <td>new+</td>
       <td>Personal blog and knowledge site for technical learning, deep learning practice, algorithm notes, and staged reflections</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/Codex-Pet-Live">Codex-Pet-Live</a></td>
-      <td>new</td>
+      <td>new+</td>
       <td>A Windows desktop Codex pet runtime for hosting, displaying, and driving interactive desktop companions</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/Fill-Contributions-Graph">Fill-Contributions-Graph</a></td>
-      <td>new</td>
+      <td>new+</td>
       <td>A utility for backfilling and maintaining GitHub contribution graph activity</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/lingban-ai-chat">lingban-ai-chat</a></td>
-      <td>new</td>
+      <td>new+</td>
       <td>Lingban AI chat Android client and backend API repository</td>
     </tr>
     <tr>
       <td align="center">Coding&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/OpenSense">OpenSense</a></td>
-      <td>new</td>
+      <td>new+</td>
       <td>Daily PR opportunity finder for known open-source repositories</td>
     </tr>
     <tr>
       <td align="center">Coding&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/vectorpeak-agent-skills">vectorpeak-agent-skills</a></td>
-      <td>new</td>
+      <td>new+</td>
       <td>A reusable Agent and Codex skill library for software engineering, knowledge work, and professional workflow automation</td>
     </tr>
     <tr>
@@ -72,19 +72,19 @@ AI-native programmer
     <tr>
       <td align="center">Research</td>
       <td><a href="https://github.com/VectorPeak/carbon-tower-predictor">carbon-tower-predictor</a></td>
-      <td>new</td>
+      <td>new+</td>
       <td>An industrial carbonization tower outlet temperature prediction project using historical DCS sensor data for trend forecasting, anomaly warning, and predictive maintenance</td>
     </tr>
     <tr>
       <td align="center">Research</td>
       <td><a href="https://github.com/VectorPeak/industrial-fault-text-classifier">industrial-fault-text-classifier</a></td>
-      <td>new</td>
+      <td>new+</td>
       <td>BERT-based industrial equipment fault text classification for repair-ticket analysis, fault recognition, and risk warning</td>
     </tr>
     <tr>
       <td align="center">Research</td>
       <td><a href="https://github.com/VectorPeak/kaggle-tabular-forge">kaggle-tabular-forge</a></td>
-      <td>new</td>
+      <td>new+</td>
       <td>A goal-driven Kaggle tabular experiment factory covering feature mining, OOF discipline, deep stacking, and AI review workflows</td>
     </tr>
   </tbody>
@@ -104,40 +104,40 @@ AI-native programmer
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2770](https://github.com/kvcache-ai/Mooncake/pull/2770) | <div align="left">[Bugfix] Reject empty keys in HTTP metadata server</div> |
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">Preserved empty values in the Mooncake Store REST GET API so clients can reliably read cache metadata and blank fields</div> |
 
-#### Agent applications
+#### Agent applications / coding agents
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| <div align="center">[DeepTutor (25.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#101815](https://github.com/openclaw/openclaw/pull/101815) | <div align="left">Split encoded video URLs from captions</div> |
-| <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">Reject tools/call requests with non-object arguments</div> |
-| <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP auth fails with percent-encoded credentials</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">Normalize Windows inbound paths case-insensitively</div> |
-| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">Validate dashboard account username updates</div> |
-| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">Enforce ownership when reading ChatUI sessions</div> |
-| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">Reject non-200 download responses</div> |
-| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">Enable only synced ModelScope MCP servers</div> |
-| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
+| <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP auth fails with percent-encoded credentials</div> |
+| <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">Reject tools/call requests with non-object arguments</div> |
 | <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6483](https://github.com/QwenLM/qwen-code/pull/6483) | <div align="left">Reject Windows-style workspace artifact paths</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6455](https://github.com/QwenLM/qwen-code/pull/6455) | <div align="left">Reject fractional LSP limit inputs</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6413](https://github.com/QwenLM/qwen-code/pull/6413) | <div align="left">Align monitor limit parameter schemas</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6381](https://github.com/QwenLM/qwen-code/pull/6381) | <div align="left">Require integer ReadFile pagination params</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6344](https://github.com/QwenLM/qwen-code/pull/6344) | <div align="left">Preserve glued automation history records</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6323](https://github.com/QwenLM/qwen-code/pull/6323) | <div align="left">Avoid null OpenAPI schema types</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6317](https://github.com/QwenLM/qwen-code/pull/6317) | <div align="left">Preserve partial remote input JSONL records</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6243](https://github.com/QwenLM/qwen-code/pull/6243) | <div align="left">Preserve descriptionless tools</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6033](https://github.com/QwenLM/qwen-code/pull/6033) | <div align="left">Parse tagged thinking for GLM responses</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6029](https://github.com/QwenLM/qwen-code/pull/6029) | <div align="left">Support Windows-style tilde paths</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5914](https://github.com/QwenLM/qwen-code/pull/5914) | <div align="left">Harden remaining source path validation</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5911](https://github.com/QwenLM/qwen-code/pull/5911) | <div align="left">Normalize source slug validation errors</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5829](https://github.com/QwenLM/qwen-code/pull/5829) | <div align="left">Reject unsafe source slugs before deletion</div> |
+| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
+| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">Enable only synced ModelScope MCP servers</div> |
+| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">Reject non-200 download responses</div> |
+| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">Enforce ownership when reading ChatUI sessions</div> |
+| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">Validate dashboard account username updates</div> |
 | <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">Reject userinfo URLs in WebFetch validation</div> |
-| <div align="center">[QwenPaw (21.5k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">Recover JSON objects after leading whitespace</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5829](https://github.com/QwenLM/qwen-code/pull/5829) | <div align="left">Reject unsafe source slugs before deletion</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5911](https://github.com/QwenLM/qwen-code/pull/5911) | <div align="left">Normalize source slug validation errors</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5914](https://github.com/QwenLM/qwen-code/pull/5914) | <div align="left">Harden remaining source path validation</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6029](https://github.com/QwenLM/qwen-code/pull/6029) | <div align="left">Support Windows-style tilde paths</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6033](https://github.com/QwenLM/qwen-code/pull/6033) | <div align="left">Parse tagged thinking for GLM responses</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6243](https://github.com/QwenLM/qwen-code/pull/6243) | <div align="left">Preserve descriptionless tools</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6317](https://github.com/QwenLM/qwen-code/pull/6317) | <div align="left">Preserve partial remote input JSONL records</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6323](https://github.com/QwenLM/qwen-code/pull/6323) | <div align="left">Avoid null OpenAPI schema types</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6344](https://github.com/QwenLM/qwen-code/pull/6344) | <div align="left">Preserve glued automation history records</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6381](https://github.com/QwenLM/qwen-code/pull/6381) | <div align="left">Require integer ReadFile pagination params</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6413](https://github.com/QwenLM/qwen-code/pull/6413) | <div align="left">Align monitor limit parameter schemas</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6455](https://github.com/QwenLM/qwen-code/pull/6455) | <div align="left">Reject fractional LSP limit inputs</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6483](https://github.com/QwenLM/qwen-code/pull/6483) | <div align="left">Reject Windows-style workspace artifact paths</div> |
+| <div align="center">[DeepTutor (25.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
 | <div align="center">[QwenPaw (21.5k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">Route plugin market details through link guard</div> |
-| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6328](https://github.com/livekit/agents/pull/6328) | <div align="left">Preserve image format for Bedrock images</div> |
-| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">Preserve provider status errors</div> |
+| <div align="center">[QwenPaw (21.5k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">Recover JSON objects after leading whitespace</div> |
 | <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">Avoid mutating raw tool schemas for Responses</div> |
+| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">Preserve provider status errors</div> |
+| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6328](https://github.com/livekit/agents/pull/6328) | <div align="left">Preserve image format for Bedrock images</div> |
 
 #### Agent frameworks / protocols / evals
 
@@ -197,37 +197,37 @@ AI-native programmer
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/vectorpeak-blogs">vectorpeak-blogs</a></td>
-      <td>new</td>
+      <td>new+</td>
       <td>个人博客与知识站点，用于记录技术学习、深度学习实践、算法题解与阶段性思考</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/Codex-Pet-Live">Codex-Pet-Live</a></td>
-      <td>new</td>
+      <td>new+</td>
       <td>面向 Windows 桌面的 Codex 宠物运行时，用于承载、展示和驱动交互式桌面宠物</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/Fill-Contributions-Graph">Fill-Contributions-Graph</a></td>
-      <td>new</td>
+      <td>new+</td>
       <td>GitHub Contribution Graph 荒漠绿化治理工程</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/lingban-ai-chat">lingban-ai-chat</a></td>
-      <td>new</td>
+      <td>new+</td>
       <td>灵伴 AI 聊天 Android 客户端与后端 API 仓库</td>
     </tr>
     <tr>
       <td align="center">Coding&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/OpenSense">OpenSense</a></td>
-      <td>new</td>
+      <td>new+</td>
       <td>面向已知开源项目的每日 PR 机会发现工具</td>
     </tr>
     <tr>
       <td align="center">Coding&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/vectorpeak-agent-skills">vectorpeak-agent-skills</a></td>
-      <td>new</td>
+      <td>new+</td>
       <td>可复用的 Agent / Codex 技能库，覆盖软件工程、知识工作和职业工作流自动化</td>
     </tr>
     <tr>
@@ -239,19 +239,19 @@ AI-native programmer
     <tr>
       <td align="center">Research</td>
       <td><a href="https://github.com/VectorPeak/carbon-tower-predictor">carbon-tower-predictor</a></td>
-      <td>new</td>
+      <td>new+</td>
       <td>工业碳化塔取出液温度预测项目，用历史 DCS 传感器数据进行趋势预测、异常预警与预测性维护</td>
     </tr>
     <tr>
       <td align="center">Research</td>
       <td><a href="https://github.com/VectorPeak/industrial-fault-text-classifier">industrial-fault-text-classifier</a></td>
-      <td>new</td>
+      <td>new+</td>
       <td>基于 BERT 的化工设备故障文本分类方案，用于报修工单分析、故障类别识别和风险预警</td>
     </tr>
     <tr>
       <td align="center">Research</td>
       <td><a href="https://github.com/VectorPeak/kaggle-tabular-forge">kaggle-tabular-forge</a></td>
-      <td>new</td>
+      <td>new+</td>
       <td>面向 Kaggle 表格竞赛的实验工厂，覆盖特征挖掘、OOF 纪律、深度 stacking 和 AI 评审工作流</td>
     </tr>
   </tbody>
@@ -271,40 +271,40 @@ AI-native programmer
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2770](https://github.com/kvcache-ai/Mooncake/pull/2770) | <div align="left">在 HTTP metadata server 中拒绝空 key。</div> |
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">保留 Mooncake Store REST GET API 中的空值，使客户端能够可靠读取缓存元数据和空字段。</div> |
 
-#### Agent applications
+#### Agent applications / coding agents
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| <div align="center">[DeepTutor (25.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#101815](https://github.com/openclaw/openclaw/pull/101815) | <div align="left">将编码后的视频 URL 与 captions 分离。</div> |
-| <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">拒绝参数不是对象的 tools/call 请求。</div> |
-| <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP 认证会因百分号编码的凭据而失败。</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">以不区分大小写的方式规范化 Windows 入站路径。</div> |
-| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">校验仪表盘账号用户名更新。</div> |
-| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">读取 ChatUI 会话时强制校验所有权。</div> |
-| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">拒绝非 200 的下载响应。</div> |
-| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">仅启用已同步的 ModelScope MCP 服务。</div> |
-| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复知识库上传文件名中的路径穿越漏洞。</div> |
+| <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP 认证会因百分号编码的凭据而失败。</div> |
+| <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">拒绝参数不是对象的 tools/call 请求。</div> |
 | <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复插件上传文件名中的路径穿越漏洞。</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6483](https://github.com/QwenLM/qwen-code/pull/6483) | <div align="left">拒绝 Windows 风格的 workspace artifact 路径。</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6455](https://github.com/QwenLM/qwen-code/pull/6455) | <div align="left">拒绝小数形式的 LSP limit 输入。</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6413](https://github.com/QwenLM/qwen-code/pull/6413) | <div align="left">对齐 monitor limit 参数 schema。</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6381](https://github.com/QwenLM/qwen-code/pull/6381) | <div align="left">要求 ReadFile 分页参数为整数。</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6344](https://github.com/QwenLM/qwen-code/pull/6344) | <div align="left">保留粘连的 automation 历史记录。</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6323](https://github.com/QwenLM/qwen-code/pull/6323) | <div align="left">避免空的 OpenAPI schema 类型。</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6317](https://github.com/QwenLM/qwen-code/pull/6317) | <div align="left">保留不完整的远程输入 JSONL 记录。</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6243](https://github.com/QwenLM/qwen-code/pull/6243) | <div align="left">保留没有 description 的工具。</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6033](https://github.com/QwenLM/qwen-code/pull/6033) | <div align="left">解析 GLM 响应中的标记化 thinking。</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6029](https://github.com/QwenLM/qwen-code/pull/6029) | <div align="left">支持 Windows 风格的波浪号路径。</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5914](https://github.com/QwenLM/qwen-code/pull/5914) | <div align="left">强化其余 source path 校验。</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5911](https://github.com/QwenLM/qwen-code/pull/5911) | <div align="left">统一 source slug 校验错误。</div> |
-| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5829](https://github.com/QwenLM/qwen-code/pull/5829) | <div align="left">删除前拒绝不安全的 source slug。</div> |
+| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复知识库上传文件名中的路径穿越漏洞。</div> |
+| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">仅启用已同步的 ModelScope MCP 服务。</div> |
+| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">拒绝非 200 的下载响应。</div> |
+| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">读取 ChatUI 会话时强制校验所有权。</div> |
+| <div align="center">[AstrBot (36.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">校验仪表盘账号用户名更新。</div> |
 | <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">在 WebFetch 校验中拒绝 userinfo URL。</div> |
-| <div align="center">[QwenPaw (21.5k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">在前导空白后恢复 JSON 对象。</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5829](https://github.com/QwenLM/qwen-code/pull/5829) | <div align="left">删除前拒绝不安全的 source slug。</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5911](https://github.com/QwenLM/qwen-code/pull/5911) | <div align="left">统一 source slug 校验错误。</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5914](https://github.com/QwenLM/qwen-code/pull/5914) | <div align="left">强化其余 source path 校验。</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6029](https://github.com/QwenLM/qwen-code/pull/6029) | <div align="left">支持 Windows 风格的波浪号路径。</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6033](https://github.com/QwenLM/qwen-code/pull/6033) | <div align="left">解析 GLM 响应中的标记化 thinking。</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6243](https://github.com/QwenLM/qwen-code/pull/6243) | <div align="left">保留没有 description 的工具。</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6317](https://github.com/QwenLM/qwen-code/pull/6317) | <div align="left">保留不完整的远程输入 JSONL 记录。</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6323](https://github.com/QwenLM/qwen-code/pull/6323) | <div align="left">避免空的 OpenAPI schema 类型。</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6344](https://github.com/QwenLM/qwen-code/pull/6344) | <div align="left">保留粘连的 automation 历史记录。</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6381](https://github.com/QwenLM/qwen-code/pull/6381) | <div align="left">要求 ReadFile 分页参数为整数。</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6413](https://github.com/QwenLM/qwen-code/pull/6413) | <div align="left">对齐 monitor limit 参数 schema。</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6455](https://github.com/QwenLM/qwen-code/pull/6455) | <div align="left">拒绝小数形式的 LSP limit 输入。</div> |
+| <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#6483](https://github.com/QwenLM/qwen-code/pull/6483) | <div align="left">拒绝 Windows 风格的 workspace artifact 路径。</div> |
+| <div align="center">[DeepTutor (25.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
 | <div align="center">[QwenPaw (21.5k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">让插件市场详情经过 link guard 路由。</div> |
-| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6328](https://github.com/livekit/agents/pull/6328) | <div align="left">保留 Bedrock images 的图像格式。</div> |
-| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">保留 provider status errors。</div> |
+| <div align="center">[QwenPaw (21.5k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">在前导空白后恢复 JSON 对象。</div> |
 | <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">避免为 Responses 修改原始 tool schemas。</div> |
+| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">保留 provider status errors。</div> |
+| <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6328](https://github.com/livekit/agents/pull/6328) | <div align="left">保留 Bedrock images 的图像格式。</div> |
 
 #### Agent frameworks / protocols / evals
 
