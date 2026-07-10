@@ -59,6 +59,16 @@ LANDED_MERGED_PR_OVERRIDES: list[dict[str, Any]] = [
     },
     {
         "author": "VectorPeak",
+        "repository_url": f"{API}/repos/openclaw/openclaw",
+        "html_url": "https://github.com/openclaw/openclaw/pull/102649",
+        "number": 102649,
+        "title": "fix(media-core): detect MIME from encoded URL extensions",
+        "state": "closed",
+        "landed_status": "closed_but_landed",
+        "repo_stars": 382441,
+    },
+    {
+        "author": "VectorPeak",
         "repository_url": f"{API}/repos/numpy/numpy",
         "html_url": "https://github.com/numpy/numpy/pull/31906",
         "number": 31906,

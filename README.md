@@ -6,7 +6,7 @@
 
 AI-native programmer
 
-- 59+ merged upstream PRs, including Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, Numpy, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
+- 60+ merged upstream PRs, including Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, Numpy, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, Codex-Pet-Live, OpenSense, vectorpeak-blogs.
 
 ### Projects
@@ -109,6 +109,7 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
+| <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#102649](https://github.com/openclaw/openclaw/pull/102649) | <div align="left">Detect MIME from encoded URL extensions</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#101815](https://github.com/openclaw/openclaw/pull/101815) | <div align="left">Split encoded video URLs from captions</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">Reject tools/call requests with non-object arguments</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP auth fails with percent-encoded credentials</div> |
@@ -177,7 +178,7 @@ AI-native programmer
 
 AI-native programmer
 
-- 59+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, Numpy, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
+- 60+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, Numpy, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, Codex-Pet-Live, OpenSense, vectorpeak-blogs。
 
 ### 项目
@@ -280,6 +281,7 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
+| <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#102649](https://github.com/openclaw/openclaw/pull/102649) | <div align="left">Detect MIME from encoded URL extensions</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#101815](https://github.com/openclaw/openclaw/pull/101815) | <div align="left">将编码后的视频 URL 与 captions 分离。</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">拒绝参数不是对象的 tools/call 请求。</div> |
 | <div align="center">[Openclaw (382.2k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP 认证会因百分号编码的凭据而失败。</div> |
