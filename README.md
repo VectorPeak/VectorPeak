@@ -7,7 +7,7 @@
 AI-native programmer
 
 - 59+ merged upstream PRs, including Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, Numpy, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
-- 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, OpenSense, vectorpeak-blogs, carbon-tower-predictor.
+- 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, Codex-Pet-Live, OpenSense, vectorpeak-blogs.
 
 ### Projects
 
@@ -29,15 +29,15 @@ AI-native programmer
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/vectorpeak-blogs">vectorpeak-blogs</a></td>
-      <td>new+</td>
-      <td>Personal blog and knowledge site for technical learning, deep learning practice, algorithm notes, and staged reflections</td>
-    </tr>
-    <tr>
-      <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/Codex-Pet-Live">Codex-Pet-Live</a></td>
       <td>new+</td>
       <td>A Windows desktop Codex pet runtime for hosting, displaying, and driving interactive desktop companions</td>
+    </tr>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/vectorpeak-blogs">vectorpeak-blogs</a></td>
+      <td>new+</td>
+      <td>Personal blog and knowledge site for technical learning, deep learning practice, algorithm notes, and staged reflections</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
@@ -98,7 +98,7 @@ AI-native programmer
 | :---: | :---: | :---: |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188961](https://github.com/pytorch/pytorch/pull/188961) | <div align="left">Fix Windows target determination for POSIX changed-file paths</div> |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188830](https://github.com/pytorch/pytorch/pull/188830) | <div align="left">Fixed cross-platform CI test target detection by normalizing Git-style and Windows-style test paths</div> |
-| <div align="center">[vLLM (85.8k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">[Bugfix] Align OpenCV video metadata timeline</div> |
+| <div align="center">[vLLM (85.9k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">[Bugfix] Align OpenCV video metadata timeline</div> |
 | <div align="center">[Numpy (32.3k★)](https://github.com/numpy/numpy)</div> | [#31934](https://github.com/numpy/numpy/pull/31934) | <div align="left">BUG: respect pathsep for f2py include paths</div> |
 | <div align="center">[Numpy (32.3k★)](https://github.com/numpy/numpy)</div> | [#31906](https://github.com/numpy/numpy/pull/31906) | <div align="left">BUG: support PathLike paths in DataSource methods</div> |
 | <div align="center">[Ktransformers (17.4k★)](https://github.com/kvcache-ai/ktransformers)</div> | [#2071](https://github.com/kvcache-ai/ktransformers/pull/2071) | <div align="left">fix(cli): detect bound ports before launch</div> |
@@ -178,7 +178,7 @@ AI-native programmer
 AI-native programmer
 
 - 59+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, Numpy, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
-- 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, OpenSense, vectorpeak-blogs, carbon-tower-predictor。
+- 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, Codex-Pet-Live, OpenSense, vectorpeak-blogs。
 
 ### 项目
 
@@ -200,15 +200,15 @@ AI-native programmer
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
-      <td><a href="https://github.com/VectorPeak/vectorpeak-blogs">vectorpeak-blogs</a></td>
-      <td>new+</td>
-      <td>个人博客与知识站点，用于记录技术学习、深度学习实践、算法题解与阶段性思考</td>
-    </tr>
-    <tr>
-      <td align="center">Applied&nbsp;agents</td>
       <td><a href="https://github.com/VectorPeak/Codex-Pet-Live">Codex-Pet-Live</a></td>
       <td>new+</td>
       <td>面向 Windows 桌面的 Codex 宠物运行时，用于承载、展示和驱动交互式桌面宠物</td>
+    </tr>
+    <tr>
+      <td align="center">Applied&nbsp;agents</td>
+      <td><a href="https://github.com/VectorPeak/vectorpeak-blogs">vectorpeak-blogs</a></td>
+      <td>new+</td>
+      <td>个人博客与知识站点，用于记录技术学习、深度学习实践、算法题解与阶段性思考</td>
     </tr>
     <tr>
       <td align="center">Applied&nbsp;agents</td>
@@ -269,7 +269,7 @@ AI-native programmer
 | :---: | :---: | :---: |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188961](https://github.com/pytorch/pytorch/pull/188961) | <div align="left">Fix Windows target determination for POSIX changed-file paths</div> |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188830](https://github.com/pytorch/pytorch/pull/188830) | <div align="left">Fixed cross-platform CI test target detection by normalizing Git-style and Windows-style test paths</div> |
-| <div align="center">[vLLM (85.8k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">对齐 OpenCV 视频元数据时间线。</div> |
+| <div align="center">[vLLM (85.9k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">对齐 OpenCV 视频元数据时间线。</div> |
 | <div align="center">[Numpy (32.3k★)](https://github.com/numpy/numpy)</div> | [#31934](https://github.com/numpy/numpy/pull/31934) | <div align="left">BUG: respect pathsep for f2py include paths</div> |
 | <div align="center">[Numpy (32.3k★)](https://github.com/numpy/numpy)</div> | [#31906](https://github.com/numpy/numpy/pull/31906) | <div align="left">支持 DataSource 方法中的 PathLike 路径。</div> |
 | <div align="center">[Ktransformers (17.4k★)](https://github.com/kvcache-ai/ktransformers)</div> | [#2071](https://github.com/kvcache-ai/ktransformers/pull/2071) | <div align="left">fix(cli): detect bound ports before launch</div> |
