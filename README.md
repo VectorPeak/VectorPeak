@@ -6,7 +6,7 @@
 
 AI-native programmer
 
-- 57+ merged upstream PRs, including Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, Numpy, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
+- 59+ merged upstream PRs, including Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, Numpy, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, OpenSense, vectorpeak-blogs, carbon-tower-predictor.
 
 ### Projects
@@ -99,6 +99,7 @@ AI-native programmer
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188961](https://github.com/pytorch/pytorch/pull/188961) | <div align="left">Fix Windows target determination for POSIX changed-file paths</div> |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188830](https://github.com/pytorch/pytorch/pull/188830) | <div align="left">Fixed cross-platform CI test target detection by normalizing Git-style and Windows-style test paths</div> |
 | <div align="center">[vLLM (85.8k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">[Bugfix] Align OpenCV video metadata timeline</div> |
+| <div align="center">[Numpy (32.3k★)](https://github.com/numpy/numpy)</div> | [#31934](https://github.com/numpy/numpy/pull/31934) | <div align="left">BUG: respect pathsep for f2py include paths</div> |
 | <div align="center">[Numpy (32.3k★)](https://github.com/numpy/numpy)</div> | [#31906](https://github.com/numpy/numpy/pull/31906) | <div align="left">BUG: support PathLike paths in DataSource methods</div> |
 | <div align="center">[Ktransformers (17.4k★)](https://github.com/kvcache-ai/ktransformers)</div> | [#2071](https://github.com/kvcache-ai/ktransformers/pull/2071) | <div align="left">fix(cli): detect bound ports before launch</div> |
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2770](https://github.com/kvcache-ai/Mooncake/pull/2770) | <div align="left">[Bugfix] Reject empty keys in HTTP metadata server</div> |
@@ -133,8 +134,9 @@ AI-native programmer
 | <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5829](https://github.com/QwenLM/qwen-code/pull/5829) | <div align="left">Reject unsafe source slugs before deletion</div> |
 | <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">Reject userinfo URLs in WebFetch validation</div> |
 | <div align="center">[DeepTutor (25.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
-| <div align="center">[QwenPaw (21.6k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">Recover JSON objects after leading whitespace</div> |
-| <div align="center">[QwenPaw (21.6k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">Route plugin market details through link guard</div> |
+| <div align="center">[QwenPaw (21.7k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5841](https://github.com/agentscope-ai/QwenPaw/pull/5841) | <div align="left">Recover whitespace-prefixed tool-call JSON arguments</div> |
+| <div align="center">[QwenPaw (21.7k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">Recover JSON objects after leading whitespace</div> |
+| <div align="center">[QwenPaw (21.7k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">Route plugin market details through link guard</div> |
 | <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6328](https://github.com/livekit/agents/pull/6328) | <div align="left">Preserve image format for Bedrock images</div> |
 | <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">Preserve provider status errors</div> |
 | <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">Avoid mutating raw tool schemas for Responses</div> |
@@ -144,7 +146,7 @@ AI-native programmer
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
 | <div align="center">[Mem0 (60.5k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">Encode dynamic URL path segments</div> |
-| <div align="center">[AgentScope (27.6k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">Reject negative grep pagination values</div> |
+| <div align="center">[AgentScope (27.7k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">Reject negative grep pagination values</div> |
 | <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6314](https://github.com/google/adk-python/pull/6314) | <div align="left">Avoid mutating event validation input</div> |
 | <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6327](https://github.com/pydantic/pydantic-ai/pull/6327) | <div align="left">Preserve HTTPX event hooks</div> |
 | <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6282](https://github.com/pydantic/pydantic-ai/pull/6282) | <div align="left">Give a clear error for non-positive concurrency `max_running`</div> |
@@ -175,7 +177,7 @@ AI-native programmer
 
 AI-native programmer
 
-- 57+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, Numpy, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
+- 59+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, Numpy, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, OpenSense, vectorpeak-blogs, carbon-tower-predictor。
 
 ### 项目
@@ -268,6 +270,7 @@ AI-native programmer
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188961](https://github.com/pytorch/pytorch/pull/188961) | <div align="left">Fix Windows target determination for POSIX changed-file paths</div> |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188830](https://github.com/pytorch/pytorch/pull/188830) | <div align="left">Fixed cross-platform CI test target detection by normalizing Git-style and Windows-style test paths</div> |
 | <div align="center">[vLLM (85.8k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">对齐 OpenCV 视频元数据时间线。</div> |
+| <div align="center">[Numpy (32.3k★)](https://github.com/numpy/numpy)</div> | [#31934](https://github.com/numpy/numpy/pull/31934) | <div align="left">BUG: respect pathsep for f2py include paths</div> |
 | <div align="center">[Numpy (32.3k★)](https://github.com/numpy/numpy)</div> | [#31906](https://github.com/numpy/numpy/pull/31906) | <div align="left">支持 DataSource 方法中的 PathLike 路径。</div> |
 | <div align="center">[Ktransformers (17.4k★)](https://github.com/kvcache-ai/ktransformers)</div> | [#2071](https://github.com/kvcache-ai/ktransformers/pull/2071) | <div align="left">fix(cli): detect bound ports before launch</div> |
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2770](https://github.com/kvcache-ai/Mooncake/pull/2770) | <div align="left">在 HTTP metadata server 中拒绝空 key。</div> |
@@ -302,8 +305,9 @@ AI-native programmer
 | <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5829](https://github.com/QwenLM/qwen-code/pull/5829) | <div align="left">删除前拒绝不安全的 source slug。</div> |
 | <div align="center">[Qwen Code (25.9k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">在 WebFetch 校验中拒绝 userinfo URL。</div> |
 | <div align="center">[DeepTutor (25.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
-| <div align="center">[QwenPaw (21.6k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">在前导空白后恢复 JSON 对象。</div> |
-| <div align="center">[QwenPaw (21.6k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">让插件市场详情经过 link guard 路由。</div> |
+| <div align="center">[QwenPaw (21.7k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5841](https://github.com/agentscope-ai/QwenPaw/pull/5841) | <div align="left">Recover whitespace-prefixed tool-call JSON arguments</div> |
+| <div align="center">[QwenPaw (21.7k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">在前导空白后恢复 JSON 对象。</div> |
+| <div align="center">[QwenPaw (21.7k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">让插件市场详情经过 link guard 路由。</div> |
 | <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6328](https://github.com/livekit/agents/pull/6328) | <div align="left">保留 Bedrock images 的图像格式。</div> |
 | <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">保留 provider status errors。</div> |
 | <div align="center">[LiveKit Agents (11.3k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">避免为 Responses 修改原始 tool schemas。</div> |
@@ -313,7 +317,7 @@ AI-native programmer
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
 | <div align="center">[Mem0 (60.5k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">对动态 URL 路径片段进行编码。</div> |
-| <div align="center">[AgentScope (27.6k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数 grep 分页值。</div> |
+| <div align="center">[AgentScope (27.7k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数 grep 分页值。</div> |
 | <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6314](https://github.com/google/adk-python/pull/6314) | <div align="left">Avoid mutating event validation input</div> |
 | <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6327](https://github.com/pydantic/pydantic-ai/pull/6327) | <div align="left">保留 HTTPX event hooks。</div> |
 | <div align="center">[Pydantic AI (18.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6282](https://github.com/pydantic/pydantic-ai/pull/6282) | <div align="left">为非正数 concurrency `max_running` 给出清晰错误。</div> |
