@@ -6,7 +6,7 @@
 
 AI-native programmer
 
-- 66+ merged upstream PRs, including Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, Numpy, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
+- 67+ merged upstream PRs, including Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, Numpy, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, Codex-Pet-Live, OpenSense, vectorpeak-blogs.
 
 ### Projects
@@ -110,6 +110,7 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
+| <div align="center">[Openclaw (382.7k★)](https://github.com/openclaw/openclaw)</div> | [#105397](https://github.com/openclaw/openclaw/pull/105397) | <div align="left">Run ts-topology entrypoint on Windows</div> |
 | <div align="center">[Openclaw (382.7k★)](https://github.com/openclaw/openclaw)</div> | [#104498](https://github.com/openclaw/openclaw/pull/104498) | <div align="left">Avoid logging raw duplicate card-action tokens</div> |
 | <div align="center">[Openclaw (382.7k★)](https://github.com/openclaw/openclaw)</div> | [#104470](https://github.com/openclaw/openclaw/pull/104470) | <div align="left">Reject non-finite tool schema numbers</div> |
 | <div align="center">[Openclaw (382.7k★)](https://github.com/openclaw/openclaw)</div> | [#102649](https://github.com/openclaw/openclaw/pull/102649) | <div align="left">Detect MIME from encoded URL extensions</div> |
@@ -184,7 +185,7 @@ AI-native programmer
 
 AI-native programmer
 
-- 66+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, Numpy, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
+- 67+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, Mem0, LightRAG, AstrBot, Qdrant, Numpy, AgentScope, Qwen Code, DeepTutor, QwenPaw, Google ADK, Pydantic AI, Ktransformers, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, Codex-Pet-Live, OpenSense, vectorpeak-blogs。
 
 ### 项目
@@ -288,6 +289,7 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
+| <div align="center">[Openclaw (382.7k★)](https://github.com/openclaw/openclaw)</div> | [#105397](https://github.com/openclaw/openclaw/pull/105397) | <div align="left">Run ts-topology entrypoint on Windows</div> |
 | <div align="center">[Openclaw (382.7k★)](https://github.com/openclaw/openclaw)</div> | [#104498](https://github.com/openclaw/openclaw/pull/104498) | <div align="left">Avoid logging raw duplicate card-action tokens</div> |
 | <div align="center">[Openclaw (382.7k★)](https://github.com/openclaw/openclaw)</div> | [#104470](https://github.com/openclaw/openclaw/pull/104470) | <div align="left">Reject non-finite tool schema numbers</div> |
 | <div align="center">[Openclaw (382.7k★)](https://github.com/openclaw/openclaw)</div> | [#102649](https://github.com/openclaw/openclaw/pull/102649) | <div align="left">Detect MIME from encoded URL extensions</div> |
