@@ -105,6 +105,27 @@ ZH_CONTRIBUTION_FIXES = {
     "Preserve provider status errors": "保留 provider status errors",
     "Avoid mutating raw tool schemas for Responses": "避免为 Responses 修改原始 tool schemas",
     "Preserve remote upload prefixes on Windows": "在 Windows 上保留远程上传 prefixes",
+    "Fix Windows target determination for POSIX changed-file paths": "修复 POSIX 风格变更文件路径下的 Windows 目标判定",
+    "Fixed cross-platform CI test target detection by normalizing Git-style and Windows-style test paths": "通过规范化 Git 风格和 Windows 风格测试路径，修复跨平台 CI 测试目标检测",
+    "BUG: avoid invalid Meson identifiers for f2py libraries": "避免 f2py 库生成无效的 Meson 标识符",
+    "BUG: respect pathsep for f2py include paths": "为 f2py include 路径正确遵循 pathsep",
+    "fix(cli): detect bound ports before launch": "启动前检测已绑定端口",
+    "OpenRouter OAuth denial redirects show provider errors": "在 OpenRouter OAuth 拒绝重定向中显示 provider 错误",
+    "Run ts-topology entrypoint on Windows": "在 Windows 上运行 ts-topology 入口点",
+    "Send fragment image URLs as media": "将 fragment 图片 URL 作为 media 发送",
+    "Avoid logging raw duplicate card-action tokens": "避免记录原始重复 card-action tokens",
+    "Reject non-finite tool schema numbers": "拒绝非有限数值的 tool schema numbers",
+    "Detect MIME from encoded URL extensions": "根据编码后的 URL 扩展名检测 MIME",
+    "Return HTTP errors for failed skill downloads": "在 skill 下载失败时返回 HTTP 错误",
+    "Reject fractional readTextFile limits": "拒绝小数形式的 readTextFile limit",
+    "Preserve MCP URL query suffixes": "保留 MCP URL query suffixes",
+    "Recover whitespace-prefixed tool-call JSON arguments": "恢复前置空白后的 tool-call JSON 参数",
+    "Avoid mutating event validation input": "避免修改事件校验输入",
+    "Decode shell skill output as UTF-8": "将 shell skill 输出按 UTF-8 解码",
+    "Python: accept AG-UI state data URI parameters": "Python：接受 AG-UI state data URI 参数",
+    "Python: normalize single Anthropic tools": "Python：规范化单个 Anthropic tools",
+    "Handle DocStatus bulk item failures": "处理 DocStatus 批量 item 失败",
+    "Allow null auto_id primary column in DataFrame insert": "允许 DataFrame insert 中的 auto_id 主键列为 null",
     EN_CONTRIBUTION_FIXES["[Bugfix] Preserve empty values in Mooncake Store REST GET"]: "保留 Mooncake Store REST GET API 中的空值，使客户端能够可靠读取缓存元数据和空字段",
     EN_CONTRIBUTION_FIXES["Improve event connection handling and reconnection logic"]: "改进事件连接处理和重连逻辑，增强断线恢复和长连接稳定性",
     EN_CONTRIBUTION_FIXES["Prevent path traversal in asset materialization"]: "通过验证目录边界并防止未授权写入或覆盖，修复资源文件生成中的路径穿越漏洞",
@@ -460,6 +481,30 @@ def validate_english_section(content: str) -> None:
         raise ValueError(f"English README section contains CJK text near: {snippet!r}")
 
 
+def validate_chinese_contribution_fixes(content: str) -> None:
+    _, separator, zh_section = content.partition("\n---\n\n")
+    if not separator:
+        raise ValueError("Rendered README is missing the bilingual section separator.")
+    if "### 开源贡献" not in zh_section:
+        return
+    in_contributions = False
+    for line in zh_section.splitlines():
+        stripped = line.strip()
+        if stripped == "### 开源贡献":
+            in_contributions = True
+            continue
+        if in_contributions and stripped.startswith("### ") and stripped != "### 开源贡献":
+            break
+        if not in_contributions or "github.com/" not in line or "/pull/" not in line:
+            continue
+        cells = split_markdown_table_row(line)
+        if len(cells) < 3:
+            continue
+        fix_text = plain_text_from_cell(cells[2])
+        if fix_text and not contains_cjk(fix_text):
+            raise ValueError(f"Chinese contribution fix is not translated: {fix_text!r}")
+
+
 def project_summary(projects: list[dict[str, Any]], data: dict[str, Any], lang: str) -> str:
     ordered = sorted_summary_projects(projects)
     limit = int(data.get("project_summary_limit", 12))
@@ -610,8 +655,7 @@ def llm_translate_contribution_fix(english_text: str, repo: str) -> str:
 
 
 def fallback_zh_contribution_fix(english_text: str) -> str:
-    # Prefer an untranslated English source line over inventing a broad Chinese summary.
-    return md_escape(english_text)
+    raise ValueError(f"Missing Chinese contribution translation for: {english_text!r}")
 
 
 def english_contribution_fix_text(item: dict[str, Any], context: RenderContext) -> str:
@@ -627,6 +671,16 @@ def english_contribution_fix_text(item: dict[str, Any], context: RenderContext) 
     return text
 
 
+def previous_zh_contribution_fix_text(item: dict[str, Any], context: RenderContext) -> str:
+    cache_key = contribution_cache_key(item.get("url"), "zh")
+    if not cache_key:
+        return ""
+    text = context.previous_fixes.get(cache_key, "")
+    if text and contains_cjk(text):
+        return sanitize_zh_fix_text(text, limit=80)
+    return ""
+
+
 def contribution_fix_text(item: dict[str, Any], lang: str, context: RenderContext) -> str:
     if lang == "en":
         return english_contribution_fix_text(item, context)
@@ -637,6 +691,9 @@ def contribution_fix_text(item: dict[str, Any], lang: str, context: RenderContex
         text = ZH_CONTRIBUTION_FIXES.get(english_text) or ZH_CONTRIBUTION_FIXES.get(title)
         if text:
             return sanitize_zh_fix_text(text, limit=80)
+        text = previous_zh_contribution_fix_text(item, context)
+        if text:
+            return text
         repo = contribution_repo_display(item, lang)
         text = llm_translate_contribution_fix(english_text, repo)
         if text:
@@ -664,7 +721,7 @@ def render_contributions(lines: list[str], contributions: list[dict[str, Any]], 
             "",
             f"#### {area}",
             "",
-            "| Project | PR | What I Fixed |",
+            "| 项目 | PR | 修复内容 |" if lang == "zh" else "| Project | PR | What I Fixed |",
             "| :---: | :---: | :---: |",
         ])
         rows = sorted(
@@ -751,6 +808,7 @@ def render(data: dict[str, Any], context: RenderContext | None = None) -> str:
     render_section(lines, data, projects, contributions, "zh", include_badges=False, context=context)
     content = "\n".join(lines).rstrip() + "\n"
     validate_english_section(content)
+    validate_chinese_contribution_fixes(content)
     return content
 
 
