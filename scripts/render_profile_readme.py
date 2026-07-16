@@ -124,6 +124,7 @@ ZH_CONTRIBUTION_FIXES = {
     "Decode shell skill output as UTF-8": "将 shell skill 输出按 UTF-8 解码",
     "Preserve intraword underscores in outbound text": "保留出站文本中单词内部的下划线",
     "Reject mutating find commands as read-only": "拒绝把会修改文件的 find 命令当作只读命令",
+    "Add PowerShell instructions to the minimal chat example": "为 minimal chat 示例添加 PowerShell 使用说明",
     "Python: accept AG-UI state data URI parameters": "Python：接受 AG-UI state data URI 参数",
     "Python: normalize single Anthropic tools": "Python：规范化单个 Anthropic tools",
     "Handle DocStatus bulk item failures": "处理 DocStatus 批量 item 失败",
