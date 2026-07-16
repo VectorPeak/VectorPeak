@@ -122,6 +122,8 @@ ZH_CONTRIBUTION_FIXES = {
     "Recover whitespace-prefixed tool-call JSON arguments": "恢复前置空白后的 tool-call JSON 参数",
     "Avoid mutating event validation input": "避免修改事件校验输入",
     "Decode shell skill output as UTF-8": "将 shell skill 输出按 UTF-8 解码",
+    "Preserve intraword underscores in outbound text": "保留出站文本中单词内部的下划线",
+    "Reject mutating find commands as read-only": "拒绝把会修改文件的 find 命令当作只读命令",
     "Python: accept AG-UI state data URI parameters": "Python：接受 AG-UI state data URI 参数",
     "Python: normalize single Anthropic tools": "Python：规范化单个 Anthropic tools",
     "Handle DocStatus bulk item failures": "处理 DocStatus 批量 item 失败",
