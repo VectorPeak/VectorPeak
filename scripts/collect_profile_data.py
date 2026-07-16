@@ -40,6 +40,16 @@ LANDED_MERGED_PR_OVERRIDES: list[dict[str, Any]] = [
     {
         "author": "VectorPeak",
         "repository_url": f"{API}/repos/google/adk-python",
+        "html_url": "https://github.com/google/adk-python/pull/6288",
+        "number": 6288,
+        "title": "fix: decode shell skill output as UTF-8",
+        "state": "closed",
+        "landed_status": "closed_but_landed",
+        "repo_stars": 20501,
+    },
+    {
+        "author": "VectorPeak",
+        "repository_url": f"{API}/repos/google/adk-python",
         "html_url": "https://github.com/google/adk-python/pull/6314",
         "number": 6314,
         "title": "fix(events): avoid mutating event validation input",
