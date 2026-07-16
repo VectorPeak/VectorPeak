@@ -278,33 +278,33 @@ AI-native programmer
 
 #### AI infrastructure / model systems
 
-| Project | PR | What I Fixed |
+| 项目 | PR | 修复内容 |
 | :---: | :---: | :---: |
-| <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188961](https://github.com/pytorch/pytorch/pull/188961) | <div align="left">Fix Windows target determination for POSIX changed-file paths</div> |
-| <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188830](https://github.com/pytorch/pytorch/pull/188830) | <div align="left">Fixed cross-platform CI test target detection by normalizing Git-style and Windows-style test paths</div> |
+| <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188961](https://github.com/pytorch/pytorch/pull/188961) | <div align="left">修复 POSIX 风格变更文件路径下的 Windows 目标判定。</div> |
+| <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188830](https://github.com/pytorch/pytorch/pull/188830) | <div align="left">通过规范化 Git 风格和 Windows 风格测试路径，修复跨平台 CI 测试目标检测。</div> |
 | <div align="center">[vLLM (86.4k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">对齐 OpenCV 视频元数据时间线。</div> |
-| <div align="center">[Numpy (32.4k★)](https://github.com/numpy/numpy)</div> | [#31963](https://github.com/numpy/numpy/pull/31963) | <div align="left">BUG: avoid invalid Meson identifiers for f2py libraries</div> |
-| <div align="center">[Numpy (32.4k★)](https://github.com/numpy/numpy)</div> | [#31934](https://github.com/numpy/numpy/pull/31934) | <div align="left">BUG: respect pathsep for f2py include paths</div> |
+| <div align="center">[Numpy (32.4k★)](https://github.com/numpy/numpy)</div> | [#31963](https://github.com/numpy/numpy/pull/31963) | <div align="left">避免 f2py 库生成无效的 Meson 标识符。</div> |
+| <div align="center">[Numpy (32.4k★)](https://github.com/numpy/numpy)</div> | [#31934](https://github.com/numpy/numpy/pull/31934) | <div align="left">为 f2py include 路径正确遵循 pathsep。</div> |
 | <div align="center">[Numpy (32.4k★)](https://github.com/numpy/numpy)</div> | [#31906](https://github.com/numpy/numpy/pull/31906) | <div align="left">支持 DataSource 方法中的 PathLike 路径。</div> |
-| <div align="center">[Ktransformers (17.4k★)](https://github.com/kvcache-ai/ktransformers)</div> | [#2071](https://github.com/kvcache-ai/ktransformers/pull/2071) | <div align="left">fix(cli): detect bound ports before launch</div> |
+| <div align="center">[Ktransformers (17.4k★)](https://github.com/kvcache-ai/ktransformers)</div> | [#2071](https://github.com/kvcache-ai/ktransformers/pull/2071) | <div align="left">启动前检测已绑定端口。</div> |
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2770](https://github.com/kvcache-ai/Mooncake/pull/2770) | <div align="left">在 HTTP metadata server 中拒绝空 key。</div> |
 | <div align="center">[Mooncake (5.8k★)](https://github.com/kvcache-ai/Mooncake)</div> | [#2587](https://github.com/kvcache-ai/Mooncake/pull/2587) | <div align="left">保留 Mooncake Store REST GET API 中的空值，使客户端能够可靠读取缓存元数据和空字段。</div> |
 
 #### Agent applications / coding agents
 
-| Project | PR | What I Fixed |
+| 项目 | PR | 修复内容 |
 | :---: | :---: | :---: |
-| <div align="center">[Openclaw (383.0k★)](https://github.com/openclaw/openclaw)</div> | [#105448](https://github.com/openclaw/openclaw/pull/105448) | <div align="left">OpenRouter OAuth denial redirects show provider errors</div> |
-| <div align="center">[Openclaw (383.0k★)](https://github.com/openclaw/openclaw)</div> | [#105397](https://github.com/openclaw/openclaw/pull/105397) | <div align="left">Run ts-topology entrypoint on Windows</div> |
-| <div align="center">[Openclaw (383.0k★)](https://github.com/openclaw/openclaw)</div> | [#104853](https://github.com/openclaw/openclaw/pull/104853) | <div align="left">Send fragment image URLs as media</div> |
-| <div align="center">[Openclaw (383.0k★)](https://github.com/openclaw/openclaw)</div> | [#104498](https://github.com/openclaw/openclaw/pull/104498) | <div align="left">Avoid logging raw duplicate card-action tokens</div> |
-| <div align="center">[Openclaw (383.0k★)](https://github.com/openclaw/openclaw)</div> | [#104470](https://github.com/openclaw/openclaw/pull/104470) | <div align="left">Reject non-finite tool schema numbers</div> |
-| <div align="center">[Openclaw (383.0k★)](https://github.com/openclaw/openclaw)</div> | [#102649](https://github.com/openclaw/openclaw/pull/102649) | <div align="left">Detect MIME from encoded URL extensions</div> |
+| <div align="center">[Openclaw (383.0k★)](https://github.com/openclaw/openclaw)</div> | [#105448](https://github.com/openclaw/openclaw/pull/105448) | <div align="left">在 OpenRouter OAuth 拒绝重定向中显示 provider 错误。</div> |
+| <div align="center">[Openclaw (383.0k★)](https://github.com/openclaw/openclaw)</div> | [#105397](https://github.com/openclaw/openclaw/pull/105397) | <div align="left">在 Windows 上运行 ts-topology 入口点。</div> |
+| <div align="center">[Openclaw (383.0k★)](https://github.com/openclaw/openclaw)</div> | [#104853](https://github.com/openclaw/openclaw/pull/104853) | <div align="left">将 fragment 图片 URL 作为 media 发送。</div> |
+| <div align="center">[Openclaw (383.0k★)](https://github.com/openclaw/openclaw)</div> | [#104498](https://github.com/openclaw/openclaw/pull/104498) | <div align="left">避免记录原始重复 card-action tokens。</div> |
+| <div align="center">[Openclaw (383.0k★)](https://github.com/openclaw/openclaw)</div> | [#104470](https://github.com/openclaw/openclaw/pull/104470) | <div align="left">拒绝非有限数值的 tool schema numbers。</div> |
+| <div align="center">[Openclaw (383.0k★)](https://github.com/openclaw/openclaw)</div> | [#102649](https://github.com/openclaw/openclaw/pull/102649) | <div align="left">根据编码后的 URL 扩展名检测 MIME。</div> |
 | <div align="center">[Openclaw (383.0k★)](https://github.com/openclaw/openclaw)</div> | [#101815](https://github.com/openclaw/openclaw/pull/101815) | <div align="left">将编码后的视频 URL 与 captions 分离。</div> |
 | <div align="center">[Openclaw (383.0k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">拒绝参数不是对象的 tools/call 请求。</div> |
 | <div align="center">[Openclaw (383.0k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP 认证会因百分号编码的凭据而失败。</div> |
 | <div align="center">[Openclaw (383.0k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">以不区分大小写的方式规范化 Windows 入站路径。</div> |
-| <div align="center">[AstrBot (36.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">Return HTTP errors for failed skill downloads</div> |
+| <div align="center">[AstrBot (36.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">在 skill 下载失败时返回 HTTP 错误。</div> |
 | <div align="center">[AstrBot (36.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">校验仪表盘账号用户名更新。</div> |
 | <div align="center">[AstrBot (36.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">读取 ChatUI 会话时强制校验所有权。</div> |
 | <div align="center">[AstrBot (36.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">拒绝非 200 的下载响应。</div> |
@@ -312,8 +312,8 @@ AI-native programmer
 | <div align="center">[AstrBot (36.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复知识库上传文件名中的路径穿越漏洞。</div> |
 | <div align="center">[AstrBot (36.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复插件上传文件名中的路径穿越漏洞。</div> |
 | <div align="center">[DeepTutor (26.3k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
-| <div align="center">[Qwen Code (26.0k★)](https://github.com/QwenLM/qwen-code)</div> | [#6704](https://github.com/QwenLM/qwen-code/pull/6704) | <div align="left">Reject fractional readTextFile limits</div> |
-| <div align="center">[Qwen Code (26.0k★)](https://github.com/QwenLM/qwen-code)</div> | [#6587](https://github.com/QwenLM/qwen-code/pull/6587) | <div align="left">Preserve MCP URL query suffixes</div> |
+| <div align="center">[Qwen Code (26.0k★)](https://github.com/QwenLM/qwen-code)</div> | [#6704](https://github.com/QwenLM/qwen-code/pull/6704) | <div align="left">拒绝小数形式的 readTextFile limit。</div> |
+| <div align="center">[Qwen Code (26.0k★)](https://github.com/QwenLM/qwen-code)</div> | [#6587](https://github.com/QwenLM/qwen-code/pull/6587) | <div align="left">保留 MCP URL query suffixes。</div> |
 | <div align="center">[Qwen Code (26.0k★)](https://github.com/QwenLM/qwen-code)</div> | [#6483](https://github.com/QwenLM/qwen-code/pull/6483) | <div align="left">拒绝 Windows 风格的 workspace artifact 路径。</div> |
 | <div align="center">[Qwen Code (26.0k★)](https://github.com/QwenLM/qwen-code)</div> | [#6455](https://github.com/QwenLM/qwen-code/pull/6455) | <div align="left">拒绝小数形式的 LSP limit 输入。</div> |
 | <div align="center">[Qwen Code (26.0k★)](https://github.com/QwenLM/qwen-code)</div> | [#6413](https://github.com/QwenLM/qwen-code/pull/6413) | <div align="left">对齐 monitor limit 参数 schema。</div> |
@@ -328,7 +328,7 @@ AI-native programmer
 | <div align="center">[Qwen Code (26.0k★)](https://github.com/QwenLM/qwen-code)</div> | [#5911](https://github.com/QwenLM/qwen-code/pull/5911) | <div align="left">统一 source slug 校验错误。</div> |
 | <div align="center">[Qwen Code (26.0k★)](https://github.com/QwenLM/qwen-code)</div> | [#5829](https://github.com/QwenLM/qwen-code/pull/5829) | <div align="left">删除前拒绝不安全的 source slug。</div> |
 | <div align="center">[Qwen Code (26.0k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">在 WebFetch 校验中拒绝 userinfo URL。</div> |
-| <div align="center">[QwenPaw (22.7k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5841](https://github.com/agentscope-ai/QwenPaw/pull/5841) | <div align="left">Recover whitespace-prefixed tool-call JSON arguments</div> |
+| <div align="center">[QwenPaw (22.7k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5841](https://github.com/agentscope-ai/QwenPaw/pull/5841) | <div align="left">恢复前置空白后的 tool-call JSON 参数。</div> |
 | <div align="center">[QwenPaw (22.7k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">在前导空白后恢复 JSON 对象。</div> |
 | <div align="center">[QwenPaw (22.7k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">让插件市场详情经过 link guard 路由。</div> |
 | <div align="center">[LiveKit Agents (11.4k★)](https://github.com/livekit/agents)</div> | [#6328](https://github.com/livekit/agents/pull/6328) | <div align="left">保留 Bedrock images 的图像格式。</div> |
@@ -337,12 +337,12 @@ AI-native programmer
 
 #### Agent frameworks / protocols / evals
 
-| Project | PR | What I Fixed |
+| 项目 | PR | 修复内容 |
 | :---: | :---: | :---: |
 | <div align="center">[Mem0 (60.9k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">对动态 URL 路径片段进行编码。</div> |
 | <div align="center">[AgentScope (27.9k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数 grep 分页值。</div> |
-| <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6314](https://github.com/google/adk-python/pull/6314) | <div align="left">Avoid mutating event validation input</div> |
-| <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6288](https://github.com/google/adk-python/pull/6288) | <div align="left">Decode shell skill output as UTF-8</div> |
+| <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6314](https://github.com/google/adk-python/pull/6314) | <div align="left">避免修改事件校验输入。</div> |
+| <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6288](https://github.com/google/adk-python/pull/6288) | <div align="left">将 shell skill 输出按 UTF-8 解码。</div> |
 | <div align="center">[Pydantic AI (18.6k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6327](https://github.com/pydantic/pydantic-ai/pull/6327) | <div align="left">保留 HTTPX event hooks。</div> |
 | <div align="center">[Pydantic AI (18.6k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6282](https://github.com/pydantic/pydantic-ai/pull/6282) | <div align="left">为非正数 concurrency `max_running` 给出清晰错误。</div> |
 | <div align="center">[Pydantic AI (18.6k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6267](https://github.com/pydantic/pydantic-ai/pull/6267) | <div align="left">拒绝非正数的 `OnlineEvaluator.max_concurrency`。</div> |
@@ -351,19 +351,19 @@ AI-native programmer
 | <div align="center">[Pydantic AI (18.6k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">修复 `Dataset.to_file` 中绝对 `schema_path` 的处理。</div> |
 | <div align="center">[Pydantic AI (18.6k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">避免在 `base_url` 中重复拼接 `/v1`。</div> |
 | <div align="center">[Pydantic AI (18.6k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">明确 agent spec 中的 `end_strategy` 取值。</div> |
-| <div align="center">[Microsoft Agent Framework (12.1k★)](https://github.com/microsoft/agent-framework)</div> | [#6905](https://github.com/microsoft/agent-framework/pull/6905) | <div align="left">Python: accept AG-UI state data URI parameters</div> |
-| <div align="center">[Microsoft Agent Framework (12.1k★)](https://github.com/microsoft/agent-framework)</div> | [#6903](https://github.com/microsoft/agent-framework/pull/6903) | <div align="left">Python: normalize single Anthropic tools</div> |
+| <div align="center">[Microsoft Agent Framework (12.1k★)](https://github.com/microsoft/agent-framework)</div> | [#6905](https://github.com/microsoft/agent-framework/pull/6905) | <div align="left">Python：接受 AG-UI state data URI 参数。</div> |
+| <div align="center">[Microsoft Agent Framework (12.1k★)](https://github.com/microsoft/agent-framework)</div> | [#6903](https://github.com/microsoft/agent-framework/pull/6903) | <div align="left">Python：规范化单个 Anthropic tools。</div> |
 | <div align="center">[Microsoft Agent Framework (12.1k★)](https://github.com/microsoft/agent-framework)</div> | [#6818](https://github.com/microsoft/agent-framework/pull/6818) | <div align="left">Python：接受 A2A data URI 媒体参数。</div> |
 | <div align="center">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">改进事件连接处理和重连逻辑，增强断线恢复和长连接稳定性。</div> |
 
 #### RAG / vector databases / observability
 
-| Project | PR | What I Fixed |
+| 项目 | PR | 修复内容 |
 | :---: | :---: | :---: |
-| <div align="center">[LightRAG (37.7k★)](https://github.com/HKUDS/LightRAG)</div> | [#3354](https://github.com/HKUDS/LightRAG/pull/3354) | <div align="left">Handle DocStatus bulk item failures</div> |
+| <div align="center">[LightRAG (37.7k★)](https://github.com/HKUDS/LightRAG)</div> | [#3354](https://github.com/HKUDS/LightRAG/pull/3354) | <div align="left">处理 DocStatus 批量 item 失败。</div> |
 | <div align="center">[LightRAG (37.7k★)](https://github.com/HKUDS/LightRAG)</div> | [#3324](https://github.com/HKUDS/LightRAG/pull/3324) | <div align="left">阻止任务 ID URL 路径注入。</div> |
 | <div align="center">[LightRAG (37.7k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">通过验证目录边界并防止未授权写入或覆盖，修复资源文件生成中的路径穿越漏洞。</div> |
 | <div align="center">[Qdrant (33.3k★)](https://github.com/qdrant/qdrant)</div> | [#9723](https://github.com/qdrant/qdrant/pull/9723) | <div align="left">解析 Windows snapshot mappings。</div> |
 | <div align="center">[Qdrant (33.3k★)](https://github.com/qdrant/qdrant)</div> | [#9677](https://github.com/qdrant/qdrant/pull/9677) | <div align="left">保留 zero-limit batches 的空结果形状。</div> |
-| <div align="center">[Pymilvus (1.4k★)](https://github.com/milvus-io/pymilvus)</div> | [#3673](https://github.com/milvus-io/pymilvus/pull/3673) | <div align="left">Allow null auto_id primary column in DataFrame insert</div> |
+| <div align="center">[Pymilvus (1.4k★)](https://github.com/milvus-io/pymilvus)</div> | [#3673](https://github.com/milvus-io/pymilvus/pull/3673) | <div align="left">允许 DataFrame insert 中的 auto_id 主键列为 null。</div> |
 | <div align="center">[Pymilvus (1.4k★)](https://github.com/milvus-io/pymilvus)</div> | [#3658](https://github.com/milvus-io/pymilvus/pull/3658) | <div align="left">在 Windows 上保留远程上传 prefixes。</div> |
