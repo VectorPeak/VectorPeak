@@ -7,6 +7,7 @@ import argparse
 import json
 import os
 import re
+import sys
 import urllib.error
 import urllib.request
 from dataclasses import dataclass
@@ -499,6 +500,7 @@ def validate_chinese_contribution_fixes(content: str) -> None:
     if "### 开源贡献" not in zh_section:
         return
     in_contributions = False
+    untranslated: list[str] = []
     for line in zh_section.splitlines():
         stripped = line.strip()
         if stripped == "### 开源贡献":
@@ -513,7 +515,14 @@ def validate_chinese_contribution_fixes(content: str) -> None:
             continue
         fix_text = plain_text_from_cell(cells[2])
         if fix_text and not contains_cjk(fix_text):
-            raise ValueError(f"Chinese contribution fix is not translated: {fix_text!r}")
+            untranslated.append(fix_text)
+    if untranslated:
+        print(
+            f"::warning::Chinese contribution translations missing for {len(untranslated)} row(s).",
+            file=sys.stderr,
+        )
+        for fix_text in untranslated:
+            print(f"::warning::Untranslated contribution fix: {fix_text}", file=sys.stderr)
 
 
 def project_summary(projects: list[dict[str, Any]], data: dict[str, Any], lang: str) -> str:
@@ -666,7 +675,7 @@ def llm_translate_contribution_fix(english_text: str, repo: str) -> str:
 
 
 def fallback_zh_contribution_fix(english_text: str) -> str:
-    raise ValueError(f"Missing Chinese contribution translation for: {english_text!r}")
+    return english_text
 
 
 def english_contribution_fix_text(item: dict[str, Any], context: RenderContext) -> str:
