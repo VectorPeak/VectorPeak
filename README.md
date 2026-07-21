@@ -6,7 +6,7 @@
 
 AI-native programmer
 
-- 84+ merged upstream PRs, including Openclaw, PyTorch, vLLM, Deer Flow, Mem0, LightRAG, AstrBot, Qdrant, Numpy, DeepTutor, AgentScope, Qwen Code, QwenPaw, Google ADK, Ktransformers, Pydantic AI, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
+- 85+ merged upstream PRs, including Openclaw, PyTorch, vLLM, Deer Flow, Mem0, LightRAG, AstrBot, Qdrant, Numpy, DeepTutor, AgentScope, Qwen Code, QwenPaw, Google ADK, Ktransformers, Pydantic AI, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind.
 - 11 public projects, led by LLM-Wiki, KnowFoundry-RAG-Console, Codex-Pet-Live, OpenSense, vectorpeak-blogs.
 
 ### Projects
@@ -127,6 +127,7 @@ AI-native programmer
 | <div align="center">[Openclaw (383.6k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">Reject tools/call requests with non-object arguments</div> |
 | <div align="center">[Openclaw (383.6k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP auth fails with percent-encoded credentials</div> |
 | <div align="center">[Openclaw (383.6k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">Normalize Windows inbound paths case-insensitively</div> |
+| <div align="center">[Deer Flow (77.5k★)](https://github.com/bytedance/deer-flow)</div> | [#4319](https://github.com/bytedance/deer-flow/pull/4319) | <div align="left">Ignore malformed image URLs</div> |
 | <div align="center">[Deer Flow (77.5k★)](https://github.com/bytedance/deer-flow)</div> | [#4278](https://github.com/bytedance/deer-flow/pull/4278) | <div align="left">Encode artifact URL path segments</div> |
 | <div align="center">[AstrBot (37.1k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">Return HTTP errors for failed skill downloads</div> |
 | <div align="center">[AstrBot (37.1k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">Validate dashboard account username updates</div> |
@@ -202,7 +203,7 @@ AI-native programmer
 
 AI-native programmer
 
-- 84+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, Deer Flow, Mem0, LightRAG, AstrBot, Qdrant, Numpy, DeepTutor, AgentScope, Qwen Code, QwenPaw, Google ADK, Ktransformers, Pydantic AI, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
+- 85+ merged upstream PRs，包括 Openclaw, PyTorch, vLLM, Deer Flow, Mem0, LightRAG, AstrBot, Qdrant, Numpy, DeepTutor, AgentScope, Qwen Code, QwenPaw, Google ADK, Ktransformers, Pydantic AI, Microsoft Agent Framework, LiveKit Agents, Mooncake, Pymilvus, HiveMind。
 - 11 个公开项目，代表项目包括 LLM-Wiki, KnowFoundry-RAG-Console, Codex-Pet-Live, OpenSense, vectorpeak-blogs。
 
 ### 项目
@@ -323,6 +324,7 @@ AI-native programmer
 | <div align="center">[Openclaw (383.6k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">拒绝参数不是对象的 tools/call 请求。</div> |
 | <div align="center">[Openclaw (383.6k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP 认证会因百分号编码的凭据而失败。</div> |
 | <div align="center">[Openclaw (383.6k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">以不区分大小写的方式规范化 Windows 入站路径。</div> |
+| <div align="center">[Deer Flow (77.5k★)](https://github.com/bytedance/deer-flow)</div> | [#4319](https://github.com/bytedance/deer-flow/pull/4319) | <div align="left">Ignore malformed image URLs</div> |
 | <div align="center">[Deer Flow (77.5k★)](https://github.com/bytedance/deer-flow)</div> | [#4278](https://github.com/bytedance/deer-flow/pull/4278) | <div align="left">Encode artifact URL path segments</div> |
 | <div align="center">[AstrBot (37.1k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">在 skill 下载失败时返回 HTTP 错误。</div> |
 | <div align="center">[AstrBot (37.1k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">校验仪表盘账号用户名更新。</div> |
