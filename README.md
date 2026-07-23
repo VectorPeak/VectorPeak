@@ -130,15 +130,15 @@ AI-native programmer
 | <div align="center">[Deer Flow (77.6k★)](https://github.com/bytedance/deer-flow)</div> | [#4319](https://github.com/bytedance/deer-flow/pull/4319) | <div align="left">Ignore malformed image URLs</div> |
 | <div align="center">[Deer Flow (77.6k★)](https://github.com/bytedance/deer-flow)</div> | [#4278](https://github.com/bytedance/deer-flow/pull/4278) | <div align="left">Encode artifact URL path segments</div> |
 | <div align="center">[Cherry Studio (48.9k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17168](https://github.com/CherryHQ/cherry-studio/pull/17168) | <div align="left">Preserve provider import JSON values</div> |
-| <div align="center">[AstrBot (37.7k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">Return HTTP errors for failed skill downloads</div> |
-| <div align="center">[AstrBot (37.7k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">Validate dashboard account username updates</div> |
-| <div align="center">[AstrBot (37.7k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">Enforce ownership when reading ChatUI sessions</div> |
-| <div align="center">[AstrBot (37.7k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">Reject non-200 download responses</div> |
-| <div align="center">[AstrBot (37.7k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">Enable only synced ModelScope MCP servers</div> |
-| <div align="center">[AstrBot (37.7k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
-| <div align="center">[AstrBot (37.7k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
-| <div align="center">[DeepTutor (29.0k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">Avoid crashes on malformed Markdown hash links</div> |
-| <div align="center">[DeepTutor (29.0k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
+| <div align="center">[AstrBot (37.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">Return HTTP errors for failed skill downloads</div> |
+| <div align="center">[AstrBot (37.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">Validate dashboard account username updates</div> |
+| <div align="center">[AstrBot (37.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">Enforce ownership when reading ChatUI sessions</div> |
+| <div align="center">[AstrBot (37.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">Reject non-200 download responses</div> |
+| <div align="center">[AstrBot (37.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">Enable only synced ModelScope MCP servers</div> |
+| <div align="center">[AstrBot (37.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
+| <div align="center">[AstrBot (37.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
+| <div align="center">[DeepTutor (29.1k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">Avoid crashes on malformed Markdown hash links</div> |
+| <div align="center">[DeepTutor (29.1k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
 | <div align="center">[Fastmcp (26.8k★)](https://github.com/PrefectHQ/fastmcp)</div> | [#4531](https://github.com/PrefectHQ/fastmcp/pull/4531) | <div align="left">Fix File helper extension handling</div> |
 | <div align="center">[Qwen Code (26.2k★)](https://github.com/QwenLM/qwen-code)</div> | [#6704](https://github.com/QwenLM/qwen-code/pull/6704) | <div align="left">Reject fractional readTextFile limits</div> |
 | <div align="center">[Qwen Code (26.2k★)](https://github.com/QwenLM/qwen-code)</div> | [#6587](https://github.com/QwenLM/qwen-code/pull/6587) | <div align="left">Preserve MCP URL query suffixes</div> |
@@ -167,7 +167,7 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| <div align="center">[Mem0 (61.4k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">Encode dynamic URL path segments</div> |
+| <div align="center">[Mem0 (61.5k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">Encode dynamic URL path segments</div> |
 | <div align="center">[AgentScope (28.2k★)](https://github.com/agentscope-ai/agentscope)</div> | [#2004](https://github.com/agentscope-ai/agentscope/pull/2004) | <div align="left">Reject mutating find commands as read-only</div> |
 | <div align="center">[AgentScope (28.2k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">Reject negative grep pagination values</div> |
 | <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6314](https://github.com/google/adk-python/pull/6314) | <div align="left">Avoid mutating event validation input</div> |
@@ -329,15 +329,15 @@ AI-native programmer
 | <div align="center">[Deer Flow (77.6k★)](https://github.com/bytedance/deer-flow)</div> | [#4319](https://github.com/bytedance/deer-flow/pull/4319) | <div align="left">Ignore malformed image URLs</div> |
 | <div align="center">[Deer Flow (77.6k★)](https://github.com/bytedance/deer-flow)</div> | [#4278](https://github.com/bytedance/deer-flow/pull/4278) | <div align="left">Encode artifact URL path segments</div> |
 | <div align="center">[Cherry Studio (48.9k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17168](https://github.com/CherryHQ/cherry-studio/pull/17168) | <div align="left">Preserve provider import JSON values</div> |
-| <div align="center">[AstrBot (37.7k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">在 skill 下载失败时返回 HTTP 错误。</div> |
-| <div align="center">[AstrBot (37.7k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">校验仪表盘账号用户名更新。</div> |
-| <div align="center">[AstrBot (37.7k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">读取 ChatUI 会话时强制校验所有权。</div> |
-| <div align="center">[AstrBot (37.7k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">拒绝非 200 的下载响应。</div> |
-| <div align="center">[AstrBot (37.7k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">仅启用已同步的 ModelScope MCP 服务。</div> |
-| <div align="center">[AstrBot (37.7k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复知识库上传文件名中的路径穿越漏洞。</div> |
-| <div align="center">[AstrBot (37.7k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复插件上传文件名中的路径穿越漏洞。</div> |
-| <div align="center">[DeepTutor (29.0k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">避免格式错误的 Markdown hash links 导致崩溃。</div> |
-| <div align="center">[DeepTutor (29.0k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
+| <div align="center">[AstrBot (37.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">在 skill 下载失败时返回 HTTP 错误。</div> |
+| <div align="center">[AstrBot (37.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">校验仪表盘账号用户名更新。</div> |
+| <div align="center">[AstrBot (37.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">读取 ChatUI 会话时强制校验所有权。</div> |
+| <div align="center">[AstrBot (37.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">拒绝非 200 的下载响应。</div> |
+| <div align="center">[AstrBot (37.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">仅启用已同步的 ModelScope MCP 服务。</div> |
+| <div align="center">[AstrBot (37.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复知识库上传文件名中的路径穿越漏洞。</div> |
+| <div align="center">[AstrBot (37.8k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复插件上传文件名中的路径穿越漏洞。</div> |
+| <div align="center">[DeepTutor (29.1k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">避免格式错误的 Markdown hash links 导致崩溃。</div> |
+| <div align="center">[DeepTutor (29.1k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
 | <div align="center">[Fastmcp (26.8k★)](https://github.com/PrefectHQ/fastmcp)</div> | [#4531](https://github.com/PrefectHQ/fastmcp/pull/4531) | <div align="left">Fix File helper extension handling</div> |
 | <div align="center">[Qwen Code (26.2k★)](https://github.com/QwenLM/qwen-code)</div> | [#6704](https://github.com/QwenLM/qwen-code/pull/6704) | <div align="left">拒绝小数形式的 readTextFile limit。</div> |
 | <div align="center">[Qwen Code (26.2k★)](https://github.com/QwenLM/qwen-code)</div> | [#6587](https://github.com/QwenLM/qwen-code/pull/6587) | <div align="left">保留 MCP URL query suffixes。</div> |
@@ -366,7 +366,7 @@ AI-native programmer
 
 | 项目 | PR | 修复内容 |
 | :---: | :---: | :---: |
-| <div align="center">[Mem0 (61.4k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">对动态 URL 路径片段进行编码。</div> |
+| <div align="center">[Mem0 (61.5k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">对动态 URL 路径片段进行编码。</div> |
 | <div align="center">[AgentScope (28.2k★)](https://github.com/agentscope-ai/agentscope)</div> | [#2004](https://github.com/agentscope-ai/agentscope/pull/2004) | <div align="left">拒绝把会修改文件的 find 命令当作只读命令。</div> |
 | <div align="center">[AgentScope (28.2k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数 grep 分页值。</div> |
 | <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6314](https://github.com/google/adk-python/pull/6314) | <div align="left">避免修改事件校验输入。</div> |
