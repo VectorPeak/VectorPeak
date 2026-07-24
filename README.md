@@ -138,8 +138,8 @@ AI-native programmer
 | <div align="center">[AstrBot (37.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">Enable only synced ModelScope MCP servers</div> |
 | <div align="center">[AstrBot (37.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
 | <div align="center">[AstrBot (37.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
-| <div align="center">[DeepTutor (29.3k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">Avoid crashes on malformed Markdown hash links</div> |
-| <div align="center">[DeepTutor (29.3k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
+| <div align="center">[DeepTutor (29.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">Avoid crashes on malformed Markdown hash links</div> |
+| <div align="center">[DeepTutor (29.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
 | <div align="center">[Fastmcp (26.8k★)](https://github.com/PrefectHQ/fastmcp)</div> | [#4531](https://github.com/PrefectHQ/fastmcp/pull/4531) | <div align="left">Fix File helper extension handling</div> |
 | <div align="center">[Qwen Code (26.3k★)](https://github.com/QwenLM/qwen-code)</div> | [#6704](https://github.com/QwenLM/qwen-code/pull/6704) | <div align="left">Reject fractional readTextFile limits</div> |
 | <div align="center">[Qwen Code (26.3k★)](https://github.com/QwenLM/qwen-code)</div> | [#6587](https://github.com/QwenLM/qwen-code/pull/6587) | <div align="left">Preserve MCP URL query suffixes</div> |
@@ -168,7 +168,7 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| <div align="center">[Mem0 (61.5k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">Encode dynamic URL path segments</div> |
+| <div align="center">[Mem0 (61.6k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">Encode dynamic URL path segments</div> |
 | <div align="center">[AgentScope (28.2k★)](https://github.com/agentscope-ai/agentscope)</div> | [#2004](https://github.com/agentscope-ai/agentscope/pull/2004) | <div align="left">Reject mutating find commands as read-only</div> |
 | <div align="center">[AgentScope (28.2k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">Reject negative grep pagination values</div> |
 | <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6314](https://github.com/google/adk-python/pull/6314) | <div align="left">Avoid mutating event validation input</div> |
@@ -338,8 +338,8 @@ AI-native programmer
 | <div align="center">[AstrBot (37.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">仅启用已同步的 ModelScope MCP 服务。</div> |
 | <div align="center">[AstrBot (37.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复知识库上传文件名中的路径穿越漏洞。</div> |
 | <div align="center">[AstrBot (37.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复插件上传文件名中的路径穿越漏洞。</div> |
-| <div align="center">[DeepTutor (29.3k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">避免格式错误的 Markdown hash links 导致崩溃。</div> |
-| <div align="center">[DeepTutor (29.3k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
+| <div align="center">[DeepTutor (29.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">避免格式错误的 Markdown hash links 导致崩溃。</div> |
+| <div align="center">[DeepTutor (29.4k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
 | <div align="center">[Fastmcp (26.8k★)](https://github.com/PrefectHQ/fastmcp)</div> | [#4531](https://github.com/PrefectHQ/fastmcp/pull/4531) | <div align="left">Fix File helper extension handling</div> |
 | <div align="center">[Qwen Code (26.3k★)](https://github.com/QwenLM/qwen-code)</div> | [#6704](https://github.com/QwenLM/qwen-code/pull/6704) | <div align="left">拒绝小数形式的 readTextFile limit。</div> |
 | <div align="center">[Qwen Code (26.3k★)](https://github.com/QwenLM/qwen-code)</div> | [#6587](https://github.com/QwenLM/qwen-code/pull/6587) | <div align="left">保留 MCP URL query suffixes。</div> |
@@ -368,7 +368,7 @@ AI-native programmer
 
 | 项目 | PR | 修复内容 |
 | :---: | :---: | :---: |
-| <div align="center">[Mem0 (61.5k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">对动态 URL 路径片段进行编码。</div> |
+| <div align="center">[Mem0 (61.6k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">对动态 URL 路径片段进行编码。</div> |
 | <div align="center">[AgentScope (28.2k★)](https://github.com/agentscope-ai/agentscope)</div> | [#2004](https://github.com/agentscope-ai/agentscope/pull/2004) | <div align="left">拒绝把会修改文件的 find 命令当作只读命令。</div> |
 | <div align="center">[AgentScope (28.2k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数 grep 分页值。</div> |
 | <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6314](https://github.com/google/adk-python/pull/6314) | <div align="left">避免修改事件校验输入。</div> |
