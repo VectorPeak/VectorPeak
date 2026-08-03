@@ -98,7 +98,7 @@ AI-native programmer
 | :---: | :---: | :---: |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188961](https://github.com/pytorch/pytorch/pull/188961) | <div align="left">Fix Windows target determination for POSIX changed-file paths</div> |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188830](https://github.com/pytorch/pytorch/pull/188830) | <div align="left">Fixed cross-platform CI test target detection by normalizing Git-style and Windows-style test paths</div> |
-| <div align="center">[vLLM (87.9k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">[Bugfix] Align OpenCV video metadata timeline</div> |
+| <div align="center">[vLLM (88.0k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">[Bugfix] Align OpenCV video metadata timeline</div> |
 | <div align="center">[Numpy (32.5k★)](https://github.com/numpy/numpy)</div> | [#31963](https://github.com/numpy/numpy/pull/31963) | <div align="left">BUG: avoid invalid Meson identifiers for f2py libraries</div> |
 | <div align="center">[Numpy (32.5k★)](https://github.com/numpy/numpy)</div> | [#31934](https://github.com/numpy/numpy/pull/31934) | <div align="left">BUG: respect pathsep for f2py include paths</div> |
 | <div align="center">[Numpy (32.5k★)](https://github.com/numpy/numpy)</div> | [#31906](https://github.com/numpy/numpy/pull/31906) | <div align="left">BUG: support PathLike paths in DataSource methods</div> |
@@ -111,41 +111,41 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#113661](https://github.com/openclaw/openclaw/pull/113661) | <div align="left">Avoid duplicating configured search endpoint</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#111333](https://github.com/openclaw/openclaw/pull/111333) | <div align="left">Reject blank extract URLs</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#111111](https://github.com/openclaw/openclaw/pull/111111) | <div align="left">Accept spaced prefixed phone numbers</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#110502](https://github.com/openclaw/openclaw/pull/110502) | <div align="left">Reject malformed embedding batch JSONL bytes</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#110495](https://github.com/openclaw/openclaw/pull/110495) | <div align="left">Preserve reverse-proxy path prefixes</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#108567](https://github.com/openclaw/openclaw/pull/108567) | <div align="left">Add PowerShell instructions to the minimal chat example</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#108548](https://github.com/openclaw/openclaw/pull/108548) | <div align="left">Preserve intraword underscores in outbound text</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#105448](https://github.com/openclaw/openclaw/pull/105448) | <div align="left">OpenRouter OAuth denial redirects show provider errors</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#105397](https://github.com/openclaw/openclaw/pull/105397) | <div align="left">Run ts-topology entrypoint on Windows</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#104935](https://github.com/openclaw/openclaw/pull/104935) | <div align="left">Render validation array indices with brackets</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#104853](https://github.com/openclaw/openclaw/pull/104853) | <div align="left">Send fragment image URLs as media</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#104498](https://github.com/openclaw/openclaw/pull/104498) | <div align="left">Avoid logging raw duplicate card-action tokens</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#104470](https://github.com/openclaw/openclaw/pull/104470) | <div align="left">Reject non-finite tool schema numbers</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#102649](https://github.com/openclaw/openclaw/pull/102649) | <div align="left">Detect MIME from encoded URL extensions</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#101815](https://github.com/openclaw/openclaw/pull/101815) | <div align="left">Split encoded video URLs from captions</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">Reject tools/call requests with non-object arguments</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP auth fails with percent-encoded credentials</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">Normalize Windows inbound paths case-insensitively</div> |
-| <div align="center">[Deer Flow (78.7k★)](https://github.com/bytedance/deer-flow)</div> | [#4456](https://github.com/bytedance/deer-flow/pull/4456) | <div align="left">Ignore malformed path-like text</div> |
-| <div align="center">[Deer Flow (78.7k★)](https://github.com/bytedance/deer-flow)</div> | [#4319](https://github.com/bytedance/deer-flow/pull/4319) | <div align="left">Ignore malformed image URLs</div> |
-| <div align="center">[Deer Flow (78.7k★)](https://github.com/bytedance/deer-flow)</div> | [#4278](https://github.com/bytedance/deer-flow/pull/4278) | <div align="left">Encode artifact URL path segments</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#113661](https://github.com/openclaw/openclaw/pull/113661) | <div align="left">Avoid duplicating configured search endpoint</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#111333](https://github.com/openclaw/openclaw/pull/111333) | <div align="left">Reject blank extract URLs</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#111111](https://github.com/openclaw/openclaw/pull/111111) | <div align="left">Accept spaced prefixed phone numbers</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#110502](https://github.com/openclaw/openclaw/pull/110502) | <div align="left">Reject malformed embedding batch JSONL bytes</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#110495](https://github.com/openclaw/openclaw/pull/110495) | <div align="left">Preserve reverse-proxy path prefixes</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#108567](https://github.com/openclaw/openclaw/pull/108567) | <div align="left">Add PowerShell instructions to the minimal chat example</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#108548](https://github.com/openclaw/openclaw/pull/108548) | <div align="left">Preserve intraword underscores in outbound text</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#105448](https://github.com/openclaw/openclaw/pull/105448) | <div align="left">OpenRouter OAuth denial redirects show provider errors</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#105397](https://github.com/openclaw/openclaw/pull/105397) | <div align="left">Run ts-topology entrypoint on Windows</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#104935](https://github.com/openclaw/openclaw/pull/104935) | <div align="left">Render validation array indices with brackets</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#104853](https://github.com/openclaw/openclaw/pull/104853) | <div align="left">Send fragment image URLs as media</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#104498](https://github.com/openclaw/openclaw/pull/104498) | <div align="left">Avoid logging raw duplicate card-action tokens</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#104470](https://github.com/openclaw/openclaw/pull/104470) | <div align="left">Reject non-finite tool schema numbers</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#102649](https://github.com/openclaw/openclaw/pull/102649) | <div align="left">Detect MIME from encoded URL extensions</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#101815](https://github.com/openclaw/openclaw/pull/101815) | <div align="left">Split encoded video URLs from captions</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">Reject tools/call requests with non-object arguments</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP auth fails with percent-encoded credentials</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">Normalize Windows inbound paths case-insensitively</div> |
+| <div align="center">[Deer Flow (79.0k★)](https://github.com/bytedance/deer-flow)</div> | [#4456](https://github.com/bytedance/deer-flow/pull/4456) | <div align="left">Ignore malformed path-like text</div> |
+| <div align="center">[Deer Flow (79.0k★)](https://github.com/bytedance/deer-flow)</div> | [#4319](https://github.com/bytedance/deer-flow/pull/4319) | <div align="left">Ignore malformed image URLs</div> |
+| <div align="center">[Deer Flow (79.0k★)](https://github.com/bytedance/deer-flow)</div> | [#4278](https://github.com/bytedance/deer-flow/pull/4278) | <div align="left">Encode artifact URL path segments</div> |
 | <div align="center">[Cherry Studio (49.3k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17168](https://github.com/CherryHQ/cherry-studio/pull/17168) | <div align="left">Preserve provider import JSON values</div> |
-| <div align="center">[AstrBot (38.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9319](https://github.com/AstrBotDevs/AstrBot/pull/9319) | <div align="left">Return correct WebChat image MIME types</div> |
-| <div align="center">[AstrBot (38.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">Return HTTP errors for failed skill downloads</div> |
-| <div align="center">[AstrBot (38.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">Validate dashboard account username updates</div> |
-| <div align="center">[AstrBot (38.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">Enforce ownership when reading ChatUI sessions</div> |
-| <div align="center">[AstrBot (38.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">Reject non-200 download responses</div> |
-| <div align="center">[AstrBot (38.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">Enable only synced ModelScope MCP servers</div> |
-| <div align="center">[AstrBot (38.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
-| <div align="center">[AstrBot (38.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
-| <div align="center">[QwenPaw (31.9k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5841](https://github.com/agentscope-ai/QwenPaw/pull/5841) | <div align="left">Recover whitespace-prefixed tool-call JSON arguments</div> |
-| <div align="center">[QwenPaw (31.9k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">Recover JSON objects after leading whitespace</div> |
-| <div align="center">[QwenPaw (31.9k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">Route plugin market details through link guard</div> |
-| <div align="center">[DeepTutor (31.8k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">Avoid crashes on malformed Markdown hash links</div> |
-| <div align="center">[DeepTutor (31.8k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
+| <div align="center">[AstrBot (38.5k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9319](https://github.com/AstrBotDevs/AstrBot/pull/9319) | <div align="left">Return correct WebChat image MIME types</div> |
+| <div align="center">[AstrBot (38.5k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">Return HTTP errors for failed skill downloads</div> |
+| <div align="center">[AstrBot (38.5k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">Validate dashboard account username updates</div> |
+| <div align="center">[AstrBot (38.5k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">Enforce ownership when reading ChatUI sessions</div> |
+| <div align="center">[AstrBot (38.5k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">Reject non-200 download responses</div> |
+| <div align="center">[AstrBot (38.5k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">Enable only synced ModelScope MCP servers</div> |
+| <div align="center">[AstrBot (38.5k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
+| <div align="center">[AstrBot (38.5k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
+| <div align="center">[QwenPaw (32.2k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5841](https://github.com/agentscope-ai/QwenPaw/pull/5841) | <div align="left">Recover whitespace-prefixed tool-call JSON arguments</div> |
+| <div align="center">[QwenPaw (32.2k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">Recover JSON objects after leading whitespace</div> |
+| <div align="center">[QwenPaw (32.2k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">Route plugin market details through link guard</div> |
+| <div align="center">[DeepTutor (32.0k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">Avoid crashes on malformed Markdown hash links</div> |
+| <div align="center">[DeepTutor (32.0k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
 | <div align="center">[Fastmcp (27.0k★)](https://github.com/PrefectHQ/fastmcp)</div> | [#4531](https://github.com/PrefectHQ/fastmcp/pull/4531) | <div align="left">Fix File helper extension handling</div> |
 | <div align="center">[Qwen Code (26.5k★)](https://github.com/QwenLM/qwen-code)</div> | [#7218](https://github.com/QwenLM/qwen-code/pull/7218) | <div align="left">Parse heatmapDays strictly</div> |
 | <div align="center">[Qwen Code (26.5k★)](https://github.com/QwenLM/qwen-code)</div> | [#6704](https://github.com/QwenLM/qwen-code/pull/6704) | <div align="left">Reject fractional readTextFile limits</div> |
@@ -164,9 +164,9 @@ AI-native programmer
 | <div align="center">[Qwen Code (26.5k★)](https://github.com/QwenLM/qwen-code)</div> | [#5911](https://github.com/QwenLM/qwen-code/pull/5911) | <div align="left">Normalize source slug validation errors</div> |
 | <div align="center">[Qwen Code (26.5k★)](https://github.com/QwenLM/qwen-code)</div> | [#5829](https://github.com/QwenLM/qwen-code/pull/5829) | <div align="left">Reject unsafe source slugs before deletion</div> |
 | <div align="center">[Qwen Code (26.5k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">Reject userinfo URLs in WebFetch validation</div> |
-| <div align="center">[LiveKit Agents (11.6k★)](https://github.com/livekit/agents)</div> | [#6328](https://github.com/livekit/agents/pull/6328) | <div align="left">Preserve image format for Bedrock images</div> |
-| <div align="center">[LiveKit Agents (11.6k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">Preserve provider status errors</div> |
-| <div align="center">[LiveKit Agents (11.6k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">Avoid mutating raw tool schemas for Responses</div> |
+| <div align="center">[LiveKit Agents (11.7k★)](https://github.com/livekit/agents)</div> | [#6328](https://github.com/livekit/agents/pull/6328) | <div align="left">Preserve image format for Bedrock images</div> |
+| <div align="center">[LiveKit Agents (11.7k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">Preserve provider status errors</div> |
+| <div align="center">[LiveKit Agents (11.7k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">Avoid mutating raw tool schemas for Responses</div> |
 
 #### Agent frameworks / protocols / evals
 
@@ -302,7 +302,7 @@ AI-native programmer
 | :---: | :---: | :---: |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188961](https://github.com/pytorch/pytorch/pull/188961) | <div align="left">修复 POSIX 风格变更文件路径下的 Windows 目标判定。</div> |
 | <div align="center">[PyTorch (101.3k★)](https://github.com/pytorch/pytorch)</div> | [#188830](https://github.com/pytorch/pytorch/pull/188830) | <div align="left">通过规范化 Git 风格和 Windows 风格测试路径，修复跨平台 CI 测试目标检测。</div> |
-| <div align="center">[vLLM (87.9k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">对齐 OpenCV 视频元数据时间线。</div> |
+| <div align="center">[vLLM (88.0k★)](https://github.com/vllm-project/vllm)</div> | [#47099](https://github.com/vllm-project/vllm/pull/47099) | <div align="left">对齐 OpenCV 视频元数据时间线。</div> |
 | <div align="center">[Numpy (32.5k★)](https://github.com/numpy/numpy)</div> | [#31963](https://github.com/numpy/numpy/pull/31963) | <div align="left">避免 f2py 库生成无效的 Meson 标识符。</div> |
 | <div align="center">[Numpy (32.5k★)](https://github.com/numpy/numpy)</div> | [#31934](https://github.com/numpy/numpy/pull/31934) | <div align="left">为 f2py include 路径正确遵循 pathsep。</div> |
 | <div align="center">[Numpy (32.5k★)](https://github.com/numpy/numpy)</div> | [#31906](https://github.com/numpy/numpy/pull/31906) | <div align="left">支持 DataSource 方法中的 PathLike 路径。</div> |
@@ -315,41 +315,41 @@ AI-native programmer
 
 | 项目 | PR | 修复内容 |
 | :---: | :---: | :---: |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#113661](https://github.com/openclaw/openclaw/pull/113661) | <div align="left">Avoid duplicating configured search endpoint</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#111333](https://github.com/openclaw/openclaw/pull/111333) | <div align="left">Reject blank extract URLs</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#111111](https://github.com/openclaw/openclaw/pull/111111) | <div align="left">Accept spaced prefixed phone numbers</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#110502](https://github.com/openclaw/openclaw/pull/110502) | <div align="left">拒绝格式错误的 embedding batch JSONL 字节。</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#110495](https://github.com/openclaw/openclaw/pull/110495) | <div align="left">保留反向代理路径前缀。</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#108567](https://github.com/openclaw/openclaw/pull/108567) | <div align="left">为 minimal chat 示例添加 PowerShell 使用说明。</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#108548](https://github.com/openclaw/openclaw/pull/108548) | <div align="left">保留出站文本中单词内部的下划线。</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#105448](https://github.com/openclaw/openclaw/pull/105448) | <div align="left">在 OpenRouter OAuth 拒绝重定向中显示 provider 错误。</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#105397](https://github.com/openclaw/openclaw/pull/105397) | <div align="left">在 Windows 上运行 ts-topology 入口点。</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#104935](https://github.com/openclaw/openclaw/pull/104935) | <div align="left">将校验数组索引用方括号渲染。</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#104853](https://github.com/openclaw/openclaw/pull/104853) | <div align="left">将 fragment 图片 URL 作为 media 发送。</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#104498](https://github.com/openclaw/openclaw/pull/104498) | <div align="left">避免记录原始重复 card-action tokens。</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#104470](https://github.com/openclaw/openclaw/pull/104470) | <div align="left">拒绝非有限数值的 tool schema numbers。</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#102649](https://github.com/openclaw/openclaw/pull/102649) | <div align="left">根据编码后的 URL 扩展名检测 MIME。</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#101815](https://github.com/openclaw/openclaw/pull/101815) | <div align="left">将编码后的视频 URL 与 captions 分离。</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">拒绝参数不是对象的 tools/call 请求。</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP 认证会因百分号编码的凭据而失败。</div> |
-| <div align="center">[Openclaw (384.8k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">以不区分大小写的方式规范化 Windows 入站路径。</div> |
-| <div align="center">[Deer Flow (78.7k★)](https://github.com/bytedance/deer-flow)</div> | [#4456](https://github.com/bytedance/deer-flow/pull/4456) | <div align="left">Ignore malformed path-like text</div> |
-| <div align="center">[Deer Flow (78.7k★)](https://github.com/bytedance/deer-flow)</div> | [#4319](https://github.com/bytedance/deer-flow/pull/4319) | <div align="left">Ignore malformed image URLs</div> |
-| <div align="center">[Deer Flow (78.7k★)](https://github.com/bytedance/deer-flow)</div> | [#4278](https://github.com/bytedance/deer-flow/pull/4278) | <div align="left">Encode artifact URL path segments</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#113661](https://github.com/openclaw/openclaw/pull/113661) | <div align="left">Avoid duplicating configured search endpoint</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#111333](https://github.com/openclaw/openclaw/pull/111333) | <div align="left">Reject blank extract URLs</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#111111](https://github.com/openclaw/openclaw/pull/111111) | <div align="left">Accept spaced prefixed phone numbers</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#110502](https://github.com/openclaw/openclaw/pull/110502) | <div align="left">拒绝格式错误的 embedding batch JSONL 字节。</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#110495](https://github.com/openclaw/openclaw/pull/110495) | <div align="left">保留反向代理路径前缀。</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#108567](https://github.com/openclaw/openclaw/pull/108567) | <div align="left">为 minimal chat 示例添加 PowerShell 使用说明。</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#108548](https://github.com/openclaw/openclaw/pull/108548) | <div align="left">保留出站文本中单词内部的下划线。</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#105448](https://github.com/openclaw/openclaw/pull/105448) | <div align="left">在 OpenRouter OAuth 拒绝重定向中显示 provider 错误。</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#105397](https://github.com/openclaw/openclaw/pull/105397) | <div align="left">在 Windows 上运行 ts-topology 入口点。</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#104935](https://github.com/openclaw/openclaw/pull/104935) | <div align="left">将校验数组索引用方括号渲染。</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#104853](https://github.com/openclaw/openclaw/pull/104853) | <div align="left">将 fragment 图片 URL 作为 media 发送。</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#104498](https://github.com/openclaw/openclaw/pull/104498) | <div align="left">避免记录原始重复 card-action tokens。</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#104470](https://github.com/openclaw/openclaw/pull/104470) | <div align="left">拒绝非有限数值的 tool schema numbers。</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#102649](https://github.com/openclaw/openclaw/pull/102649) | <div align="left">根据编码后的 URL 扩展名检测 MIME。</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#101815](https://github.com/openclaw/openclaw/pull/101815) | <div align="left">将编码后的视频 URL 与 captions 分离。</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">拒绝参数不是对象的 tools/call 请求。</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP 认证会因百分号编码的凭据而失败。</div> |
+| <div align="center">[Openclaw (385.0k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">以不区分大小写的方式规范化 Windows 入站路径。</div> |
+| <div align="center">[Deer Flow (79.0k★)](https://github.com/bytedance/deer-flow)</div> | [#4456](https://github.com/bytedance/deer-flow/pull/4456) | <div align="left">Ignore malformed path-like text</div> |
+| <div align="center">[Deer Flow (79.0k★)](https://github.com/bytedance/deer-flow)</div> | [#4319](https://github.com/bytedance/deer-flow/pull/4319) | <div align="left">Ignore malformed image URLs</div> |
+| <div align="center">[Deer Flow (79.0k★)](https://github.com/bytedance/deer-flow)</div> | [#4278](https://github.com/bytedance/deer-flow/pull/4278) | <div align="left">Encode artifact URL path segments</div> |
 | <div align="center">[Cherry Studio (49.3k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17168](https://github.com/CherryHQ/cherry-studio/pull/17168) | <div align="left">Preserve provider import JSON values</div> |
-| <div align="center">[AstrBot (38.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9319](https://github.com/AstrBotDevs/AstrBot/pull/9319) | <div align="left">Return correct WebChat image MIME types</div> |
-| <div align="center">[AstrBot (38.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">在 skill 下载失败时返回 HTTP 错误。</div> |
-| <div align="center">[AstrBot (38.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">校验仪表盘账号用户名更新。</div> |
-| <div align="center">[AstrBot (38.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">读取 ChatUI 会话时强制校验所有权。</div> |
-| <div align="center">[AstrBot (38.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">拒绝非 200 的下载响应。</div> |
-| <div align="center">[AstrBot (38.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">仅启用已同步的 ModelScope MCP 服务。</div> |
-| <div align="center">[AstrBot (38.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复知识库上传文件名中的路径穿越漏洞。</div> |
-| <div align="center">[AstrBot (38.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复插件上传文件名中的路径穿越漏洞。</div> |
-| <div align="center">[QwenPaw (31.9k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5841](https://github.com/agentscope-ai/QwenPaw/pull/5841) | <div align="left">恢复前置空白后的 tool-call JSON 参数。</div> |
-| <div align="center">[QwenPaw (31.9k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">在前导空白后恢复 JSON 对象。</div> |
-| <div align="center">[QwenPaw (31.9k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">让插件市场详情经过 link guard 路由。</div> |
-| <div align="center">[DeepTutor (31.8k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">避免格式错误的 Markdown hash links 导致崩溃。</div> |
-| <div align="center">[DeepTutor (31.8k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
+| <div align="center">[AstrBot (38.5k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9319](https://github.com/AstrBotDevs/AstrBot/pull/9319) | <div align="left">Return correct WebChat image MIME types</div> |
+| <div align="center">[AstrBot (38.5k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">在 skill 下载失败时返回 HTTP 错误。</div> |
+| <div align="center">[AstrBot (38.5k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">校验仪表盘账号用户名更新。</div> |
+| <div align="center">[AstrBot (38.5k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">读取 ChatUI 会话时强制校验所有权。</div> |
+| <div align="center">[AstrBot (38.5k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">拒绝非 200 的下载响应。</div> |
+| <div align="center">[AstrBot (38.5k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">仅启用已同步的 ModelScope MCP 服务。</div> |
+| <div align="center">[AstrBot (38.5k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复知识库上传文件名中的路径穿越漏洞。</div> |
+| <div align="center">[AstrBot (38.5k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复插件上传文件名中的路径穿越漏洞。</div> |
+| <div align="center">[QwenPaw (32.2k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5841](https://github.com/agentscope-ai/QwenPaw/pull/5841) | <div align="left">恢复前置空白后的 tool-call JSON 参数。</div> |
+| <div align="center">[QwenPaw (32.2k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">在前导空白后恢复 JSON 对象。</div> |
+| <div align="center">[QwenPaw (32.2k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">让插件市场详情经过 link guard 路由。</div> |
+| <div align="center">[DeepTutor (32.0k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">避免格式错误的 Markdown hash links 导致崩溃。</div> |
+| <div align="center">[DeepTutor (32.0k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
 | <div align="center">[Fastmcp (27.0k★)](https://github.com/PrefectHQ/fastmcp)</div> | [#4531](https://github.com/PrefectHQ/fastmcp/pull/4531) | <div align="left">Fix File helper extension handling</div> |
 | <div align="center">[Qwen Code (26.5k★)](https://github.com/QwenLM/qwen-code)</div> | [#7218](https://github.com/QwenLM/qwen-code/pull/7218) | <div align="left">Parse heatmapDays strictly</div> |
 | <div align="center">[Qwen Code (26.5k★)](https://github.com/QwenLM/qwen-code)</div> | [#6704](https://github.com/QwenLM/qwen-code/pull/6704) | <div align="left">拒绝小数形式的 readTextFile limit。</div> |
@@ -368,9 +368,9 @@ AI-native programmer
 | <div align="center">[Qwen Code (26.5k★)](https://github.com/QwenLM/qwen-code)</div> | [#5911](https://github.com/QwenLM/qwen-code/pull/5911) | <div align="left">统一 source slug 校验错误。</div> |
 | <div align="center">[Qwen Code (26.5k★)](https://github.com/QwenLM/qwen-code)</div> | [#5829](https://github.com/QwenLM/qwen-code/pull/5829) | <div align="left">删除前拒绝不安全的 source slug。</div> |
 | <div align="center">[Qwen Code (26.5k★)](https://github.com/QwenLM/qwen-code)</div> | [#5783](https://github.com/QwenLM/qwen-code/pull/5783) | <div align="left">在 WebFetch 校验中拒绝 userinfo URL。</div> |
-| <div align="center">[LiveKit Agents (11.6k★)](https://github.com/livekit/agents)</div> | [#6328](https://github.com/livekit/agents/pull/6328) | <div align="left">保留 Bedrock images 的图像格式。</div> |
-| <div align="center">[LiveKit Agents (11.6k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">保留 provider status errors。</div> |
-| <div align="center">[LiveKit Agents (11.6k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">避免为 Responses 修改原始 tool schemas。</div> |
+| <div align="center">[LiveKit Agents (11.7k★)](https://github.com/livekit/agents)</div> | [#6328](https://github.com/livekit/agents/pull/6328) | <div align="left">保留 Bedrock images 的图像格式。</div> |
+| <div align="center">[LiveKit Agents (11.7k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">保留 provider status errors。</div> |
+| <div align="center">[LiveKit Agents (11.7k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">避免为 Responses 修改原始 tool schemas。</div> |
 
 #### Agent frameworks / protocols / evals
 
