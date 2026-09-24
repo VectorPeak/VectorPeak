@@ -173,9 +173,9 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| <div align="center">[Mem0 (65.8k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">Encode dynamic URL path segments</div> |
-| <div align="center">[AgentScope (32.2k★)](https://github.com/agentscope-ai/agentscope)</div> | [#2004](https://github.com/agentscope-ai/agentscope/pull/2004) | <div align="left">Reject mutating find commands as read-only</div> |
-| <div align="center">[AgentScope (32.2k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">Reject negative grep pagination values</div> |
+| <div align="center">[Mem0 (65.9k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">Encode dynamic URL path segments</div> |
+| <div align="center">[AgentScope (32.3k★)](https://github.com/agentscope-ai/agentscope)</div> | [#2004](https://github.com/agentscope-ai/agentscope/pull/2004) | <div align="left">Reject mutating find commands as read-only</div> |
+| <div align="center">[AgentScope (32.3k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">Reject negative grep pagination values</div> |
 | <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6314](https://github.com/google/adk-python/pull/6314) | <div align="left">Avoid mutating event validation input</div> |
 | <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6288](https://github.com/google/adk-python/pull/6288) | <div align="left">Decode shell skill output as UTF-8</div> |
 | <div align="center">[Pydantic AI (20.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6327](https://github.com/pydantic/pydantic-ai/pull/6327) | <div align="left">Preserve HTTPX event hooks</div> |
@@ -186,10 +186,10 @@ AI-native programmer
 | <div align="center">[Pydantic AI (20.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">Fix absolute `schema_path` handling in `Dataset.to_file`</div> |
 | <div align="center">[Pydantic AI (20.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">Avoid duplicating `/v1` in `base_url`</div> |
 | <div align="center">[Pydantic AI (20.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">Clarify `end_strategy` values in agent spec</div> |
-| <div align="center">[Microsoft Agent Framework (13.7k★)](https://github.com/microsoft/agent-framework)</div> | [#6916](https://github.com/microsoft/agent-framework/pull/6916) | <div align="left">Python: raise ValueError for malformed data URIs</div> |
-| <div align="center">[Microsoft Agent Framework (13.7k★)](https://github.com/microsoft/agent-framework)</div> | [#6905](https://github.com/microsoft/agent-framework/pull/6905) | <div align="left">Python: accept AG-UI state data URI parameters</div> |
-| <div align="center">[Microsoft Agent Framework (13.7k★)](https://github.com/microsoft/agent-framework)</div> | [#6903](https://github.com/microsoft/agent-framework/pull/6903) | <div align="left">Python: normalize single Anthropic tools</div> |
-| <div align="center">[Microsoft Agent Framework (13.7k★)](https://github.com/microsoft/agent-framework)</div> | [#6818](https://github.com/microsoft/agent-framework/pull/6818) | <div align="left">Python: accept A2A data URI media parameters</div> |
+| <div align="center">[Microsoft Agent Framework (13.8k★)](https://github.com/microsoft/agent-framework)</div> | [#6916](https://github.com/microsoft/agent-framework/pull/6916) | <div align="left">Python: raise ValueError for malformed data URIs</div> |
+| <div align="center">[Microsoft Agent Framework (13.8k★)](https://github.com/microsoft/agent-framework)</div> | [#6905](https://github.com/microsoft/agent-framework/pull/6905) | <div align="left">Python: accept AG-UI state data URI parameters</div> |
+| <div align="center">[Microsoft Agent Framework (13.8k★)](https://github.com/microsoft/agent-framework)</div> | [#6903](https://github.com/microsoft/agent-framework/pull/6903) | <div align="left">Python: normalize single Anthropic tools</div> |
+| <div align="center">[Microsoft Agent Framework (13.8k★)](https://github.com/microsoft/agent-framework)</div> | [#6818](https://github.com/microsoft/agent-framework/pull/6818) | <div align="left">Python: accept A2A data URI media parameters</div> |
 | <div align="center">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">Improved event connection handling and reconnection logic, strengthening disconnect recovery and long-running connection stability</div> |
 
 #### RAG / vector databases / observability
@@ -378,9 +378,9 @@ AI-native programmer
 
 | 项目 | PR | 修复内容 |
 | :---: | :---: | :---: |
-| <div align="center">[Mem0 (65.8k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">对动态 URL 路径片段进行编码。</div> |
-| <div align="center">[AgentScope (32.2k★)](https://github.com/agentscope-ai/agentscope)</div> | [#2004](https://github.com/agentscope-ai/agentscope/pull/2004) | <div align="left">拒绝把会修改文件的 find 命令当作只读命令。</div> |
-| <div align="center">[AgentScope (32.2k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数 grep 分页值。</div> |
+| <div align="center">[Mem0 (65.9k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">对动态 URL 路径片段进行编码。</div> |
+| <div align="center">[AgentScope (32.3k★)](https://github.com/agentscope-ai/agentscope)</div> | [#2004](https://github.com/agentscope-ai/agentscope/pull/2004) | <div align="left">拒绝把会修改文件的 find 命令当作只读命令。</div> |
+| <div align="center">[AgentScope (32.3k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数 grep 分页值。</div> |
 | <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6314](https://github.com/google/adk-python/pull/6314) | <div align="left">避免修改事件校验输入。</div> |
 | <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6288](https://github.com/google/adk-python/pull/6288) | <div align="left">将 shell skill 输出按 UTF-8 解码。</div> |
 | <div align="center">[Pydantic AI (20.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6327](https://github.com/pydantic/pydantic-ai/pull/6327) | <div align="left">保留 HTTPX event hooks。</div> |
@@ -391,10 +391,10 @@ AI-native programmer
 | <div align="center">[Pydantic AI (20.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">修复 `Dataset.to_file` 中绝对 `schema_path` 的处理。</div> |
 | <div align="center">[Pydantic AI (20.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">避免在 `base_url` 中重复拼接 `/v1`。</div> |
 | <div align="center">[Pydantic AI (20.1k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">明确 agent spec 中的 `end_strategy` 取值。</div> |
-| <div align="center">[Microsoft Agent Framework (13.7k★)](https://github.com/microsoft/agent-framework)</div> | [#6916](https://github.com/microsoft/agent-framework/pull/6916) | <div align="left">Python：对格式错误的 data URI 抛出 ValueError。</div> |
-| <div align="center">[Microsoft Agent Framework (13.7k★)](https://github.com/microsoft/agent-framework)</div> | [#6905](https://github.com/microsoft/agent-framework/pull/6905) | <div align="left">Python：接受 AG-UI state data URI 参数。</div> |
-| <div align="center">[Microsoft Agent Framework (13.7k★)](https://github.com/microsoft/agent-framework)</div> | [#6903](https://github.com/microsoft/agent-framework/pull/6903) | <div align="left">Python：规范化单个 Anthropic tools。</div> |
-| <div align="center">[Microsoft Agent Framework (13.7k★)](https://github.com/microsoft/agent-framework)</div> | [#6818](https://github.com/microsoft/agent-framework/pull/6818) | <div align="left">Python：接受 A2A data URI 媒体参数。</div> |
+| <div align="center">[Microsoft Agent Framework (13.8k★)](https://github.com/microsoft/agent-framework)</div> | [#6916](https://github.com/microsoft/agent-framework/pull/6916) | <div align="left">Python：对格式错误的 data URI 抛出 ValueError。</div> |
+| <div align="center">[Microsoft Agent Framework (13.8k★)](https://github.com/microsoft/agent-framework)</div> | [#6905](https://github.com/microsoft/agent-framework/pull/6905) | <div align="left">Python：接受 AG-UI state data URI 参数。</div> |
+| <div align="center">[Microsoft Agent Framework (13.8k★)](https://github.com/microsoft/agent-framework)</div> | [#6903](https://github.com/microsoft/agent-framework/pull/6903) | <div align="left">Python：规范化单个 Anthropic tools。</div> |
+| <div align="center">[Microsoft Agent Framework (13.8k★)](https://github.com/microsoft/agent-framework)</div> | [#6818](https://github.com/microsoft/agent-framework/pull/6818) | <div align="left">Python：接受 A2A data URI 媒体参数。</div> |
 | <div align="center">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">改进事件连接处理和重连逻辑，增强断线恢复和长连接稳定性。</div> |
 
 #### RAG / vector databases / observability
