@@ -129,21 +129,21 @@ AI-native programmer
 | <div align="center">[Openclaw (391.2k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">Reject tools/call requests with non-object arguments</div> |
 | <div align="center">[Openclaw (391.2k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP auth fails with percent-encoded credentials</div> |
 | <div align="center">[Openclaw (391.2k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">Normalize Windows inbound paths case-insensitively</div> |
-| <div align="center">[Deer Flow (83.3k★)](https://github.com/bytedance/deer-flow)</div> | [#4456](https://github.com/bytedance/deer-flow/pull/4456) | <div align="left">Ignore malformed path-like text</div> |
-| <div align="center">[Deer Flow (83.3k★)](https://github.com/bytedance/deer-flow)</div> | [#4319](https://github.com/bytedance/deer-flow/pull/4319) | <div align="left">Ignore malformed image URLs</div> |
-| <div align="center">[Deer Flow (83.3k★)](https://github.com/bytedance/deer-flow)</div> | [#4278](https://github.com/bytedance/deer-flow/pull/4278) | <div align="left">Encode artifact URL path segments</div> |
+| <div align="center">[Deer Flow (83.4k★)](https://github.com/bytedance/deer-flow)</div> | [#4456](https://github.com/bytedance/deer-flow/pull/4456) | <div align="left">Ignore malformed path-like text</div> |
+| <div align="center">[Deer Flow (83.4k★)](https://github.com/bytedance/deer-flow)</div> | [#4319](https://github.com/bytedance/deer-flow/pull/4319) | <div align="left">Ignore malformed image URLs</div> |
+| <div align="center">[Deer Flow (83.4k★)](https://github.com/bytedance/deer-flow)</div> | [#4278](https://github.com/bytedance/deer-flow/pull/4278) | <div align="left">Encode artifact URL path segments</div> |
 | <div align="center">[Cherry Studio (52.3k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17406](https://github.com/CherryHQ/cherry-studio/pull/17406) | <div align="left">Accept parameterized base64 data URLs</div> |
 | <div align="center">[Cherry Studio (52.3k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17168](https://github.com/CherryHQ/cherry-studio/pull/17168) | <div align="left">Preserve provider import JSON values</div> |
-| <div align="center">[AstrBot (41.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9319](https://github.com/AstrBotDevs/AstrBot/pull/9319) | <div align="left">Return correct WebChat image MIME types</div> |
-| <div align="center">[AstrBot (41.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">Return HTTP errors for failed skill downloads</div> |
-| <div align="center">[AstrBot (41.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">Validate dashboard account username updates</div> |
-| <div align="center">[AstrBot (41.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">Enforce ownership when reading ChatUI sessions</div> |
-| <div align="center">[AstrBot (41.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">Reject non-200 download responses</div> |
-| <div align="center">[AstrBot (41.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">Enable only synced ModelScope MCP servers</div> |
-| <div align="center">[AstrBot (41.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
-| <div align="center">[AstrBot (41.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
-| <div align="center">[DeepTutor (40.7k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">Avoid crashes on malformed Markdown hash links</div> |
-| <div align="center">[DeepTutor (40.7k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
+| <div align="center">[AstrBot (41.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9319](https://github.com/AstrBotDevs/AstrBot/pull/9319) | <div align="left">Return correct WebChat image MIME types</div> |
+| <div align="center">[AstrBot (41.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">Return HTTP errors for failed skill downloads</div> |
+| <div align="center">[AstrBot (41.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">Validate dashboard account username updates</div> |
+| <div align="center">[AstrBot (41.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">Enforce ownership when reading ChatUI sessions</div> |
+| <div align="center">[AstrBot (41.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">Reject non-200 download responses</div> |
+| <div align="center">[AstrBot (41.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">Enable only synced ModelScope MCP servers</div> |
+| <div align="center">[AstrBot (41.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
+| <div align="center">[AstrBot (41.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
+| <div align="center">[DeepTutor (40.8k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">Avoid crashes on malformed Markdown hash links</div> |
+| <div align="center">[DeepTutor (40.8k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
 | <div align="center">[QwenPaw (35.4k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5841](https://github.com/agentscope-ai/QwenPaw/pull/5841) | <div align="left">Recover whitespace-prefixed tool-call JSON arguments</div> |
 | <div align="center">[QwenPaw (35.4k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">Recover JSON objects after leading whitespace</div> |
 | <div align="center">[QwenPaw (35.4k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">Route plugin market details through link guard</div> |
@@ -196,10 +196,10 @@ AI-native programmer
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
-| <div align="center">[LightRAG (39.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3362](https://github.com/HKUDS/LightRAG/pull/3362) | <div align="left">Recover vectors when payload id is missing</div> |
-| <div align="center">[LightRAG (39.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3354](https://github.com/HKUDS/LightRAG/pull/3354) | <div align="left">Handle DocStatus bulk item failures</div> |
-| <div align="center">[LightRAG (39.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3324](https://github.com/HKUDS/LightRAG/pull/3324) | <div align="left">Prevent task ID URL path injection</div> |
-| <div align="center">[LightRAG (39.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">Fixed a path traversal vulnerability in resource file generation by validating directory boundaries and preventing unauthorized writes or overwrites</div> |
+| <div align="center">[LightRAG (40.0k★)](https://github.com/HKUDS/LightRAG)</div> | [#3362](https://github.com/HKUDS/LightRAG/pull/3362) | <div align="left">Recover vectors when payload id is missing</div> |
+| <div align="center">[LightRAG (40.0k★)](https://github.com/HKUDS/LightRAG)</div> | [#3354](https://github.com/HKUDS/LightRAG/pull/3354) | <div align="left">Handle DocStatus bulk item failures</div> |
+| <div align="center">[LightRAG (40.0k★)](https://github.com/HKUDS/LightRAG)</div> | [#3324](https://github.com/HKUDS/LightRAG/pull/3324) | <div align="left">Prevent task ID URL path injection</div> |
+| <div align="center">[LightRAG (40.0k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">Fixed a path traversal vulnerability in resource file generation by validating directory boundaries and preventing unauthorized writes or overwrites</div> |
 | <div align="center">[Qdrant (34.9k★)](https://github.com/qdrant/qdrant)</div> | [#9723](https://github.com/qdrant/qdrant/pull/9723) | <div align="left">Parse Windows snapshot mappings</div> |
 | <div align="center">[Qdrant (34.9k★)](https://github.com/qdrant/qdrant)</div> | [#9677](https://github.com/qdrant/qdrant/pull/9677) | <div align="left">Preserve empty result shape for zero-limit batches</div> |
 | <div align="center">[Pymilvus (1.4k★)](https://github.com/milvus-io/pymilvus)</div> | [#3673](https://github.com/milvus-io/pymilvus/pull/3673) | <div align="left">Allow null auto_id primary column in DataFrame insert</div> |
@@ -334,21 +334,21 @@ AI-native programmer
 | <div align="center">[Openclaw (391.2k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">拒绝参数不是对象的 tools/call 请求。</div> |
 | <div align="center">[Openclaw (391.2k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP 认证会因百分号编码的凭据而失败。</div> |
 | <div align="center">[Openclaw (391.2k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">以不区分大小写的方式规范化 Windows 入站路径。</div> |
-| <div align="center">[Deer Flow (83.3k★)](https://github.com/bytedance/deer-flow)</div> | [#4456](https://github.com/bytedance/deer-flow/pull/4456) | <div align="left">Ignore malformed path-like text</div> |
-| <div align="center">[Deer Flow (83.3k★)](https://github.com/bytedance/deer-flow)</div> | [#4319](https://github.com/bytedance/deer-flow/pull/4319) | <div align="left">Ignore malformed image URLs</div> |
-| <div align="center">[Deer Flow (83.3k★)](https://github.com/bytedance/deer-flow)</div> | [#4278](https://github.com/bytedance/deer-flow/pull/4278) | <div align="left">Encode artifact URL path segments</div> |
+| <div align="center">[Deer Flow (83.4k★)](https://github.com/bytedance/deer-flow)</div> | [#4456](https://github.com/bytedance/deer-flow/pull/4456) | <div align="left">Ignore malformed path-like text</div> |
+| <div align="center">[Deer Flow (83.4k★)](https://github.com/bytedance/deer-flow)</div> | [#4319](https://github.com/bytedance/deer-flow/pull/4319) | <div align="left">Ignore malformed image URLs</div> |
+| <div align="center">[Deer Flow (83.4k★)](https://github.com/bytedance/deer-flow)</div> | [#4278](https://github.com/bytedance/deer-flow/pull/4278) | <div align="left">Encode artifact URL path segments</div> |
 | <div align="center">[Cherry Studio (52.3k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17406](https://github.com/CherryHQ/cherry-studio/pull/17406) | <div align="left">Accept parameterized base64 data URLs</div> |
 | <div align="center">[Cherry Studio (52.3k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17168](https://github.com/CherryHQ/cherry-studio/pull/17168) | <div align="left">Preserve provider import JSON values</div> |
-| <div align="center">[AstrBot (41.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9319](https://github.com/AstrBotDevs/AstrBot/pull/9319) | <div align="left">Return correct WebChat image MIME types</div> |
-| <div align="center">[AstrBot (41.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">在 skill 下载失败时返回 HTTP 错误。</div> |
-| <div align="center">[AstrBot (41.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">校验仪表盘账号用户名更新。</div> |
-| <div align="center">[AstrBot (41.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">读取 ChatUI 会话时强制校验所有权。</div> |
-| <div align="center">[AstrBot (41.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">拒绝非 200 的下载响应。</div> |
-| <div align="center">[AstrBot (41.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">仅启用已同步的 ModelScope MCP 服务。</div> |
-| <div align="center">[AstrBot (41.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复知识库上传文件名中的路径穿越漏洞。</div> |
-| <div align="center">[AstrBot (41.3k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复插件上传文件名中的路径穿越漏洞。</div> |
-| <div align="center">[DeepTutor (40.7k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">避免格式错误的 Markdown hash links 导致崩溃。</div> |
-| <div align="center">[DeepTutor (40.7k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
+| <div align="center">[AstrBot (41.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9319](https://github.com/AstrBotDevs/AstrBot/pull/9319) | <div align="left">Return correct WebChat image MIME types</div> |
+| <div align="center">[AstrBot (41.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">在 skill 下载失败时返回 HTTP 错误。</div> |
+| <div align="center">[AstrBot (41.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">校验仪表盘账号用户名更新。</div> |
+| <div align="center">[AstrBot (41.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">读取 ChatUI 会话时强制校验所有权。</div> |
+| <div align="center">[AstrBot (41.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">拒绝非 200 的下载响应。</div> |
+| <div align="center">[AstrBot (41.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">仅启用已同步的 ModelScope MCP 服务。</div> |
+| <div align="center">[AstrBot (41.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复知识库上传文件名中的路径穿越漏洞。</div> |
+| <div align="center">[AstrBot (41.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复插件上传文件名中的路径穿越漏洞。</div> |
+| <div align="center">[DeepTutor (40.8k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">避免格式错误的 Markdown hash links 导致崩溃。</div> |
+| <div align="center">[DeepTutor (40.8k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
 | <div align="center">[QwenPaw (35.4k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5841](https://github.com/agentscope-ai/QwenPaw/pull/5841) | <div align="left">恢复前置空白后的 tool-call JSON 参数。</div> |
 | <div align="center">[QwenPaw (35.4k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">在前导空白后恢复 JSON 对象。</div> |
 | <div align="center">[QwenPaw (35.4k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">让插件市场详情经过 link guard 路由。</div> |
@@ -401,10 +401,10 @@ AI-native programmer
 
 | 项目 | PR | 修复内容 |
 | :---: | :---: | :---: |
-| <div align="center">[LightRAG (39.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3362](https://github.com/HKUDS/LightRAG/pull/3362) | <div align="left">在 payload id 缺失时恢复向量。</div> |
-| <div align="center">[LightRAG (39.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3354](https://github.com/HKUDS/LightRAG/pull/3354) | <div align="left">处理 DocStatus 批量 item 失败。</div> |
-| <div align="center">[LightRAG (39.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3324](https://github.com/HKUDS/LightRAG/pull/3324) | <div align="left">阻止任务 ID URL 路径注入。</div> |
-| <div align="center">[LightRAG (39.9k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">通过验证目录边界并防止未授权写入或覆盖，修复资源文件生成中的路径穿越漏洞。</div> |
+| <div align="center">[LightRAG (40.0k★)](https://github.com/HKUDS/LightRAG)</div> | [#3362](https://github.com/HKUDS/LightRAG/pull/3362) | <div align="left">在 payload id 缺失时恢复向量。</div> |
+| <div align="center">[LightRAG (40.0k★)](https://github.com/HKUDS/LightRAG)</div> | [#3354](https://github.com/HKUDS/LightRAG/pull/3354) | <div align="left">处理 DocStatus 批量 item 失败。</div> |
+| <div align="center">[LightRAG (40.0k★)](https://github.com/HKUDS/LightRAG)</div> | [#3324](https://github.com/HKUDS/LightRAG/pull/3324) | <div align="left">阻止任务 ID URL 路径注入。</div> |
+| <div align="center">[LightRAG (40.0k★)](https://github.com/HKUDS/LightRAG)</div> | [#3316](https://github.com/HKUDS/LightRAG/pull/3316) | <div align="left">通过验证目录边界并防止未授权写入或覆盖，修复资源文件生成中的路径穿越漏洞。</div> |
 | <div align="center">[Qdrant (34.9k★)](https://github.com/qdrant/qdrant)</div> | [#9723](https://github.com/qdrant/qdrant/pull/9723) | <div align="left">解析 Windows snapshot mappings。</div> |
 | <div align="center">[Qdrant (34.9k★)](https://github.com/qdrant/qdrant)</div> | [#9677](https://github.com/qdrant/qdrant/pull/9677) | <div align="left">保留 zero-limit batches 的空结果形状。</div> |
 | <div align="center">[Pymilvus (1.4k★)](https://github.com/milvus-io/pymilvus)</div> | [#3673](https://github.com/milvus-io/pymilvus/pull/3673) | <div align="left">允许 DataFrame insert 中的 auto_id 主键列为 null。</div> |
