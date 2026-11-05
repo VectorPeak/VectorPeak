@@ -132,22 +132,22 @@ AI-native programmer
 | <div align="center">[Deer Flow (85.0k★)](https://github.com/bytedance/deer-flow)</div> | [#4456](https://github.com/bytedance/deer-flow/pull/4456) | <div align="left">Ignore malformed path-like text</div> |
 | <div align="center">[Deer Flow (85.0k★)](https://github.com/bytedance/deer-flow)</div> | [#4319](https://github.com/bytedance/deer-flow/pull/4319) | <div align="left">Ignore malformed image URLs</div> |
 | <div align="center">[Deer Flow (85.0k★)](https://github.com/bytedance/deer-flow)</div> | [#4278](https://github.com/bytedance/deer-flow/pull/4278) | <div align="left">Encode artifact URL path segments</div> |
-| <div align="center">[DeepTutor (54.8k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">Avoid crashes on malformed Markdown hash links</div> |
-| <div align="center">[DeepTutor (54.8k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
-| <div align="center">[Cherry Studio (53.2k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17406](https://github.com/CherryHQ/cherry-studio/pull/17406) | <div align="left">Accept parameterized base64 data URLs</div> |
-| <div align="center">[Cherry Studio (53.2k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17168](https://github.com/CherryHQ/cherry-studio/pull/17168) | <div align="left">Preserve provider import JSON values</div> |
-| <div align="center">[AstrBot (45.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9319](https://github.com/AstrBotDevs/AstrBot/pull/9319) | <div align="left">Return correct WebChat image MIME types</div> |
-| <div align="center">[AstrBot (45.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">Return HTTP errors for failed skill downloads</div> |
-| <div align="center">[AstrBot (45.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">Validate dashboard account username updates</div> |
-| <div align="center">[AstrBot (45.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">Enforce ownership when reading ChatUI sessions</div> |
-| <div align="center">[AstrBot (45.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">Reject non-200 download responses</div> |
-| <div align="center">[AstrBot (45.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">Enable only synced ModelScope MCP servers</div> |
-| <div align="center">[AstrBot (45.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
-| <div align="center">[AstrBot (45.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
-| <div align="center">[Vibe Trading (37.6k★)](https://github.com/HKUDS/Vibe-Trading)</div> | [#2106](https://github.com/HKUDS/Vibe-Trading/pull/2106) | <div align="left">Drop undefined transcribe calls in four IM adapters</div> |
-| <div align="center">[QwenPaw (37.3k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5841](https://github.com/agentscope-ai/QwenPaw/pull/5841) | <div align="left">Recover whitespace-prefixed tool-call JSON arguments</div> |
-| <div align="center">[QwenPaw (37.3k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">Recover JSON objects after leading whitespace</div> |
-| <div align="center">[QwenPaw (37.3k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">Route plugin market details through link guard</div> |
+| <div align="center">[DeepTutor (55.1k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">Avoid crashes on malformed Markdown hash links</div> |
+| <div align="center">[DeepTutor (55.1k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
+| <div align="center">[Cherry Studio (53.3k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17406](https://github.com/CherryHQ/cherry-studio/pull/17406) | <div align="left">Accept parameterized base64 data URLs</div> |
+| <div align="center">[Cherry Studio (53.3k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17168](https://github.com/CherryHQ/cherry-studio/pull/17168) | <div align="left">Preserve provider import JSON values</div> |
+| <div align="center">[AstrBot (46.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9319](https://github.com/AstrBotDevs/AstrBot/pull/9319) | <div align="left">Return correct WebChat image MIME types</div> |
+| <div align="center">[AstrBot (46.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">Return HTTP errors for failed skill downloads</div> |
+| <div align="center">[AstrBot (46.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">Validate dashboard account username updates</div> |
+| <div align="center">[AstrBot (46.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">Enforce ownership when reading ChatUI sessions</div> |
+| <div align="center">[AstrBot (46.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">Reject non-200 download responses</div> |
+| <div align="center">[AstrBot (46.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">Enable only synced ModelScope MCP servers</div> |
+| <div align="center">[AstrBot (46.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">Fixed a path traversal vulnerability in knowledge base upload filenames by validating filename boundaries and blocking directory escape</div> |
+| <div align="center">[AstrBot (46.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">Fixed a path traversal vulnerability in plugin upload filenames by validating filename boundaries and blocking directory escape</div> |
+| <div align="center">[Vibe Trading (37.7k★)](https://github.com/HKUDS/Vibe-Trading)</div> | [#2106](https://github.com/HKUDS/Vibe-Trading/pull/2106) | <div align="left">Drop undefined transcribe calls in four IM adapters</div> |
+| <div align="center">[QwenPaw (37.4k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5841](https://github.com/agentscope-ai/QwenPaw/pull/5841) | <div align="left">Recover whitespace-prefixed tool-call JSON arguments</div> |
+| <div align="center">[QwenPaw (37.4k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">Recover JSON objects after leading whitespace</div> |
+| <div align="center">[QwenPaw (37.4k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">Route plugin market details through link guard</div> |
 | <div align="center">[Qwen Code (29.0k★)](https://github.com/QwenLM/qwen-code)</div> | [#7218](https://github.com/QwenLM/qwen-code/pull/7218) | <div align="left">Parse heatmapDays strictly</div> |
 | <div align="center">[Qwen Code (29.0k★)](https://github.com/QwenLM/qwen-code)</div> | [#6704](https://github.com/QwenLM/qwen-code/pull/6704) | <div align="left">Reject fractional readTextFile limits</div> |
 | <div align="center">[Qwen Code (29.0k★)](https://github.com/QwenLM/qwen-code)</div> | [#6587](https://github.com/QwenLM/qwen-code/pull/6587) | <div align="left">Preserve MCP URL query suffixes</div> |
@@ -169,17 +169,17 @@ AI-native programmer
 | <div align="center">[LiveKit Agents (15.1k★)](https://github.com/livekit/agents)</div> | [#6328](https://github.com/livekit/agents/pull/6328) | <div align="left">Preserve image format for Bedrock images</div> |
 | <div align="center">[LiveKit Agents (15.1k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">Preserve provider status errors</div> |
 | <div align="center">[LiveKit Agents (15.1k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">Avoid mutating raw tool schemas for Responses</div> |
-| <div align="center">[FUXA (5.2k★)](https://github.com/frangoteam/FUXA)</div> | [#2678](https://github.com/frangoteam/FUXA/pull/2678) | <div align="left">Pass device id when saving DAQ values</div> |
-| <div align="center">[FUXA (5.2k★)](https://github.com/frangoteam/FUXA)</div> | [#2676](https://github.com/frangoteam/FUXA/pull/2676) | <div align="left">Guard missing security row in connect and getTables</div> |
-| <div align="center">[FUXA (5.2k★)](https://github.com/frangoteam/FUXA)</div> | [#2675](https://github.com/frangoteam/FUXA/pull/2675) | <div align="left">Prevent enum mutation when translating alarm status/priority labels</div> |
+| <div align="center">[FUXA (5.3k★)](https://github.com/frangoteam/FUXA)</div> | [#2678](https://github.com/frangoteam/FUXA/pull/2678) | <div align="left">Pass device id when saving DAQ values</div> |
+| <div align="center">[FUXA (5.3k★)](https://github.com/frangoteam/FUXA)</div> | [#2676](https://github.com/frangoteam/FUXA/pull/2676) | <div align="left">Guard missing security row in connect and getTables</div> |
+| <div align="center">[FUXA (5.3k★)](https://github.com/frangoteam/FUXA)</div> | [#2675](https://github.com/frangoteam/FUXA/pull/2675) | <div align="left">Prevent enum mutation when translating alarm status/priority labels</div> |
 
 #### Agent frameworks / protocols / evals
 
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
 | <div align="center">[Mem0 (68.4k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">Encode dynamic URL path segments</div> |
-| <div align="center">[AgentScope (35.3k★)](https://github.com/agentscope-ai/agentscope)</div> | [#2004](https://github.com/agentscope-ai/agentscope/pull/2004) | <div align="left">Reject mutating find commands as read-only</div> |
-| <div align="center">[AgentScope (35.3k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">Reject negative grep pagination values</div> |
+| <div align="center">[AgentScope (35.4k★)](https://github.com/agentscope-ai/agentscope)</div> | [#2004](https://github.com/agentscope-ai/agentscope/pull/2004) | <div align="left">Reject mutating find commands as read-only</div> |
+| <div align="center">[AgentScope (35.4k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">Reject negative grep pagination values</div> |
 | <div align="center">[Pydantic AI (21.0k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6327](https://github.com/pydantic/pydantic-ai/pull/6327) | <div align="left">Preserve HTTPX event hooks</div> |
 | <div align="center">[Pydantic AI (21.0k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6282](https://github.com/pydantic/pydantic-ai/pull/6282) | <div align="left">Give a clear error for non-positive concurrency `max_running`</div> |
 | <div align="center">[Pydantic AI (21.0k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6267](https://github.com/pydantic/pydantic-ai/pull/6267) | <div align="left">Reject non-positive `OnlineEvaluator.max_concurrency`</div> |
@@ -341,22 +341,22 @@ AI-native programmer
 | <div align="center">[Deer Flow (85.0k★)](https://github.com/bytedance/deer-flow)</div> | [#4456](https://github.com/bytedance/deer-flow/pull/4456) | <div align="left">Ignore malformed path-like text</div> |
 | <div align="center">[Deer Flow (85.0k★)](https://github.com/bytedance/deer-flow)</div> | [#4319](https://github.com/bytedance/deer-flow/pull/4319) | <div align="left">Ignore malformed image URLs</div> |
 | <div align="center">[Deer Flow (85.0k★)](https://github.com/bytedance/deer-flow)</div> | [#4278](https://github.com/bytedance/deer-flow/pull/4278) | <div align="left">Encode artifact URL path segments</div> |
-| <div align="center">[DeepTutor (54.8k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">避免格式错误的 Markdown hash links 导致崩溃。</div> |
-| <div align="center">[DeepTutor (54.8k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
-| <div align="center">[Cherry Studio (53.2k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17406](https://github.com/CherryHQ/cherry-studio/pull/17406) | <div align="left">Accept parameterized base64 data URLs</div> |
-| <div align="center">[Cherry Studio (53.2k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17168](https://github.com/CherryHQ/cherry-studio/pull/17168) | <div align="left">Preserve provider import JSON values</div> |
-| <div align="center">[AstrBot (45.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9319](https://github.com/AstrBotDevs/AstrBot/pull/9319) | <div align="left">Return correct WebChat image MIME types</div> |
-| <div align="center">[AstrBot (45.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">在 skill 下载失败时返回 HTTP 错误。</div> |
-| <div align="center">[AstrBot (45.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">校验仪表盘账号用户名更新。</div> |
-| <div align="center">[AstrBot (45.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">读取 ChatUI 会话时强制校验所有权。</div> |
-| <div align="center">[AstrBot (45.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">拒绝非 200 的下载响应。</div> |
-| <div align="center">[AstrBot (45.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">仅启用已同步的 ModelScope MCP 服务。</div> |
-| <div align="center">[AstrBot (45.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复知识库上传文件名中的路径穿越漏洞。</div> |
-| <div align="center">[AstrBot (45.9k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复插件上传文件名中的路径穿越漏洞。</div> |
-| <div align="center">[Vibe Trading (37.6k★)](https://github.com/HKUDS/Vibe-Trading)</div> | [#2106](https://github.com/HKUDS/Vibe-Trading/pull/2106) | <div align="left">Drop undefined transcribe calls in four IM adapters</div> |
-| <div align="center">[QwenPaw (37.3k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5841](https://github.com/agentscope-ai/QwenPaw/pull/5841) | <div align="left">恢复前置空白后的 tool-call JSON 参数。</div> |
-| <div align="center">[QwenPaw (37.3k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">在前导空白后恢复 JSON 对象。</div> |
-| <div align="center">[QwenPaw (37.3k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">让插件市场详情经过 link guard 路由。</div> |
+| <div align="center">[DeepTutor (55.1k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">避免格式错误的 Markdown hash links 导致崩溃。</div> |
+| <div align="center">[DeepTutor (55.1k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
+| <div align="center">[Cherry Studio (53.3k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17406](https://github.com/CherryHQ/cherry-studio/pull/17406) | <div align="left">Accept parameterized base64 data URLs</div> |
+| <div align="center">[Cherry Studio (53.3k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17168](https://github.com/CherryHQ/cherry-studio/pull/17168) | <div align="left">Preserve provider import JSON values</div> |
+| <div align="center">[AstrBot (46.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9319](https://github.com/AstrBotDevs/AstrBot/pull/9319) | <div align="left">Return correct WebChat image MIME types</div> |
+| <div align="center">[AstrBot (46.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9213](https://github.com/AstrBotDevs/AstrBot/pull/9213) | <div align="left">在 skill 下载失败时返回 HTTP 错误。</div> |
+| <div align="center">[AstrBot (46.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9175](https://github.com/AstrBotDevs/AstrBot/pull/9175) | <div align="left">校验仪表盘账号用户名更新。</div> |
+| <div align="center">[AstrBot (46.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9141](https://github.com/AstrBotDevs/AstrBot/pull/9141) | <div align="left">读取 ChatUI 会话时强制校验所有权。</div> |
+| <div align="center">[AstrBot (46.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9085](https://github.com/AstrBotDevs/AstrBot/pull/9085) | <div align="left">拒绝非 200 的下载响应。</div> |
+| <div align="center">[AstrBot (46.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9084](https://github.com/AstrBotDevs/AstrBot/pull/9084) | <div align="left">仅启用已同步的 ModelScope MCP 服务。</div> |
+| <div align="center">[AstrBot (46.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8971](https://github.com/AstrBotDevs/AstrBot/pull/8971) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复知识库上传文件名中的路径穿越漏洞。</div> |
+| <div align="center">[AstrBot (46.0k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#8968](https://github.com/AstrBotDevs/AstrBot/pull/8968) | <div align="left">通过验证文件名边界并阻止目录逃逸，修复插件上传文件名中的路径穿越漏洞。</div> |
+| <div align="center">[Vibe Trading (37.7k★)](https://github.com/HKUDS/Vibe-Trading)</div> | [#2106](https://github.com/HKUDS/Vibe-Trading/pull/2106) | <div align="left">Drop undefined transcribe calls in four IM adapters</div> |
+| <div align="center">[QwenPaw (37.4k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5841](https://github.com/agentscope-ai/QwenPaw/pull/5841) | <div align="left">恢复前置空白后的 tool-call JSON 参数。</div> |
+| <div align="center">[QwenPaw (37.4k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5766](https://github.com/agentscope-ai/QwenPaw/pull/5766) | <div align="left">在前导空白后恢复 JSON 对象。</div> |
+| <div align="center">[QwenPaw (37.4k★)](https://github.com/agentscope-ai/QwenPaw)</div> | [#5750](https://github.com/agentscope-ai/QwenPaw/pull/5750) | <div align="left">让插件市场详情经过 link guard 路由。</div> |
 | <div align="center">[Qwen Code (29.0k★)](https://github.com/QwenLM/qwen-code)</div> | [#7218](https://github.com/QwenLM/qwen-code/pull/7218) | <div align="left">Parse heatmapDays strictly</div> |
 | <div align="center">[Qwen Code (29.0k★)](https://github.com/QwenLM/qwen-code)</div> | [#6704](https://github.com/QwenLM/qwen-code/pull/6704) | <div align="left">拒绝小数形式的 readTextFile limit。</div> |
 | <div align="center">[Qwen Code (29.0k★)](https://github.com/QwenLM/qwen-code)</div> | [#6587](https://github.com/QwenLM/qwen-code/pull/6587) | <div align="left">保留 MCP URL query suffixes。</div> |
@@ -378,17 +378,17 @@ AI-native programmer
 | <div align="center">[LiveKit Agents (15.1k★)](https://github.com/livekit/agents)</div> | [#6328](https://github.com/livekit/agents/pull/6328) | <div align="left">保留 Bedrock images 的图像格式。</div> |
 | <div align="center">[LiveKit Agents (15.1k★)](https://github.com/livekit/agents)</div> | [#6306](https://github.com/livekit/agents/pull/6306) | <div align="left">保留 provider status errors。</div> |
 | <div align="center">[LiveKit Agents (15.1k★)](https://github.com/livekit/agents)</div> | [#6305](https://github.com/livekit/agents/pull/6305) | <div align="left">避免为 Responses 修改原始 tool schemas。</div> |
-| <div align="center">[FUXA (5.2k★)](https://github.com/frangoteam/FUXA)</div> | [#2678](https://github.com/frangoteam/FUXA/pull/2678) | <div align="left">Pass device id when saving DAQ values</div> |
-| <div align="center">[FUXA (5.2k★)](https://github.com/frangoteam/FUXA)</div> | [#2676](https://github.com/frangoteam/FUXA/pull/2676) | <div align="left">Guard missing security row in connect and getTables</div> |
-| <div align="center">[FUXA (5.2k★)](https://github.com/frangoteam/FUXA)</div> | [#2675](https://github.com/frangoteam/FUXA/pull/2675) | <div align="left">Prevent enum mutation when translating alarm status/priority labels</div> |
+| <div align="center">[FUXA (5.3k★)](https://github.com/frangoteam/FUXA)</div> | [#2678](https://github.com/frangoteam/FUXA/pull/2678) | <div align="left">Pass device id when saving DAQ values</div> |
+| <div align="center">[FUXA (5.3k★)](https://github.com/frangoteam/FUXA)</div> | [#2676](https://github.com/frangoteam/FUXA/pull/2676) | <div align="left">Guard missing security row in connect and getTables</div> |
+| <div align="center">[FUXA (5.3k★)](https://github.com/frangoteam/FUXA)</div> | [#2675](https://github.com/frangoteam/FUXA/pull/2675) | <div align="left">Prevent enum mutation when translating alarm status/priority labels</div> |
 
 #### Agent frameworks / protocols / evals
 
 | 项目 | PR | 修复内容 |
 | :---: | :---: | :---: |
 | <div align="center">[Mem0 (68.4k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">对动态 URL 路径片段进行编码。</div> |
-| <div align="center">[AgentScope (35.3k★)](https://github.com/agentscope-ai/agentscope)</div> | [#2004](https://github.com/agentscope-ai/agentscope/pull/2004) | <div align="left">拒绝把会修改文件的 find 命令当作只读命令。</div> |
-| <div align="center">[AgentScope (35.3k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数 grep 分页值。</div> |
+| <div align="center">[AgentScope (35.4k★)](https://github.com/agentscope-ai/agentscope)</div> | [#2004](https://github.com/agentscope-ai/agentscope/pull/2004) | <div align="left">拒绝把会修改文件的 find 命令当作只读命令。</div> |
+| <div align="center">[AgentScope (35.4k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数 grep 分页值。</div> |
 | <div align="center">[Pydantic AI (21.0k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6327](https://github.com/pydantic/pydantic-ai/pull/6327) | <div align="left">保留 HTTPX event hooks。</div> |
 | <div align="center">[Pydantic AI (21.0k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6282](https://github.com/pydantic/pydantic-ai/pull/6282) | <div align="left">为非正数 concurrency `max_running` 给出清晰错误。</div> |
 | <div align="center">[Pydantic AI (21.0k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6267](https://github.com/pydantic/pydantic-ai/pull/6267) | <div align="left">拒绝非正数的 `OnlineEvaluator.max_concurrency`。</div> |
