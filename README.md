@@ -129,11 +129,11 @@ AI-native programmer
 | <div align="center">[Openclaw (395.1k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">Reject tools/call requests with non-object arguments</div> |
 | <div align="center">[Openclaw (395.1k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP auth fails with percent-encoded credentials</div> |
 | <div align="center">[Openclaw (395.1k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">Normalize Windows inbound paths case-insensitively</div> |
-| <div align="center">[Deer Flow (85.6k★)](https://github.com/bytedance/deer-flow)</div> | [#4456](https://github.com/bytedance/deer-flow/pull/4456) | <div align="left">Ignore malformed path-like text</div> |
-| <div align="center">[Deer Flow (85.6k★)](https://github.com/bytedance/deer-flow)</div> | [#4319](https://github.com/bytedance/deer-flow/pull/4319) | <div align="left">Ignore malformed image URLs</div> |
-| <div align="center">[Deer Flow (85.6k★)](https://github.com/bytedance/deer-flow)</div> | [#4278](https://github.com/bytedance/deer-flow/pull/4278) | <div align="left">Encode artifact URL path segments</div> |
-| <div align="center">[DeepTutor (61.7k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">Avoid crashes on malformed Markdown hash links</div> |
-| <div align="center">[DeepTutor (61.7k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
+| <div align="center">[Deer Flow (85.7k★)](https://github.com/bytedance/deer-flow)</div> | [#4456](https://github.com/bytedance/deer-flow/pull/4456) | <div align="left">Ignore malformed path-like text</div> |
+| <div align="center">[Deer Flow (85.7k★)](https://github.com/bytedance/deer-flow)</div> | [#4319](https://github.com/bytedance/deer-flow/pull/4319) | <div align="left">Ignore malformed image URLs</div> |
+| <div align="center">[Deer Flow (85.7k★)](https://github.com/bytedance/deer-flow)</div> | [#4278](https://github.com/bytedance/deer-flow/pull/4278) | <div align="left">Encode artifact URL path segments</div> |
+| <div align="center">[DeepTutor (62.0k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">Avoid crashes on malformed Markdown hash links</div> |
+| <div align="center">[DeepTutor (62.0k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">Preserve zero LlamaIndex chunk overlap</div> |
 | <div align="center">[Cherry Studio (53.8k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17406](https://github.com/CherryHQ/cherry-studio/pull/17406) | <div align="left">Accept parameterized base64 data URLs</div> |
 | <div align="center">[Cherry Studio (53.8k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17168](https://github.com/CherryHQ/cherry-studio/pull/17168) | <div align="left">Preserve provider import JSON values</div> |
 | <div align="center">[AstrBot (47.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9319](https://github.com/AstrBotDevs/AstrBot/pull/9319) | <div align="left">Return correct WebChat image MIME types</div> |
@@ -178,16 +178,16 @@ AI-native programmer
 | Project | PR | What I Fixed |
 | :---: | :---: | :---: |
 | <div align="center">[Mem0 (69.4k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">Encode dynamic URL path segments</div> |
-| <div align="center">[AgentScope (36.5k★)](https://github.com/agentscope-ai/agentscope)</div> | [#2004](https://github.com/agentscope-ai/agentscope/pull/2004) | <div align="left">Reject mutating find commands as read-only</div> |
-| <div align="center">[AgentScope (36.5k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">Reject negative grep pagination values</div> |
-| <div align="center">[Pydantic AI (21.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6327](https://github.com/pydantic/pydantic-ai/pull/6327) | <div align="left">Preserve HTTPX event hooks</div> |
-| <div align="center">[Pydantic AI (21.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6282](https://github.com/pydantic/pydantic-ai/pull/6282) | <div align="left">Give a clear error for non-positive concurrency `max_running`</div> |
-| <div align="center">[Pydantic AI (21.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6267](https://github.com/pydantic/pydantic-ai/pull/6267) | <div align="left">Reject non-positive `OnlineEvaluator.max_concurrency`</div> |
-| <div align="center">[Pydantic AI (21.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6251](https://github.com/pydantic/pydantic-ai/pull/6251) | <div align="left">Write relative schema refs for AgentSpec files</div> |
-| <div align="center">[Pydantic AI (21.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6228](https://github.com/pydantic/pydantic-ai/pull/6228) | <div align="left">Reject non-positive `max_concurrency`</div> |
-| <div align="center">[Pydantic AI (21.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">Fix absolute `schema_path` handling in `Dataset.to_file`</div> |
-| <div align="center">[Pydantic AI (21.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">Avoid duplicating `/v1` in `base_url`</div> |
-| <div align="center">[Pydantic AI (21.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">Clarify `end_strategy` values in agent spec</div> |
+| <div align="center">[AgentScope (36.6k★)](https://github.com/agentscope-ai/agentscope)</div> | [#2004](https://github.com/agentscope-ai/agentscope/pull/2004) | <div align="left">Reject mutating find commands as read-only</div> |
+| <div align="center">[AgentScope (36.6k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">Reject negative grep pagination values</div> |
+| <div align="center">[Pydantic AI (21.4k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6327](https://github.com/pydantic/pydantic-ai/pull/6327) | <div align="left">Preserve HTTPX event hooks</div> |
+| <div align="center">[Pydantic AI (21.4k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6282](https://github.com/pydantic/pydantic-ai/pull/6282) | <div align="left">Give a clear error for non-positive concurrency `max_running`</div> |
+| <div align="center">[Pydantic AI (21.4k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6267](https://github.com/pydantic/pydantic-ai/pull/6267) | <div align="left">Reject non-positive `OnlineEvaluator.max_concurrency`</div> |
+| <div align="center">[Pydantic AI (21.4k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6251](https://github.com/pydantic/pydantic-ai/pull/6251) | <div align="left">Write relative schema refs for AgentSpec files</div> |
+| <div align="center">[Pydantic AI (21.4k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6228](https://github.com/pydantic/pydantic-ai/pull/6228) | <div align="left">Reject non-positive `max_concurrency`</div> |
+| <div align="center">[Pydantic AI (21.4k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">Fix absolute `schema_path` handling in `Dataset.to_file`</div> |
+| <div align="center">[Pydantic AI (21.4k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">Avoid duplicating `/v1` in `base_url`</div> |
+| <div align="center">[Pydantic AI (21.4k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">Clarify `end_strategy` values in agent spec</div> |
 | <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6314](https://github.com/google/adk-python/pull/6314) | <div align="left">Avoid mutating event validation input</div> |
 | <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6288](https://github.com/google/adk-python/pull/6288) | <div align="left">Decode shell skill output as UTF-8</div> |
 | <div align="center">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">Improved event connection handling and reconnection logic, strengthening disconnect recovery and long-running connection stability</div> |
@@ -334,11 +334,11 @@ AI-native programmer
 | <div align="center">[Openclaw (395.1k★)](https://github.com/openclaw/openclaw)</div> | [#99180](https://github.com/openclaw/openclaw/pull/99180) | <div align="left">拒绝参数不是对象的 tools/call 请求。</div> |
 | <div align="center">[Openclaw (395.1k★)](https://github.com/openclaw/openclaw)</div> | [#97972](https://github.com/openclaw/openclaw/pull/97972) | <div align="left">CDP 认证会因百分号编码的凭据而失败。</div> |
 | <div align="center">[Openclaw (395.1k★)](https://github.com/openclaw/openclaw)</div> | [#97630](https://github.com/openclaw/openclaw/pull/97630) | <div align="left">以不区分大小写的方式规范化 Windows 入站路径。</div> |
-| <div align="center">[Deer Flow (85.6k★)](https://github.com/bytedance/deer-flow)</div> | [#4456](https://github.com/bytedance/deer-flow/pull/4456) | <div align="left">Ignore malformed path-like text</div> |
-| <div align="center">[Deer Flow (85.6k★)](https://github.com/bytedance/deer-flow)</div> | [#4319](https://github.com/bytedance/deer-flow/pull/4319) | <div align="left">Ignore malformed image URLs</div> |
-| <div align="center">[Deer Flow (85.6k★)](https://github.com/bytedance/deer-flow)</div> | [#4278](https://github.com/bytedance/deer-flow/pull/4278) | <div align="left">Encode artifact URL path segments</div> |
-| <div align="center">[DeepTutor (61.7k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">避免格式错误的 Markdown hash links 导致崩溃。</div> |
-| <div align="center">[DeepTutor (61.7k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
+| <div align="center">[Deer Flow (85.7k★)](https://github.com/bytedance/deer-flow)</div> | [#4456](https://github.com/bytedance/deer-flow/pull/4456) | <div align="left">Ignore malformed path-like text</div> |
+| <div align="center">[Deer Flow (85.7k★)](https://github.com/bytedance/deer-flow)</div> | [#4319](https://github.com/bytedance/deer-flow/pull/4319) | <div align="left">Ignore malformed image URLs</div> |
+| <div align="center">[Deer Flow (85.7k★)](https://github.com/bytedance/deer-flow)</div> | [#4278](https://github.com/bytedance/deer-flow/pull/4278) | <div align="left">Encode artifact URL path segments</div> |
+| <div align="center">[DeepTutor (62.0k★)](https://github.com/HKUDS/DeepTutor)</div> | [#608](https://github.com/HKUDS/DeepTutor/pull/608) | <div align="left">避免格式错误的 Markdown hash links 导致崩溃。</div> |
+| <div align="center">[DeepTutor (62.0k★)](https://github.com/HKUDS/DeepTutor)</div> | [#602](https://github.com/HKUDS/DeepTutor/pull/602) | <div align="left">保留为零的 LlamaIndex chunk overlap。</div> |
 | <div align="center">[Cherry Studio (53.8k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17406](https://github.com/CherryHQ/cherry-studio/pull/17406) | <div align="left">Accept parameterized base64 data URLs</div> |
 | <div align="center">[Cherry Studio (53.8k★)](https://github.com/CherryHQ/cherry-studio)</div> | [#17168](https://github.com/CherryHQ/cherry-studio/pull/17168) | <div align="left">Preserve provider import JSON values</div> |
 | <div align="center">[AstrBot (47.4k★)](https://github.com/AstrBotDevs/AstrBot)</div> | [#9319](https://github.com/AstrBotDevs/AstrBot/pull/9319) | <div align="left">Return correct WebChat image MIME types</div> |
@@ -383,16 +383,16 @@ AI-native programmer
 | 项目 | PR | 修复内容 |
 | :---: | :---: | :---: |
 | <div align="center">[Mem0 (69.4k★)](https://github.com/mem0ai/mem0)</div> | [#5963](https://github.com/mem0ai/mem0/pull/5963) | <div align="left">对动态 URL 路径片段进行编码。</div> |
-| <div align="center">[AgentScope (36.5k★)](https://github.com/agentscope-ai/agentscope)</div> | [#2004](https://github.com/agentscope-ai/agentscope/pull/2004) | <div align="left">拒绝把会修改文件的 find 命令当作只读命令。</div> |
-| <div align="center">[AgentScope (36.5k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数 grep 分页值。</div> |
-| <div align="center">[Pydantic AI (21.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6327](https://github.com/pydantic/pydantic-ai/pull/6327) | <div align="left">保留 HTTPX event hooks。</div> |
-| <div align="center">[Pydantic AI (21.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6282](https://github.com/pydantic/pydantic-ai/pull/6282) | <div align="left">为非正数 concurrency `max_running` 给出清晰错误。</div> |
-| <div align="center">[Pydantic AI (21.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6267](https://github.com/pydantic/pydantic-ai/pull/6267) | <div align="left">拒绝非正数的 `OnlineEvaluator.max_concurrency`。</div> |
-| <div align="center">[Pydantic AI (21.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6251](https://github.com/pydantic/pydantic-ai/pull/6251) | <div align="left">为 AgentSpec 文件写入相对 schema refs。</div> |
-| <div align="center">[Pydantic AI (21.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6228](https://github.com/pydantic/pydantic-ai/pull/6228) | <div align="left">拒绝非正数的 `max_concurrency`。</div> |
-| <div align="center">[Pydantic AI (21.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">修复 `Dataset.to_file` 中绝对 `schema_path` 的处理。</div> |
-| <div align="center">[Pydantic AI (21.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">避免在 `base_url` 中重复拼接 `/v1`。</div> |
-| <div align="center">[Pydantic AI (21.3k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">明确 agent spec 中的 `end_strategy` 取值。</div> |
+| <div align="center">[AgentScope (36.6k★)](https://github.com/agentscope-ai/agentscope)</div> | [#2004](https://github.com/agentscope-ai/agentscope/pull/2004) | <div align="left">拒绝把会修改文件的 find 命令当作只读命令。</div> |
+| <div align="center">[AgentScope (36.6k★)](https://github.com/agentscope-ai/agentscope)</div> | [#1954](https://github.com/agentscope-ai/agentscope/pull/1954) | <div align="left">拒绝负数 grep 分页值。</div> |
+| <div align="center">[Pydantic AI (21.4k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6327](https://github.com/pydantic/pydantic-ai/pull/6327) | <div align="left">保留 HTTPX event hooks。</div> |
+| <div align="center">[Pydantic AI (21.4k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6282](https://github.com/pydantic/pydantic-ai/pull/6282) | <div align="left">为非正数 concurrency `max_running` 给出清晰错误。</div> |
+| <div align="center">[Pydantic AI (21.4k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6267](https://github.com/pydantic/pydantic-ai/pull/6267) | <div align="left">拒绝非正数的 `OnlineEvaluator.max_concurrency`。</div> |
+| <div align="center">[Pydantic AI (21.4k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6251](https://github.com/pydantic/pydantic-ai/pull/6251) | <div align="left">为 AgentSpec 文件写入相对 schema refs。</div> |
+| <div align="center">[Pydantic AI (21.4k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6228](https://github.com/pydantic/pydantic-ai/pull/6228) | <div align="left">拒绝非正数的 `max_concurrency`。</div> |
+| <div align="center">[Pydantic AI (21.4k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6143](https://github.com/pydantic/pydantic-ai/pull/6143) | <div align="left">修复 `Dataset.to_file` 中绝对 `schema_path` 的处理。</div> |
+| <div align="center">[Pydantic AI (21.4k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6142](https://github.com/pydantic/pydantic-ai/pull/6142) | <div align="left">避免在 `base_url` 中重复拼接 `/v1`。</div> |
+| <div align="center">[Pydantic AI (21.4k★)](https://github.com/pydantic/pydantic-ai)</div> | [#6140](https://github.com/pydantic/pydantic-ai/pull/6140) | <div align="left">明确 agent spec 中的 `end_strategy` 取值。</div> |
 | <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6314](https://github.com/google/adk-python/pull/6314) | <div align="left">避免修改事件校验输入。</div> |
 | <div align="center">[Google ADK (20.5k★)](https://github.com/google/adk-python)</div> | [#6288](https://github.com/google/adk-python/pull/6288) | <div align="left">将 shell skill 输出按 UTF-8 解码。</div> |
 | <div align="center">[HiveMind (1.1k★)](https://github.com/Emiyaaaaa/HiveMind)</div> | [#28](https://github.com/Emiyaaaaa/HiveMind/pull/28) | <div align="left">改进事件连接处理和重连逻辑，增强断线恢复和长连接稳定性。</div> |
